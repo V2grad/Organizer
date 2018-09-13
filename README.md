@@ -1,4 +1,5 @@
-# organizer
+# Organizer
+Multi-semester course organizer, built with Vue.js 3.x and Bootstarp.
 
 ## Project setup
 ```
@@ -19,3 +20,4 @@ yarn run build
 ```
 yarn run lint
 ```
+
