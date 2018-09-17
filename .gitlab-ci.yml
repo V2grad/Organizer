@@ -7,8 +7,9 @@ pages:
   script:
   - npm install
   - npm run build
+  - mv dist public
   artifacts:
     paths:
-    - dist
+    - public
   only:
   - master
