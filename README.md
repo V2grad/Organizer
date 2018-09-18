@@ -1,6 +1,8 @@
 # Organizer
 Multi-semester course organizer, built with Vue.js 3.x and Bootstarp.
 
+Online Demo for Master Branch: https://v2grad.ga
+
 ## Project setup
 ```
 yarn install
