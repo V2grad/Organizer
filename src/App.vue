@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <b-container class="bv-example-row" fluid>
+      <transition>
     <router-view/>
+      </transition>
 </b-container>
   </div>
 </template>

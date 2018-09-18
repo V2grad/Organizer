@@ -1,17 +1,17 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<b-jumbotron>
+  <template slot="header">
+    Organizer
+  </template>
+  <template slot="lead">
+    This is a website that helps you organize your college life.
 </template>
-
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  <hr class="my-4">
+  <p>
+    Choose an action and get started!
+  </p>
+  <b-btn variant="primary" :to="{'name': 'plan'}">Enter Organizer</b-btn>
+  <b-btn variant="success" :to="{'name': 'WIP'}">Import a Plan</b-btn>
+  <b-btn variant="dark" href="https://github.com/V2grad/Organizer">About this Project</b-btn>
+</b-jumbotron>
+</template>
