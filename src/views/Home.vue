@@ -1,4 +1,5 @@
 <template>
+ <b-container class="bv-example-row" fluid>
 <b-jumbotron>
   <template slot="header">
     Organizer
@@ -14,4 +15,5 @@
   <b-btn variant="success" :to="{'name': 'WIP'}">Import a Plan</b-btn>
   <b-btn variant="dark" href="https://github.com/V2grad/Organizer">About this Project</b-btn>
 </b-jumbotron>
+</b-container>
 </template>

@@ -24,8 +24,7 @@ export default {
   },
   data: function () {
     return {
-      year: 0,
-      class: 'IHSS-1964'
+      year: 0
     }
   }
 }

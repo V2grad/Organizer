@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-    <b-container class="bv-example-row" fluid>
+      <navBar v-if="this.$router.path !== '/'"></navBar>
       <transition>
     <router-view/>
       </transition>
-</b-container>
   </div>
 </template>
 
@@ -16,3 +15,13 @@ body {
   background-size: cover;
 }
 </style>
+
+<script>
+import navBar from './components/navBar.vue'
+
+export default {
+  components: {
+    navBar
+  }
+}
+</script>
