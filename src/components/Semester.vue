@@ -8,6 +8,9 @@
     </transition-group>
 </draggable>
     </b-list-group>
+    <em slot="footer">
+      <b-btn>Remove This Semester</b-btn>
+    </em>
   </b-card>
 </b-card-group>
 </template>

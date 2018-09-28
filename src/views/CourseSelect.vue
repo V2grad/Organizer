@@ -3,11 +3,7 @@
   <b-container fluid>
     <b-row>
         <b-col cols=12>
-            <b-card-group deck>
-                <b-card :header="'Course List'">
-                    <course-selection></course-selection>
-                </b-card>
-            </b-card-group>
+             <course-selection></course-selection>
         </b-col>
     </b-row>
 </b-container>

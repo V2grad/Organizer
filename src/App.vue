@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <navBar v-if="this.$router.path !== '/'"></navBar>
+      <navBar v-if="this.$route.path !== '/'"></navBar>
       <transition>
     <router-view/>
       </transition>

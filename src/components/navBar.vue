@@ -1,5 +1,5 @@
 <template>
-<b-navbar toggleable="md" type="dark" variant="info" fixed="top" sticky="true" class="justify-content-center">
+<b-navbar toggleable="md" type="dark" variant="info" fixed="top" sticky=true class="justify-content-center">
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
   <b-navbar-brand :to="{'name': 'home'}">Organizer</b-navbar-brand>

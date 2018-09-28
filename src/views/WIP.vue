@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'WIP',
   methods: {
     goback: function () {
       window.history.length > 1 ? this.$router.go(-1) : this.$router.push('/')
