@@ -16,7 +16,7 @@ export default new Router({
     },
     {
       path: '/404',
-      name: 'no-found',
+      name: 'WIP',
       component: WIP
     },
     {
@@ -28,7 +28,7 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Main.vue')
     },
     {
-      path: '/plan/courses',
+      path: '/courses',
       name: 'CourseSelect',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route

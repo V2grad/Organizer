@@ -1,25 +1,35 @@
 <template>
-<b-navbar toggleable="md" type="dark" variant="info" fixed="top" sticky=true class="justify-content-center">
-  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+  <b-navbar toggleable="sm" type="dark" variant="info" fixed="top" class="nav-padding">
+    <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-  <b-navbar-brand :to="{'name': 'home'}">Organizer</b-navbar-brand>
+    <b-navbar-brand :to="{'name': 'home'}">Organizer</b-navbar-brand>
 
-  <b-collapse is-nav id="nav_collapse">
+    <b-collapse is-nav id="nav_collapse">
 
-    <b-navbar-nav>
-      <b-nav-item :to="{'name': 'plan'}">Plan</b-nav-item>
-      <b-nav-item :to="{'name': 'CourseSelect'}">Courses</b-nav-item>
-    </b-navbar-nav>
+      <b-navbar-nav>
+         <b-nav-item-dropdown text="Plan" left>
+          <b-dropdown-item :to="{'name': 'plan'}">Main Page</b-dropdown-item>
+          <br/>
+          <b-dropdown-item :to="{'name': 'WIP'}">Add AP/Transfered Course List</b-dropdown-item>
+        </b-nav-item-dropdown>
+        <b-nav-item :to="{'name': 'CourseSelect'}">Courses</b-nav-item>
+      </b-navbar-nav>
 
-    <!-- Right aligned nav items -->
-    <b-navbar-nav class="ml-auto">
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item-dropdown text="Navigate" right>
+          <b-dropdown-item :to="{'name': 'home'}" exact>
+            Start Page
+            </b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
 
-      <b-nav-item-dropdown text="Navigate" right>
-        <b-dropdown-item :to="{'name': 'home'}">Main Page</b-dropdown-item>
-      </b-nav-item-dropdown>
-
-    </b-navbar-nav>
-
-  </b-collapse>
-</b-navbar>
+    </b-collapse>
+  </b-navbar>
 </template>
+
+<style scoped>
+.nav-padding {
+  position: fixed;
+}
+</style>

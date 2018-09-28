@@ -1,9 +1,11 @@
 <template>
   <div id="app">
       <navBar v-if="this.$route.path !== '/'"></navBar>
+      <b-container fluid class="container-padding">
       <transition>
-    <router-view/>
+        <router-view/>
       </transition>
+      </b-container>
   </div>
 </template>
 
@@ -13,6 +15,11 @@ body {
   background-repeat: no-repeat; /* Do not repeat the image */
   background-attachment: fixed;
   background-size: cover;
+}
+
+/* The nav is position:fixed */
+.container-padding {
+  padding-top: 100px;
 }
 </style>
 
