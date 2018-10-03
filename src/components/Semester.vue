@@ -1,6 +1,7 @@
 <template>
+<b-col cols="12" lg="4">
 <b-card-group deck>
-  <b-card :header="'Semester ' + year">
+  <b-card :header="'Semester ' + semester">
     <b-list-group>
 <draggable>
     <transition-group>
@@ -13,6 +14,7 @@
     </em>
   </b-card>
 </b-card-group>
+</b-col>
 </template>
 
 <script>
@@ -21,13 +23,19 @@ import draggable from 'vuedraggable'
 
 export default {
   name: 'Semester',
+  props: {
+    semester: {
+      type: Number,
+      required: true
+    }
+  },
   components: {
     draggable,
     Course
   },
   data: function () {
     return {
-      year: 0
+      semester: this.key
     }
   }
 }

@@ -1,12 +1,7 @@
 <template>
 <div>
     <b-row class="flex-row flex-nowrap">
-         <b-col cols="12" lg="4"><semester></semester></b-col>
-         <b-col cols="12" lg="4"><semester></semester></b-col>
-         <b-col cols="12" lg="4"><semester></semester></b-col>
-         <b-col cols="12" lg="4"><semester></semester></b-col>
-         <b-col cols="12" lg="4"><semester></semester></b-col>
-         <b-col cols="12" lg="4"><semester></semester></b-col>
+        <semester v-for="semester in totalSemester" :key="semester" v-bind:semester="semester"></semester>
     </b-row>
 </div>
 </template>
@@ -19,6 +14,11 @@ export default {
   components: {
     Semester,
     navBar
+  },
+  computed: {
+    totalSemester () {
+      return [...Array(this.$store.state.semester).keys()]
+    }
   }
 }
 </script>
