@@ -105,6 +105,9 @@ export default {
       return this.fields
         .filter(f => f.sortable)
         .map(f => { return { text: f.label, value: f.key } })
+    },
+    semesterList () {
+      return this.$store.getters.semesterList
     }
   },
   methods: {

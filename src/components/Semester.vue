@@ -27,7 +27,7 @@ export default {
     semester: {
       type: Number,
       required: true
-    }, 
+    },
     courses: {
       required: true
     }

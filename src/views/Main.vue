@@ -8,15 +8,13 @@
 </template>
 
 <script>
-import navBar from '../components/navBar'
 import Semester from '../components/Semester'
 import SemesterPlaceholder from '../components/SemesterPlaceholder'
 
 export default {
   components: {
     SemesterPlaceholder,
-    Semester,
-    navBar
+    Semester
   },
   computed: {
     totalSemesters () {
