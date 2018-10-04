@@ -9,8 +9,8 @@
     </transition-group>
 </draggable>
     </b-list-group>
-    <em slot="footer">
-      <b-btn>Remove This Semester</b-btn>
+    <em v-if="totalSemester === Number(semester)" slot="footer">
+      <b-btn v-on:click="removeSemester">Remove This Semester</b-btn>
     </em>
   </b-card>
 </b-card-group>
@@ -27,15 +27,23 @@ export default {
     semester: {
       type: Number,
       required: true
+    }, 
+    courses: {
+      required: true
     }
   },
   components: {
     draggable,
     Course
   },
-  data: function () {
-    return {
-      semester: this.key
+  computed: {
+    totalSemester () {
+      return this.$store.getters.currentSemester
+    }
+  },
+  methods: {
+    removeSemester: function () {
+      this.$store.dispatch('removeSemester', this.semester)
     }
   }
 }
