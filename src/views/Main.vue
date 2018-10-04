@@ -1,7 +1,7 @@
 <template>
 <div>
     <b-row class="flex-row flex-nowrap">
-        <semester v-for="(courses, key) in totalSemesters" :key="key" :semester="key" :courses="courses"></semester>
+        <semester v-for="(courses, key) in totalSemesters" :key="key" :semester="parseInt(key)"></semester>
         <semester-placeholder></semester-placeholder>
     </b-row>
 </div>

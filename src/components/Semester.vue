@@ -3,9 +3,9 @@
 <b-card-group deck>
   <b-card :header="'Semester ' + semester">
     <b-list-group>
-<draggable>
+<draggable v-model='semesterCourses'>
     <transition-group>
-        <Course :key="this.class" v-bind:name="this.class" v-bind:course_id="this.class"></Course>
+        <Course v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course"></Course>
     </transition-group>
 </draggable>
     </b-list-group>
@@ -27,9 +27,6 @@ export default {
     semester: {
       type: Number,
       required: true
-    },
-    courses: {
-      required: true
     }
   },
   components: {
@@ -39,6 +36,14 @@ export default {
   computed: {
     totalSemester () {
       return this.$store.getters.currentSemester
+    },
+    semesterCourses: {
+      get () {
+          return this.$store.state.courses[this.semester]
+      },set(value){
+
+      }
+      
     }
   },
   methods: {
