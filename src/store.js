@@ -34,6 +34,7 @@ export default new Vuex.Store({
   },
   mutations: {
     addSemester (state, currentSemester) {
+      // Let Vue to do the job here.
       let newList = { ...state.courses }
       newList[currentSemester + 1] = []
       state.courses = newList

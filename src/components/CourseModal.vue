@@ -71,11 +71,11 @@ export default {
         course: this.course
       })
       this.showSuccess()
-      this.$_.delay(() => { this.resetModal() }, this.dismissSecs * 1000, 'later');
+      this.$_.delay(() => { this.resetModal() }, this.dismissSecs * 1000, 'later')
     },
     resetModal () {
-      this.dismissCountDown = 0,
-      this.showDismissibleAlert = false,
+      this.dismissCountDown = 0
+      this.showDismissibleAlert = false
       this.$emit('resetModal')
     },
     countDownChanged (dismissCountDown) {
