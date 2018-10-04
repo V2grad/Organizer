@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-      <navBar v-if="this.$route.path !== '/'"></navBar>
+      <NavBar v-if="this.$route.path !== '/'"></NavBar>
       <b-container fluid class="container-padding">
       <transition>
         <router-view/>
@@ -24,11 +24,11 @@ body {
 </style>
 
 <script>
-import navBar from './components/navBar.vue'
+import NavBar from './components/NavBar.vue'
 
 export default {
   components: {
-    navBar
+    NavBar
   }
 }
 </script>
