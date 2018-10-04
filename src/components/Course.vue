@@ -1,5 +1,6 @@
 <template>
-    <b-list-group-item class="list-complete-item d-flex justify-content-between align-items-center">
+    <b-list-group-item class="list-complete-item d-flex justify-content-between align-items-center" 
+                       v-b-popover.hover="{title: this.CourseName, content: 'Credit Hours: ' + this.CreditHours, delay: { show: 1000, hide: 0 }}">
         {{ CourseTitle }}
         <b-btn v-on:click="removeCourse" variant="danger">X</b-btn>
     </b-list-group-item>
