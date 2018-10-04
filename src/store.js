@@ -34,10 +34,10 @@ export default new Vuex.Store({
   },
   mutations: {
     addSemester (state, currentSemester) {
-      // Let Vue to do the job here.
       let newList = { ...state.courses }
       newList[currentSemester + 1] = []
       state.courses = newList
+      // state.courses = _.set(state.courses, currentSemester + 1, [])
     },
     removeSemester (state, semester) {
       state.courses = _.omit(state.courses, semester)
@@ -47,16 +47,19 @@ export default new Vuex.Store({
     },
     removeCourse (state, payload) {
       state.courses = _.set(state.courses, payload.semester, _.remove(_.get(state.courses, payload.semester), (course) => {
-        return course.courseTitle === payload.course.courseTitle
+        return course.courseTitle === payload.courseTitle
       }))
+    },
+    updateSemester (state, payload) {
+      console.log(payload)
+      state.courses = _.set(state.courses, payload.semester, payload.courses)
     }
-
   },
   actions: {
     addSemester (context) {
       context.commit('addSemester', context.getters.currentSemester)
     },
-    removeSemester ({ commit, state }, semester) {
+    removeSemester ({ commit }, semester) {
       // Although remove will only happened to the last one, required semester to delect specific semester
       commit('removeSemester', semester)
     }
