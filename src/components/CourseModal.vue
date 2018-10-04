@@ -18,7 +18,6 @@
     </b-form>
     </div>
     <b-alert :show="dismissCountDown"
-             dismissible
              variant="success"
              @dismissed="dismissCountDown=0"
              @dismiss-count-down="countDownChanged">

@@ -46,8 +46,8 @@ export default new Vuex.Store({
       state.courses = _.set(state.courses, payload.semester, [..._.get(state.courses, payload.semester), payload.course])
     },
     removeCourse (state, payload) {
-      state.courses = _.set(state.courses, payload.semester, _.remove(_.get(state.courses, payload.semester), (course) => {
-        return course.courseTitle === payload.courseTitle
+      state.courses = _.set(state.courses, payload.semester, _.filter(_.get(state.courses, payload.semester), (course) => {
+        return course.CourseTitle !== payload.courseTitle
       }))
     },
     updateSemester (state, payload) {
