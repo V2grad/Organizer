@@ -59,7 +59,14 @@
              responsive
              striped
              hover
-          ></b-table>
+          >
+          <template slot="actions" slot-scope="row">
+        <!-- We use @click.stop here to prevent a 'row-clicked' event from also happening -->
+        <b-button size="sm" @click.stop="info(row.item)" class="mr-1">
+          Add This Course
+        </b-button>
+      </template>
+      </b-table>
         </b-col>
       </b-row>
        <b-row>
@@ -67,6 +74,7 @@
         <b-pagination :total-rows="totalRows" :per-page="perPage" v-model="currentPage"/>
       </b-col>
     </b-row>
+    <course-modal v-on:resetModal="resetModal" :course="selectedCourse" :modalShow="modalShow"></course-modal>
     </b-container>
   </b-card>
 </b-card-group>
@@ -74,11 +82,15 @@
 </template>
 
 <script>
-import dummy from '../data/dummy.json'
+import dummy from '../data/dummy'
+import CourseModal from './CourseModal'
 const items = dummy
 
 export default {
   name: 'CourseSelection',
+  components: {
+    CourseModal
+  },
   data () {
     return {
       items: items,
@@ -96,7 +108,8 @@ export default {
       sortDesc: false,
       sortDirection: 'asc',
       filter: null,
-      modalInfo: { title: '', content: '' }
+      selectedCourse: null,
+      modalShow: false
     }
   },
   computed: {
@@ -108,6 +121,14 @@ export default {
     }
   },
   methods: {
+    info (item) {
+      this.selectedCourse = item
+      this.modalShow = true
+    },
+    resetModal () {
+      this.selectedCourse = null
+      this.modalShow = false
+    },
     onFiltered (filteredItems) {
       // Trigger pagination to update the number of buttons/pages due to filtering
       this.totalRows = filteredItems.length

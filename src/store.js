@@ -21,15 +21,14 @@ export default new Vuex.Store({
     findCourse: (state) => (course) => {
       // Even though course should appear only once, we collect every possible answers.
       return _.transform(state.courses, (result, value, key) => {
-        let res = _.findIndex(value, course)
-        if (res !== -1) {
-          result.push(res)
+        if (_.findIndex(value, course) !== -1) {
+          result.push(parseInt(key))
         }
       }, [])
     },
     allCourses: (state) => {
       return _.flatten(_.transform(state.courses, (result, value, key) => {
-
+        result.push(value)
       }, []))
     }
   },
