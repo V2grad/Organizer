@@ -32,11 +32,11 @@ export default {
     }
   },
   methods: {
-    writeData: function() {
-        this.$store.commit('updateName', {name: this.planName})
-        this.$store.commit('updateCourses', this.decodedObject.courses)
-        this.$router.push({name: 'plan'})
-    } 
+    writeData: function () {
+      this.$store.commit('updateName', { name: this.planName })
+      this.$store.commit('updateCourses', this.decodedObject.courses)
+      this.$router.push({ name: 'plan' })
+    }
   }
 }
 </script>

@@ -19,14 +19,14 @@ export default {
   name: 'ExportPlan',
   computed: {
     encodedURI () {
-      return 'https://' + window.location.hostname  + this.$router.resolve({name:'ImportPlan', params: {json: deflateAndEncode(this.$store.state)}}).href
+      return 'https://' + window.location.hostname + this.$router.resolve({ name: 'ImportPlan', params: { json: deflateAndEncode(this.$store.state) } }).href
     },
     name: {
       get () {
         return this.$store.state.name
       },
       set (value) {
-        this.$store.commit('updateName', {name: value})
+        this.$store.commit('updateName', { name: value })
       }
     }
   }
