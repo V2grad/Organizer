@@ -39,11 +39,11 @@ export default {
     },
     totalCredits () {
       let credits = 0
-      if (this.semesterCourses !== undefined){
+      if (this.semesterCourses !== undefined) {
         this.semesterCourses.forEach(element => {
-        credits = credits + parseInt(element.CreditHours)
-      })
-      } 
+          credits = credits + parseInt(element.CreditHours)
+        })
+      }
       return credits
     },
     semesterCourses: {

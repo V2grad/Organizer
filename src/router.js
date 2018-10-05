@@ -30,10 +30,16 @@ export default new Router({
     {
       path: '/courses',
       name: 'CourseSelect',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/CourseSelect.vue')
+    },
+    {
+      path: '/export',
+      name: 'ExportPlan',
+      component: () => import(/* webpackChunkName: "about" */ './views/ExportPlan.vue')
+    }, {
+      path: '/import/:json',
+      name: 'ImportPlan',
+      component: () => import(/* webpackChunkName: "about" */ './views/ImportPlan.vue')
     },
     { path: '*', component: WIP }
   ]

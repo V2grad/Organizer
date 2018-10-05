@@ -7,7 +7,7 @@ Vue.use(Vuex)
 // All `course`s refer to object.
 export default new Vuex.Store({
   state: {
-    name: 'NULL',
+    name: 'Unnamed Plan',
     courses: {}
     // 1: [courses], 2:[courses] ...
   },
@@ -51,8 +51,13 @@ export default new Vuex.Store({
       }))
     },
     updateSemester (state, payload) {
-      console.log(payload)
       state.courses = _.set(state.courses, payload.semester, payload.courses)
+    },
+    updateName (state, payload) {
+      state.name = payload.name
+    },
+    updateCourses (state, courses) {
+      state.courses = courses
     }
   },
   actions: {

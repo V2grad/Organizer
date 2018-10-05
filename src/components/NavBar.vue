@@ -13,14 +13,19 @@
           <b-dropdown-item :to="{'name': 'WIP'}">Add AP/Transfered Course List</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item :to="{'name': 'CourseSelect'}">Courses</b-nav-item>
+        <b-nav-item :to="{'name': 'ExportPlan'}">Export</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item-dropdown text="Navigate" right>
+          <b-dropdown-item>
+            {{ planName }}
+          </b-dropdown-item>
+          <br/>
           <b-dropdown-item :to="{'name': 'home'}" exact>
             Start Page
-            </b-dropdown-item>
+          </b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
 
@@ -33,3 +38,14 @@
   position: fixed;
 }
 </style>
+
+<script>
+export default {
+  name: 'NavBar',
+  computed: {
+    planName () {
+      return this.$store.state.name
+    }
+  }
+}
+</script>
