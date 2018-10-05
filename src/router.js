@@ -37,6 +37,10 @@ export default new Router({
       name: 'ExportPlan',
       component: () => import(/* webpackChunkName: "about" */ './views/ExportPlan.vue')
     }, {
+      path: '/import/new',
+      name: 'ImportPlanLanding',
+      component: () => import(/* webpackChunkName: "about" */ './views/ImportPlanLanding.vue')
+    }, {
       path: '/import/:json',
       name: 'ImportPlan',
       component: () => import(/* webpackChunkName: "about" */ './views/ImportPlan.vue')

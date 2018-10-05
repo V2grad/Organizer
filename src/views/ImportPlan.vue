@@ -1,5 +1,5 @@
 <template>
-    <b-card title="Export Your Plan">
+    <b-card title="Import a Plan">
     <p class="card-text">
       You are about to import a new plan from <strong>{{ planName }}</strong>.
     </p>
