@@ -1,4 +1,3 @@
-
 ![](docs/Logo.png)
 
 # Organizer

@@ -4,14 +4,18 @@ import { Base64 } from 'js-base64'
 export default {}
 
 export function deflateAndEncode (obj) {
-  var binaryString = pako.deflate(JSON.stringify(obj), { to: 'string' })
-  var base64 = Base64.encodeURI(binaryString)
+  let binaryString = pako.deflate(JSON.stringify(obj), { to: 'string' })
+  let base64 = Base64.encodeURI(binaryString)
   return base64
 }
 
 export function decodeAndInflate (str) {
-  var base64 = Base64.decode(str)
-  var inflate = pako.inflate(base64, { to: 'string' })
-  var obj = JSON.parse(inflate)
-  return obj
+  try {
+    let base64 = Base64.decode(str)
+    let inflate = pako.inflate(base64, { to: 'string' })
+    let obj = JSON.parse(inflate)
+    return { status: true, obj: obj }
+  } catch (error) {
+    return { status: false, message: error }
+  }
 }
