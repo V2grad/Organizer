@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import createPersistedState from 'vuex-persistedstate'
 import _ from 'lodash'
 
 Vue.use(Vuex)
@@ -58,6 +59,9 @@ export default new Vuex.Store({
     },
     updateCourses (state, courses) {
       state.courses = courses
+    },
+    cleanCourses (state) {
+      state.courses = {}
     }
   },
   actions: {
@@ -69,5 +73,6 @@ export default new Vuex.Store({
       commit('removeSemester', semester)
     }
   },
-  strict: process.env.NODE_ENV !== 'production'
+  strict: process.env.NODE_ENV !== 'production',
+  plugins: [createPersistedState()]
 })

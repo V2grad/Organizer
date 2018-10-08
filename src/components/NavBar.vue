@@ -7,12 +7,9 @@
     <b-collapse is-nav id="nav_collapse">
 
       <b-navbar-nav>
-         <b-nav-item-dropdown text="Plan" left>
-          <b-dropdown-item :to="{'name': 'plan'}">Main Page</b-dropdown-item>
-          <br/>
-          <b-dropdown-item :to="{'name': 'WIP'}">Add AP/Transfered Course List</b-dropdown-item>
-        </b-nav-item-dropdown>
+        <b-nav-item :to="{'name': 'plan'}">Plan</b-nav-item>
         <b-nav-item :to="{'name': 'CourseSelect'}">Courses</b-nav-item>
+        <b-nav-item :to="{'name': 'Actions'}">Actions</b-nav-item>
         <b-nav-item :to="{'name': 'ExportPlan'}">Export</b-nav-item>
       </b-navbar-nav>
 

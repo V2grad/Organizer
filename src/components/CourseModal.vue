@@ -17,17 +17,6 @@
       <b-button v-on:click="addCoursetoSemester" variant="primary" :disabled="semester === null">Save</b-button>
     </b-form>
     </div>
-    <b-alert :show="dismissCountDown"
-             variant="success"
-             @dismissed="dismissCountDown=0"
-             @dismiss-count-down="countDownChanged">
-      <p>Add Successfully!</p>
-      <b-progress variant="success"
-                  :max="dismissSecs"
-                  :value="dismissCountDown"
-                  height="4px">
-      </b-progress>
-    </b-alert>
     <div slot="modal-footer" class="w-100">
          <b-btn size="sm" class="float-right" variant="primary" @click="resetModal">
            Close
@@ -49,10 +38,7 @@ export default {
   },
   data () {
     return {
-      semester: null,
-      dismissSecs: 3,
-      dismissCountDown: 0,
-      showDismissibleAlert: false
+      semester: null
     }
   },
   computed: {
@@ -70,18 +56,13 @@ export default {
         course: this.course
       })
       this.showSuccess()
-      this.$_.delay(() => { this.resetModal() }, this.dismissSecs * 1000, 'later')
     },
     resetModal () {
-      this.dismissCountDown = 0
-      this.showDismissibleAlert = false
       this.$emit('resetModal')
     },
-    countDownChanged (dismissCountDown) {
-      this.dismissCountDown = dismissCountDown
-    },
     showSuccess () {
-      this.dismissCountDown = this.dismissSecs
+      this.$toasted.success('Add Successfully.', { duration: 3000 })
+      this.resetModal()
     }
   }
 }

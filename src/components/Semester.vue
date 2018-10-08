@@ -1,14 +1,15 @@
 <template>
 <b-col cols="12" lg="4">
 <b-card-group deck>
-  <b-card :header="'Semester ' + semester + ' | Credits: ' + totalCredits">
-    <b-list-group>
-        <draggable v-model='semesterCourses' :options="{group:'semester'}">
-            <transition-group class="dragArea">
-                <Course v-on:removeCourse="removeCourse" v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course"></Course>
-            </transition-group>
-        </draggable>
-    </b-list-group>
+  <b-card :header="'Semester ' + semester + ' | <strong>Credits: ' + totalCredits + '</strong>'">
+    <draggable class="list-group" v-model='semesterCourses' :options="{group:'semester'}">
+        <transition-group class="dragArea">
+            <Course v-on:removeCourse="removeCourse" v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course"></Course>
+        </transition-group>
+    </draggable>
+    <ul class="list-group mb-2" v-if="!semesterCourses[0]">
+      <li class="list-group-item list-group-item-info">EMPTY SEMESTER</li>
+    </ul>
     <em v-if="totalSemester === Number(semester)" slot="footer">
       <b-btn v-on:click="removeSemester">Remove This Semester</b-btn>
     </em>
@@ -69,8 +70,6 @@ export default {
 <style scoped>
 /* https://github.com/SortableJS/Vue.Draggable/issues/44 */
 .dragArea {
-  min-height: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  min-height: 10px;
 }
 </style>
