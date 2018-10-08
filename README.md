@@ -1,5 +1,4 @@
-
-![](docs/logo.png)
+![](docs/Logo.png)
 
 # Organizer
 
