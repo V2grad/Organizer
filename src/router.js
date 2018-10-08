@@ -33,6 +33,11 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/CourseSelect.vue')
     },
     {
+      path: '/actions',
+      name: 'Actions',
+      component: () => import(/* webpackChunkName: "about" */ './views/Actions.vue')
+    },
+    {
       path: '/export',
       name: 'ExportPlan',
       component: () => import(/* webpackChunkName: "about" */ './views/ExportPlan.vue')
