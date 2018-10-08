@@ -37,13 +37,13 @@ export default {
       return decodeAndInflate(this.encodedData)
     },
     planName () {
-      return this.decodedObject.name
+      return this.decodedObject.obj.name
     }
   },
   methods: {
     writeData: function () {
       this.$store.commit('updateName', { name: this.planName })
-      this.$store.commit('updateCourses', this.decodedObject.courses)
+      this.$store.commit('updateCourses', this.decodedObject.obj.courses)
       this.$router.push({ name: 'plan' })
     }
   }
