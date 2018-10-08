@@ -1,16 +1,16 @@
 <template>
      <b-card-group deck>
-        <b-card header="Have AP/transfered Credits?"
+        <b-card header="Have AP or transferred Credits?"
                 header-tag="header"
                 title="Add Transferred Courses">
-            <p class="card-text">If you have courses already, add them here so that Organizer will know.</p>
+            <p class="card-text">If you have had credits already, add them here.</p>
             <b-button :to="{'name': 'WIP'}"
                       variant="primary" size="lg">Add</b-button>
         </b-card>
         <b-card header="Mess up?"
                 header-tag="header"
                 title="Reset Current Plan">
-            <p class="card-text">You may want a clean template and start again. <strong>But your current data won't save!!!</strong></p>
+            <p class="card-text">You may want a clean template and start again. <strong>This action cannot be undo!!!</strong></p>
             <b-button v-b-modal="'deleteConfirm'"
                       variant="danger" size="lg">Reset My Plan</b-button>
         </b-card>
