@@ -9,11 +9,6 @@
                     Include Plan's short URL and QrCode in the PDF
                 </b-form-checkbox>
             </p>
-            <p>
-                <b-form-checkbox v-model="printChecked">
-                    Start printing when finish generating.
-                </b-form-checkbox>
-            </p>
             <em slot="footer" class="w-100">
                 <b-button v-on:click="downloadPDF" variant="primary" size="lg">Download the PDF</b-button>
             </em>
@@ -27,7 +22,6 @@ export default {
   name: 'PrintCard',
   data () {
     return {
-      printChecked: false,
       exportChecked: false,
       exportDisabled: false
     }
@@ -58,11 +52,7 @@ export default {
         doc = addShortURL(doc, this.shortenedURL)
       }
       doc = addCopyright(doc)
-      if (this.printChecked === true) {
-        doc.autoPrint()
-      } else {
-        doc.save(this.$store.state.plan.name + '.pdf')
-      }
+      doc.save(this.$store.state.plan.name + '.pdf')
     }
   }
 }
