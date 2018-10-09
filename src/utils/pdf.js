@@ -83,7 +83,6 @@ export function getColumns () {
 function getCredits (courses) {
   let sum = 0
   courses.forEach(element => {
-    console.log(element)
     sum += parseInt(element.CreditHours)
   })
   return sum
