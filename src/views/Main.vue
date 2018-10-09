@@ -18,7 +18,7 @@ export default {
   },
   computed: {
     totalSemesters () {
-      return this.$store.state.courses
+      return this.$store.state.plan.courses
     }
   }
 }

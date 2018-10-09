@@ -49,7 +49,7 @@ export default {
     },
     semesterCourses: {
       get () {
-        return this.$store.state.courses[this.semester]
+        return this.$store.state.plan.courses[this.semester]
       },
       set (value) {
         this.$store.commit('updateSemester', { semester: this.semester, courses: value })

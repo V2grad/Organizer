@@ -1,9 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import store from './store'
+import store from './stores'
 import BootstrapVue from 'bootstrap-vue'
 import VueClipboard from 'vue-clipboard2'
+import qrcode from 'qrious'
 import Toasted from 'vue-toasted'
 import axios from 'axios'
 import _ from 'lodash'
@@ -19,6 +20,7 @@ Vue.use(VueClipboard)
 
 Vue.prototype.$_ = _
 Vue.prototype.$axios = axios
+Vue.prototype.$qrcode = qrcode
 
 new Vue({
   router,

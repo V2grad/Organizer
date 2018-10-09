@@ -41,7 +41,7 @@ export default {
   name: 'NavBar',
   computed: {
     planName () {
-      return this.$store.state.name
+      return this.$store.state.plan.name
     }
   }
 }
