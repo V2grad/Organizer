@@ -3,7 +3,9 @@
       <NavBar v-if="this.$route.path !== '/'"></NavBar>
       <b-container fluid class="container-padding">
       <transition>
-        <router-view/>
+        <keep-alive include="ExportPlan">
+          <router-view/>
+        </keep-alive>
       </transition>
       </b-container>
   </div>

@@ -1,12 +1,6 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import createPersistedState from 'vuex-persistedstate'
 import _ from 'lodash'
 
-Vue.use(Vuex)
-
-// All `course`s refer to object.
-export default new Vuex.Store({
+export default {
   state: {
     name: 'Unnamed Plan',
     courses: {}
@@ -72,7 +66,5 @@ export default new Vuex.Store({
       // Although remove will only happened to the last one, required semester to delect specific semester
       commit('removeSemester', semester)
     }
-  },
-  strict: process.env.NODE_ENV !== 'production',
-  plugins: [createPersistedState()]
-})
+  }
+}

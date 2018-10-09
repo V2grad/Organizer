@@ -3,7 +3,9 @@
   <b-container fluid>
     <b-row>
         <b-col cols=12>
+          <keep-alive>
              <course-selection></course-selection>
+          </keep-alive>
         </b-col>
     </b-row>
 </b-container>
