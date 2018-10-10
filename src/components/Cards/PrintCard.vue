@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { generatePDF, addShortURL, addCopyright } from '../utils/pdf'
+import { generatePDF, addShortURL, addCopyright } from '@/utils/pdf'
 
 export default {
   name: 'PrintCard',

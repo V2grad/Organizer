@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import PrintCard from '../components/PrintCard'
-import ExportCard from '../components/ExportCard'
+import PrintCard from '@/components/Cards/PrintCard'
+import ExportCard from '@/components/Cards/ExportCard'
 
 export default {
   name: 'ExportPlan',
