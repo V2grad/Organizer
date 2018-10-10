@@ -4,14 +4,16 @@
   <b-card :header="'Semester ' + semester + ' | <strong>Credits: ' + totalCredits + '</strong>'">
     <draggable class="list-group" v-model='semesterCourses' :options="{group:'semester'}">
         <transition-group class="dragArea">
-            <Course v-on:removeCourse="removeCourse" v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course"></Course>
+          <!--This section is a bit of dirty, maybe change the structure how the courses ar stored-->
+            <Course v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course" v-bind:semester="semester"></Course>
         </transition-group>
     </draggable>
     <ul class="list-group mb-2" v-if="!semesterCourses[0]">
       <li class="list-group-item list-group-item-info">EMPTY SEMESTER</li>
     </ul>
     <em v-if="totalSemester === Number(semester)" slot="footer">
-      <b-btn v-on:click="removeSemester">Remove This Semester</b-btn>
+      <b-btn v-b-modal="'semester ' + this.semester">Remove This Semester</b-btn>
+      <remove-semeter-modal :semester="this.semester"></remove-semeter-modal>
     </em>
   </b-card>
 </b-card-group>
@@ -19,7 +21,8 @@
 </template>
 
 <script>
-import Course from './Course.vue'
+import Course from '@/components/Course.vue'
+import RemoveSemeterModal from '@/components/Modals/RemoveSemesterModal'
 import draggable from 'vuedraggable'
 
 export default {
@@ -32,7 +35,8 @@ export default {
   },
   components: {
     draggable,
-    Course
+    Course,
+    RemoveSemeterModal,
   },
   computed: {
     totalSemester () {
@@ -54,14 +58,6 @@ export default {
       set (value) {
         this.$store.commit('updateSemester', { semester: this.semester, courses: value })
       }
-    }
-  },
-  methods: {
-    removeSemester: function () {
-      this.$store.dispatch('removeSemester', this.semester)
-    },
-    removeCourse: function (courseTitle) {
-      this.$store.commit('removeCourse', { semester: this.semester, courseTitle: courseTitle })
     }
   }
 }

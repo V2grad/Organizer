@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { decodeAndInflate } from '../utils/compress'
+import { decodeAndInflate } from '@/utils/compress'
 
 export default {
   name: 'ExportPlan',

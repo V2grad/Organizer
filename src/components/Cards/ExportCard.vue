@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { deflateAndEncode } from '../utils/compress'
+import { deflateAndEncode } from '@/utils/compress'
 
 export default {
   name: 'ExportCard',

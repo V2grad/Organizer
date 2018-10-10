@@ -82,8 +82,8 @@
 </template>
 
 <script>
-import dummy from '../data/dummy'
-import CourseModal from './CourseModal'
+import dummy from '@/data/dummy'
+import CourseModal from './Modals/CourseModal'
 const items = dummy
 
 export default {

@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import Semester from '../components/Semester'
-import SemesterPlaceholder from '../components/SemesterPlaceholder'
+import Semester from '@/components/Cards/Semester'
+import SemesterPlaceholder from '@/components/Cards/SemesterPlaceholder'
 
 export default {
   components: {

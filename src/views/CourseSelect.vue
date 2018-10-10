@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import CourseSelection from '../components/CourseSelection.vue'
+import CourseSelection from '@/components/CourseSelection.vue'
 
 export default {
   name: 'CourseSelect',
