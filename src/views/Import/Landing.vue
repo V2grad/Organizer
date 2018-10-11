@@ -12,6 +12,6 @@
 <script>
 
 export default {
-  name: 'ImportPlanLanding'
+  name: 'Landing'
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="'semester ' + this.semester" 
+  <b-modal :id="'semester ' + this.semester"
            header-text-variant="danger"
            title="Remove Semester"
            @ok="removeSemester"

@@ -36,7 +36,7 @@ export default {
   components: {
     draggable,
     Course,
-    RemoveSemeterModal,
+    RemoveSemeterModal
   },
   computed: {
     totalSemester () {

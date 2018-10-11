@@ -1,12 +1,5 @@
 <template>
      <b-card-group deck>
-        <b-card header="Have AP or transferred Credits?"
-                header-tag="header"
-                title="Add Transferred Courses">
-            <p class="card-text">If you have had credits already, add them here.</p>
-            <b-button :to="{'name': 'WIP'}"
-                      variant="primary" size="lg">Add</b-button>
-        </b-card>
         <b-card header="Mess up?"
                 header-tag="header"
                 title="Reset Current Plan">
