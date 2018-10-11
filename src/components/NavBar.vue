@@ -12,8 +12,8 @@
           <b-dropdown-item :to="{'name': 'WIP'}">Transferred/AP</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Course">
-          <b-dropdown-item :to="{'name': 'CourseSelect'}">Courses</b-dropdown-item>
-          <b-dropdown-item :to="{'name': 'CustomCourse'}">Custom Courses</b-dropdown-item>
+          <b-dropdown-item :to="{'name': 'CourseSelect'}" exact>Courses</b-dropdown-item>
+          <b-dropdown-item :to="{'name': 'CustomCourse'}" exact>Custom Courses</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item :to="{'name': 'Actions'}">Actions</b-nav-item>
         <b-nav-item :to="{'name': 'ExportPlan'}">Export</b-nav-item>
