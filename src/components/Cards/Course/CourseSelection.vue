@@ -1,5 +1,4 @@
 <template>
-<b-card-group deck>
   <b-card :header="'Course List'">
     <b-container fluid>
       <b-row>
@@ -77,13 +76,11 @@
     <course-modal v-on:resetModal="resetModal" :course="selectedCourse" :modalShow="modalShow"></course-modal>
     </b-container>
   </b-card>
-</b-card-group>
-
 </template>
 
 <script>
 import dummy from '@/data/dummy'
-import CourseModal from './Modals/CourseModal'
+import CourseModal from '@/components/Modals/CourseModal'
 const items = dummy
 
 export default {

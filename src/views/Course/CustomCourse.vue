@@ -4,7 +4,7 @@
     <b-row>
         <b-col cols=12>
           <keep-alive>
-             <course-selection></course-selection>
+             <custom-course></custom-course>
           </keep-alive>
         </b-col>
     </b-row>
@@ -13,12 +13,12 @@
 </template>
 
 <script>
-import CourseSelection from '@/components/CourseSelection.vue'
+import CustomCourse from '@/components/Cards/Course/CustomCourse'
 
 export default {
-  name: 'CourseSelect',
+  name: 'CustomCoursePage',
   components: {
-    CourseSelection
+    CustomCourse
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="'semester ' + this.semester + ' course ' + this.courseTitle" 
+  <b-modal :id="'semester ' + this.semester + ' course ' + this.courseTitle"
            header-text-variant="danger"
            title="Remove Course"
            @ok="removeCourse"
