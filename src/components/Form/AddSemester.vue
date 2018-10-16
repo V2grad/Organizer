@@ -28,8 +28,7 @@ export default {
   },
   computed: {
     yearOptions () {
-      let year = this.$store.getters.getStartYear
-      return this.$_.range(year, year + 10)
+      return this.$store.getters.getYearSpan
     },
     periodOptions () {
       if (this.selectedYear === null) {

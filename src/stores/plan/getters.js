@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import { CUSTOM_COURSE_TITLE, DEFAULT_YEAR, PERIOD } from '../const'
+import { CUSTOM_COURSE_TITLE, DEFAULT_YEAR, PERIOD, YEAR_SPAN } from '../const'
 
 export default {
   getSemesterTree: (state) => {
@@ -16,19 +16,22 @@ export default {
     // Maybe just let them choose whatever they like.
     return DEFAULT_YEAR
   },
-  getExistedPeriod: (state) => (year) => {
-    if (state.semesters[year] !== undefined) {
-      return _.keys(state.semesters[year])
+  getYearSpan: (state, getters) => {
+    let startYear = getters.getStartYear
+    return _.range(startYear, startYear + YEAR_SPAN)
+  },
+  getExistedPeriod: (state, getters) => (year) => {
+    if (getters.getSemesterTree[year] !== undefined) {
+      return _.keys(getters.getSemesterTree[year])
     }
     return []
   },
-  getSelectablePeriod: (state) => (year) => {
-    if (state.semesters[year] !== undefined) {
-      let arr = PERIOD
-      _.pullAll(arr, _.keys(state.semesters[year]))
-      return arr
+  getSelectablePeriod: (state, getters) => (year) => {
+    let arr = _.cloneDeep(PERIOD) // Export will cause a shadow clone, which makes it an empty array.
+    if (getters.getSemesterTree[year] !== undefined) {
+      _.pullAll(arr, _.keys(getters.getSemesterTree[year]))
     }
-    return PERIOD
+    return arr
   },
   findCourse: (state) => (courseTitle) => {
     // Even though course should appear only once, we collect every possible answers.
