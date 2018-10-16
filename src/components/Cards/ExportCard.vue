@@ -91,7 +91,7 @@ export default {
       // Don't use params! tinyurl don't not recognize that.
       this.loading = true
       this.$toasted.info('Generating Shorten URL...', { duration: 3000 })
-      this.$axios.get('https://cors-anywhere.herokuapp.com/http://tinyurl.com/api-create.php?url=' + this.encodedURL)
+      this.$axios.get('/api/shorturl?url=' + this.encodedURL)
         .then((response) => {
           this.shortenedURL = response.data
           this.$toasted.success('Link generate successfully.', { duration: 3000 })

@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="'semester ' + this.semester + ' course ' + this.courseTitle"
+  <b-modal :id="'semester ' + this.semesterIndex + ' course ' + this.courseTitle"
            header-text-variant="danger"
            title="Remove Course"
            @ok="removeCourse"
@@ -12,10 +12,10 @@
 export default {
   name: 'RemoveCourseModal',
   props: {
-    courseTitle: {
+    courseIndex: {
       required: true
     },
-    semester: {
+    semesterIndex: {
       required: true
     }
   },
@@ -23,11 +23,11 @@ export default {
   },
   methods: {
     removeCourse: function (courseTitle) {
-      this.$store.commit('removeCourse', { semester: this.semester, courseTitle: this.courseTitle })
+      this.$store.commit('removeCourse', { semester: this.semesterIndex, course: this.courseIndex })
       this.showSuccess()
     },
     showSuccess () {
-      this.$toasted.success('Course ' + this.courseTitle + ' has removed.', { duration: 3000 })
+      this.$toasted.success('Course ' + this.courseTitle + ' has removed.')
     }
   }
 }

@@ -12,7 +12,9 @@ import _ from 'lodash'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-Vue.use(Toasted)
+Vue.use(Toasted, {
+  duration: 3000
+})
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 VueClipboard.config.autoSetContainer = true // add this line

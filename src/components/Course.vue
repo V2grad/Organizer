@@ -1,11 +1,19 @@
 <template>
 <div>
     <b-list-group-item class="list-complete-item d-flex justify-content-between align-items-center"
-                       v-b-popover.hover="{title: this.CourseTitle, content: 'Credit Hours: ' + this.CreditHours, delay: { show: 1000, hide: 0 }}">
+                       v-b-popover.hover="{title: this.CourseTitle,
+                                           content: 'Credit Hours: ' + this.CreditHours,
+                                           delay: { show: 1000, hide: 0 }}">
         {{ CourseName }}
-        <b-btn class="btn-outline-danger" v-b-modal="'semester ' + this.semester + ' course ' + this.CourseTitle" variant="danger">X</b-btn>
+        <b-btn class="btn-outline-danger"
+        v-b-modal="'semester ' + this.semesterIndex + ' course ' + this.CourseTitle"
+        variant="danger">
+          X
+        </b-btn>
     </b-list-group-item>
-    <remove-course-modal v-bind:courseTitle="this.CourseTitle" v-bind:semester="this.semester"></remove-course-modal>
+    <remove-course-modal v-bind:courseTitle="this.CourseTitle"
+                         v-bind:semesterIndex="this.semesterIndex"
+                         v-bind:courseIndex="this.courseIndex"></remove-course-modal>
 </div>
 </template>
 
@@ -26,7 +34,10 @@ export default {
     CreditHours: {
       required: true
     },
-    semester: {
+    semesterIndex: {
+      required: true
+    },
+    courseIndex: {
       required: true
     }
   },
