@@ -1,20 +1,25 @@
 <template>
 <b-col cols="12" lg="4">
 <b-card-group deck>
-  <b-card :header="'Semester ' + semester + ' | <strong>Credits: ' + totalCredits + '</strong>'">
+  <b-card :header="'Year ' + semester.year + ', Period: ' + semester.period">
     <draggable class="list-group" v-model='semesterCourses' :options="{group:'semester'}">
         <transition-group class="dragArea">
           <!--This section is a bit of dirty, maybe change the structure how the courses ar stored-->
-            <Course v-for="course in semesterCourses" :key="course.CourseTitle" v-bind="course" v-bind:semester="semester"></Course>
+            <Course v-for="(course, index) in semesterCourses"
+                    :key="index"
+                    v-bind="course"
+                    v-bind:semesterIndex="semesterIndex"
+                    v-bind:courseIndex="index">
+            </Course>
         </transition-group>
     </draggable>
     <ul class="list-group mb-2" v-if="!semesterCourses[0]">
       <li class="list-group-item list-group-item-info">EMPTY SEMESTER</li>
     </ul>
-    <em v-if="totalSemester === Number(semester)" slot="footer">
+    <!-- <em v-if="totalSemester === Number(semester)" slot="footer">
       <b-btn v-b-modal="'semester ' + this.semester">Remove This Semester</b-btn>
       <remove-semeter-modal :semester="this.semester"></remove-semeter-modal>
-    </em>
+    </em> -->
   </b-card>
 </b-card-group>
 </b-col>
@@ -28,8 +33,11 @@ import draggable from 'vuedraggable'
 export default {
   name: 'Semester',
   props: {
-    semester: {
+    semesterIndex: {
       type: Number,
+      required: true
+    },
+    semester: {
       required: true
     }
   },
@@ -39,24 +47,19 @@ export default {
     RemoveSemeterModal
   },
   computed: {
-    totalSemester () {
-      return this.$store.getters.currentSemester
-    },
     totalCredits () {
       let credits = 0
-      if (this.semesterCourses !== undefined) {
-        this.semesterCourses.forEach(element => {
-          credits = credits + parseInt(element.CreditHours)
-        })
-      }
+      this.semester.courses.forEach((c) => {
+        credits = credits + c.CreditHours
+      })
       return credits
     },
     semesterCourses: {
       get () {
-        return this.$store.state.plan.courses[this.semester]
+        return this.semester.courses
       },
       set (value) {
-        this.$store.commit('updateSemester', { semester: this.semester, courses: value })
+        this.$store.commit('updateCourses', { semester: this.semesterIndex, courses: value })
       }
     }
   }

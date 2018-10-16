@@ -19,7 +19,7 @@
                                 label="Course Name"
                                 type="text"
                                 maxlength="50"
-                                required 
+                                required
                                 placeholder="The name of the course you want to add">
                 </b-form-input>
             </b-form-group>
@@ -30,7 +30,7 @@
                                 type="number"
                                 v-model="creditHours"
                                 required
-                                placeholder="Number of credit your course will have">  
+                                placeholder="Number of credit your course will have">
                 </b-form-input>
             </b-form-group>
             <b-form-group   id="SemesterGroup"
@@ -57,41 +57,41 @@
 export default {
   name: 'CustomCourse',
   data () {
-      return {
-          show: true,
-          courseName: '',
-          courseTitle: 'CTSM-1100',
-          courseCredits: 0,
-          semester: null
-      }
+    return {
+      show: true,
+      courseName: '',
+      courseTitle: 'CTSM-1100',
+      courseCredits: 0,
+      semester: null
+    }
   },
   computed: {
   },
   methods: {
-    addCourse() {
+    addCourse () {
       this.$store.commit('addCourse', {
         semester: this.semester,
         course: {
-            'CourseName' : this.courseName,
-            'CourseTitle' : this.courseTitle,
-            'CreditHours' : this.creditHours
+          'CourseName': this.courseName,
+          'CourseTitle': this.courseTitle,
+          'CreditHours': this.creditHours
         }
       })
       this.$toasted.success('Course added successfully.', { duration: 3000 })
     },
     onSubmit (evt) {
-      evt.preventDefault();
+      evt.preventDefault()
       this.addCourse()
     },
     onReset (evt) {
-      evt.preventDefault();
+      evt.preventDefault()
       /* Reset our form values */
-      this.courseName = '';
-      this.creditHours = 0;
-      this.semester = null;
+      this.courseName = ''
+      this.creditHours = 0
+      this.semester = null
       /* Trick to reset/clear native browser form validation state */
-      this.show = false;
-      this.$nextTick(() => { this.show = true });
+      this.show = false
+      this.$nextTick(() => { this.show = true })
     }
   }
 }
