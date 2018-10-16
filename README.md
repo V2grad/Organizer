@@ -1,4 +1,4 @@
-![](docs/Logo.png)
+![](docs/LogoWithName.jpg)
 
 # Organizer
 
