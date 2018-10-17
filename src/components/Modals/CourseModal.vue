@@ -10,7 +10,7 @@
       <b-form-select class="mb-2 mr-sm-4 mb-sm-0"
                      :value="null"
                      v-model="semester"
-                     :options="this.$store.getters.semesterList"
+                     :options="this.$store.getters.getSemesterList"
                      >
         <option slot="first" :value="null">Choose...</option>
       </b-form-select>
@@ -43,7 +43,7 @@ export default {
   },
   computed: {
     courseLocation () {
-      return this.$store.getters.findCourse(this.course)
+      return this.$store.getters.findCourse(this.course.CourseTitle)
     },
     courseAdded () {
       return this.courseLocation.length !== 0
@@ -61,7 +61,7 @@ export default {
       this.$emit('resetModal')
     },
     showSuccess () {
-      this.$toasted.success('Add Successfully.', { duration: 3000 })
+      this.$toasted.success('Add Successfully.')
       this.resetModal()
     }
   }

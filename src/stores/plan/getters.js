@@ -33,9 +33,14 @@ export default {
     }
     return arr
   },
+  getSemesterList: (state) => {
+    return _.map(state.semesters, (s, i) => {
+      return { text: s.year + ' ' + s.period, value: i }
+    })
+  },
   findCourse: (state) => (courseTitle) => {
     // Even though course should appear only once, we collect every possible answers.
-    if (courseTitle.include(CUSTOM_COURSE_TITLE)) {
+    if (_.startsWith(courseTitle, CUSTOM_COURSE_TITLE)) {
       // Igore Custom Course
       return []
     } else {

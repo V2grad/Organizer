@@ -73,7 +73,7 @@
         <b-pagination :total-rows="totalRows" :per-page="perPage" v-model="currentPage"/>
       </b-col>
     </b-row>
-    <course-modal v-on:resetModal="resetModal" :course="selectedCourse" :modalShow="modalShow"></course-modal>
+    <course-modal v-if="selectedCourse" v-on:resetModal="resetModal" :course="selectedCourse" :modalShow="modalShow"></course-modal>
     </b-container>
   </b-card>
 </template>

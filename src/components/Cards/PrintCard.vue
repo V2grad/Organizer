@@ -5,7 +5,9 @@
         footer-tag="footer">
             <p class="card-text">Generate a PDF and get your plan ready in a nice table!</p>
              <p>
-                <b-form-checkbox v-model="exportChecked" :disabled="exportDisabled" v-b-tooltip title="You need to click on the Generate Shortened Link on the Export Your Plan Panel before enabling this function">
+                <b-form-checkbox v-model="exportChecked"
+                                 :disabled="exportDisabled"
+                                 v-b-tooltip title="You need to click on the Generate Shortened Link on the Export Your Plan Panel before enabling this function">
                     Include Plan's short URL and QrCode in the PDF
                 </b-form-checkbox>
             </p>

@@ -1,5 +1,5 @@
 <template>
-  <b-modal :id="'semester ' + this.semesterIndex + ' course ' + this.courseTitle"
+  <b-modal :id="'semester ' + this.semesterIndex + ' course ' + this.courseIndex"
            header-text-variant="danger"
            title="Remove Course"
            @ok="removeCourse"
@@ -27,7 +27,7 @@ export default {
       this.showSuccess()
     },
     showSuccess () {
-      this.$toasted.success('Course ' + this.courseTitle + ' has removed.')
+      this.$toasted.success('Course removed.')
     }
   }
 }

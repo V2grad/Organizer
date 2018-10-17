@@ -45,6 +45,10 @@ export default {
     addSemester () {
       this.$store.dispatch('addSemester', { year: this.selectedYear, period: this.selectedPeriod })
       this.$toasted.success('Add Semester Successfully')
+      this.resetOptions()
+    },
+    resetOptions () {
+      this.selectedPeriod = null
     }
   }
 }

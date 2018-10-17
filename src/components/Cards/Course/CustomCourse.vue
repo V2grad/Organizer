@@ -77,7 +77,7 @@ export default {
           'CreditHours': this.creditHours
         }
       })
-      this.$toasted.success('Course added successfully.', { duration: 3000 })
+      this.$toasted.success('Course added successfully.')
     },
     onSubmit (evt) {
       evt.preventDefault()

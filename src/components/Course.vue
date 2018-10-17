@@ -6,7 +6,7 @@
                                            delay: { show: 1000, hide: 0 }}">
         {{ CourseName }}
         <b-btn class="btn-outline-danger"
-        v-b-modal="'semester ' + this.semesterIndex + ' course ' + this.CourseTitle"
+        v-b-modal="'semester ' + this.semesterIndex + ' course ' + this.courseIndex"
         variant="danger">
           X
         </b-btn>

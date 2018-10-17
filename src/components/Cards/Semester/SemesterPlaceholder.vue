@@ -6,7 +6,18 @@
     <hr/>
     <add-semester-form></add-semester-form>
     <hr/>
-    <b-button size="sm" variant="success">Add a range of semesters</b-button>
+    <b-row>
+      <!-- https://github.com/angular-ui/bootstrap/issues/1025 -->
+      <div v-b-tooltip
+          title="This function can be used when the plan is empty. To reset your plan, go to Action tab"
+          class="ml-3">
+        <b-button size="sm"
+                variant="success"
+                :disabled="!isEmptyList"
+                >Add a range of semesters
+        </b-button>
+      </div>
+    </b-row>
   </b-card>
 </b-col>
 </template>
@@ -19,7 +30,22 @@ export default {
   components: {
     AddSemesterForm
   },
+  computed: {
+    isEmptyList () {
+      return this.$store.state.plan.semesters.length === 0
+    }
+  },
   methods: {
   }
 }
 </script>
+
+<style scoped>
+.tool-tip [disabled] {
+  pointer-events: none;
+}
+
+.tool-tip {
+  display: inline-block;
+}
+</style>

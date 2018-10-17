@@ -10,7 +10,7 @@ export default {
   },
   // {semester: Index of Semester (Number), course: {}}
   addCourse (state, payload) {
-    state.semetsers[payload.semester].courses.push(payload.course)
+    state.semesters[payload.semester].courses.push(payload.course)
   },
   // {semester: Index of Semester (Number), course: Index of Course (Number)}
   removeCourse (state, payload) {
@@ -19,9 +19,9 @@ export default {
   updateName (state, name) {
     state.name = name
   },
-  // {semester: Index of Semester (Number), course: []}
+  // {semester: Index of Semester (Number), courses: []}
   updateCourses (state, payload) {
-    state.semesters[payload.semester].courses = payload.course
+    state.semesters[payload.semester].courses = payload.courses
   },
   cleanPlan (state) {
     state.semesters = []
