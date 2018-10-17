@@ -8,7 +8,7 @@
 
       <b-navbar-nav>
         <b-nav-item-dropdown text="Plan" >
-          <b-dropdown-item :to="{'name': 'plan'}">Your Plan</b-dropdown-item>
+          <b-dropdown-item :to="{'name': 'Plan'}">Your Plan</b-dropdown-item>
           <b-dropdown-item :to="{'name': 'WIP'}">Transferred/AP</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Course">

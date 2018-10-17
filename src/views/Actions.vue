@@ -27,8 +27,8 @@ export default {
   name: 'Actions',
   methods: {
     cleanCourses () {
-      this.$store.commit('cleanCourses')
-      this.$router.push({ 'name': 'plan' })
+      this.$store.commit('cleanPlan')
+      this.$router.push({ 'name': 'Plan' })
     },
     hideModal () {
       this.$refs.deleteConfirm.hide()

@@ -2,7 +2,7 @@
   <!-- Modal Component -->
   <b-modal @hide='resetModal' v-model="modalShow" title="Add course to a Semester">
     <div v-if="courseAdded">
-       <p>This course has added into the following semester: {{courseLocation}}</p>
+       <p>This course has added into the following semester: {{ this.$human.READABLE_SEMESTER(this.$store.state.plan.semesters[courseLocation[0]]) }}</p>
     </div>
     <div v-else>
       <b-form inline>
@@ -10,7 +10,7 @@
       <b-form-select class="mb-2 mr-sm-4 mb-sm-0"
                      :value="null"
                      v-model="semester"
-                     :options="this.$store.getters.getSemesterList"
+                     :options="this.$store.getters.semesterList"
                      >
         <option slot="first" :value="null">Choose...</option>
       </b-form-select>

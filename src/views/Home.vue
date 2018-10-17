@@ -10,8 +10,8 @@
   <p>
     Choose an action and get started!
   </p>
-  <b-btn variant="primary" :to="{'name': 'plan'}">Enter Organizer</b-btn>
-  <b-btn variant="success" :to="{'name': 'ImportPlanLanding'}">Import a Plan</b-btn>
+  <b-btn variant="primary" :to="{'name': 'Plan'}">Enter Organizer</b-btn>
+  <b-btn variant="success" :to="{'name': 'Profile'}">View Plans [Import]</b-btn>
   <b-btn variant="dark" href="https://github.com/V2grad/Organizer">About this Project</b-btn>
   <b-btn variant="link" href="https://v2grad.org">About us</b-btn>
 </b-jumbotron>

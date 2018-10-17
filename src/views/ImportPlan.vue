@@ -5,12 +5,12 @@
       You are about to import a new plan from <strong>{{ planName }}</strong>.
     </p>
     <p class="card-text">
-      Are you sure you want to continue? (will override your current data)
+      Are you sure you want to continue? (Your data will not be override)
     </p>
     <em slot="footer">
     <b-button-group size="lg">
         <b-btn v-on:click="writeData" variant="success">Yes</b-btn>
-        <b-btn :to="{name: 'home'}" variant="danger">No!!!!!</b-btn>
+        <b-btn :to="{name: 'home'}" variant="danger">No</b-btn>
     </b-button-group>
     </em>
   </b-card>
@@ -42,9 +42,8 @@ export default {
   },
   methods: {
     writeData: function () {
-      this.$store.commit('updateName', { name: this.planName })
-      this.$store.commit('updateCourses', this.decodedObject.obj.courses)
-      this.$router.push({ name: 'plan' })
+      this.$store.commit('addProfile', this.decodedObject)
+      this.$router.push({ name: 'profile' })
     }
   }
 }

@@ -8,7 +8,7 @@
         <b-btn class="btn-outline-danger"
         v-b-modal="'semester ' + this.semesterIndex + ' course ' + this.courseIndex"
         variant="danger">
-          X
+        <font-awesome-icon icon="times" />
         </b-btn>
     </b-list-group-item>
     <remove-course-modal v-bind:courseTitle="this.CourseTitle"

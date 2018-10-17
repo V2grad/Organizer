@@ -1,10 +1,18 @@
 <template>
 <b-col cols="12" lg="4">
 <b-card-group deck>
-  <b-card :header="title">
+  <b-card header-tag="header">
+    <p slot="header"
+       class="mb-0 d-flex justify-content-between align-items-center">
+       {{title}}
+       <b-btn v-b-modal="'semester ' + this.semesterIndex"
+              variant="light"
+              size="sm">
+          <font-awesome-icon icon="times" />
+        </b-btn>
+    </p>
     <draggable class="list-group" v-model='semesterCourses' :options="{group:'semester'}">
         <transition-group class="dragArea">
-          <!--This section is a bit of dirty, maybe change the structure how the courses ar stored-->
             <Course v-for="(course, index) in semesterCourses"
                     :key="index"
                     v-bind="course"
@@ -20,12 +28,14 @@
       Credits: {{ totalCredits }}
     </em>
   </b-card>
+  <remove-semester-modal :semesterIndex="semesterIndex"></remove-semester-modal>
 </b-card-group>
 </b-col>
 </template>
 
 <script>
 import Course from '@/components/Course.vue'
+import RemoveSemesterModal from '@/components/Modals/RemoveSemesterModal'
 import draggable from 'vuedraggable'
 
 export default {
@@ -41,11 +51,12 @@ export default {
   },
   components: {
     draggable,
-    Course
+    Course,
+    RemoveSemesterModal
   },
   data () {
     return {
-      title: this.semester.year + ' ' + this.semester.period
+      title: this.$human.READABLE_SEMESTER(this.semester)
     }
   },
   computed: {

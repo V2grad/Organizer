@@ -61,7 +61,7 @@ export default {
         return this.$store.state.plan.name
       },
       set (value) {
-        this.$store.commit('updateName', { name: value })
+        this.$store.commit('updateName', value)
       }
     }
   },

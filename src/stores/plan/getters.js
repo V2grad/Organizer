@@ -33,7 +33,7 @@ export default {
     }
     return arr
   },
-  getSemesterList: (state) => {
+  semesterList: (state) => {
     return _.map(state.semesters, (s, i) => {
       return { text: s.year + ' ' + s.period, value: i }
     })
@@ -42,11 +42,12 @@ export default {
     // Even though course should appear only once, we collect every possible answers.
     if (_.startsWith(courseTitle, CUSTOM_COURSE_TITLE)) {
       // Igore Custom Course
+      console.log('ctsm')
       return []
     } else {
       let semesters = []
       state.semesters.forEach((s) => {
-        let index = _.findIndex(s, ['CourseTitle', courseTitle])
+        let index = _.findIndex(s.courses, ['CourseTitle', courseTitle])
         if (index !== -1) {
           semesters.push(index)
         }
