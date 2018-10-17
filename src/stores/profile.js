@@ -1,20 +1,25 @@
 import Vue from 'vue'
-import { id } from '@/utils/id'
 
 export default {
   state: {
-    profiles: {}
-    // The plan => id() : {..profile}
+    profiles: {},
+    currentProfileID: null
+    // The plan => id() : {...plan}
   },
   mutations: {
-    importProfile (state, profile) {
-      Vue.set(state.profiles, id(), profile)
+    // {id: '', profile: {}}
+    importProfile (state, payload) {
+      delete payload.profile.version
+      Vue.set(state.profiles, payload.id, payload.profile)
     },
     deleteProfile (state, profileID) {
       Vue.delete(state.profiles, profileID)
     },
     cleanProfiles (state) {
       state.profiles = []
+    },
+    assignCurrentProfileID (state, id) {
+      state.currentProfileID = id
     }
   }
 }

@@ -22,7 +22,7 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item-dropdown text="Navigate" right>
-          <b-dropdown-item>
+          <b-dropdown-item :to="{'name': 'Profile'}">
            Current Profile: {{ planName }}
           </b-dropdown-item>
           <br/>
