@@ -23,7 +23,19 @@ export default {
   updateCourses (state, payload) {
     state.semesters[payload.semester].courses = payload.courses
   },
+  // @TODO, find a way to set the state
+  updatePlan (state, plan) {
+    state.semesters = plan.semesters
+    state.transferred = plan.transferred
+    state.name = plan.name
+  },
   cleanPlan (state) {
     state.semesters = []
+    state.transferred = []
+  },
+  resetPlan (state) {
+    state.name = 'Unnamed Plan'
+    state.semesters = []
+    state.transferred = []
   }
 }

@@ -22,7 +22,7 @@ export default {
   computed: {
   },
   methods: {
-    removeCourse: function (courseTitle) {
+    removeCourse: function () {
       this.$store.commit('removeCourse', { semester: this.semesterIndex, course: this.courseIndex })
       this.showSuccess()
     },

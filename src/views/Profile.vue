@@ -2,24 +2,43 @@
 <div>
   <b-row>
       <b-col>
-        <b-card header="Import a Plan">
+        <b-card header="Note">
+        <h6>Import Plan</h6>
         <p class="card-text">
           To import a plan, click on the link that generated from other's or by yourself and Organizer will handle that for you.
         </p>
+        <h6>Edit Plan Name</h6>
+        <p class="card-text">
+           You can edit current plan name at Export Tab, or at the time you import your plan.
+        </p>
       </b-card>
+      </b-col>
+      <b-col>
+        <b-card header="Current Editing Profile"
+                footer-tag="footer">
+          <b-list-group>
+          <profile-item v-bind:profileName="currentProfile.name"
+                        v-bind:profileID="currentProfileID">
+          </profile-item>
+        </b-list-group>
+        <em slot="footer">
+          <b-btn @click="createNewProfile">Add new Profile and Load</b-btn>
+        </em>
+        </b-card>
       </b-col>
   </b-row>
   <b-row class="mt-4">
     <b-col>
       <b-card header="Profiles"
-              class="no-body">
-        <b-list-group flush>
-          <profile-item v-for="(profile, key) in this.$store.state.profile.profiles" 
+              footer-tag="footer">
+        <b-list-group>
+          <profile-item v-for="(profile, key) in this.$store.state.profile.profiles"
                    :key="key"
-                   v-bind:ProfileName="profile.name"
-                   v-bind:ProfileID="key">
+                   v-bind:profileName="profile.name"
+                   v-bind:profileID="key">
           </profile-item>
         </b-list-group>
+        <em slot="footer">Total profile number: {{ itemNumber }} </em>
       </b-card>
     </b-col>
   </b-row>
@@ -27,23 +46,36 @@
 </template>
 
 <script>
-import ProfileItem from '@/components/Profile'
-import { id } from '@/utils/id'
+import ProfileItem from '@/components/ProfileItem'
 
 export default {
   name: 'Profile',
-  mounted: function () {  
-      if (this.$store.state.profile.currentProfileID === null) {
-          // No Plan for now, add default
-          let pid = id()
-          this.$store.commit('importProfile', { id: pid, profile: this.$store.state.plan })
-          this.$store.commit('assignCurrentProfileID', pid)
-      }
+  created: function () {
+    if (this.$store.state.profile.currentProfileID === null ||
+        this.$store.state.profile.profiles[this.$store.state.profile.currentProfileID] === null) {
+      // No Valid Plan for now, add default
+      this.$store.dispatch('initializeProfile')
+    }
   },
   components: {
     ProfileItem
   },
   computed: {
+    itemNumber () {
+      return this.$store.getters.profileNumber
+    },
+    currentProfile () {
+      return this.$store.state.profile.profiles[this.currentProfileID]
+    },
+    currentProfileID () {
+      return this.$store.state.profile.currentProfileID
+    }
   },
+  methods: {
+    createNewProfile: function () {
+      this.$store.dispatch('createNewProfile')
+      this.$toasted.success('New Profile Created.')
+    }
+  }
 }
 </script>

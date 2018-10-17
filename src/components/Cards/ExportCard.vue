@@ -51,7 +51,7 @@ export default {
   },
   computed: {
     encodedURL () {
-      return 'https://' + window.location.hostname + this.$router.resolve({ name: 'ImportPlan', params: { json: deflateAndEncode({...this.$store.state.plan, version: this.$store.state.local.version}) } }).href
+      return 'https://' + window.location.hostname + this.$router.resolve({ name: 'ImportPlan', params: { json: deflateAndEncode({ ...this.$store.state.plan, version: this.$store.state.local.version }) } }).href
     },
     displayURL () {
       return this.checked && !this.loading ? this.shortenedURL === '' ? this.encodedURL : this.shortenedURL : this.encodedURL
