@@ -1,2 +1,2 @@
-/api/shorturl  http://tinyurl.com/api-create.php:splat  200
+/api/shorturl/*  https://tinyurl.com/:splat  200
 /*    /index.html   200

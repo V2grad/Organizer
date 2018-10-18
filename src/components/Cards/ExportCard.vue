@@ -114,7 +114,7 @@ export default {
       this.loading = true
       this.$toasted.info('Generating Shorten URL...', { duration: 3000 })
       this.$axios
-        .get('/api/shorturl?url=' + this.encodedURL)
+        .get('/api/shorturl/api-create.php?url=' + this.encodedURL)
         .then(response => {
           this.shortenedURL = response.data
           this.$toasted.success('Link generate successfully.', {
