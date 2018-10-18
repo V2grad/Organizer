@@ -5,7 +5,7 @@
     title="Reload Profile"
     lazy
     @ok="reloadProfile">
-    Are you sure you want to reload your stored profile into current plan? <strong>(All changes you made will lost!)</strong>
+    Are you sure you want to reload your stored profile into current plan? <strong>(All changes you made will lose!)</strong>
   </b-modal>
 </template>
 

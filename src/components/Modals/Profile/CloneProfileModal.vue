@@ -4,7 +4,7 @@
     title="Clone Profile"
     lazy
     @ok="cloneProfile()">
-    Want to change a name before clone? or just click OK to continue.
+    Want to change a name before clone?
     <b-form-input
       v-model="name"
       :maxlength="this.$unify.PLAN_MAXLENGTH"
