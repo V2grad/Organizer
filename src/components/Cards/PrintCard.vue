@@ -46,7 +46,7 @@ export default {
       if (newValue === '') {
         this.exportChecked = false
         this.exportDisabled = true
-        
+
       } else {
         this.exportDisabled = false
       }
@@ -60,8 +60,8 @@ export default {
     downloadPDF () {
       let URL = this.exportChecked ? this.shortenedURL : null
       let doc = generatePDF(this.$store.state.plan, URL)
-      doc.open()
-      //doc.download(this.$store.state.plan.name + '.pdf')
+      doc.download(this.$store.state.plan.name + '.pdf')
+      this.$toasted.success('PDF Generated!')
     }
   }
 }

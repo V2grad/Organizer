@@ -105,14 +105,18 @@ export function styles() {
   return {
     styles: {
       headerName: {
-        bold: true
+        bold: true,
+        decoration: 'underline',
+        decorationStyle: 'dashed'
       },
       semesterTitle: {
         bold: true,
         fontSize: 18
       },
       semesterTableHeader: {
-        fillColor: '#00c69e'
+        fillColor: '#00c69e',
+        color: '#ffffff',
+        bold: true,
       },
       semesterCredit: {
         italics: true,
@@ -121,6 +125,8 @@ export function styles() {
       planTotalCredit: {
         bold: true,
         alignment: 'center',
+        decoration: 'underline',
+        decorationStyle: 'dotted'
       }
     }
   }
