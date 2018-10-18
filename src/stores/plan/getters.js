@@ -44,10 +44,10 @@ export default {
       return []
     } else {
       let semesters = []
-      state.semesters.forEach((s) => {
+      state.semesters.forEach((s, i) => {
         let index = _.findIndex(s.courses, ['CourseTitle', courseTitle])
         if (index !== -1) {
-          semesters.push(index)
+          semesters.push(i)
         }
       })
       // Transferred
