@@ -1,11 +1,10 @@
 <template>
-  <!-- Modal Component -->
   <b-modal
     v-model="modalShow"
     title="Add course to a Semester"
     @hide="resetModal">
     <div v-if="courseAdded">
-      <p>This course has added into the following semester: {{ this.$unify.READABLE_SEMESTER(this.$store.state.plan.semesters[courseLocation[0]]) }}</p>
+      <p>This course has added into the following semester: {{ this.$unify.READABLE_SEMESTER(courseLocation[0] === -1 ? '' :this.$store.state.plan.semesters[courseLocation[0]]) }}</p>
     </div>
     <div v-else>
       <b-form inline>

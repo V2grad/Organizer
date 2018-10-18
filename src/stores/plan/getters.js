@@ -54,7 +54,6 @@ export default {
     // Even though course should appear only once, we collect every possible answers.
     if (_.startsWith(courseTitle, CUSTOM_COURSE_TITLE)) {
       // Igore Custom Course
-      console.log('ctsm')
       return []
     } else {
       let semesters = []
@@ -64,6 +63,11 @@ export default {
           semesters.push(index)
         }
       })
+      // Transferred
+      let i = _.findIndex(state.transferred, ['CourseTitle', courseTitle])
+      if (i !== -1) {
+        semesters.push(-1)
+      }
       return semesters
     }
   },
