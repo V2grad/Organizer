@@ -64,5 +64,15 @@ export default {
   }, semester) {
     // Although remove will only happened to the last one, required semester to delect specific semester
     commit('removeSemester', semester)
+  },
+  // {semester: SemesterIndex, course: {}}
+  addCourse({
+    commit
+  }, payload) {
+    if (payload.semester === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      commit('addTransferredCourse', payload.course)
+    } else {
+      commit('addCourse', payload)
+    }
   }
 }

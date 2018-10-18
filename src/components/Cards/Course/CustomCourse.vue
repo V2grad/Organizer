@@ -8,7 +8,7 @@
         <strong>Then, add your own course by filling in the information and choose a semester.</strong>
       </p>
       <p class="card-text">
-        Do note that Organizer will not check your custom course, but <strong>it will still count the credit, and their title will be CTSM-1100</strong>
+        Do note that Organizer will not check your custom course, but <strong>it will still count the credit, and their title will be {{ courseTitle }}</strong>
       </p>
       <hr>
       <b-form
@@ -48,7 +48,7 @@
             id="SemesterSelection"
             :value="null"
             v-model="semester"
-            :options="this.$store.getters.semesterList"
+            :options="semesterList"
             required>
             <option
               slot="first"
@@ -75,16 +75,19 @@ export default {
     return {
       show: true,
       courseName: '',
-      courseTitle: 'CTSM-1100',
+      courseTitle: this.$unify.CUSTOM_COURSE_TITLE,
       courseCredits: 0,
       semester: null
     }
   },
   computed: {
+    semesterList() {
+      return [...this.$store.getters.semesterList, this.$unify.TRANSFERRED_SEMESTER_OPTION]
+    }
   },
   methods: {
     addCourse () {
-      this.$store.commit('addCourse', {
+      this.$store.dispatch('addCourse', {
         semester: this.semester,
         course: {
           'CourseName': this.courseName,

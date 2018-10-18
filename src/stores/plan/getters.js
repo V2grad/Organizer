@@ -39,7 +39,7 @@ export default {
   },
   findCourse: (state) => (courseTitle) => {
     // Even though course should appear only once, we collect every possible answers.
-    if (_.startsWith(courseTitle, Unify.CUSTOM_COURSE_TITLE)) {
+    if (_.startsWith(courseTitle, Unify.CUSTOM_COURSE_PREFIX)) {
       // Igore Custom Course
       return []
     } else {
