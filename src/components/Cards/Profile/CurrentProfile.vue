@@ -1,6 +1,6 @@
 <template>
   <b-card
-    header="Current Editing Profile"
+    header="Current Editing Plan"
     footer-tag="footer">
     <b-list-group>
       <current-editing-profile-item
@@ -9,12 +9,12 @@
     </b-list-group>
     <em slot="footer">
       <b-button-group>
-        <b-btn 
-          variant="primary" 
-          @click="createNewProfile">Add new Profile and Load</b-btn>
-        <b-btn 
-          v-b-modal="'_ProfileSnapshot'" 
-          variant="dark">Take a Snapshot on current plan</b-btn>
+        <b-btn
+          variant="primary"
+          @click="createNewPlan">Add new Profile and Load</b-btn>
+        <b-btn
+          v-b-modal="'_ProfileSnapshot'"
+          variant="dark">Take a Snapshot on Current Plan</b-btn>
       </b-button-group>
     </em>
     <snapshot-profile-modal/>
@@ -40,7 +40,7 @@ export default {
     }
   },
   methods: {
-     createNewProfile: function () {
+     createNewPlan: function () {
       this.$store.dispatch('createNewProfile')
       this.$toasted.success('New Profile Created.')
     }

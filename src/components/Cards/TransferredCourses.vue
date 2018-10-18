@@ -1,6 +1,6 @@
 <template>
   <b-card
-    header="WOW, study in advance? Enjoy!"
+    header="wow, study in advance? Enjoy it!"
     header-tag="header"
     title="Transferred Courses">
     <p class="card-text">

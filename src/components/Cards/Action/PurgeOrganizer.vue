@@ -2,9 +2,9 @@
   <b-card
     header="!@#$%^&*(??????)(*&^%$#@!@"
     header-tag="header"
-    title="Purge Oranizer">
+    title="Purge Organizer">
     <p class="card-text">
-      Sometimes the APP may not work properly as the data store in your browser is somewhat broken. Try resetting everything to get back to the right track.
+      Sometimes Organizer may not work properly as the data store in your browser is somewhat broken. Try resetting everything to get back to the right track.
     </p>
     <b-button
       v-b-modal="'_ActionPurgeOrganizer'"

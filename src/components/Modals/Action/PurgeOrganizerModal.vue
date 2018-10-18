@@ -5,7 +5,7 @@
     title="Purge Organizer"
     lazy
     @ok="purgeOrganizer">
-    Are you sure you want to purge? <strong>(All data will lost!)</strong>
+    Are you sure you want to purge? <strong>(All data will lose! DO NOT continue if you don't know what you are doing)</strong>
   </b-modal>
 </template>
 

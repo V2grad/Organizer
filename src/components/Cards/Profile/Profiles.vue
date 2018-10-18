@@ -10,7 +10,7 @@
         :profile-name="profile.name"
         :profile-i-d="key"/>
     </b-list-group>
-    <em slot="footer">Total profile number (Including Editing Profile): {{ itemNumber }}</em>
+    <em slot="footer">Total Profile Number (Including Current Editing Plan): {{ itemNumber }}</em>
   </b-card>
 </template>
 

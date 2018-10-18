@@ -4,11 +4,11 @@
       header="Want to add your own course?"
       title="Add Your Own Course">
       <p class="card-text">
-        Sometimes you may have your own plan(take same courses), or the course you want to take does not include in our list.
-        <strong>Then, add your own course by filling in the information and choose a semester.</strong>
+        Sometimes you may have your own plan(take same courses), or courses you want to take are not exist in our list.
+        <strong>Try adding your own courses by filling in the form below and choose a semester.</strong>
       </p>
       <p class="card-text">
-        Do note that Organizer will not check your custom course, but <strong>it will still count the credit, and their title will be {{ courseTitle }}</strong>
+        Do note that Organizer will not check your custom courses, <strong>but credits will still be counted and their titles will be {{ courseTitle }}</strong>
       </p>
       <hr>
       <b-form

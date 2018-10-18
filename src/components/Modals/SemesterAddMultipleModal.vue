@@ -4,7 +4,7 @@
     title="Add Multiple Semesters"
     lazy
     @ok="addMultipleSemester">
-    <p>Use Shift to select a Range of Semesters, Use Ctrl to select specific one.</p>
+    <p>Use <code>Shift</code> to select a Range of Semesters, Use <code>Ctrl</code> to select specific one.</p>
     <b-form-select
       v-model="selectedYear"
       :options="yearSpan"

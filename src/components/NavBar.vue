@@ -15,11 +15,11 @@
 
       <b-navbar-nav>
         <b-nav-item-dropdown text="Plan" >
-          <b-dropdown-item 
-            :to="{'name': 'Plan'}" 
+          <b-dropdown-item
+            :to="{'name': 'Plan'}"
             exact>Your Plan</b-dropdown-item>
-          <b-dropdown-item 
-            :to="{'name': 'TransferredCourse'}" 
+          <b-dropdown-item
+            :to="{'name': 'TransferredCourse'}"
             exact>Transferred/AP</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item-dropdown text="Course">
@@ -40,7 +40,7 @@
           text="Navigate"
           right>
           <b-dropdown-item :to="{'name': 'Profile'}">
-            Current Profile: {{ planName }}
+            Current Plan: {{ planName }}
           </b-dropdown-item>
           <br>
           <b-dropdown-item
