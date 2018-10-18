@@ -1,10 +1,14 @@
 <template>
-<div>
+  <div>
     <b-row class="flex-row flex-nowrap">
-        <semester v-for="(semester, index) in semesters" :key="index" :semester="semester" :semesterIndex="index"></semester>
-        <semester-placeholder></semester-placeholder>
+      <semester 
+        v-for="(semester, index) in semesters" 
+        :key="index" 
+        :semester="semester" 
+        :semester-index="index"/>
+      <semester-placeholder/>
     </b-row>
-</div>
+  </div>
 </template>
 
 <script>

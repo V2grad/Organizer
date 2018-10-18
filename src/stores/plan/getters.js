@@ -1,5 +1,10 @@
 import _ from 'lodash'
-import { CUSTOM_COURSE_TITLE, DEFAULT_YEAR, PERIOD, YEAR_SPAN } from '../const'
+import {
+  CUSTOM_COURSE_TITLE,
+  DEFAULT_YEAR,
+  PERIOD,
+  YEAR_SPAN
+} from '../const'
 
 export default {
   getSemesterTree: (state) => {
@@ -12,7 +17,7 @@ export default {
     })
     return tree
   },
-  getStartYear: (state) => {
+  getStartYear: () => {
     // Maybe just let them choose whatever they like.
     return DEFAULT_YEAR
   },
@@ -35,7 +40,10 @@ export default {
   },
   semesterList: (state) => {
     return _.map(state.semesters, (s, i) => {
-      return { text: s.year + ' ' + s.period, value: i }
+      return {
+        text: s.year + ' ' + s.period,
+        value: i
+      }
     })
   },
   findCourse: (state) => (courseTitle) => {

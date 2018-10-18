@@ -1,20 +1,28 @@
 <template>
-<b-card header="Want to print your plan?"
-        header-tag="header"
-        title="Export as PDF"
-        footer-tag="footer">
-            <p class="card-text">Generate a PDF and get your plan ready in a nice table!</p>
-             <p>
-                <b-form-checkbox v-model="exportChecked"
-                                 :disabled="exportDisabled"
-                                 v-b-tooltip title="You need to click on the Generate Shortened Link on the Export Your Plan Panel before enabling this function">
-                    Include Plan's short URL and QrCode in the PDF
-                </b-form-checkbox>
-            </p>
-            <em slot="footer" class="w-100">
-                <b-button v-on:click="downloadPDF" variant="primary" size="lg">Download the PDF</b-button>
-            </em>
-</b-card>
+  <b-card
+    header="Want to print your plan?"
+    header-tag="header"
+    title="Export as PDF"
+    footer-tag="footer">
+    <p class="card-text">Generate a PDF and get your plan ready in a nice table!</p>
+    <p>
+      <b-form-checkbox
+        v-b-tooltip
+        v-model="exportChecked"
+        :disabled="exportDisabled"
+        title="You need to click on the Generate Shortened Link on the Export Your Plan Panel before enabling this function">
+        Include Plan's short URL and QrCode in the PDF
+      </b-form-checkbox>
+    </p>
+    <em
+      slot="footer"
+      class="w-100">
+      <b-button
+        variant="primary"
+        size="lg"
+        @click="downloadPDF">Download the PDF</b-button>
+    </em>
+  </b-card>
 </template>
 
 <script>
@@ -28,12 +36,13 @@ export default {
       exportDisabled: false
     }
   },
-  created: function () {
-    // Check value before created.
-    this.exportDisabled = this.$store.state.local.shortenedURL === ''
+  computed: {
+    shortenedURL () {
+      return this.$store.state.local.shortenedURL
+    }
   },
   watch: {
-    shortenedURL: function (newValue, oldValue) {
+    shortenedURL: function (newValue) {
       if (newValue === '') {
         this.exportChecked = false
         this.exportDisabled = true
@@ -42,10 +51,9 @@ export default {
       }
     }
   },
-  computed: {
-    shortenedURL () {
-      return this.$store.state.local.shortenedURL
-    }
+  created: function () {
+    // Check value before created.
+    this.exportDisabled = this.$store.state.local.shortenedURL === ''
   },
   methods: {
     downloadPDF () {

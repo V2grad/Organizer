@@ -17,7 +17,7 @@ export default new Vuex.Store({
     local
   },
   plugins: [createPersistedState({
-    reducer (state, paths) {
+    reducer(state) {
       // No need to use let as the reducer itself can be immutable which do not mean that the properties
       // are not mutable (https://ponyfoo.com/articles/var-let-const)
       const reducer = Object.assign({}, state)

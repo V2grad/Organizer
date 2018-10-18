@@ -1,20 +1,23 @@
 <template>
-<div>
-    <b-list-group-item class="list-complete-item d-flex justify-content-between align-items-center"
-                       v-b-popover.hover="{title: this.CourseTitle,
-                                           content: 'Credit Hours: ' + this.CreditHours,
-                                           delay: { show: 1000, hide: 0 }}">
-        {{ CourseName }}
-        <b-btn class="btn-outline-danger"
-        v-b-modal="'semester ' + this.semesterIndex + ' course ' + this.courseIndex"
+  <div>
+    <b-list-group-item
+      v-b-popover.hover="{title: CourseTitle,
+                          content: 'Credit Hours: ' + CreditHours,
+                          delay: { show: 1000, hide: 0 }}"
+      class="list-complete-item d-flex justify-content-between align-items-center">
+      {{ CourseName }}
+      <b-btn
+        v-b-modal="'semester ' + semesterIndex + ' course ' + courseIndex"
+        class="btn-outline-danger"
         variant="danger">
         <font-awesome-icon icon="times" />
-        </b-btn>
+      </b-btn>
     </b-list-group-item>
-    <remove-course-modal v-bind:courseTitle="this.CourseTitle"
-                         v-bind:semesterIndex="this.semesterIndex"
-                         v-bind:courseIndex="this.courseIndex"></remove-course-modal>
-</div>
+    <remove-course-modal
+      :course-title="CourseTitle"
+      :semester-index="semesterIndex"
+      :course-index="courseIndex"/>
+  </div>
 </template>
 
 <script>
@@ -22,6 +25,9 @@ import RemoveCourseModal from '@/components/Modals/RemoveCourseModal'
 
 export default {
   name: 'Course',
+  components: {
+    RemoveCourseModal
+  },
   props: {
     CourseName: {
       type: String,
@@ -32,17 +38,17 @@ export default {
       required: true
     },
     CreditHours: {
+      type: String,
       required: true
     },
     semesterIndex: {
+      type: Number,
       required: true
     },
     courseIndex: {
+      type: Number,
       required: true
     }
   },
-  components: {
-    RemoveCourseModal
-  }
 }
 </script>

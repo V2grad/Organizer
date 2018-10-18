@@ -1,30 +1,34 @@
 <template>
-<div>
-    <b-list-group-item class="list-complete-item d-flex justify-content-between align-items-center"
-                       :variant="currentEditing ? 'success' : ''"
-                       v-b-popover.hover.top="profileID"
-                       title="Profile Reference ID">
-          {{ profileName }}
-        <b-button-group v-if="!currentEditing">
-          <b-btn class="btn-outline-secondary"
-          @click="switchProfile"
-          variant="secondary">
+  <div>
+    <b-list-group-item
+      v-b-popover.hover.top="profileID"
+      :variant="currentEditing ? 'success' : ''"
+      class="list-complete-item d-flex justify-content-between align-items-center"
+      title="Profile Reference ID">
+      {{ profileName }}
+      <b-button-group v-if="!currentEditing">
+        <b-btn
+          class="btn-outline-secondary"
+          variant="secondary"
+          @click="switchProfile">
           Load
-          </b-btn>
-          <b-btn class="btn-outline-danger"
-          v-b-modal="'profile ' + this.profileID"
+        </b-btn>
+        <b-btn
+          v-b-modal="'profile ' + profileID"
+          class="btn-outline-danger"
           variant="danger">
           Remove
-          </b-btn>
-        </b-button-group>
-        <b-btn v-else
-               variant="success"
-               @click="saveCurrentProfile">
-        Save
         </b-btn>
+      </b-button-group>
+      <b-btn
+        v-else
+        variant="success"
+        @click="saveCurrentProfile">
+        Save
+      </b-btn>
     </b-list-group-item>
-    <remove-profile-modal :profileID="profileID"></remove-profile-modal>
-</div>
+    <remove-profile-modal :profile-id="profileID"/>
+  </div>
 </template>
 
 <script>
@@ -32,6 +36,9 @@ import RemoveProfileModal from '@/components/Modals/RemoveProfileModal'
 
 export default {
   name: 'ProfileItem',
+  components: {
+    RemoveProfileModal
+  },
   props: {
     profileName: {
       type: String,
@@ -41,9 +48,6 @@ export default {
       type: String,
       required: true
     }
-  },
-  components: {
-    RemoveProfileModal
   },
   computed: {
     currentEditing () {

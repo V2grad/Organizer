@@ -9,6 +9,7 @@ export function deflateAndEncode (obj) {
   return base64
 }
 
+// {status: bool, obj: {}, message: optional}
 export function decodeAndInflate (str) {
   try {
     let base64 = Base64.decode(str)

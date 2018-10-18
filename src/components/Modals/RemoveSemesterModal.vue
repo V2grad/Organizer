@@ -1,10 +1,11 @@
 <template>
-  <b-modal :id="'semester ' + this.semesterIndex"
-           header-text-variant="danger"
-           title="Remove Semester"
-           @ok="removeSemester"
-           lazy>
-           Are you sure you want to remove this semester?
+  <b-modal
+    :id="'semester ' + semesterIndex"
+    header-text-variant="danger"
+    title="Remove Semester"
+    lazy
+    @ok="removeSemester">
+    Are you sure you want to remove this semester?
   </b-modal>
 </template>
 
@@ -13,6 +14,7 @@ export default {
   name: 'RemoveSemesterModal',
   props: {
     semesterIndex: {
+      type: Number,
       required: true
     }
   },

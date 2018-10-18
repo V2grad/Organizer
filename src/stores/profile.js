@@ -30,6 +30,9 @@ export default {
     }
   },
   actions: {
+    addProfile ({ commit }, plan) {
+      commit('importProfile', { id: id(), profile: plan })
+    },
     saveCurrentProfile ({ state, commit, rootState }) {
       commit('importProfile', { id: state.currentProfileID, profile: rootState.plan })
     },

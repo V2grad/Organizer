@@ -1,38 +1,44 @@
 <template>
-     <b-card
-            header="Want to share your wonderful plan with others?"
-            header-tag="header"
-            footer-tag="footer"
-            title="Export Your Plan">
+  <b-card
+    header="Want to share your wonderful plan with others?"
+    header-tag="header"
+    footer-tag="footer"
+    title="Export Your Plan">
     <p class="card-text">
       Give your plan a name, copy the link below, and send to anyone who you want to share you plan with.
-       <b-form-input
-                  v-model="name"
-                  class="mt-3"
-                  type="text"
-                  placeholder="Give this Plan a name ?"
-                  maxlength="50">
-        </b-form-input>
+      <b-form-input
+        v-model="name"
+        class="mt-3"
+        type="text"
+        placeholder="Give this Plan a name ?"
+        maxlength="50"/>
     </p>
-    <hr/>
+    <hr >
 
-    <b-form-textarea :rows="3"
-                     :max-rows="6"
-                     plaintext
-                     :value="displayURL"></b-form-textarea>
+    <b-form-textarea
+      :rows="3"
+      :max-rows="6"
+      :value="displayURL"
+      plaintext/>
     <p>
-      <b-form-checkbox v-model="checked" :disabled="loading">
+      <b-form-checkbox
+        v-model="checked"
+        :disabled="loading">
         Generate Shorten Link (From TinyURL)
-        </b-form-checkbox>
+      </b-form-checkbox>
     </p>
-    <em slot="footer" class="w-100">
-             <b-btn size="lg" variant="primary"
-                v-clipboard:copy="displayURL"
-                v-clipboard:success="copySuccess"
-                v-clipboard:error="copyError">Copy the URL
-             </b-btn>
+    <em
+      slot="footer"
+      class="w-100">
+      <b-btn
+        v-clipboard:copy="displayURL"
+        v-clipboard:success="copySuccess"
+        v-clipboard:error="copyError"
+        size="lg"
+        variant="primary">Copy the URL
+      </b-btn>
     </em>
-    </b-card>
+  </b-card>
 </template>
 
 <script>
@@ -40,8 +46,7 @@ import { deflateAndEncode } from '@/utils/compress'
 
 export default {
   name: 'ExportCard',
-  components: {
-  },
+  components: {},
   data () {
     return {
       shortenedURL: '',
@@ -51,10 +56,26 @@ export default {
   },
   computed: {
     encodedURL () {
-      return 'https://' + window.location.hostname + this.$router.resolve({ name: 'ImportPlan', params: { json: deflateAndEncode({ ...this.$store.state.plan, version: this.$store.state.local.version }) } }).href
+      return (
+        'https://' +
+        window.location.hostname +
+        this.$router.resolve({
+          name: 'ImportPlan',
+          params: {
+            json: deflateAndEncode({
+              ...this.$store.state.plan,
+              version: this.$store.state.local.version
+            })
+          }
+        }).href
+      )
     },
     displayURL () {
-      return this.checked && !this.loading ? this.shortenedURL === '' ? this.encodedURL : this.shortenedURL : this.encodedURL
+      return this.checked && !this.loading
+        ? this.shortenedURL === ''
+          ? this.encodedURL
+          : this.shortenedURL
+        : this.encodedURL
     },
     name: {
       get () {
@@ -75,31 +96,39 @@ export default {
         this.fetchTinyURL()
       }
     },
-    shortenedURL: function (newValue, oldValue) {
+    shortenedURL: function (newValue) {
       this.$store.commit('updateShortenedURL', newValue)
     }
   },
-  methods:
-  {
+  methods: {
     copySuccess () {
       this.$toasted.success('Successfully copy the link', { duration: 3000 })
     },
     copyError () {
-      this.$toasted.success('Error on copy, please copy manually.', { duration: 3000 })
+      this.$toasted.success('Error on copy, please copy manually.', {
+        duration: 3000
+      })
     },
     fetchTinyURL () {
       // Don't use params! tinyurl don't not recognize that.
       this.loading = true
       this.$toasted.info('Generating Shorten URL...', { duration: 3000 })
-      this.$axios.get('/api/shorturl?url=' + this.encodedURL)
-        .then((response) => {
+      this.$axios
+        .get('/api/shorturl?url=' + this.encodedURL)
+        .then(response => {
           this.shortenedURL = response.data
-          this.$toasted.success('Link generate successfully.', { duration: 3000 })
+          this.$toasted.success('Link generate successfully.', {
+            duration: 3000
+          })
         })
-        .catch((error) => {
-          this.$toasted.error('Error while fetching the short link, please try again. ' + error, { duration: 3000 })
+        .catch(error => {
+          this.$toasted.error(
+            'Error while fetching the short link, please try again. ' + error,
+            { duration: 3000 }
+          )
           this.checked = false
-        }).finally(() => {
+        })
+        .finally(() => {
           this.loading = false
         })
     }

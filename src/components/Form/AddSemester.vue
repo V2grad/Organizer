@@ -1,20 +1,30 @@
 <template>
-     <b-form inline>
-       <b-form-select class="mb-2 mr-sm-2 mb-sm-0"
-                     :value="null"
-                     v-model="selectedYear"
-                     :options="yearOptions"
-                     >
-        <option slot="first" :value="null">Year...</option>
-      </b-form-select>
-       <b-form-select class="mb-2 mr-sm-2 mb-sm-0"
-                     :value="null"
-                     :options="periodOptions"
-                     v-model="selectedPeriod">
-        <option slot="first" :value="null">Period...</option>
-      </b-form-select>
-      <b-button variant="primary" :disabled="!buttonEnabled" size="sm" @click="addSemester">Add Semester</b-button>
-    </b-form>
+  <b-form inline>
+    <b-form-select 
+      :value="null"
+      v-model="selectedYear"
+      :options="yearOptions"
+      class="mb-2 mr-sm-2 mb-sm-0"
+    >
+      <option 
+        slot="first" 
+        :value="null">Year...</option>
+    </b-form-select>
+    <b-form-select 
+      :value="null"
+      :options="periodOptions"
+      v-model="selectedPeriod"
+      class="mb-2 mr-sm-2 mb-sm-0">
+      <option 
+        slot="first" 
+        :value="null">Period...</option>
+    </b-form-select>
+    <b-button 
+      :disabled="!buttonEnabled" 
+      variant="primary" 
+      size="sm" 
+      @click="addSemester">Add Semester</b-button>
+  </b-form>
 </template>
 
 <script>
