@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import ResetPlanModal from '@/components/Modals/ResetPlanModal'
+import ResetPlanModal from '@/components/Modals/Action/ResetPlanModal'
 
 export default {
   name: 'ResetPlan',

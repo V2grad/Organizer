@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import PurgeOrganizerModal from '@/components/Modals/PurgeOrganizerModal'
+import PurgeOrganizerModal from '@/components/Modals/Action/PurgeOrganizerModal'
 
 export default {
   name: 'PurgeOrganizer',

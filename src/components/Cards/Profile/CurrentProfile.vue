@@ -9,8 +9,12 @@
     </b-list-group>
     <em slot="footer">
       <b-button-group>
-        <b-btn variant="primary" @click="createNewProfile">Add new Profile and Load</b-btn>
-        <b-btn variant="dark" v-b-modal="'_ProfileSnapshot'">Take a Snapshot on current plan</b-btn>
+        <b-btn 
+          variant="primary" 
+          @click="createNewProfile">Add new Profile and Load</b-btn>
+        <b-btn 
+          v-b-modal="'_ProfileSnapshot'" 
+          variant="dark">Take a Snapshot on current plan</b-btn>
       </b-button-group>
     </em>
     <snapshot-profile-modal/>

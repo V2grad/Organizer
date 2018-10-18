@@ -5,6 +5,12 @@ export default {
     }
     return 'Transferred Course'
   },
+  CUSTOM_COURSE_TITLE: 'CTSM-',
   PLAN_MAXLENGTH: 50,
   COURSE_MAXLENGTH: 50,
+  PERIOD: ['Spring', 'Summer', 'Fall'],
+  DEFAULT_YEAR: (new Date()).getFullYear() - 5,
+  TRANSFERRED_SEMESTER_INDEX: -1,
+  YEAR_SPAN: 15,
+  VERSION: 1
 }

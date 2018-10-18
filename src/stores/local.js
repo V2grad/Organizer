@@ -1,11 +1,9 @@
-import {
-  VERSION
-} from './const'
+import Unify from '@/utils/unify';
 
 export default {
   state: {
     shortenedURL: '',
-    version: VERSION
+    version: Unify.VERSION
   },
   mutations: {
     updateShortenedURL(state, URL) {

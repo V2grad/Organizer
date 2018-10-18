@@ -67,12 +67,12 @@ export default {
       return this.courseLocation.length !== 0
     },
     semesterList () {
-      return [...this.$store.getters.semesterList, {text: 'Transferred Course', value: this.$store.getters.transferredSemesterIndex}]
+      return [...this.$store.getters.semesterList, {text: 'Transferred Course', value: this.$unify.transferredSemesterIndex}]
     }
   },
   methods: {
     addCoursetoSemester () {
-      if (this.semester === this.$store.getters.transferredSemesterIndex) {
+      if (this.semester === this.$unify.transferredSemesterIndex) {
         this.$store.commit('addTransferredCourse', this.course)
       } else {
         this.$store.commit('addCourse', {

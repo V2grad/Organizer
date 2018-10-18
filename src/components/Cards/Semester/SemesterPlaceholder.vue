@@ -15,24 +15,28 @@
           title="This function can be used when the plan is empty. To reset your plan, go to Action tab"
           class="ml-3">
           <b-button
+            v-b-modal="'_SemesterAddMultiple'"
             :disabled="!isEmptyList"
             size="sm"
             variant="success"
-          >Add a range of semesters
+          >Add Multiple Semester
           </b-button>
         </div>
       </b-row>
     </b-card>
+    <add-multiple-semester-modal/>
   </b-col>
 </template>
 
 <script>
 import AddSemesterForm from '@/components/Form/AddSemester'
+import AddMultipleSemesterModal from '@/components/Modals/SemesterAddMultipleModal'
 
 export default {
   name: 'SemesterPlaceholder',
   components: {
-    AddSemesterForm
+    AddSemesterForm,
+    AddMultipleSemesterModal
   },
   computed: {
     isEmptyList () {

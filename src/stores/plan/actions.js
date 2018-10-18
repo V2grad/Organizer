@@ -1,8 +1,12 @@
 import _ from 'lodash'
-import { PERIOD } from '../const'
+import Unify from '@/utils/unify'
 
 export default {
-  addSemester ({ state, commit, getters }, semester) {
+  addSemester({
+    state,
+    commit,
+    getters
+  }, semester) {
     // If added in the correct order, everything should work.
     // small to large, spring to fall
     let year = getters.getSemesterTree[semester.year]
@@ -13,17 +17,17 @@ export default {
       let arrIndex = _.sortBy(_.keys(_.invert(year)))
       // It is within an existing year, identify the period
       switch (semester.period) {
-        case PERIOD[0]:
+        case Unify.PERIOD[0]:
           result = _.head(arrIndex)
           break
-        case PERIOD[2]:
+        case Unify.PERIOD[2]:
           result = parseInt(_.last(arrIndex)) + 1
           break
-        case PERIOD[1]:
+        case Unify.PERIOD[1]:
         default:
           if (arrIndex.length === 1) {
             // Identify which Period has already exist
-            if (state.semesters[arrIndex[0]].period === PERIOD[0]) {
+            if (state.semesters[arrIndex[0]].period === Unify.PERIOD[0]) {
               result = parseInt(_.last(arrIndex)) + 1
             } else {
               result = parseInt(_.last(arrIndex))
@@ -48,9 +52,16 @@ export default {
       }
     }
 
-    commit('addSemester', { semester: { ...semester, courses: [] }, index: result })
+    commit('addSemester', {
+      semester: { ...semester,
+        courses: []
+      },
+      index: result
+    })
   },
-  removeSemester ({ commit }, semester) {
+  removeSemester({
+    commit
+  }, semester) {
     // Although remove will only happened to the last one, required semester to delect specific semester
     commit('removeSemester', semester)
   }

@@ -1,11 +1,5 @@
 import _ from 'lodash'
-import {
-  CUSTOM_COURSE_TITLE,
-  DEFAULT_YEAR,
-  PERIOD,
-  YEAR_SPAN,
-  TRANSFERRED_SEMESTER_INDEX
-} from '../const'
+import Unify from '@/utils/unify'
 
 export default {
   getSemesterTree: (state) => {
@@ -18,16 +12,9 @@ export default {
     })
     return tree
   },
-  getStartYear: () => {
-    // Maybe just let them choose whatever they like.
-    return DEFAULT_YEAR
-  },
-  transferredSemesterIndex: () => {
-    return TRANSFERRED_SEMESTER_INDEX
-  },
-  getYearSpan: (state, getters) => {
-    let startYear = getters.getStartYear
-    return _.range(startYear, startYear + YEAR_SPAN)
+  getYearSpan: () => {
+    let startYear = Unify.DEFAULT_YEAR
+    return _.range(startYear, startYear + Unify.YEAR_SPAN)
   },
   getExistedPeriod: (state, getters) => (year) => {
     if (getters.getSemesterTree[year] !== undefined) {
@@ -36,7 +23,7 @@ export default {
     return []
   },
   getSelectablePeriod: (state, getters) => (year) => {
-    let arr = _.cloneDeep(PERIOD) // Export will cause a shadow clone, which makes it an empty array.
+    let arr = _.cloneDeep(Unify.PERIOD) // Export will cause a shadow clone, which makes it an empty array.
     if (getters.getSemesterTree[year] !== undefined) {
       _.pullAll(arr, _.keys(getters.getSemesterTree[year]))
     }
@@ -52,7 +39,7 @@ export default {
   },
   findCourse: (state) => (courseTitle) => {
     // Even though course should appear only once, we collect every possible answers.
-    if (_.startsWith(courseTitle, CUSTOM_COURSE_TITLE)) {
+    if (_.startsWith(courseTitle, Unify.CUSTOM_COURSE_TITLE)) {
       // Igore Custom Course
       return []
     } else {
