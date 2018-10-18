@@ -109,6 +109,7 @@ export function addShortURL(URL) {
         width: 'auto'
       }, {
         qr: URL,
+        fit: 70,
         alignment: 'right',
         width: '*'
       }
@@ -177,7 +178,7 @@ export function totalCredits(plan) {
 export function generatePDF(plan, shortenedURL) {
   let docDefinition = {
     // [left, top, right, bottom]
-    pageMargins: [20, 50, 20, 20],
+    pageMargins: [20, 50, 20, 30],
     ...metadata(plan.name),
     ...header(plan.name),
     ...footer(),
@@ -201,7 +202,7 @@ export function generatePDF(plan, shortenedURL) {
 
   // Short URL
   if (shortenedURL) {
-    docDefinition.content = docDefinition.content.concat(['\n\n\n', addShortURL(shortenedURL)])
+    docDefinition.content = docDefinition.content.concat(['\n\n', addShortURL(shortenedURL)])
   }
 
   return pdfMake.createPdf(docDefinition)
