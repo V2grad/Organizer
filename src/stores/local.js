@@ -1,4 +1,6 @@
-import { VERSION } from './const'
+import {
+  VERSION
+} from './const'
 
 export default {
   state: {
@@ -6,8 +8,9 @@ export default {
     version: VERSION
   },
   mutations: {
-    updateShortenedURL (state, URL) {
+    updateShortenedURL(state, URL) {
       state.shortenedURL = URL
-    }
+    },
+
   }
 }
