@@ -1,6 +1,6 @@
 <template>
   <b-modal
-    :id="'profile ' + profileID"
+    :id="'profile remove' + profileID"
     header-text-variant="danger"
     title="Remove Profile"
     lazy

@@ -14,10 +14,10 @@
       </b-alert>
       <b-form-input
         v-model="name"
+        :maxlength="this.$unify.PLAN_MAXLENGTH"
         class="mt-3 mb-3"
         type="text"
-        placeholder="Give this Plan a name ?"
-        maxlength="50"/>
+        placeholder="Give this Plan a name ?"/>
       <p class="card-text">
         Are you sure you want to continue? (Your data will not be override)
       </p>

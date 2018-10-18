@@ -2,42 +2,43 @@
   <div>
     <b-list-group-item
       v-b-popover.hover.top="profileID"
-      :variant="currentEditing ? 'success' : ''"
       class="list-complete-item d-flex justify-content-between align-items-center"
       title="Profile Reference ID">
       {{ profileName }}
-      <b-button-group v-if="!currentEditing">
+      <b-button-group>
         <b-btn
-          class="btn-outline-secondary"
           variant="secondary"
           @click="switchProfile">
           Load
         </b-btn>
         <b-btn
-          v-b-modal="'profile ' + profileID"
+          v-b-modal="'profile clone ' + profileID"
+          variant="dark"
+        >
+          Clone
+        </b-btn>
+        <b-btn
+          v-b-modal="'profile remove' + profileID"
           class="btn-outline-danger"
           variant="danger">
           Remove
         </b-btn>
       </b-button-group>
-      <b-btn
-        v-else
-        variant="success"
-        @click="saveCurrentProfile">
-        Save
-      </b-btn>
     </b-list-group-item>
     <remove-profile-modal :profile-i-d="profileID"/>
+    <clone-profile-modal :profile-i-d="profileID"/>
   </div>
 </template>
 
 <script>
-import RemoveProfileModal from '@/components/Modals/RemoveProfileModal'
+import RemoveProfileModal from '@/components/Modals/Profile/RemoveProfileModal'
+import CloneProfileModal from '@/components/Modals/Profile/CloneProfileModal'
 
 export default {
   name: 'ProfileItem',
   components: {
-    RemoveProfileModal
+    RemoveProfileModal,
+    CloneProfileModal
   },
   props: {
     profileName: {
@@ -50,9 +51,6 @@ export default {
     }
   },
   computed: {
-    currentEditing () {
-      return this.$store.state.profile.currentProfileID === this.profileID
-    }
   },
   methods: {
     saveCurrentProfile () {

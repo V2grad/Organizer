@@ -66,7 +66,7 @@ export default {
   },
   data () {
     return {
-      title: this.$human.READABLE_SEMESTER(this.semester)
+      title: this.$unify.READABLE_SEMESTER(this.semester)
     }
   },
   computed: {

@@ -22,7 +22,7 @@
 import RemoveTransferredCourseModal from '@/components/Modals/RemoveTransferredCourseModal'
 
 export default {
-  name: 'Course',
+  name: 'TransferredCourse',
   components: {
     RemoveTransferredCourseModal
   },

@@ -1,5 +1,8 @@
 <template>
   <b-card header="Note">
+    <p class="card-text">
+      <strong>Your plan won't save into profile unless you press Save button or switch to different profile.</strong>
+    </p>
     <h6>Import Plan</h6>
     <p class="card-text">
       To import a plan, click on the link that generated from other's or by yourself and Organizer will handle that for you.

@@ -30,7 +30,7 @@ export default {
   },
   created: function () {
     if (this.$store.state.profile.currentProfileID === null ||
-        this.$store.state.profile.profiles[this.$store.state.profile.currentProfileID] === null) {
+        this.$store.getters.currentProfile === null) {
       // No Valid Plan for now, add default
       this.$store.dispatch('initializeProfile')
     }

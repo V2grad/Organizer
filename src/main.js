@@ -10,11 +10,17 @@ import Toasted from 'vue-toasted'
 import axios from 'axios'
 import _ from 'lodash'
 // Font
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import {
+  library
+} from '@fortawesome/fontawesome-svg-core'
+import {
+  faTimes
+} from '@fortawesome/free-solid-svg-icons'
+import {
+  FontAwesomeIcon
+} from '@fortawesome/vue-fontawesome'
 // Utils
-import human from '@/utils/human'
+import unify from '@/utils/unify'
 // CSS
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -34,7 +40,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.prototype.$_ = _
 Vue.prototype.$axios = axios
 Vue.prototype.$qrcode = qrcode
-Vue.prototype.$human = human
+Vue.prototype.$unify = unify
 
 new Vue({
   router,

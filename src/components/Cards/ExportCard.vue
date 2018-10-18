@@ -8,10 +8,10 @@
       Give your plan a name, copy the link below, and send to anyone who you want to share you plan with.
       <b-form-input
         v-model="name"
+        :maxlength="this.$unify.PLAN_MAXLENGTH"
         class="mt-3"
         type="text"
-        placeholder="Give this Plan a name ?"
-        maxlength="50"/>
+        placeholder="Give this Plan a name ?"/>
     </p>
     <hr >
 

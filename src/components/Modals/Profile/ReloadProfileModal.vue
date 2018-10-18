@@ -1,11 +1,11 @@
 <template>
   <b-modal
-    id="_ProfileReload"
+    :id="'profile reload ' + profileID"
     header-text-variant="danger"
     title="Reload Profile"
     lazy
     @ok="reloadProfile">
-    Are you sure you want to reload your profile into current plan? <strong>(All data you currently editing will lost!)</strong>
+    Are you sure you want to reload your stored profile into current plan? <strong>(All changes you made will lost!)</strong>
   </b-modal>
 </template>
 
