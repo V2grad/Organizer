@@ -1,10 +1,11 @@
 <template>
-  <b-modal :id="'semester ' + this.semester"
-           header-text-variant="danger"
-           title="Remove Semester"
-           @ok="removeSemester"
-           lazy>
-           Are you sure you want to remove this semester?
+  <b-modal
+    :id="'semester ' + semesterIndex"
+    header-text-variant="danger"
+    title="Remove Semester"
+    lazy
+    @ok="removeSemester">
+    Are you sure you want to remove this semester?
   </b-modal>
 </template>
 
@@ -12,19 +13,18 @@
 export default {
   name: 'RemoveSemesterModal',
   props: {
-    semester: {
+    semesterIndex: {
+      type: Number,
       required: true
     }
   },
-  computed: {
-  },
   methods: {
     removeSemester: function () {
-      this.$store.dispatch('removeSemester', this.semester)
+      this.$store.commit('removeSemester', this.semesterIndex)
       this.showSuccess()
     },
     showSuccess () {
-      this.$toasted.success('Semester ' + this.semester + ' has removed.', { duration: 3000 })
+      this.$toasted.success('Semester has removed.')
     }
   }
 }

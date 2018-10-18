@@ -1,10 +1,10 @@
 <template>
-<b-card-group deck>
-  <keep-alive>
-    <export-card></export-card>
-  </keep-alive>
-  <print-card></print-card>
-</b-card-group>
+  <b-card-group deck>
+    <keep-alive>
+      <export-card/>
+    </keep-alive>
+    <print-card/>
+  </b-card-group>
 </template>
 
 <script>

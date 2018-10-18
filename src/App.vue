@@ -1,13 +1,15 @@
 <template>
   <div id="app">
-      <NavBar v-if="this.$route.path !== '/'"></NavBar>
-      <b-container fluid class="container-padding">
+    <NavBar v-if="this.$route.path !== '/'"/>
+    <b-container 
+      fluid 
+      class="container-padding">
       <transition>
         <keep-alive include="ExportPlan">
           <router-view/>
         </keep-alive>
       </transition>
-      </b-container>
+    </b-container>
   </div>
 </template>
 

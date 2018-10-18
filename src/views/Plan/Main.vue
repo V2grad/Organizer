@@ -1,15 +1,19 @@
 <template>
-<div>
+  <div>
     <b-row class="flex-row flex-nowrap">
-        <semester v-for="(courses, key) in totalSemesters" :key="key" :semester="parseInt(key)"></semester>
-        <semester-placeholder></semester-placeholder>
+      <semester
+        v-for="(semester, index) in semesters"
+        :key="index"
+        :semester="semester"
+        :semester-index="index"/>
+      <semester-placeholder/>
     </b-row>
-</div>
+  </div>
 </template>
 
 <script>
-import Semester from '@/components/Cards/Semester'
-import SemesterPlaceholder from '@/components/Cards/SemesterPlaceholder'
+import Semester from '@/components/Cards/Semester/Semester'
+import SemesterPlaceholder from '@/components/Cards/Semester/SemesterPlaceholder'
 
 export default {
   components: {
@@ -17,9 +21,16 @@ export default {
     Semester
   },
   computed: {
-    totalSemesters () {
-      return this.$store.state.plan.courses
+    semesters () {
+      return this.$store.state.plan.semesters
     }
   }
 }
 </script>
+
+<style>
+/* https://github.com/SortableJS/Vue.Draggable/issues/44 */
+.dragArea {
+  min-height: 10px;
+}
+</style>

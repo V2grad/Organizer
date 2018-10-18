@@ -5,36 +5,38 @@ import Home from '@/views/Home'
 import WIP from '@/views/WIP'
 import Actions from '@/views/Actions'
 
-import Landing from '@/views/Import/Landing'
-
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: [
-    {
+  routes: [{
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: Home
     },
     {
       path: '/plan',
-      name: 'plan',
+      name: 'Plan',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "main" */ '@/views/Plan/Main')
+      component: () => import( /* webpackChunkName: "main" */ '@/views/Plan/Main')
+    },
+    {
+      path: '/plan/transferred',
+      name: 'TransferredCourse',
+      component: () => import( /* webpackChunkName: "main" */ '@/views/Transferred')
     },
     {
       path: '/courses/custom',
       name: 'CustomCourse',
-      component: () => import(/* webpackChunkName: "course" */ './views/Course/CustomCourse')
+      component: () => import( /* webpackChunkName: "course" */ './views/Course/CustomCourse')
     },
     {
       path: '/courses',
       name: 'CourseSelect',
-      component: () => import(/* webpackChunkName: "course" */ './views/Course/CourseSelect')
+      component: () => import( /* webpackChunkName: "course" */ './views/Course/CourseSelect')
     },
     {
       path: '/actions',
@@ -44,21 +46,24 @@ export default new Router({
     {
       path: '/export',
       name: 'ExportPlan',
-      component: () => import(/* webpackChunkName: "export" */ './views/ExportPlan')
-    }, {
-      path: '/import/new',
-      name: 'ImportPlanLanding',
-      component: Landing
+      component: () => import( /* webpackChunkName: "export" */ './views/ExportPlan')
     }, {
       path: '/import/:json',
       name: 'ImportPlan',
-      component: () => import(/* webpackChunkName: "import" */ './views/Import/ImportPlan')
+      component: () => import( /* webpackChunkName: "import" */ './views/ImportPlan')
+    }, {
+      path: '/profile',
+      name: 'Profile',
+      component: () => import( /* webpackChunkName: "profile" */ './views/Profile')
     },
     {
       path: '/404',
       name: 'WIP',
       component: WIP
     },
-    { path: '*', component: WIP }
+    {
+      path: '*',
+      component: WIP
+    }
   ]
 })

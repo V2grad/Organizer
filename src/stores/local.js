@@ -1,11 +1,14 @@
+import Unify from '@/utils/unify';
+
 export default {
   state: {
     shortenedURL: '',
-    currentProfileID: 0
+    version: Unify.VERSION
   },
   mutations: {
-    updateShortenedURL (state, URL) {
+    updateShortenedURL(state, URL) {
       state.shortenedURL = URL
-    }
+    },
+
   }
 }

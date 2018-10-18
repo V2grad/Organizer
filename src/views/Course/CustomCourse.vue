@@ -1,15 +1,15 @@
 <template>
-<div>
-  <b-container fluid>
-    <b-row>
-        <b-col cols=12>
+  <div>
+    <b-container fluid>
+      <b-row>
+        <b-col cols="12">
           <keep-alive>
-             <custom-course></custom-course>
+            <custom-course/>
           </keep-alive>
         </b-col>
-    </b-row>
-</b-container>
-</div>
+      </b-row>
+    </b-container>
+  </div>
 </template>
 
 <script>
