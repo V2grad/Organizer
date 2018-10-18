@@ -43,7 +43,7 @@
 </template>
 
 <script>
-import Course from '@/components/Course.vue'
+import Course from '@/components/Items/Course.vue'
 import RemoveSemesterModal from '@/components/Modals/RemoveSemesterModal'
 import draggable from 'vuedraggable'
 
@@ -88,10 +88,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-/* https://github.com/SortableJS/Vue.Draggable/issues/44 */
-.dragArea {
-  min-height: 10px;
-}
-</style>

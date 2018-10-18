@@ -1,12 +1,12 @@
 <template>
   <div>
-    <b-card 
-      v-if="decodedObject.status" 
+    <b-card
+      v-if="decodedObject.status"
       title="Import a Plan">
       <p class="card-text">
         You are about to import a new plan from <strong>{{ planName }}</strong>. You may change the name before import.
       </p>
-      <b-alert 
+      <b-alert
         v-if="!fitCurrentAppVersion"
         variant="danger"
         show>
@@ -23,26 +23,26 @@
       </p>
       <em slot="footer">
         <b-button-group size="lg">
-          <b-btn 
-            variant="success" 
+          <b-btn
+            variant="success"
             @click="writeData">Yes</b-btn>
-          <b-btn 
-            :to="{name: 'home'}" 
+          <b-btn
+            :to="{name: 'Home'}"
             variant="danger">No</b-btn>
         </b-button-group>
       </em>
     </b-card>
-    <b-card 
-      v-else 
-      bg-variant="danger" 
-      text-variant="white" 
+    <b-card
+      v-else
+      bg-variant="danger"
+      text-variant="white"
       title="An Error Occur">
       <p class="card-text">
         Organizer is not able to process this link, please try again later or check if some parts of the link are missing.
       </p>
       <pre>{{ decodedObject.message.stack ? decodedObject.message.stack.split('\n')[0] : 'Error: ' + decodedObject.message }}</pre>
-      <b-button 
-        :to="{'name': 'home'}" 
+      <b-button
+        :to="{'name': 'Home'}"
         variant="primary">Back to Home Page</b-button>
     </b-card>
   </div>

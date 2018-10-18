@@ -15,7 +15,7 @@
         <b-form-select
           :value="null"
           v-model="semester"
-          :options="this.$store.getters.semesterList"
+          :options="semesterList"
           class="mb-2 mr-sm-4 mb-sm-0"
         >
           <option
@@ -66,14 +66,21 @@ export default {
     },
     courseAdded () {
       return this.courseLocation.length !== 0
+    },
+    semesterList () {
+      return [...this.$store.getters.semesterList, {text: 'Transferred Course', value: this.$store.getters.transferredSemesterIndex}]
     }
   },
   methods: {
     addCoursetoSemester () {
-      this.$store.commit('addCourse', {
-        semester: this.semester,
-        course: this.course
-      })
+      if (this.semester === this.$store.getters.transferredSemesterIndex) {
+        this.$store.commit('addTransferredCourse', this.course)
+      } else {
+        this.$store.commit('addCourse', {
+          semester: this.semester,
+          course: this.course
+          })
+      }
       this.showSuccess()
     },
     resetModal () {

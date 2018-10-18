@@ -1,10 +1,10 @@
 <template>
   <div>
     <b-row class="flex-row flex-nowrap">
-      <semester 
-        v-for="(semester, index) in semesters" 
-        :key="index" 
-        :semester="semester" 
+      <semester
+        v-for="(semester, index) in semesters"
+        :key="index"
+        :semester="semester"
         :semester-index="index"/>
       <semester-placeholder/>
     </b-row>
@@ -27,3 +27,10 @@ export default {
   }
 }
 </script>
+
+<style>
+/* https://github.com/SortableJS/Vue.Draggable/issues/44 */
+.dragArea {
+  min-height: 10px;
+}
+</style>

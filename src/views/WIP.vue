@@ -1,7 +1,7 @@
 <template>
-  <b-jumbotron 
-    bg-variant="danger" 
-    text-variant="white" 
+  <b-jumbotron
+    bg-variant="danger"
+    text-variant="white"
     border-variant="dark">
     <template slot="header">
       Organizer
@@ -13,14 +13,14 @@
     <p>
       We are sorry about that, but you can still use other function at this moment.
     </p>
-    <b-btn 
-      :to="{'name': 'home'}" 
+    <b-btn
+      :to="{'name': 'Home'}"
       variant="primary">Go to Main Page</b-btn>
-    <b-btn 
-      variant="success" 
+    <b-btn
+      variant="success"
       @click="goback()">Go Back</b-btn>
-    <b-btn 
-      variant="dark" 
+    <b-btn
+      variant="dark"
       href="https://github.com/V2grad/Organizer">About this Project</b-btn>
   </b-jumbotron>
 </template>

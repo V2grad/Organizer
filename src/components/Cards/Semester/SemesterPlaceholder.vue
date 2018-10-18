@@ -1,6 +1,6 @@
 <template>
-  <b-col 
-    cols="12" 
+  <b-col
+    cols="12"
     lg="4">
     <b-card title="Add a new Semester">
       <p class="card-text">Click the button below to add a new Semester</p>
@@ -10,11 +10,11 @@
       <hr>
       <b-row>
         <!-- https://github.com/angular-ui/bootstrap/issues/1025 -->
-        <div 
-          v-b-tooltip
+        <div
+          v-b-tooltip.html.bottom
           title="This function can be used when the plan is empty. To reset your plan, go to Action tab"
           class="ml-3">
-          <b-button 
+          <b-button
             :disabled="!isEmptyList"
             size="sm"
             variant="success"

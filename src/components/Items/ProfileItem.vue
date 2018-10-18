@@ -27,7 +27,7 @@
         Save
       </b-btn>
     </b-list-group-item>
-    <remove-profile-modal :profile-id="profileID"/>
+    <remove-profile-modal :profile-i-d="profileID"/>
   </div>
 </template>
 

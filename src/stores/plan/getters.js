@@ -3,7 +3,8 @@ import {
   CUSTOM_COURSE_TITLE,
   DEFAULT_YEAR,
   PERIOD,
-  YEAR_SPAN
+  YEAR_SPAN,
+  TRANSFERRED_SEMESTER_INDEX
 } from '../const'
 
 export default {
@@ -20,6 +21,9 @@ export default {
   getStartYear: () => {
     // Maybe just let them choose whatever they like.
     return DEFAULT_YEAR
+  },
+  transferredSemesterIndex: () => {
+    return TRANSFERRED_SEMESTER_INDEX
   },
   getYearSpan: (state, getters) => {
     let startYear = getters.getStartYear

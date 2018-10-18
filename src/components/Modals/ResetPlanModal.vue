@@ -1,6 +1,6 @@
 <template>
-  <b-modal 
-    id="'_ActionResetPlan"
+  <b-modal
+    id="_ActionResetPlan"
     header-text-variant="danger"
     title="Reset Plan"
     lazy
@@ -19,7 +19,7 @@ export default {
       this.showSuccess()
     },
     showSuccess () {
-      this.$toasted.success('Semester has removed.')
+      this.$toasted.success('Plan reset successfully.')
     }
   }
 }
