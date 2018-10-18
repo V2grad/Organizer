@@ -9,6 +9,11 @@ export default {
   PLAN_MAXLENGTH: 50,
   COURSE_MAXLENGTH: 50,
   PERIOD: ['Spring', 'Summer', 'Fall'],
+  COURSEATTRIBUTES: {
+    CourseTitle: 'Course Title',
+    CourseName: 'Course Name',
+    CreditHours: 'Credit Hours'
+  },
   DEFAULT_YEAR: (new Date()).getFullYear() - 5,
   TRANSFERRED_SEMESTER_INDEX: -1,
   YEAR_SPAN: 15,

@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { generatePDF, addShortURL, addCopyright } from '@/utils/pdf'
+import { generatePDF } from '@/utils/pdf'
 
 export default {
   name: 'PrintCard',
@@ -46,6 +46,7 @@ export default {
       if (newValue === '') {
         this.exportChecked = false
         this.exportDisabled = true
+        
       } else {
         this.exportDisabled = false
       }
@@ -57,12 +58,10 @@ export default {
   },
   methods: {
     downloadPDF () {
-      let doc = generatePDF(this.$store.state.plan)
-      if (this.exportChecked === true) {
-        doc = addShortURL(doc, this.shortenedURL)
-      }
-      doc = addCopyright(doc)
-      doc.save(this.$store.state.plan.name + '.pdf')
+      let URL = this.exportChecked ? this.shortenedURL : null
+      let doc = generatePDF(this.$store.state.plan, URL)
+      doc.open()
+      //doc.download(this.$store.state.plan.name + '.pdf')
     }
   }
 }

@@ -5,7 +5,6 @@ import store from './stores'
 // Library
 import BootstrapVue from 'bootstrap-vue'
 import VueClipboard from 'vue-clipboard2'
-import qrcode from 'qrious'
 import Toasted from 'vue-toasted'
 import axios from 'axios'
 import _ from 'lodash'
@@ -39,7 +38,6 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.prototype.$_ = _
 Vue.prototype.$axios = axios
-Vue.prototype.$qrcode = qrcode
 Vue.prototype.$unify = unify
 
 new Vue({
