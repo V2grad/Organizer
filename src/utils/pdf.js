@@ -84,7 +84,8 @@ export function semesterTable(semester) {
       columns: columns,
     },
     {
-      table: table
+      table: table,
+      //layout: 'lightHorizontalLines'
     }, '\n\n\n'
   ]
 }
@@ -92,12 +93,19 @@ export function semesterTable(semester) {
 export function addShortURL(URL) {
   return {
     columns: [{
-      text: 'View and Edit this plan online with link: ' + URL,
-      link: URL
-    }, {
-      qr: URL,
-      alignment: 'right'
-    }]
+        text: 'View and Edit this plan online with link: ',
+        width: 'auto'
+      },
+      {
+        text: URL,
+        link: URL,
+        width: 'auto'
+      }, {
+        qr: URL,
+        alignment: 'right',
+        width: '*'
+      }
+    ]
   }
 }
 
@@ -106,8 +114,8 @@ export function styles() {
     styles: {
       headerName: {
         bold: true,
+        fontSize: 15,
         decoration: 'underline',
-        decorationStyle: 'dashed'
       },
       semesterTitle: {
         bold: true,
@@ -134,6 +142,9 @@ export function styles() {
 
 export function totalCredits(plan) {
   let credits = 0
+  plan.transferred.forEach((c) => {
+    credits = credits + parseInt(c.CreditHours)
+  })
   plan.semesters.forEach((s) => {
     s.courses.forEach((c) => {
       credits = credits + parseInt(c.CreditHours)
@@ -147,19 +158,33 @@ export function totalCredits(plan) {
 
 export function generatePDF(plan, shortenedURL) {
   let docDefinition = {
-    pageMargins: [30, 30, 20, 20],
+    // [left, top, right, bottom]
+    pageMargins: [20, 30, 20, 20],
     ...metadata(plan.name),
     ...header(plan.name),
     ...footer(),
     content: [],
     ...styles()
   }
+  // Transferred Course
+  // Aviod Reference issue
+  let t = {
+    courses: plan.transferred
+  }
+  docDefinition.content = docDefinition.content.concat(semesterTable(t))
+
+  // Normal Plan
   plan.semesters.forEach((s) => {
     docDefinition.content = docDefinition.content.concat(semesterTable(s))
   })
+
+  // Total Credits
   docDefinition.content = docDefinition.content.concat(totalCredits(plan))
+
+  // Short URL
   if (shortenedURL) {
-    docDefinition.content = docDefinition.content.concat(['\r\n\r\n', addShortURL(shortenedURL)])
+    docDefinition.content = docDefinition.content.concat(['\n\n\n', addShortURL(shortenedURL)])
   }
+
   return pdfMake.createPdf(docDefinition)
 }

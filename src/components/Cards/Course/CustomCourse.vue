@@ -30,11 +30,11 @@
             placeholder="The name of the course you want to add"/>
         </b-form-group>
         <b-form-group
-          id="CourseCreditGroup"
+          id="CreditHoursGroup"
           label="Course Credit"
-          label-for="CourseCreditInput">
+          label-for="CreditHoursInput">
           <b-form-input
-            id="CourseCreditInput"
+            id="CreditHoursInput"
             v-model="creditHours"
             type="number"
             required
@@ -76,7 +76,7 @@ export default {
       show: true,
       courseName: '',
       courseTitle: this.$unify.CUSTOM_COURSE_TITLE,
-      courseCredits: 0,
+      creditHours: 0,
       semester: null
     }
   },
