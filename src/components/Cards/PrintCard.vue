@@ -58,6 +58,7 @@ export default {
   },
   methods: {
     downloadPDF () {
+      this.$toasted.info('PDF Generating...')
       let URL = this.exportChecked ? this.shortenedURL : null
       let doc = generatePDF(this.$store.state.plan, URL)
       doc.download(this.$store.state.plan.name + '.pdf')
