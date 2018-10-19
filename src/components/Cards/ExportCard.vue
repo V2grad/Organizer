@@ -102,7 +102,7 @@ export default {
   },
   methods: {
     copySuccess () {
-      this.$toasted.success('Successfully copy the link', { duration: 3000 })
+      this.$toasted.success('Successfully copy the link')
     },
     copyError () {
       this.$toasted.success('Error on copy, please copy manually.', {
@@ -110,22 +110,18 @@ export default {
       })
     },
     fetchTinyURL () {
-      // Don't use params! tinyurl don't not recognize that.
+      // Don't use params! tinyurl don't not recognize that. :(
       this.loading = true
-      this.$toasted.info('Generating Shorten URL...', { duration: 3000 })
+      this.$toasted.info('Generating Shorten URL...')
       this.$axios
         .get('/api/shorturl/api-create.php?url=' + this.encodedURL)
         .then(response => {
           this.shortenedURL = response.data
-          this.$toasted.success('Link generate successfully.', {
-            duration: 3000
-          })
+          this.$toasted.success('Link generate successfully.')
         })
         .catch(error => {
           this.$toasted.error(
-            'Error while fetching the short link, please try again. ' + error,
-            { duration: 3000 }
-          )
+            'Error while fetching the short link, please try again. ' + error,)
           this.checked = false
         })
         .finally(() => {

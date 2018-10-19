@@ -10,7 +10,7 @@ export function header(planName) {
   return {
     header: {
       columns: [{
-          text: 'Plan: ' + planName,
+          text: `Plan: ${planName}`,
           width: 'auto',
           style: 'headerName',
         },
@@ -60,8 +60,14 @@ export function semesterTable(semester) {
   let credits = 0
   let table = {
     headerRows: 1,
-    widths: ['*', '*', '*'],
+    widths: ['auto', '*', '*'],
     body: [
+      [{
+        text: Unify.READABLE_SEMESTER(semester),
+        style: 'semesterTitle',
+        colSpan: 3,
+        alignment: 'center'
+      }, {}, {}],
       [{
         text: Unify.COURSEATTRIBUTES.CourseName,
         style: 'semesterTableHeader'
@@ -78,27 +84,29 @@ export function semesterTable(semester) {
     table.body.push([c.CourseName, c.CourseTitle, c.CreditHours])
     credits = credits + parseInt(c.CreditHours)
   })
-  let columns = [{
-    text: Unify.READABLE_SEMESTER(semester),
-    style: 'semesterTitle'
-  }, {
-    text: 'Credits: ' + credits,
-    style: 'semesterCredit'
-  }]
 
+  // Push Credit
+  table.body.push([{
+    text: '',
+    border: [true, true, false, true],
+  }, {
+    text: '',
+    border: [false, true, true, true],
+  }, {
+    text: `Credits: ${credits}`,
+    style: 'semesterCredit',
+  }])
 
   return [{
-      columns: columns,
-    },
-    {
-      table: table,
-      //layout: 'lightHorizontalLines'
-    }, '\n\n\n'
-  ]
+    unbreakable: true,
+    table: table,
+    //layout: 'lightHorizontalLines'
+  }, '\n\n\n']
 }
 
 export function addShortURL(URL) {
   return {
+    unbreakable: true,
     columns: [{
         text: 'View and Edit this plan online with link: ',
         width: 'auto'
@@ -109,6 +117,7 @@ export function addShortURL(URL) {
         width: 'auto'
       }, {
         qr: URL,
+        fit: 70,
         alignment: 'right',
         width: '*'
       }
@@ -137,7 +146,7 @@ export function styles() {
       },
       semesterTitle: {
         bold: true,
-        fontSize: 18
+        fontSize: 15
       },
       semesterTableHeader: {
         fillColor: '#00c69e',
@@ -146,9 +155,9 @@ export function styles() {
       },
       semesterCredit: {
         italics: true,
-        alignment: 'right',
+        alignment: 'left',
       },
-      planTotalCredit: {
+      planConclusion: {
         bold: true,
         alignment: 'center',
         decoration: 'underline',
@@ -158,26 +167,43 @@ export function styles() {
   }
 }
 
-export function totalCredits(plan) {
+export function conclusion(plan) {
   let credits = 0
+  let summer = 0
+  let fall = 0
+  let spring = 0
   plan.transferred.forEach((c) => {
     credits = credits + parseInt(c.CreditHours)
   })
   plan.semesters.forEach((s) => {
+    switch (s.period) {
+      case Unify.PERIOD[0]:
+        spring += 1
+        break
+      case Unify.PERIOD[1]:
+        summer += 1
+        break
+      default:
+        fall += 1
+        break
+    }
     s.courses.forEach((c) => {
       credits = credits + parseInt(c.CreditHours)
     })
   })
   return [{
-    text: 'This Plan\'s Total Credits: ' + credits,
-    style: 'planTotalCredit'
+    text: `Plan 's Total Semesters: ${plan.semesters.length}, including Spring:  ${spring}, Summer: ${summer}, Fall: ${fall}`,
+    style: 'planConclusion'
+  }, {
+    text: `Plan 's Total Credits: ${credits}`,
+    style: 'planConclusion'
   }]
 }
 
 export function generatePDF(plan, shortenedURL) {
   let docDefinition = {
     // [left, top, right, bottom]
-    pageMargins: [20, 50, 20, 20],
+    pageMargins: [20, 50, 20, 30],
     ...metadata(plan.name),
     ...header(plan.name),
     ...footer(),
@@ -197,11 +223,11 @@ export function generatePDF(plan, shortenedURL) {
   })
 
   // Total Credits
-  docDefinition.content = docDefinition.content.concat(totalCredits(plan))
+  docDefinition.content = docDefinition.content.concat(conclusion(plan))
 
   // Short URL
   if (shortenedURL) {
-    docDefinition.content = docDefinition.content.concat(['\n\n\n', addShortURL(shortenedURL)])
+    docDefinition.content = docDefinition.content.concat(['\n\n', addShortURL(shortenedURL)])
   }
 
   return pdfMake.createPdf(docDefinition)
