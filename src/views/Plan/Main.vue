@@ -32,7 +32,7 @@ export default {
 /* scrollbar */
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  height: 25px;
 }
 
 /* Track */
