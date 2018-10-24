@@ -105,9 +105,7 @@ export default {
       this.$toasted.success('Successfully copy the link')
     },
     copyError () {
-      this.$toasted.success('Error on copy, please copy manually.', {
-        duration: 3000
-      })
+      this.$toasted.success('Error on copy, please copy manually.')
     },
     fetchTinyURL () {
       // Don't use params! tinyurl don't not recognize that. :(
