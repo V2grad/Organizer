@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import CustomCourse from '../components/Cards/Course/CustomCourse'
+import CustomCourse from '../components/Cards/CustomCourse'
 
 export default {
   name: 'CustomCoursePage',

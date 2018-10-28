@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import ReloadProfileModal from '../Modals/Profile/ReloadProfileModal'
+import ReloadProfileModal from '../Modals/ReloadProfileModal'
 
 export default {
   name: 'ProfileItem',

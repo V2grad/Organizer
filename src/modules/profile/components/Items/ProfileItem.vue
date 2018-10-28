@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import RemoveProfileModal from '../Modals/Profile/RemoveProfileModal'
-import CloneProfileModal from '../components/Modals/Profile/CloneProfileModal'
+import RemoveProfileModal from '../Modals/RemoveProfileModal'
+import CloneProfileModal from '../Modals/CloneProfileModal'
 
 export default {
   name: 'ProfileItem',

@@ -23,7 +23,7 @@
 
 <script>
 import CurrentEditingProfileItem from '../Items/CurrentEditingProfileItem'
-import SnapshotProfileModal from '../Modals/Profile/SnapshotProfileModal'
+import SnapshotProfileModal from '../Modals/SnapshotProfileModal'
 
 export default {
   name: 'CurrentProfile',
