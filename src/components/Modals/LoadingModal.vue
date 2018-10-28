@@ -9,21 +9,17 @@
     lazy>
     We are fetching data and checking data integraty...
     <p><strong>Refresh if this process takes too much time</strong></p>
-    <b-progress
-      :value="value"
-      :max="max"
-      animated/>
+    <loading-progress-bar/>
   </b-modal>
 </template>
 
 <script>
+import LoadingProgressBar from '../Items/LoadingProgressBar'
+
 export default {
   name: 'LoadingModal',
-  data () {
-    return {
-      max: 100,
-      value: 100,
-   }
+  components: {
+    LoadingProgressBar
   },
   computed: {
     modalShow: {

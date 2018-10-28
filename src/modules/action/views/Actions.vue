@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import PurgeCache from '../components/Cards/Action/PurgeCache'
+import PurgeCache from '../components/Cards/PurgeCache'
 import ResetPlan from '../components/Cards/ResetPlan'
 import PurgeOrganizer from '../components/Cards/PurgeOrganizer'
 

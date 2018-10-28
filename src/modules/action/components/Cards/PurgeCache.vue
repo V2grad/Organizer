@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import PurgeCacheModal from '@/components/Modals/Action/PurgeCacheModal'
+import PurgeCacheModal from '../Modals/PurgeCacheModal'
 
 export default {
   name: 'PurgeCache',
