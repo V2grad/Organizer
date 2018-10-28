@@ -5,6 +5,7 @@ import Vuex from 'vuex'
 import local from './local'
 import plan from './plan'
 import profile from './profile'
+import data from './data'
 
 Vue.use(Vuex)
 
@@ -14,7 +15,8 @@ export default new Vuex.Store({
   modules: {
     plan,
     profile,
-    local
+    local,
+    data
   },
   plugins: [createPersistedState({
     reducer(state) {

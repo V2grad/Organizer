@@ -3,7 +3,7 @@ export default {
   semesters: [],
   // {semester}
   // semester => {year: xxxx, period: 'Fall/Spring/Summer', courses: []}
-  // course: {CourseTitle, CourseName, CreditHours,}
+  // course: {uuid: , custom: true/false, CourseTitle, CourseName, CreditHours}
   transferred: []
   // {Course}
 }

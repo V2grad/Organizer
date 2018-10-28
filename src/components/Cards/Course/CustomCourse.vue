@@ -68,6 +68,7 @@
 </template>
 
 <script>
+import { id } from '@/utils/id'
 
 export default {
   name: 'CustomCourse',
@@ -90,9 +91,11 @@ export default {
       this.$store.dispatch('addCourse', {
         semester: this.semester,
         course: {
-          'CourseName': this.courseName,
-          'CourseTitle': this.courseTitle,
-          'CreditHours': this.creditHours
+          CourseName: this.courseName,
+          CourseTitle: this.courseTitle,
+          CreditHours: this.creditHours,
+          custom: true,
+          uuid: id()
         }
       })
       this.$toasted.success('Course added successfully.')

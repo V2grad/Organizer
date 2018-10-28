@@ -3,36 +3,36 @@
     <b-container fluid>
       <b-row>
         <b-col md="6">
-          <b-form-group 
-            horizontal 
+          <b-form-group
+            horizontal
             label="Filter">
             <b-input-group>
-              <b-form-input 
-                v-model="filter" 
+              <b-form-input
+                v-model="filter"
                 placeholder="Type to Search" />
               <b-input-group-append>
-                <b-btn 
-                  :disabled="!filter" 
+                <b-btn
+                  :disabled="!filter"
                   @click="filter = ''">Clear</b-btn>
               </b-input-group-append>
             </b-input-group>
           </b-form-group>
         </b-col>
         <b-col md="6">
-          <b-form-group 
-            horizontal 
+          <b-form-group
+            horizontal
             label="Sort">
             <b-input-group>
-              <b-form-select 
-                v-model="sortBy" 
+              <b-form-select
+                v-model="sortBy"
                 :options="sortOptions">
-                <option 
-                  slot="first" 
+                <option
+                  slot="first"
                   :value="null">-- none --</option>
               </b-form-select>
-              <b-form-select 
-                slot="append" 
-                :disabled="!sortBy" 
+              <b-form-select
+                slot="append"
+                :disabled="!sortBy"
                 v-model="sortDesc">
                 <option :value="false">Asc</option>
                 <option :value="true">Desc</option>
@@ -41,12 +41,12 @@
           </b-form-group>
         </b-col>
         <b-col md="6">
-          <b-form-group 
-            horizontal 
+          <b-form-group
+            horizontal
             label="Sort direction">
             <b-input-group>
-              <b-form-select 
-                slot="append" 
+              <b-form-select
+                slot="append"
                 v-model="sortDirection">
                 <option value="asc">Asc</option>
                 <option value="desc">Desc</option>
@@ -56,11 +56,11 @@
           </b-form-group>
         </b-col>
         <b-col md="6">
-          <b-form-group 
-            horizontal 
+          <b-form-group
+            horizontal
             label="Per page">
-            <b-form-select 
-              :options="pageOptions" 
+            <b-form-select
+              :options="pageOptions"
               v-model="perPage" />
           </b-form-group>
         </b-col>
@@ -82,13 +82,13 @@
             hover
             @filtered="onFiltered"
           >
-            <template 
-              slot="actions" 
+            <template
+              slot="actions"
               slot-scope="row">
               <!-- We use @click.stop here to prevent a 'row-clicked' event from also happening -->
-              <b-button 
-                size="sm" 
-                class="mr-1" 
+              <b-button
+                size="sm"
+                class="mr-1"
                 @click.stop="info(row.item)">
                 Add This Course
               </b-button>
@@ -98,25 +98,23 @@
       </b-row>
       <b-row>
         <b-col md="6">
-          <b-pagination 
-            :total-rows="totalRows" 
-            :per-page="perPage" 
+          <b-pagination
+            :total-rows="totalRows"
+            :per-page="perPage"
             v-model="currentPage"/>
         </b-col>
       </b-row>
-      <course-modal 
-        v-if="selectedCourse" 
-        :course="selectedCourse" 
-        :modal-show="modalShow" 
+      <course-modal
+        v-if="selectedCourse"
+        :course="selectedCourse"
+        :modal-show="modalShow"
         @resetModal="resetModal"/>
     </b-container>
   </b-card>
 </template>
 
 <script>
-import dummy from '@/data/dummy'
 import CourseModal from '@/components/Modals/CourseModal'
-const items = dummy
 
 export default {
   name: 'CourseSelection',
@@ -125,7 +123,6 @@ export default {
   },
   data () {
     return {
-      items: items,
       fields: [
         { key: 'CourseName', label: 'Course Name', sortable: true, sortDirection: 'desc' },
         { key: 'CourseTitle', label: 'Course Title', sortable: true, 'class': 'text-center' },
@@ -134,8 +131,8 @@ export default {
       ],
       currentPage: 1,
       perPage: 10,
-      totalRows: items.length,
       pageOptions: [ 5, 10, 15 ],
+      currentRows: null,
       sortBy: null,
       sortDesc: false,
       sortDirection: 'asc',
@@ -145,6 +142,17 @@ export default {
     }
   },
   computed: {
+    items () {
+      return this.$store.state.data.data
+    },
+    totalRows: {
+      get () {
+        return this.currentRows === null ? this.items.length : this.currentRows
+      },
+      set (value) {
+        this.currentRows = value
+      }
+    },
     sortOptions () {
       // Create an options list from our fields
       return this.fields

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <loading-modal/>
     <NavBar v-if="this.$route.path !== '/'"/>
     <b-container
       fluid
@@ -44,10 +45,25 @@ body {
 
 <script>
 import NavBar from '@/components/NavBar.vue'
+import LoadingModal from '@/components/Modals/LoadingModal'
 
 export default {
   components: {
-    NavBar
-  }
+    NavBar,
+    LoadingModal
+  },
+  computed: {
+    courseData: function () {
+      return this.$store.state.data.data
+    }
+  },
+  watch: {
+    courseData: function () {
+      this.$store.dispatch('checkData')
+    }
+  },
+  created () {
+    this.$store.dispatch('checkData')
+  },
 }
 </script>

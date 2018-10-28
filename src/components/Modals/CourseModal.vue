@@ -61,7 +61,7 @@ export default {
   },
   computed: {
     courseLocation () {
-      return this.$store.getters.findCourse(this.course.CourseTitle)
+      return this.$store.getters.findCourse(this.course.uuid)
     },
     courseAdded () {
       return this.courseLocation.length !== 0
@@ -74,7 +74,10 @@ export default {
     addCoursetoSemester () {
       this.$store.dispatch('addCourse', {
           semester: this.semester,
-          course: this.course
+          course: {
+            custom: false,
+            uuid: this.course.uuid
+          }
           })
       this.showSuccess()
     },

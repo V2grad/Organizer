@@ -59,7 +59,7 @@ export default {
     },
     transferredCourses: {
       get () {
-        return this.$store.state.plan.transferred
+        return this.$store.getters.renderedTransferred
       },
       set (value) {
         this.$store.commit('updateTransferredCourses', value)

@@ -37,26 +37,27 @@ export default {
       }
     })
   },
-  findCourse: (state) => (courseTitle) => {
+  findCourse: (state) => (uuid) => {
     // Even though course should appear only once, we collect every possible answers.
-    if (_.startsWith(courseTitle, Unify.CUSTOM_COURSE_PREFIX)) {
-      // Igore Custom Course
-      return []
-    } else {
-      let semesters = []
-      state.semesters.forEach((s, i) => {
-        let index = _.findIndex(s.courses, ['CourseTitle', courseTitle])
-        if (index !== -1) {
-          semesters.push(i)
-        }
-      })
-      // Transferred
-      let i = _.findIndex(state.transferred, ['CourseTitle', courseTitle])
-      if (i !== -1) {
-        semesters.push(-1)
+    // if (_.startsWith(courseTitle, Unify.CUSTOM_COURSE_PREFIX)) {
+    //   // Igore Custom Course
+    //   return []
+    // } else {
+    // }
+    let semesters = []
+    state.semesters.forEach((s, i) => {
+      let index = _.findIndex(s.courses, ['uuid', uuid])
+      if (index !== -1) {
+        semesters.push(i)
       }
-      return semesters
+    })
+    // Transferred
+    let i = _.findIndex(state.transferred, ['uuid', uuid])
+    if (i !== -1) {
+      semesters.push(-1)
     }
+    return semesters
+
   },
   findSemester: (state) => (semester) => {
     return _.findIndex(state.semesters, semester)
@@ -67,5 +68,33 @@ export default {
       courses = s.courses.concat(s.courses)
     })
     return courses
+  },
+  renderedSemesters: (state, getters) => {
+    // So we pre-rendered all courses before feed into the UI.
+    // Find a way to manipulate in different way?
+    let rendered = _.cloneDeep(state.semesters)
+    state.semesters.forEach((s, si) => {
+      s.courses.forEach((c, ci) => {
+        if (!c.custom) {
+          rendered[si].courses[ci] = {
+            ...c,
+            ...getters.detailsByUuid(c.uuid)
+          }
+        }
+      })
+    })
+    return rendered
+  },
+  renderedTransferred: (state, getters) => {
+    let rendered = _.cloneDeep(state.transferred)
+    state.transferred.forEach((c, ci) => {
+      if (!c.custom) {
+        rendered[ci] = {
+          ...c,
+          ...getters.detailsByUuid(c.uuid)
+        }
+      }
+    })
+    return rendered
   }
 }
