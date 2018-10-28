@@ -1,3 +1,5 @@
+import _ from 'lodash'
+
 export default {
   READABLE_SEMESTER(semester) {
     if (semester.year && semester.period) {
@@ -5,6 +7,7 @@ export default {
     }
     return 'Transferred Course'
   },
+
   CUSTOM_COURSE_PREFIX: 'CTSM-',
   CUSTOM_COURSE_TITLE: 'CTSM-1100',
 
@@ -12,7 +15,10 @@ export default {
   COURSE_MAXLENGTH: 50,
 
   PERIOD: ['Spring', 'Summer', 'Fall'],
-  COURSEATTRIBUTES: {
+  SEMESTER_UID(year, period) {
+    return parseInt(year) * 10 + _.indexOf(this.PERIOD, period)
+  },
+  COURSE_ATTRIBUTES: {
     CourseTitle: 'Course Title',
     CourseName: 'Course Name',
     CreditHours: 'Credit Hours'
@@ -20,7 +26,6 @@ export default {
 
   DEFAULT_YEAR: (new Date()).getFullYear() - 5,
   YEAR_SPAN: 15,
-
 
   TRANSFERRED_SEMESTER_INDEX: -1,
   TRANSFERRED_SEMESTER_OPTION: {

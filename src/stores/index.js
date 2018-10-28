@@ -1,13 +1,10 @@
 import createPersistedState from 'vuex-persistedstate'
-import Vue from 'vue'
 import Vuex from 'vuex'
 
-import local from './local'
-import plan from './plan'
-import profile from './profile'
-import data from './data'
-
-Vue.use(Vuex)
+import local from '@/modules/local/store'
+import plan from '@/modules/plan/store'
+import profile from '@/modules/profile/store'
+import data from '@/modules/data/store'
 
 // A Vuex instance is created by combining the state, mutations, actions,
 // and getters.
