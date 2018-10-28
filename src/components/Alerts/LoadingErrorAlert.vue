@@ -8,6 +8,6 @@
 
 <script>
 export default {
-  name: 'LoadingErrorAlert'
+  name: 'LoadingErrorAlert',
 }
 </script>

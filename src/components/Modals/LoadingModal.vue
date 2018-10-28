@@ -9,8 +9,12 @@
     lazy>
     We are fetching data and checking data integraty...
     <p><strong>Refresh if this process takes too much time</strong></p>
-    <loading-progress-bar/>
-    <loading-error-alert v-if="alertShow"/>
+    <loading-progress-bar
+      :loading="modalShow"
+      :error="errorShow"/>
+    <loading-error-alert
+      v-if="errorShow"
+      class="mt-3"/>
   </b-modal>
 </template>
 
@@ -33,7 +37,7 @@ export default {
         // Do nothing
       }
     },
-    alertShow () {
+    errorShow: function () {
       return this.$store.state.local.error
     }
   }
