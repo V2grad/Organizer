@@ -9,10 +9,12 @@
     <p class="card-text">
       Current Version: {{ this.$unify.VERSION }}
     </p>
-    <b-button
-      v-b-modal="'_ActionPurgeOrganizer'"
-      variant="danger"
-      size="lg">Purge Organizer</b-button>
+    <div slot="footer">
+      <b-button
+        v-b-modal="'_ActionPurgeOrganizer'"
+        variant="danger"
+        size="lg">Purge Organizer</b-button>
+    </div>
     <purge-organizer-modal/>
   </b-card>
 </template>

@@ -39,7 +39,7 @@ export default {
   },
   computed: {
     yearSpan () {
-      return this.$store.getters.getYearSpan
+      return this.$unify.YEAR_SPAN_LIST()
     },
     periodSpan () {
       return this.$unify.PERIOD

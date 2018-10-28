@@ -26,6 +26,10 @@ export default {
 
   DEFAULT_YEAR: (new Date()).getFullYear() - 5,
   YEAR_SPAN: 15,
+  YEAR_SPAN_LIST() {
+    let startYear = this.DEFAULT_YEAR
+    return _.range(startYear, startYear + this.YEAR_SPAN)
+  },
 
   TRANSFERRED_SEMESTER_INDEX: -1,
   TRANSFERRED_SEMESTER_OPTION: {
@@ -35,5 +39,7 @@ export default {
 
   API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
   CACHE_EXPIRED: 604800, // A week
-  VERSION: "1.01" // Change when changing vuex modules
+  VERSION: "1.01", // Change when changing vuex modules
+
+  // Background image is located in App.vue
 }

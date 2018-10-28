@@ -14,7 +14,7 @@
           @click="createNewPlan">Add new Profile and Load</b-btn>
         <b-btn
           v-b-modal="'_ProfileSnapshot'"
-          variant="dark">Take a Snapshot on Current Plan</b-btn>
+          variant="dark">Take a Snapshot</b-btn>
       </b-button-group>
     </em>
     <snapshot-profile-modal/>

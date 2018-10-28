@@ -9,10 +9,12 @@
     <p class="card-text">
       Last Updated at: {{ lastUpdated }}
     </p>
-    <b-button
-      v-b-modal="'_ActionPurgeCache'"
-      variant="danger"
-      size="lg">Purge Cache</b-button>
+    <div slot="footer">
+      <b-button
+        v-b-modal="'_ActionPurgeCache'"
+        variant="danger"
+        size="lg">Purge Cache</b-button>
+    </div>
     <purge-cache-modal/>
   </b-card>
 </template>

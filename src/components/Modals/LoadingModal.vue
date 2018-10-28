@@ -10,16 +10,19 @@
     We are fetching data and checking data integraty...
     <p><strong>Refresh if this process takes too much time</strong></p>
     <loading-progress-bar/>
+    <loading-error-alert v-if="alertShow"/>
   </b-modal>
 </template>
 
 <script>
 import LoadingProgressBar from '../Items/LoadingProgressBar'
+import LoadingErrorAlert from '../Alerts/LoadingErrorAlert'
 
 export default {
   name: 'LoadingModal',
   components: {
-    LoadingProgressBar
+    LoadingProgressBar,
+    LoadingErrorAlert
   },
   computed: {
     modalShow: {
@@ -29,6 +32,9 @@ export default {
       set(){
         // Do nothing
       }
+    },
+    alertShow () {
+      return this.$store.state.local.error
     }
   }
 }

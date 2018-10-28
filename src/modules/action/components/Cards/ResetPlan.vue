@@ -6,10 +6,12 @@
     <p class="card-text">
       You may want a clean template and start again.
     </p>
-    <b-button
-      v-b-modal="'_ActionResetPlan'"
-      variant="danger"
-      size="lg">Reset My Plan</b-button>
+    <div slot="footer">
+      <b-button
+        v-b-modal="'_ActionResetPlan'"
+        variant="danger"
+        size="lg">Reset My Plan</b-button>
+    </div>
     <reset-plan-modal/>
   </b-card>
 </template>

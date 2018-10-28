@@ -1,0 +1,7371 @@
+[{
+  "CourseName": "Oral Comm For Ta'S",
+  "CourseTitle": "ADMN-1010",
+  "CreditHours": "0",
+  "uuid": "_1xel36glv"
+}, {
+  "CourseName": "Student Success Labs",
+  "CourseTitle": "ADMN-1824",
+  "CreditHours": "0",
+  "uuid": "_06qt2nlnz"
+}, {
+  "CourseName": "First Year Seminar",
+  "CourseTitle": "ADMN-1961",
+  "CreditHours": "1",
+  "uuid": "_yptt3i8tf"
+}, {
+  "CourseName": "Admin Crsp",
+  "CourseTitle": "ADMN-1962",
+  "CreditHours": "0",
+  "uuid": "_k5o8szqdc"
+}, {
+  "CourseName": "Orientation Smr For Graduates",
+  "CourseTitle": "ADMN-6700",
+  "CreditHours": "0",
+  "uuid": "_ucbcbkco0"
+}, {
+  "CourseName": "Ta Training Seminar",
+  "CourseTitle": "ADMN-6800",
+  "CreditHours": "0",
+  "uuid": "_9iw83djyg"
+}, {
+  "CourseName": "The Ethos Of Architecture",
+  "CourseTitle": "ARCH-2150",
+  "CreditHours": "3",
+  "uuid": "_fl6wkcgmi"
+}, {
+  "CourseName": "Architectural Media",
+  "CourseTitle": "ARCH-2160",
+  "CreditHours": "2",
+  "uuid": "_h1muur82o"
+}, {
+  "CourseName": "Structures 1",
+  "CourseTitle": "ARCH-2330",
+  "CreditHours": "3",
+  "uuid": "_92j8hnfxe"
+}, {
+  "CourseName": "Construction Systems",
+  "CourseTitle": "ARCH-2350",
+  "CreditHours": "2",
+  "uuid": "_gyi3jr8xk"
+}, {
+  "CourseName": "Materials And Design",
+  "CourseTitle": "ARCH-2510",
+  "CreditHours": "2",
+  "uuid": "_6q5gs2ogx"
+}, {
+  "CourseName": "Digital Constructs I",
+  "CourseTitle": "ARCH-2520",
+  "CreditHours": "2",
+  "uuid": "_8tpi4ilq3"
+}, {
+  "CourseName": "Digital Constructs 3",
+  "CourseTitle": "ARCH-2540",
+  "CreditHours": "2",
+  "uuid": "_bzyvysbw0"
+}, {
+  "CourseName": "Architectural Design Studio 1",
+  "CourseTitle": "ARCH-2800",
+  "CreditHours": "5",
+  "uuid": "_pzmzkn1z3"
+}, {
+  "CourseName": "Architectural Design Studio 3",
+  "CourseTitle": "ARCH-2820",
+  "CreditHours": "5",
+  "uuid": "_8gf575m7q"
+}, {
+  "CourseName": "Building Performance Studio 2",
+  "CourseTitle": "ARCH-2860",
+  "CreditHours": "5",
+  "uuid": "_wvb4l3w42"
+}, {
+  "CourseName": "Bedford Seminar",
+  "CourseTitle": "ARCH-4020",
+  "CreditHours": "3",
+  "uuid": "_ry03o9jv8"
+}, {
+  "CourseName": "Cities And Their Territories",
+  "CourseTitle": "ARCH-4050",
+  "CreditHours": "2",
+  "uuid": "_jjqp7htkt"
+}, {
+  "CourseName": "Modernity In Cul,Civl & Arch1",
+  "CourseTitle": "ARCH-4120",
+  "CreditHours": "2",
+  "uuid": "_q7fsfz30u"
+}, {
+  "CourseName": "Environmental Parametrics",
+  "CourseTitle": "ARCH-4170",
+  "CreditHours": "2",
+  "uuid": "_vkw0l59st"
+}, {
+  "CourseName": "Structures 2",
+  "CourseTitle": "ARCH-4330",
+  "CreditHours": "3",
+  "uuid": "_059p6kn0t"
+}, {
+  "CourseName": "Construction Indust Semr",
+  "CourseTitle": "ARCH-4510",
+  "CreditHours": "2",
+  "uuid": "_y49nmlqt6"
+}, {
+  "CourseName": "Professional Practice 1",
+  "CourseTitle": "ARCH-4540",
+  "CreditHours": "2",
+  "uuid": "_sqfr7zeir"
+}, {
+  "CourseName": "Professional Practice 2",
+  "CourseTitle": "ARCH-4550",
+  "CreditHours": "2",
+  "uuid": "_iutoiha9h"
+}, {
+  "CourseName": "Materials And Enclosures",
+  "CourseTitle": "ARCH-4560",
+  "CreditHours": "2",
+  "uuid": "_a94j1rwf0"
+}, {
+  "CourseName": "Materials Systems & Production",
+  "CourseTitle": "ARCH-4580",
+  "CreditHours": "3",
+  "uuid": "_nl6twrefz"
+}, {
+  "CourseName": "Sustainable Blding Des Metrics",
+  "CourseTitle": "ARCH-4750",
+  "CreditHours": "2",
+  "uuid": "_bszp7i2g7"
+}, {
+  "CourseName": "Architectural Design Studio 5",
+  "CourseTitle": "ARCH-4770",
+  "CreditHours": "5",
+  "uuid": "_k65zaponp"
+}, {
+  "CourseName": "Architectural Design Studio 6",
+  "CourseTitle": "ARCH-4780",
+  "CreditHours": "5",
+  "uuid": "_kq7gvrb8d"
+}, {
+  "CourseName": "Architectural Design Studio 7",
+  "CourseTitle": "ARCH-4790",
+  "CreditHours": "5",
+  "uuid": "_avevslll1"
+}, {
+  "CourseName": "Integrated Design Schematic",
+  "CourseTitle": "ARCH-4820",
+  "CreditHours": "5",
+  "uuid": "_jr1rjdi25"
+}, {
+  "CourseName": "Integrated Design Dev Studio",
+  "CourseTitle": "ARCH-4830",
+  "CreditHours": "5",
+  "uuid": "_46rfjnz27"
+}, {
+  "CourseName": "Architectural Acoustics 1",
+  "CourseTitle": "ARCH-4840",
+  "CreditHours": "4",
+  "uuid": "_i6zo14wjf"
+}, {
+  "CourseName": "Applied Psychoacoustics",
+  "CourseTitle": "ARCH-4860",
+  "CreditHours": "3",
+  "uuid": "_15szs31fq"
+}, {
+  "CourseName": "Engineering Acoustics",
+  "CourseTitle": "ARCH-4890",
+  "CreditHours": "3",
+  "uuid": "_sr3rsstll"
+}, {
+  "CourseName": "Final Project Design Resch Sem",
+  "CourseTitle": "ARCH-4910",
+  "CreditHours": "3",
+  "uuid": "_yqbtoi4zl"
+}, {
+  "CourseName": "Research Design Seminar",
+  "CourseTitle": "ARCH-4956",
+  "CreditHours": "2",
+  "uuid": "_7tzzywrr4"
+}, {
+  "CourseName": "Latin American Arch/Urbanism",
+  "CourseTitle": "ARCH-4957",
+  "CreditHours": "3",
+  "uuid": "_7baugsqum"
+}, {
+  "CourseName": "Research Investigations",
+  "CourseTitle": "ARCH-4958",
+  "CreditHours": "4",
+  "uuid": "_qo5z90v9w"
+}, {
+  "CourseName": "Res Seminar In Universal Desig",
+  "CourseTitle": "ARCH-4961",
+  "CreditHours": "2",
+  "uuid": "_ly116qk4u"
+}, {
+  "CourseName": "Sculpting The Intangible",
+  "CourseTitle": "ARCH-4962",
+  "CreditHours": "2",
+  "uuid": "_eu1obq5j7"
+}, {
+  "CourseName": "Integrated Design Schematic",
+  "CourseTitle": "ARCH-4963",
+  "CreditHours": "6",
+  "uuid": "_d7vwpdtac"
+}, {
+  "CourseName": "Projecting Light",
+  "CourseTitle": "ARCH-4964",
+  "CreditHours": "2",
+  "uuid": "_h3hkdphjc"
+}, {
+  "CourseName": "India Discovery",
+  "CourseTitle": "ARCH-4965",
+  "CreditHours": "4",
+  "uuid": "_l4l8yv5w2"
+}, {
+  "CourseName": "Portfolio Development",
+  "CourseTitle": "ARCH-4966",
+  "CreditHours": "2",
+  "uuid": "_eghwzdm1i"
+}, {
+  "CourseName": "Local Technologies & Systems",
+  "CourseTitle": "ARCH-4967",
+  "CreditHours": "3",
+  "uuid": "_n73u8n54q"
+}, {
+  "CourseName": "Nature & Arch",
+  "CourseTitle": "ARCH-4968",
+  "CreditHours": "2",
+  "uuid": "_ww20h5au1"
+}, {
+  "CourseName": "Upfolding Topology",
+  "CourseTitle": "ARCH-4969",
+  "CreditHours": "2",
+  "uuid": "_f0s9anzsv"
+}, {
+  "CourseName": "Indefinite Form",
+  "CourseTitle": "ARCH-4971",
+  "CreditHours": "2",
+  "uuid": "_dr13688wv"
+}, {
+  "CourseName": "Latin American Lang. & Culture",
+  "CourseTitle": "ARCH-4972",
+  "CreditHours": "3",
+  "uuid": "_neax4oxrz"
+}, {
+  "CourseName": "History, Theory, Criticism I",
+  "CourseTitle": "ARCH-5100",
+  "CreditHours": "4",
+  "uuid": "_8tztf676q"
+}, {
+  "CourseName": "Structures I",
+  "CourseTitle": "ARCH-5140",
+  "CreditHours": "3",
+  "uuid": "_pqebx70xv"
+}, {
+  "CourseName": "Structures 2",
+  "CourseTitle": "ARCH-5150",
+  "CreditHours": "3",
+  "uuid": "_z42ctehw5"
+}, {
+  "CourseName": "Graduate Arch Design I",
+  "CourseTitle": "ARCH-5200",
+  "CreditHours": "5",
+  "uuid": "_etaaobgfn"
+}, {
+  "CourseName": "Materials & Construction Stms",
+  "CourseTitle": "ARCH-5300",
+  "CreditHours": "3",
+  "uuid": "_mowtp0dgb"
+}, {
+  "CourseName": "Materials And Enclosures",
+  "CourseTitle": "ARCH-5340",
+  "CreditHours": "2",
+  "uuid": "_y2zozen1l"
+}, {
+  "CourseName": "Environmental History & Theory",
+  "CourseTitle": "ARCH-6310",
+  "CreditHours": "3",
+  "uuid": "_upeox5g5p"
+}, {
+  "CourseName": "Built Ecologies 1",
+  "CourseTitle": "ARCH-6320",
+  "CreditHours": "3",
+  "uuid": "_s57rmdfw9"
+}, {
+  "CourseName": "Material Systems & Productions",
+  "CourseTitle": "ARCH-6340",
+  "CreditHours": "3",
+  "uuid": "_sfo1p48my"
+}, {
+  "CourseName": "Design Research Studio",
+  "CourseTitle": "ARCH-6350",
+  "CreditHours": "4",
+  "uuid": "_tzbj8qpa5"
+}, {
+  "CourseName": "Environmental Parametrics",
+  "CourseTitle": "ARCH-6380",
+  "CreditHours": "2",
+  "uuid": "_8nsbt6x3a"
+}, {
+  "CourseName": "Graduate Architechure Design 3",
+  "CourseTitle": "ARCH-6610",
+  "CreditHours": "5",
+  "uuid": "_il7adgeho"
+}, {
+  "CourseName": "Grad Arch Design 5",
+  "CourseTitle": "ARCH-6630",
+  "CreditHours": "5",
+  "uuid": "_3cni6wwxp"
+}, {
+  "CourseName": "Fin Proj Research Seminar",
+  "CourseTitle": "ARCH-6750",
+  "CreditHours": "3",
+  "uuid": "_ydnedst9o"
+}, {
+  "CourseName": "Research Design Seminar",
+  "CourseTitle": "ARCH-6810",
+  "CreditHours": "2",
+  "uuid": "_w5pfmvnol"
+}, {
+  "CourseName": "Engineering Acoustics",
+  "CourseTitle": "ARCH-6840",
+  "CreditHours": "3",
+  "uuid": "_73432cr49"
+}, {
+  "CourseName": "Applied Psychoacoustics",
+  "CourseTitle": "ARCH-6860",
+  "CreditHours": "3",
+  "uuid": "_iwgea9nu6"
+}, {
+  "CourseName": "Sonics Research Lab 1",
+  "CourseTitle": "ARCH-6870",
+  "CreditHours": "3",
+  "uuid": "_fkdt9nwss"
+}, {
+  "CourseName": "Doctoral Seminar 1",
+  "CourseTitle": "ARCH-6910",
+  "CreditHours": "2",
+  "uuid": "_ih92nhyok"
+}, {
+  "CourseName": "Doctoral Seminar 2",
+  "CourseTitle": "ARCH-6920",
+  "CreditHours": "2",
+  "uuid": "_ntsxd12jq"
+}, {
+  "CourseName": "Adv Ind Proj In Arch/Env Desgn",
+  "CourseTitle": "ARCH-6940",
+  "CreditHours": "1-6",
+  "uuid": "_zaz0z85x1"
+}, {
+  "CourseName": "Software & Fabrication 2",
+  "CourseTitle": "ARCH-6960",
+  "CreditHours": "2",
+  "uuid": "_c886h1mrm"
+}, {
+  "CourseName": "Urban Case Studies",
+  "CourseTitle": "ARCH-6962",
+  "CreditHours": "2",
+  "uuid": "_p2zk3c2dw"
+}, {
+  "CourseName": "Advanced Digital Design I",
+  "CourseTitle": "ARCH-6964",
+  "CreditHours": "2",
+  "uuid": "_a01i32qrk"
+}, {
+  "CourseName": "Systems & Sim Visualization",
+  "CourseTitle": "ARCH-6966",
+  "CreditHours": "3",
+  "uuid": "_wjgqa1pf0"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "ARCH-6980",
+  "CreditHours": "1-9",
+  "uuid": "_0dgx9uims"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "ARCH-6990",
+  "CreditHours": "1-12",
+  "uuid": "_q411qxzlv"
+}, {
+  "CourseName": "Architecture Dissertation",
+  "CourseTitle": "ARCH-9990",
+  "CreditHours": "1-15",
+  "uuid": "_eygmugyk4"
+}, {
+  "CourseName": "Media Studio:Imaging",
+  "CourseTitle": "ARTS-1020",
+  "CreditHours": "4",
+  "uuid": "_7xthb5ekv"
+}, {
+  "CourseName": "Digital Filmmaking",
+  "CourseTitle": "ARTS-1030",
+  "CreditHours": "4",
+  "uuid": "_v0ekrncbi"
+}, {
+  "CourseName": "Art History",
+  "CourseTitle": "ARTS-1050",
+  "CreditHours": "4",
+  "uuid": "_ov44uo6uq"
+}, {
+  "CourseName": "Basic Drawing",
+  "CourseTitle": "ARTS-1200",
+  "CreditHours": "4",
+  "uuid": "_9viilmwek"
+}, {
+  "CourseName": "Music And Sound I",
+  "CourseTitle": "ARTS-1440",
+  "CreditHours": "4",
+  "uuid": "_ut24vghzu"
+}, {
+  "CourseName": "Fundamentals Of Music & Sound",
+  "CourseTitle": "ARTS-1960",
+  "CreditHours": "4",
+  "uuid": "_rcppqx9r8"
+}, {
+  "CourseName": "Intermediate Video",
+  "CourseTitle": "ARTS-2010",
+  "CreditHours": "4",
+  "uuid": "_tury0kz4r"
+}, {
+  "CourseName": "Computer Music",
+  "CourseTitle": "ARTS-2020",
+  "CreditHours": "4",
+  "uuid": "_9o199sgaq"
+}, {
+  "CourseName": "Intermediate Digital Imaging",
+  "CourseTitle": "ARTS-2040",
+  "CreditHours": "4",
+  "uuid": "_5x5yxj3wp"
+}, {
+  "CourseName": "Graphic Storytelling",
+  "CourseTitle": "ARTS-2070",
+  "CreditHours": "4",
+  "uuid": "_6wvoye0jg"
+}, {
+  "CourseName": "Intermediate Drawing",
+  "CourseTitle": "ARTS-2200",
+  "CreditHours": "4",
+  "uuid": "_efrixibxr"
+}, {
+  "CourseName": "Sculpture I",
+  "CourseTitle": "ARTS-2210",
+  "CreditHours": "4",
+  "uuid": "_znla6zxm5"
+}, {
+  "CourseName": "3D Bootcamp",
+  "CourseTitle": "ARTS-2230",
+  "CreditHours": "4",
+  "uuid": "_l6jq1dc2r"
+}, {
+  "CourseName": "Rensselaer Orchestra",
+  "CourseTitle": "ARTS-2300",
+  "CreditHours": "1",
+  "uuid": "_jb6grye7l"
+}, {
+  "CourseName": "Rensselaer Concert Choir",
+  "CourseTitle": "ARTS-2310",
+  "CreditHours": "1",
+  "uuid": "_oq9hgw728"
+}, {
+  "CourseName": "Intro To Afro-Cuban Percussion",
+  "CourseTitle": "ARTS-2340",
+  "CreditHours": "4",
+  "uuid": "_mntbeizz0"
+}, {
+  "CourseName": "Chamber Music Ensemble",
+  "CourseTitle": "ARTS-2350",
+  "CreditHours": "2",
+  "uuid": "_4rsdo9yxx"
+}, {
+  "CourseName": "Roots Of Africa Music Ensemble",
+  "CourseTitle": "ARTS-2360",
+  "CreditHours": "1",
+  "uuid": "_iicvu1vm6"
+}, {
+  "CourseName": "The Multimedia Century",
+  "CourseTitle": "ARTS-2540",
+  "CreditHours": "4",
+  "uuid": "_da05pi4hg"
+}, {
+  "CourseName": "Concert Choir Assistants",
+  "CourseTitle": "ARTS-2940",
+  "CreditHours": "1",
+  "uuid": "_h1jf5de69"
+}, {
+  "CourseName": "Private Music Lessons: Piano",
+  "CourseTitle": "ARTS-2962",
+  "CreditHours": "1",
+  "uuid": "_686ookkoh"
+}, {
+  "CourseName": "Designing Musical Games",
+  "CourseTitle": "ARTS-2963",
+  "CreditHours": "4",
+  "uuid": "_cpzu2y6p7"
+}, {
+  "CourseName": "Contemporary Improv Ensemble",
+  "CourseTitle": "ARTS-2964",
+  "CreditHours": "1",
+  "uuid": "_ncjl4yvnr"
+}, {
+  "CourseName": "Sound Recording & Production",
+  "CourseTitle": "ARTS-2966",
+  "CreditHours": "4",
+  "uuid": "_7vgaaiz7k"
+}, {
+  "CourseName": "Rethinking Documentary: Video",
+  "CourseTitle": "ARTS-4040",
+  "CreditHours": "4",
+  "uuid": "_jr3t9lpe9"
+}, {
+  "CourseName": "3D Animation",
+  "CourseTitle": "ARTS-4070",
+  "CreditHours": "4",
+  "uuid": "_wh9l7nxv9"
+}, {
+  "CourseName": "Sculpture Ii",
+  "CourseTitle": "ARTS-4210",
+  "CreditHours": "4",
+  "uuid": "_ou71u6dyi"
+}, {
+  "CourseName": "Painting",
+  "CourseTitle": "ARTS-4220",
+  "CreditHours": "4",
+  "uuid": "_pr9lnfx2x"
+}, {
+  "CourseName": "Life Drawing",
+  "CourseTitle": "ARTS-4260",
+  "CreditHours": "4",
+  "uuid": "_vbeplz848"
+}, {
+  "CourseName": "Composition Seminar",
+  "CourseTitle": "ARTS-4390",
+  "CreditHours": "4",
+  "uuid": "_3zrskerum"
+}, {
+  "CourseName": "Creative Seminar I",
+  "CourseTitle": "ARTS-4840",
+  "CreditHours": "4",
+  "uuid": "_t58nf1dfm"
+}, {
+  "CourseName": "Studies In The Arts",
+  "CourseTitle": "ARTS-4940",
+  "CreditHours": "1-6",
+  "uuid": "_sm01h43x0"
+}, {
+  "CourseName": "Deep Listening & Creativity",
+  "CourseTitle": "ARTS-4961",
+  "CreditHours": "4",
+  "uuid": "_7v8b2ntjo"
+}, {
+  "CourseName": "Performance Technologies",
+  "CourseTitle": "ARTS-4962",
+  "CreditHours": "4",
+  "uuid": "_yfaj0iuna"
+}, {
+  "CourseName": "Ar Design - Cultural Heritage",
+  "CourseTitle": "ARTS-4963",
+  "CreditHours": "4",
+  "uuid": "_epuwlanve"
+}, {
+  "CourseName": "3D Technical Direction",
+  "CourseTitle": "ARTS-4964",
+  "CreditHours": "4",
+  "uuid": "_biiadhex1"
+}, {
+  "CourseName": "Biopunk: Arts Lab Practices",
+  "CourseTitle": "ARTS-4965",
+  "CreditHours": "4",
+  "uuid": "_98p17tk1u"
+}, {
+  "CourseName": "Rethinking Documentary",
+  "CourseTitle": "ARTS-6050",
+  "CreditHours": "4",
+  "uuid": "_t76qop92v"
+}, {
+  "CourseName": "Painting",
+  "CourseTitle": "ARTS-6220",
+  "CreditHours": "3",
+  "uuid": "_8i54ri0eu"
+}, {
+  "CourseName": "Life Drawing",
+  "CourseTitle": "ARTS-6260",
+  "CreditHours": "3",
+  "uuid": "_ltvnh6c9b"
+}, {
+  "CourseName": "Experimental Game Design",
+  "CourseTitle": "ARTS-6400",
+  "CreditHours": "3",
+  "uuid": "_hdu8fdvad"
+}, {
+  "CourseName": "Research Methods",
+  "CourseTitle": "ARTS-6570",
+  "CreditHours": "3",
+  "uuid": "_il2obwk7k"
+}, {
+  "CourseName": "Arts Phd Colloquium",
+  "CourseTitle": "ARTS-6900",
+  "CreditHours": "3",
+  "uuid": "_5g7yelpkz"
+}, {
+  "CourseName": "Studies In Electronic Arts",
+  "CourseTitle": "ARTS-6940",
+  "CreditHours": "1-6",
+  "uuid": "_6nj0tg2xt"
+}, {
+  "CourseName": "Composition Seminar",
+  "CourseTitle": "ARTS-6960",
+  "CreditHours": "4",
+  "uuid": "_cyft6xjbu"
+}, {
+  "CourseName": "Deep Listening & Creativity",
+  "CourseTitle": "ARTS-6961",
+  "CreditHours": "3",
+  "uuid": "_pzbg31q03"
+}, {
+  "CourseName": "Graduate Studio Critique",
+  "CourseTitle": "ARTS-6962",
+  "CreditHours": "3",
+  "uuid": "_t9vdrgj2c"
+}, {
+  "CourseName": "Art, Community & Tech",
+  "CourseTitle": "ARTS-6963",
+  "CreditHours": "3",
+  "uuid": "_rqt6133n4"
+}, {
+  "CourseName": "Biopunk: Arts Lab Practices",
+  "CourseTitle": "ARTS-6965",
+  "CreditHours": "4",
+  "uuid": "_n9zxd2t0m"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "ARTS-6990",
+  "CreditHours": "1-9",
+  "uuid": "_6psrk2amc"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ARTS-9990",
+  "CreditHours": "1-12",
+  "uuid": "_27y6fly4h"
+}, {
+  "CourseName": "Intro Astronomy & Astrophys",
+  "CourseTitle": "ASTR-2050",
+  "CreditHours": "4",
+  "uuid": "_2mblljv1i"
+}, {
+  "CourseName": "Earth And Sky",
+  "CourseTitle": "ASTR-2120",
+  "CreditHours": "4",
+  "uuid": "_5h43dgubb"
+}, {
+  "CourseName": "Astrophysics",
+  "CourseTitle": "ASTR-4220",
+  "CreditHours": "4",
+  "uuid": "_kex7yi1qe"
+}, {
+  "CourseName": "Galaxies In The Universe",
+  "CourseTitle": "ASTR-4960",
+  "CreditHours": "2",
+  "uuid": "_w987p7p4i"
+}, {
+  "CourseName": "Astrophysics Seminar",
+  "CourseTitle": "ASTR-6900",
+  "CreditHours": "1",
+  "uuid": "_0kblccx2h"
+}, {
+  "CourseName": "Research In Biochem/Biophysics",
+  "CourseTitle": "BCBP-2900",
+  "CreditHours": "3",
+  "uuid": "_503i9hp7x"
+}, {
+  "CourseName": "Readings In Biochem/Biophysics",
+  "CourseTitle": "BCBP-2940",
+  "CreditHours": "1-6",
+  "uuid": "_pd3721vks"
+}, {
+  "CourseName": "Molecular Biochem I",
+  "CourseTitle": "BCBP-4760",
+  "CreditHours": "4",
+  "uuid": "_eyw6xo97h"
+}, {
+  "CourseName": "Methods In Biophysics",
+  "CourseTitle": "BCBP-4800",
+  "CreditHours": "4",
+  "uuid": "_vect0dws3"
+}, {
+  "CourseName": "Protein Structure Determin.",
+  "CourseTitle": "BCBP-4870",
+  "CreditHours": "4",
+  "uuid": "_is90h9rht"
+}, {
+  "CourseName": "Senior Research Thesis",
+  "CourseTitle": "BCBP-4990",
+  "CreditHours": "4",
+  "uuid": "_ytp7phzoe"
+}, {
+  "CourseName": "Methods In Biophysics",
+  "CourseTitle": "BCBP-6800",
+  "CreditHours": "4",
+  "uuid": "_t927roag8"
+}, {
+  "CourseName": "Protein Structure Determin.",
+  "CourseTitle": "BCBP-6870",
+  "CreditHours": "4",
+  "uuid": "_8tui89sf4"
+}, {
+  "CourseName": "Research Rotation",
+  "CourseTitle": "BCBP-6910",
+  "CreditHours": "2",
+  "uuid": "_71hu366w3"
+}, {
+  "CourseName": "Readings In Bcbp",
+  "CourseTitle": "BCBP-6940",
+  "CreditHours": "1-6",
+  "uuid": "_1rnsbqp5h"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "BCBP-9990",
+  "CreditHours": "1-15",
+  "uuid": "_2o9djftac"
+}, {
+  "CourseName": "Introduction To Biology",
+  "CourseTitle": "BIOL-1010",
+  "CreditHours": "3",
+  "uuid": "_3gati1ug0"
+}, {
+  "CourseName": "Introduction To Biology Lab",
+  "CourseTitle": "BIOL-1015",
+  "CreditHours": "1",
+  "uuid": "_25ruw5kga"
+}, {
+  "CourseName": "Intro To Cell Biology",
+  "CourseTitle": "BIOL-2120",
+  "CreditHours": "4",
+  "uuid": "_tdhf3yueq"
+}, {
+  "CourseName": "Genetics & Evolution",
+  "CourseTitle": "BIOL-2500",
+  "CreditHours": "4",
+  "uuid": "_dp7hd1ej7"
+}, {
+  "CourseName": "Research In Biology",
+  "CourseTitle": "BIOL-2900",
+  "CreditHours": "1-4",
+  "uuid": "_3znemhy20"
+}, {
+  "CourseName": "Out Of Classroom Exp - Biology",
+  "CourseTitle": "BIOL-2930",
+  "CreditHours": "1-4",
+  "uuid": "_b1qfbq23o"
+}, {
+  "CourseName": "Ug Mentoring Intro Biology Iii",
+  "CourseTitle": "BIOL-2940",
+  "CreditHours": "2",
+  "uuid": "_gr7vw36e7"
+}, {
+  "CourseName": "Investigative Medicine I",
+  "CourseTitle": "BIOL-4110",
+  "CreditHours": "1",
+  "uuid": "_w654q7zsi"
+}, {
+  "CourseName": "Biostatistics",
+  "CourseTitle": "BIOL-4200",
+  "CreditHours": "4",
+  "uuid": "_drzksttin"
+}, {
+  "CourseName": "Advanced Cell Biology",
+  "CourseTitle": "BIOL-4260",
+  "CreditHours": "4",
+  "uuid": "_tn4hq9xs6"
+}, {
+  "CourseName": "Human Physiology",
+  "CourseTitle": "BIOL-4270",
+  "CreditHours": "4",
+  "uuid": "_f7bv90dzb"
+}, {
+  "CourseName": "Microbiology Laboratory",
+  "CourseTitle": "BIOL-4320",
+  "CreditHours": "6",
+  "uuid": "_3cysbh5b3"
+}, {
+  "CourseName": "Virology",
+  "CourseTitle": "BIOL-4350",
+  "CreditHours": "4",
+  "uuid": "_lfot7fcsd"
+}, {
+  "CourseName": "Sequence Analysis",
+  "CourseTitle": "BIOL-4540",
+  "CreditHours": "4",
+  "uuid": "_urkrn7bm0"
+}, {
+  "CourseName": "Molecular Biology Ii",
+  "CourseTitle": "BIOL-4630",
+  "CreditHours": "4",
+  "uuid": "_z97qw53v7"
+}, {
+  "CourseName": "Molecular Biology Lab",
+  "CourseTitle": "BIOL-4720",
+  "CreditHours": "6",
+  "uuid": "_x6ll7mm39"
+}, {
+  "CourseName": "Advanced Cell Biology Lab",
+  "CourseTitle": "BIOL-4740",
+  "CreditHours": "6",
+  "uuid": "_mmnaa0csd"
+}, {
+  "CourseName": "Molecular Biochemistry I",
+  "CourseTitle": "BIOL-4760",
+  "CreditHours": "4",
+  "uuid": "_2offmhh7q"
+}, {
+  "CourseName": "Readings In Biology",
+  "CourseTitle": "BIOL-4940",
+  "CreditHours": "1-4",
+  "uuid": "_oakyxxo1p"
+}, {
+  "CourseName": "Non-Thesis Research",
+  "CourseTitle": "BIOL-4970",
+  "CreditHours": "3",
+  "uuid": "_rivrber0g"
+}, {
+  "CourseName": "Senior Research Thesis",
+  "CourseTitle": "BIOL-4990",
+  "CreditHours": "4",
+  "uuid": "_300chblr4"
+}, {
+  "CourseName": "Advanced Cell Biology",
+  "CourseTitle": "BIOL-6260",
+  "CreditHours": "4",
+  "uuid": "_wve0q27si"
+}, {
+  "CourseName": "Virology",
+  "CourseTitle": "BIOL-6350",
+  "CreditHours": "4",
+  "uuid": "_gbwef6btf"
+}, {
+  "CourseName": "Sequence Analysis",
+  "CourseTitle": "BIOL-6410",
+  "CreditHours": "4",
+  "uuid": "_6bh9zl7j9"
+}, {
+  "CourseName": "Biology Core Course I",
+  "CourseTitle": "BIOL-6510",
+  "CreditHours": "4",
+  "uuid": "_ydow0ndjy"
+}, {
+  "CourseName": "Adv Molecular Biology",
+  "CourseTitle": "BIOL-6690",
+  "CreditHours": "3",
+  "uuid": "_t7m4kuwtf"
+}, {
+  "CourseName": "Seminar In Biology",
+  "CourseTitle": "BIOL-6900",
+  "CreditHours": "1",
+  "uuid": "_64nxm0y2f"
+}, {
+  "CourseName": "Readings In Biol",
+  "CourseTitle": "BIOL-6940",
+  "CreditHours": "1-6",
+  "uuid": "_yo11i5cvs"
+}, {
+  "CourseName": "Curr Topics-Cytoskeletal Rsch",
+  "CourseTitle": "BIOL-6960",
+  "CreditHours": "2",
+  "uuid": "_sbf9x1jf2"
+}, {
+  "CourseName": "Geomicrobiology",
+  "CourseTitle": "BIOL-6962",
+  "CreditHours": "3",
+  "uuid": "_0qmcjvvfv"
+}, {
+  "CourseName": "Ethical Consid In Biotech",
+  "CourseTitle": "BIOL-6963",
+  "CreditHours": "3",
+  "uuid": "_n632bnm4k"
+}, {
+  "CourseName": "Research Rotation I",
+  "CourseTitle": "BIOL-6965",
+  "CreditHours": "4",
+  "uuid": "_ab7dgwydv"
+}, {
+  "CourseName": "Perspectives In Alz Research",
+  "CourseTitle": "BIOL-6966",
+  "CreditHours": "0",
+  "uuid": "_zfo1yc29m"
+}, {
+  "CourseName": "Masters Professional Project",
+  "CourseTitle": "BIOL-6970",
+  "CreditHours": "1-9",
+  "uuid": "_0b53toqix"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "BIOL-6990",
+  "CreditHours": "1-9",
+  "uuid": "_5id1breeo"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "BIOL-9990",
+  "CreditHours": "1-20",
+  "uuid": "_1cmnv5jp0"
+}, {
+  "CourseName": "Biomaterials Sci & Engineering",
+  "CourseTitle": "BMED-2100",
+  "CreditHours": "4",
+  "uuid": "_sojybq3r5"
+}, {
+  "CourseName": "Bioimaging/ Bioinstrumentation",
+  "CourseTitle": "BMED-2300",
+  "CreditHours": "4",
+  "uuid": "_r7afgcl5z"
+}, {
+  "CourseName": "Biomechanics",
+  "CourseTitle": "BMED-2540",
+  "CreditHours": "4",
+  "uuid": "_b7ytcsacr"
+}, {
+  "CourseName": "Readings In Bmed",
+  "CourseTitle": "BMED-2940",
+  "CreditHours": "1-4",
+  "uuid": "_casjlmf1c"
+}, {
+  "CourseName": "Biomedical Engineering Lab",
+  "CourseTitle": "BMED-4010",
+  "CreditHours": "4",
+  "uuid": "_wia509cpb"
+}, {
+  "CourseName": "Investigative Medicine I",
+  "CourseTitle": "BMED-4110",
+  "CreditHours": "1",
+  "uuid": "_v300ff6lg"
+}, {
+  "CourseName": "Modeling Of Biomedical Systems",
+  "CourseTitle": "BMED-4200",
+  "CreditHours": "4",
+  "uuid": "_1qc8znzl3"
+}, {
+  "CourseName": "Biomedical Product Development",
+  "CourseTitle": "BMED-4260",
+  "CreditHours": "3",
+  "uuid": "_9i5pj2h4v"
+}, {
+  "CourseName": "Clinical Orthopaedics & Resrch",
+  "CourseTitle": "BMED-4420",
+  "CreditHours": "4",
+  "uuid": "_1s1qk6oe5"
+}, {
+  "CourseName": "Drug And Gene Delivery",
+  "CourseTitle": "BMED-4450",
+  "CreditHours": "3",
+  "uuid": "_0zgizhrx6"
+}, {
+  "CourseName": "Adv Systems Physiology",
+  "CourseTitle": "BMED-4500",
+  "CreditHours": "4",
+  "uuid": "_batbobrjp"
+}, {
+  "CourseName": "Biomechanics Ii",
+  "CourseTitle": "BMED-4540",
+  "CreditHours": "4",
+  "uuid": "_jr2hgrv22"
+}, {
+  "CourseName": "Cell Biomechanics",
+  "CourseTitle": "BMED-4550",
+  "CreditHours": "3",
+  "uuid": "_a61iujbak"
+}, {
+  "CourseName": "Biomedical Fluid Mechanics",
+  "CourseTitle": "BMED-4580",
+  "CreditHours": "3",
+  "uuid": "_b303zzdpx"
+}, {
+  "CourseName": "Medical Imaging",
+  "CourseTitle": "BMED-4590",
+  "CreditHours": "3",
+  "uuid": "_2sfkm6ouu"
+}, {
+  "CourseName": "Biomedical Engr Design",
+  "CourseTitle": "BMED-4600",
+  "CreditHours": "3",
+  "uuid": "_cpfbkra7g"
+}, {
+  "CourseName": "Readings In Bmed",
+  "CourseTitle": "BMED-4940",
+  "CreditHours": "1-8",
+  "uuid": "_2ehxmhvba"
+}, {
+  "CourseName": "Bme Seminar",
+  "CourseTitle": "BMED-4960",
+  "CreditHours": "1",
+  "uuid": "_ivcizjb01"
+}, {
+  "CourseName": "Biostatistics",
+  "CourseTitle": "BMED-4961",
+  "CreditHours": "3",
+  "uuid": "_u0m6wapco"
+}, {
+  "CourseName": "Clinical Orthopaedics & Resrch",
+  "CourseTitle": "BMED-6420",
+  "CreditHours": "4",
+  "uuid": "_urpc4kwb2"
+}, {
+  "CourseName": "Drug And Gene Delivery",
+  "CourseTitle": "BMED-6450",
+  "CreditHours": "3",
+  "uuid": "_szzrw4d3s"
+}, {
+  "CourseName": "Biomedical Fluid Mechanics",
+  "CourseTitle": "BMED-6480",
+  "CreditHours": "3",
+  "uuid": "_2nsac2jmo"
+}, {
+  "CourseName": "Cell Biomechanics",
+  "CourseTitle": "BMED-6550",
+  "CreditHours": "3",
+  "uuid": "_5bf4z604d"
+}, {
+  "CourseName": "Medical Imaging",
+  "CourseTitle": "BMED-6590",
+  "CreditHours": "3",
+  "uuid": "_purf1yalr"
+}, {
+  "CourseName": "Discussions In Grad Research",
+  "CourseTitle": "BMED-6800",
+  "CreditHours": "0",
+  "uuid": "_b8pxjm7xq"
+}, {
+  "CourseName": "Readings In Bmed",
+  "CourseTitle": "BMED-6940",
+  "CreditHours": "1-9",
+  "uuid": "_pb2dc3vp6"
+}, {
+  "CourseName": "Health Phys & Med Asp Of Rad",
+  "CourseTitle": "BMED-6960",
+  "CreditHours": "3",
+  "uuid": "_8tq2ljsjm"
+}, {
+  "CourseName": "Biomedical Research Enterprise",
+  "CourseTitle": "BMED-6961",
+  "CreditHours": "1",
+  "uuid": "_i5nph3k12"
+}, {
+  "CourseName": "Ethical Consid In Biotech",
+  "CourseTitle": "BMED-6963",
+  "CreditHours": "3",
+  "uuid": "_elumvkh3x"
+}, {
+  "CourseName": "Chromotography Seperations",
+  "CourseTitle": "BMED-6964",
+  "CreditHours": "3",
+  "uuid": "_4znfcp7qz"
+}, {
+  "CourseName": "Perspectives In Alz Research",
+  "CourseTitle": "BMED-6966",
+  "CreditHours": "0",
+  "uuid": "_y5d45jbee"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "BMED-6970",
+  "CreditHours": "1-12",
+  "uuid": "_g0d3euyna"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "BMED-6980",
+  "CreditHours": "1-9",
+  "uuid": "_5ut62d4jl"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "BMED-6990",
+  "CreditHours": "1-9",
+  "uuid": "_7mnrz4fws"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "BMED-9990",
+  "CreditHours": "1-15",
+  "uuid": "_ayxzr3s7t"
+}, {
+  "CourseName": "Chemistry I",
+  "CourseTitle": "CHEM-1100",
+  "CreditHours": "4",
+  "uuid": "_zrhwgdbzl"
+}, {
+  "CourseName": "Chemistry I With Advanced Lab",
+  "CourseTitle": "CHEM-1110",
+  "CreditHours": "4",
+  "uuid": "_b2bn4fhps"
+}, {
+  "CourseName": "Materials Science",
+  "CourseTitle": "CHEM-1600",
+  "CreditHours": "4",
+  "uuid": "_lg7y3cw2e"
+}, {
+  "CourseName": "Chemistry For Life",
+  "CourseTitle": "CHEM-1960",
+  "CreditHours": "1",
+  "uuid": "_7md47hwqj"
+}, {
+  "CourseName": "Equilibrium Chem And Quant Anl",
+  "CourseTitle": "CHEM-2110",
+  "CreditHours": "3",
+  "uuid": "_4h2fc5y9o"
+}, {
+  "CourseName": "Experimental Chemistry I",
+  "CourseTitle": "CHEM-2120",
+  "CreditHours": "2",
+  "uuid": "_drv34k9y5"
+}, {
+  "CourseName": "Organic Chemistry Lab I",
+  "CourseTitle": "CHEM-2230",
+  "CreditHours": "1",
+  "uuid": "_thx2q2d9m"
+}, {
+  "CourseName": "Organic Chemistry I",
+  "CourseTitle": "CHEM-2250",
+  "CreditHours": "3",
+  "uuid": "_67gckqslx"
+}, {
+  "CourseName": "Out-Of-Classroom Experience",
+  "CourseTitle": "CHEM-2930",
+  "CreditHours": "1-4",
+  "uuid": "_g3lrgd5l1"
+}, {
+  "CourseName": "Undergraduate Research",
+  "CourseTitle": "CHEM-2950",
+  "CreditHours": "1-6",
+  "uuid": "_msmx9xb26"
+}, {
+  "CourseName": "Inorganic Chemistry Ii",
+  "CourseTitle": "CHEM-4010",
+  "CreditHours": "3",
+  "uuid": "_b9k0or4rg"
+}, {
+  "CourseName": "Experimental Chem Iii",
+  "CourseTitle": "CHEM-4020",
+  "CreditHours": "3",
+  "uuid": "_7pfen40qs"
+}, {
+  "CourseName": "Macroscopic Physical Chemistry",
+  "CourseTitle": "CHEM-4410",
+  "CreditHours": "3",
+  "uuid": "_9cpvpsl5l"
+}, {
+  "CourseName": "Physical Chem For Life Science",
+  "CourseTitle": "CHEM-4440",
+  "CreditHours": "4",
+  "uuid": "_w6div0are"
+}, {
+  "CourseName": "Modern Techniques In Chemistry",
+  "CourseTitle": "CHEM-4530",
+  "CreditHours": "4",
+  "uuid": "_30wh3nqwf"
+}, {
+  "CourseName": "Molecular Biochem I",
+  "CourseTitle": "CHEM-4760",
+  "CreditHours": "4",
+  "uuid": "_fos50ab3e"
+}, {
+  "CourseName": "Professional Devel Seminar",
+  "CourseTitle": "CHEM-4900",
+  "CreditHours": "1",
+  "uuid": "_p8w9hbuug"
+}, {
+  "CourseName": "Senior Experience",
+  "CourseTitle": "CHEM-4950",
+  "CreditHours": "3",
+  "uuid": "_s4fllr7nh"
+}, {
+  "CourseName": "Chemistry I Mentoring",
+  "CourseTitle": "CHEM-4960",
+  "CreditHours": "1",
+  "uuid": "_ve0jvtee8"
+}, {
+  "CourseName": "Organic Chemistry Enrichment",
+  "CourseTitle": "CHEM-4961",
+  "CreditHours": "3",
+  "uuid": "_3pg5uedu7"
+}, {
+  "CourseName": "Biocatalysis",
+  "CourseTitle": "CHEM-4962",
+  "CreditHours": "3",
+  "uuid": "_d065d1phu"
+}, {
+  "CourseName": "Advanced Research Project",
+  "CourseTitle": "CHEM-4970",
+  "CreditHours": "1-4",
+  "uuid": "_qjr8k8pny"
+}, {
+  "CourseName": "Senior Thesis",
+  "CourseTitle": "CHEM-4990",
+  "CreditHours": "3",
+  "uuid": "_fj06wgqtt"
+}, {
+  "CourseName": "Organic Spectra Interpretation",
+  "CourseTitle": "CHEM-6200",
+  "CreditHours": "3",
+  "uuid": "_hbye45lf8"
+}, {
+  "CourseName": "Chemical Biology",
+  "CourseTitle": "CHEM-6710",
+  "CreditHours": "3",
+  "uuid": "_w2khoynh9"
+}, {
+  "CourseName": "Biocatalysis Fundamental Appli",
+  "CourseTitle": "CHEM-6750",
+  "CreditHours": "3",
+  "uuid": "_m5nqjtpl1"
+}, {
+  "CourseName": "Chemistry Seminar",
+  "CourseTitle": "CHEM-6900",
+  "CreditHours": "1",
+  "uuid": "_uk6a6gvez"
+}, {
+  "CourseName": "Chemistry Teaching Seminar",
+  "CourseTitle": "CHEM-6910",
+  "CreditHours": "1",
+  "uuid": "_t7mb5cz5e"
+}, {
+  "CourseName": "Readings In Chem",
+  "CourseTitle": "CHEM-6940",
+  "CreditHours": "1-12",
+  "uuid": "_yrqfag47o"
+}, {
+  "CourseName": "Introduction To Research",
+  "CourseTitle": "CHEM-6950",
+  "CreditHours": "3",
+  "uuid": "_jlczyvo73"
+}, {
+  "CourseName": "Electrochemistry",
+  "CourseTitle": "CHEM-6960",
+  "CreditHours": "3",
+  "uuid": "_6xpaf8iux"
+}, {
+  "CourseName": "Mass Spectroscopy",
+  "CourseTitle": "CHEM-6961",
+  "CreditHours": "3",
+  "uuid": "_z001zrjui"
+}, {
+  "CourseName": "Protein Kinetic Stability",
+  "CourseTitle": "CHEM-6962",
+  "CreditHours": "4",
+  "uuid": "_1vfxos7jt"
+}, {
+  "CourseName": "Natural Polymers & Biomaterial",
+  "CourseTitle": "CHEM-6963",
+  "CreditHours": "3",
+  "uuid": "_tzw7yqcsi"
+}, {
+  "CourseName": "Perspectives In Alz Research",
+  "CourseTitle": "CHEM-6966",
+  "CreditHours": "0",
+  "uuid": "_uremyuv41"
+}, {
+  "CourseName": "Professional Project",
+  "CourseTitle": "CHEM-6970",
+  "CreditHours": "1-12",
+  "uuid": "_89pnmdy2u"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "CHEM-6990",
+  "CreditHours": "1-12",
+  "uuid": "_o5u7wsmtr"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "CHEM-9990",
+  "CreditHours": "1-15",
+  "uuid": "_grguq3no4"
+}, {
+  "CourseName": "Intro To Chemical Engineering",
+  "CourseTitle": "CHME-1010",
+  "CreditHours": "1",
+  "uuid": "_jz50zs6mn"
+}, {
+  "CourseName": "Material, Energy & Entropy Bal",
+  "CourseTitle": "CHME-2010",
+  "CreditHours": "4",
+  "uuid": "_45khmva7d"
+}, {
+  "CourseName": "Rdgs In Chemical Engr",
+  "CourseTitle": "CHME-2940",
+  "CreditHours": "1-6",
+  "uuid": "_2c3yfxl20"
+}, {
+  "CourseName": "Intro - Computational Chem Eng",
+  "CourseTitle": "CHME-2961",
+  "CreditHours": "3",
+  "uuid": "_zdrl3f4t7"
+}, {
+  "CourseName": "Transport Phenomena I",
+  "CourseTitle": "CHME-4010",
+  "CreditHours": "4",
+  "uuid": "_7n1arueqs"
+}, {
+  "CourseName": "Transport Phenomena Ii",
+  "CourseTitle": "CHME-4020",
+  "CreditHours": "4",
+  "uuid": "_ctefkioe6"
+}, {
+  "CourseName": "Chem Process Dynamics & Cntrl",
+  "CourseTitle": "CHME-4030",
+  "CreditHours": "4",
+  "uuid": "_xo9l65e7x"
+}, {
+  "CourseName": "Chemical Eng Separations",
+  "CourseTitle": "CHME-4040",
+  "CreditHours": "3",
+  "uuid": "_d3ita4fe2"
+}, {
+  "CourseName": "Chemical Engr Lab I",
+  "CourseTitle": "CHME-4150",
+  "CreditHours": "3",
+  "uuid": "_hxsxrxmmj"
+}, {
+  "CourseName": "Intro Biochemical Engr",
+  "CourseTitle": "CHME-4430",
+  "CreditHours": "3",
+  "uuid": "_473q2j860"
+}, {
+  "CourseName": "Chemical Reactor Design",
+  "CourseTitle": "CHME-4500",
+  "CreditHours": "3",
+  "uuid": "_gila3xepx"
+}, {
+  "CourseName": "Rdgs In Chemical Engr",
+  "CourseTitle": "CHME-4940",
+  "CreditHours": "1-6",
+  "uuid": "_z8w41tdmp"
+}, {
+  "CourseName": "Molecular Separations",
+  "CourseTitle": "CHME-4962",
+  "CreditHours": "3",
+  "uuid": "_x4f0bko8f"
+}, {
+  "CourseName": "Careers In Chemical Engr",
+  "CourseTitle": "CHME-4963",
+  "CreditHours": "3",
+  "uuid": "_ja6o91cxt"
+}, {
+  "CourseName": "Metabolic Engineering",
+  "CourseTitle": "CHME-4965",
+  "CreditHours": "4",
+  "uuid": "_cdsgvzbx5"
+}, {
+  "CourseName": "Chem Engr Process Simulations",
+  "CourseTitle": "CHME-4966",
+  "CreditHours": "3",
+  "uuid": "_5bgj0y65d"
+}, {
+  "CourseName": "Lignin Valorization",
+  "CourseTitle": "CHME-4967",
+  "CreditHours": "3",
+  "uuid": "_cspss41ly"
+}, {
+  "CourseName": "Biochemical Engr",
+  "CourseTitle": "CHME-6430",
+  "CreditHours": "3",
+  "uuid": "_nvdvapnxr"
+}, {
+  "CourseName": "Chemical & Phase Equilibria",
+  "CourseTitle": "CHME-6570",
+  "CreditHours": "3",
+  "uuid": "_6cscngoct"
+}, {
+  "CourseName": "Math Methods In Chem Engr I",
+  "CourseTitle": "CHME-6610",
+  "CreditHours": "3",
+  "uuid": "_nytn1zd6v"
+}, {
+  "CourseName": "Multiphase Flow & Ht I",
+  "CourseTitle": "CHME-6840",
+  "CreditHours": "3",
+  "uuid": "_if9p4dff5"
+}, {
+  "CourseName": "Cbe Seminar",
+  "CourseTitle": "CHME-6900",
+  "CreditHours": "1",
+  "uuid": "_pwczvqi0w"
+}, {
+  "CourseName": "Rdg In Chemical Engr",
+  "CourseTitle": "CHME-6940",
+  "CreditHours": "1-9",
+  "uuid": "_i34uu6kbg"
+}, {
+  "CourseName": "Intro To Molecular Separations",
+  "CourseTitle": "CHME-6962",
+  "CreditHours": "3",
+  "uuid": "_260jzdhpz"
+}, {
+  "CourseName": "Chbe Seminar",
+  "CourseTitle": "CHME-6963",
+  "CreditHours": "1",
+  "uuid": "_kft7r9wb1"
+}, {
+  "CourseName": "Bio Process Design",
+  "CourseTitle": "CHME-6964",
+  "CreditHours": "3",
+  "uuid": "_ox1j607n0"
+}, {
+  "CourseName": "Metabolic Engineering",
+  "CourseTitle": "CHME-6965",
+  "CreditHours": "3",
+  "uuid": "_uzmvatv61"
+}, {
+  "CourseName": "Perspectives In Alz Research",
+  "CourseTitle": "CHME-6966",
+  "CreditHours": "0",
+  "uuid": "_e09fujb1b"
+}, {
+  "CourseName": "Ethical Consid In Ad Research",
+  "CourseTitle": "CHME-6967",
+  "CreditHours": "3",
+  "uuid": "_5fm3yj6nl"
+}, {
+  "CourseName": "Ethical Consid In Biotech",
+  "CourseTitle": "CHME-6968",
+  "CreditHours": "3",
+  "uuid": "_gb87wlqx5"
+}, {
+  "CourseName": "Professional Project",
+  "CourseTitle": "CHME-6970",
+  "CreditHours": "1-6",
+  "uuid": "_nqqtvqi08"
+}, {
+  "CourseName": "Masters Project",
+  "CourseTitle": "CHME-6980",
+  "CreditHours": "1-16",
+  "uuid": "_8t9k51cd0"
+}, {
+  "CourseName": "Masters Thesis",
+  "CourseTitle": "CHME-6990",
+  "CreditHours": "1-12",
+  "uuid": "_wwxzaymmr"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "CHME-9990",
+  "CreditHours": "1-15",
+  "uuid": "_9qrgfp5jg"
+}, {
+  "CourseName": "Eng Graphics For Civil Eng",
+  "CourseTitle": "CIVL-1200",
+  "CreditHours": "1",
+  "uuid": "_ywr2wm8hw"
+}, {
+  "CourseName": "Intro Transportation Eng",
+  "CourseTitle": "CIVL-2030",
+  "CreditHours": "4",
+  "uuid": "_ihmv1hw6c"
+}, {
+  "CourseName": "Intro To Geotechnical Engr",
+  "CourseTitle": "CIVL-2630",
+  "CreditHours": "4",
+  "uuid": "_hy5vxd8ma"
+}, {
+  "CourseName": "Intro To Structural Eng",
+  "CourseTitle": "CIVL-2670",
+  "CreditHours": "4",
+  "uuid": "_hpjbll22v"
+}, {
+  "CourseName": "Readings In Civl",
+  "CourseTitle": "CIVL-2940",
+  "CreditHours": "1-6",
+  "uuid": "_cz9g4xma7"
+}, {
+  "CourseName": "Foundation Engineering",
+  "CourseTitle": "CIVL-4010",
+  "CreditHours": "3",
+  "uuid": "_2rhcz2wlt"
+}, {
+  "CourseName": "Bedford Seminar",
+  "CourseTitle": "CIVL-4020",
+  "CreditHours": "3",
+  "uuid": "_qyl4xyrz6"
+}, {
+  "CourseName": "Steel Design",
+  "CourseTitle": "CIVL-4070",
+  "CreditHours": "3",
+  "uuid": "_oxengmblo"
+}, {
+  "CourseName": "Geoenvironmental Eng",
+  "CourseTitle": "CIVL-4140",
+  "CreditHours": "3",
+  "uuid": "_y3ydcyhzb"
+}, {
+  "CourseName": "Intro To Finite Elements",
+  "CourseTitle": "CIVL-4240",
+  "CreditHours": "3",
+  "uuid": "_bvkhkt00a"
+}, {
+  "CourseName": "Mass Transit Systems",
+  "CourseTitle": "CIVL-4620",
+  "CreditHours": "3",
+  "uuid": "_zxp3ydgud"
+}, {
+  "CourseName": "Transportation Sys Planning",
+  "CourseTitle": "CIVL-4640",
+  "CreditHours": "3",
+  "uuid": "_qlqmj7ioo"
+}, {
+  "CourseName": "Bedford Digital Tools Devel.",
+  "CourseTitle": "CIVL-4961",
+  "CreditHours": "1",
+  "uuid": "_zy9xxha9v"
+}, {
+  "CourseName": "Mechanics Of Solids",
+  "CourseTitle": "CIVL-6170",
+  "CreditHours": "3",
+  "uuid": "_dy8bi28rq"
+}, {
+  "CourseName": "Intelligent Transportation Sys",
+  "CourseTitle": "CIVL-6240",
+  "CreditHours": "3",
+  "uuid": "_bfwbw98zr"
+}, {
+  "CourseName": "Transportation Sys Planning",
+  "CourseTitle": "CIVL-6250",
+  "CreditHours": "3",
+  "uuid": "_bdajjqw72"
+}, {
+  "CourseName": "Traffic Control & Simulation",
+  "CourseTitle": "CIVL-6270",
+  "CreditHours": "3",
+  "uuid": "_5gz2gs01h"
+}, {
+  "CourseName": "Adv Concrete Structures",
+  "CourseTitle": "CIVL-6310",
+  "CreditHours": "3",
+  "uuid": "_62ofkjkzr"
+}, {
+  "CourseName": "Bedford Design Studio",
+  "CourseTitle": "CIVL-6340",
+  "CreditHours": "3",
+  "uuid": "_3yavahuah"
+}, {
+  "CourseName": "Timber Design",
+  "CourseTitle": "CIVL-6360",
+  "CreditHours": "3",
+  "uuid": "_ezqwv9sgn"
+}, {
+  "CourseName": "Structural Dynamics",
+  "CourseTitle": "CIVL-6450",
+  "CreditHours": "3",
+  "uuid": "_u42sbvzjw"
+}, {
+  "CourseName": "Advanced Geoenv Engr",
+  "CourseTitle": "CIVL-6550",
+  "CreditHours": "3",
+  "uuid": "_l09ncpbm8"
+}, {
+  "CourseName": "Fund. Of Finite Elements",
+  "CourseTitle": "CIVL-6660",
+  "CreditHours": "3",
+  "uuid": "_a31rzzuqj"
+}, {
+  "CourseName": "Colloquium Series",
+  "CourseTitle": "CIVL-6910",
+  "CreditHours": "0",
+  "uuid": "_cx7mw810f"
+}, {
+  "CourseName": "Rdgs In Civil Engr",
+  "CourseTitle": "CIVL-6940",
+  "CreditHours": "1-6",
+  "uuid": "_7lu8pg5aw"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "CIVL-6980",
+  "CreditHours": "1-9",
+  "uuid": "_6gp4d1rf7"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "CIVL-6990",
+  "CreditHours": "1-12",
+  "uuid": "_duixiy7yd"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "CIVL-9990",
+  "CreditHours": "1-15",
+  "uuid": "_26jweun2o"
+}, {
+  "CourseName": "Introduction To Linguistics",
+  "CourseTitle": "COGS-2340",
+  "CreditHours": "4",
+  "uuid": "_2m97txi2u"
+}, {
+  "CourseName": "Programming For Cog Sci & Ai",
+  "CourseTitle": "COGS-4410",
+  "CreditHours": "4",
+  "uuid": "_umacaw7gh"
+}, {
+  "CourseName": "Game Ai",
+  "CourseTitle": "COGS-4420",
+  "CreditHours": "4",
+  "uuid": "_p5y1kva9z"
+}, {
+  "CourseName": "A Cross-Linguistic Perspective",
+  "CourseTitle": "COGS-4560",
+  "CreditHours": "4",
+  "uuid": "_25nwgcijo"
+}, {
+  "CourseName": "Engr Human-Level Art Cog Sys",
+  "CourseTitle": "COGS-4961",
+  "CreditHours": "4",
+  "uuid": "_buhffqdae"
+}, {
+  "CourseName": "Learning & Adv Game Ai",
+  "CourseTitle": "COGS-4962",
+  "CreditHours": "4",
+  "uuid": "_racjf5f14"
+}, {
+  "CourseName": "Sensibilities:Writingxdiscipln",
+  "CourseTitle": "COGS-4964",
+  "CreditHours": "4",
+  "uuid": "_l7t2c5ydz"
+}, {
+  "CourseName": "Artificial Intelligent Agents",
+  "CourseTitle": "COGS-4965",
+  "CreditHours": "4",
+  "uuid": "_qp7bsthvb"
+}, {
+  "CourseName": "Human Perf Modeling & Support",
+  "CourseTitle": "COGS-4967",
+  "CreditHours": "3",
+  "uuid": "_b9hcz3byu"
+}, {
+  "CourseName": "Undergraduate Thesis",
+  "CourseTitle": "COGS-4990",
+  "CreditHours": "2-6",
+  "uuid": "_0a4p3ft4p"
+}, {
+  "CourseName": "Programming For Cog Sci & Ai",
+  "CourseTitle": "COGS-6410",
+  "CreditHours": "4",
+  "uuid": "_d9dt9w8re"
+}, {
+  "CourseName": "A Cross-Linguistic Perspective",
+  "CourseTitle": "COGS-6560",
+  "CreditHours": "3",
+  "uuid": "_cd806xjs1"
+}, {
+  "CourseName": "Advanced Behavioral Statistics",
+  "CourseTitle": "COGS-6570",
+  "CreditHours": "4",
+  "uuid": "_2z3e5osad"
+}, {
+  "CourseName": "Research Problems In Cog Sci",
+  "CourseTitle": "COGS-6961",
+  "CreditHours": "2",
+  "uuid": "_h0deevv5c"
+}, {
+  "CourseName": "Engr Human-Level Art Cog Sys",
+  "CourseTitle": "COGS-6962",
+  "CreditHours": "4",
+  "uuid": "_bqeg0tcrn"
+}, {
+  "CourseName": "Cognitive Modeling",
+  "CourseTitle": "COGS-6965",
+  "CreditHours": "4",
+  "uuid": "_yjkqdhd2e"
+}, {
+  "CourseName": "Research Problems In Cog Sci",
+  "CourseTitle": "COGS-6968",
+  "CreditHours": "2",
+  "uuid": "_0tbzg3arn"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "COGS-6980",
+  "CreditHours": "1-9",
+  "uuid": "_2pafer7ti"
+}, {
+  "CourseName": "Masters Thesis",
+  "CourseTitle": "COGS-6990",
+  "CreditHours": "1-12",
+  "uuid": "_ih4qj60bq"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "COGS-9990",
+  "CreditHours": "1-15",
+  "uuid": "_sy3xm5tn0"
+}, {
+  "CourseName": "Intro To Communication Theory",
+  "CourseTitle": "COMM-1510",
+  "CreditHours": "4",
+  "uuid": "_1ld6sxubt"
+}, {
+  "CourseName": "Writing For The Screen",
+  "CourseTitle": "COMM-2110",
+  "CreditHours": "4",
+  "uuid": "_j9zdkdud2"
+}, {
+  "CourseName": "Introduction To Graphics",
+  "CourseTitle": "COMM-2660",
+  "CreditHours": "4",
+  "uuid": "_tgcdwb5hu"
+}, {
+  "CourseName": "Readings In Comm",
+  "CourseTitle": "COMM-2940",
+  "CreditHours": "1-4",
+  "uuid": "_ljtbw3lao"
+}, {
+  "CourseName": "Writing For Games Ii",
+  "CourseTitle": "COMM-4250",
+  "CreditHours": "4",
+  "uuid": "_5wmw4zdtb"
+}, {
+  "CourseName": "Visual Poetics & Narrative",
+  "CourseTitle": "COMM-4320",
+  "CreditHours": "4",
+  "uuid": "_4vvn6e1c8"
+}, {
+  "CourseName": "Foundations Of Hci Usability",
+  "CourseTitle": "COMM-4420",
+  "CreditHours": "4",
+  "uuid": "_phjk3ua9v"
+}, {
+  "CourseName": "Language And Culture",
+  "CourseTitle": "COMM-4620",
+  "CreditHours": "4",
+  "uuid": "_9w4he8flc"
+}, {
+  "CourseName": "User-Experience Design",
+  "CourseTitle": "COMM-4770",
+  "CreditHours": "4",
+  "uuid": "_577l50m41"
+}, {
+  "CourseName": "Readings In Comm",
+  "CourseTitle": "COMM-4940",
+  "CreditHours": "1-6",
+  "uuid": "_j5ia6wsit"
+}, {
+  "CourseName": "Non W. Narrative Structures",
+  "CourseTitle": "COMM-4941",
+  "CreditHours": "4",
+  "uuid": "_ka6qahbb7"
+}, {
+  "CourseName": "Visual Poetics & Narrative",
+  "CourseTitle": "COMM-6320",
+  "CreditHours": "3",
+  "uuid": "_v96yl5tct"
+}, {
+  "CourseName": "Foundations Of Hci Usability",
+  "CourseTitle": "COMM-6420",
+  "CreditHours": "3",
+  "uuid": "_cjteh0euj"
+}, {
+  "CourseName": "User-Experience Design",
+  "CourseTitle": "COMM-6770",
+  "CreditHours": "3",
+  "uuid": "_11zvvdnke"
+}, {
+  "CourseName": "Studies In Communication",
+  "CourseTitle": "COMM-6940",
+  "CreditHours": "1-6",
+  "uuid": "_wvew6678f"
+}, {
+  "CourseName": "Master'S Project In Comm",
+  "CourseTitle": "COMM-6980",
+  "CreditHours": "1-9",
+  "uuid": "_qt2kwc8dc"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "COMM-6990",
+  "CreditHours": "1-6",
+  "uuid": "_0wwnczakm"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "COMM-9990",
+  "CreditHours": "1-15",
+  "uuid": "_i32kfknxz"
+}, {
+  "CourseName": "Intro To Computer Programming",
+  "CourseTitle": "CSCI-1010",
+  "CreditHours": "4",
+  "uuid": "_koyai1us4"
+}, {
+  "CourseName": "Computer Science I",
+  "CourseTitle": "CSCI-1100",
+  "CreditHours": "4",
+  "uuid": "_kskmba88i"
+}, {
+  "CourseName": "Beginning Prog For Eng",
+  "CourseTitle": "CSCI-1190",
+  "CreditHours": "1",
+  "uuid": "_bk4xuecfh"
+}, {
+  "CourseName": "Data Structures",
+  "CourseTitle": "CSCI-1200",
+  "CreditHours": "4",
+  "uuid": "_hpcm6o391"
+}, {
+  "CourseName": "Foundations Of Computer Sci",
+  "CourseTitle": "CSCI-2200",
+  "CreditHours": "4",
+  "uuid": "_8tri9w6xg"
+}, {
+  "CourseName": "Introduction To Algorithms",
+  "CourseTitle": "CSCI-2300",
+  "CreditHours": "4",
+  "uuid": "_7813eo3bq"
+}, {
+  "CourseName": "Computer Organization",
+  "CourseTitle": "CSCI-2500",
+  "CreditHours": "4",
+  "uuid": "_manfztonl"
+}, {
+  "CourseName": "Principles Of Software",
+  "CourseTitle": "CSCI-2600",
+  "CreditHours": "4",
+  "uuid": "_ahae9ld1c"
+}, {
+  "CourseName": "Web Systems Development",
+  "CourseTitle": "CSCI-2960",
+  "CreditHours": "4",
+  "uuid": "_woff67vvn"
+}, {
+  "CourseName": "Randomized Algorithms",
+  "CourseTitle": "CSCI-4030",
+  "CreditHours": "4",
+  "uuid": "_o2wvr4ldh"
+}, {
+  "CourseName": "Machine Learning From Data",
+  "CourseTitle": "CSCI-4100",
+  "CreditHours": "4",
+  "uuid": "_lrfw74p67"
+}, {
+  "CourseName": "Computational Finance",
+  "CourseTitle": "CSCI-4120",
+  "CreditHours": "4",
+  "uuid": "_dunierge0"
+}, {
+  "CourseName": "Network Programming",
+  "CourseTitle": "CSCI-4220",
+  "CreditHours": "4",
+  "uuid": "_a0doh7s59"
+}, {
+  "CourseName": "Crypt & Network Security I",
+  "CourseTitle": "CSCI-4230",
+  "CreditHours": "4",
+  "uuid": "_aczfbo8dr"
+}, {
+  "CourseName": "Frontiers Of Network Science",
+  "CourseTitle": "CSCI-4250",
+  "CreditHours": "4",
+  "uuid": "_oq0xjfsk1"
+}, {
+  "CourseName": "Computational Vision",
+  "CourseTitle": "CSCI-4270",
+  "CreditHours": "4",
+  "uuid": "_ds9alilq8"
+}, {
+  "CourseName": "Ontologies",
+  "CourseTitle": "CSCI-4340",
+  "CreditHours": "4",
+  "uuid": "_jr9mhzhy5"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "CSCI-4350",
+  "CreditHours": "3",
+  "uuid": "_f7o2m1no9"
+}, {
+  "CourseName": "Database Systems",
+  "CourseTitle": "CSCI-4380",
+  "CreditHours": "4",
+  "uuid": "_m1xjripgm"
+}, {
+  "CourseName": "Data Mining",
+  "CourseTitle": "CSCI-4390",
+  "CreditHours": "4",
+  "uuid": "_rhas4hkek"
+}, {
+  "CourseName": "Programming Languages",
+  "CourseTitle": "CSCI-4430",
+  "CreditHours": "4",
+  "uuid": "_e4rkxb0tx"
+}, {
+  "CourseName": "Software Design & Docume",
+  "CourseTitle": "CSCI-4440",
+  "CreditHours": "4",
+  "uuid": "_m1mpxdht1"
+}, {
+  "CourseName": "Robotics I",
+  "CourseTitle": "CSCI-4480",
+  "CreditHours": "3",
+  "uuid": "_yyvwllfin"
+}, {
+  "CourseName": "Dist Systems & Algorithms",
+  "CourseTitle": "CSCI-4510",
+  "CreditHours": "4",
+  "uuid": "_vbee83pfg"
+}, {
+  "CourseName": "Game Development I",
+  "CourseTitle": "CSCI-4520",
+  "CreditHours": "4",
+  "uuid": "_6tjg4w0fo"
+}, {
+  "CourseName": "Numerical Computing",
+  "CourseTitle": "CSCI-4800",
+  "CreditHours": "4",
+  "uuid": "_dt4kofb9a"
+}, {
+  "CourseName": "Readings In Csci",
+  "CourseTitle": "CSCI-4940",
+  "CreditHours": "1-6",
+  "uuid": "_lj69yq9tk"
+}, {
+  "CourseName": "Knowledge Discovery & Info Ext",
+  "CourseTitle": "CSCI-4960",
+  "CreditHours": "4",
+  "uuid": "_28t0l7frc"
+}, {
+  "CourseName": "Rcos",
+  "CourseTitle": "CSCI-4963",
+  "CreditHours": "0",
+  "uuid": "_p0e528lag"
+}, {
+  "CourseName": "Approximation Algorithms",
+  "CourseTitle": "CSCI-4964",
+  "CreditHours": "4",
+  "uuid": "_8jlk3lxoq"
+}, {
+  "CourseName": "Learning & Adv Game Ai",
+  "CourseTitle": "CSCI-4965",
+  "CreditHours": "4",
+  "uuid": "_98q3b3yi1"
+}, {
+  "CourseName": "Foundations Of Data Science",
+  "CourseTitle": "CSCI-4966",
+  "CreditHours": "4",
+  "uuid": "_52q7rq0fu"
+}, {
+  "CourseName": "Data And Society",
+  "CourseTitle": "CSCI-4967",
+  "CreditHours": "4",
+  "uuid": "_wozafbny2"
+}, {
+  "CourseName": "Networking In The Linux Kernel",
+  "CourseTitle": "CSCI-4969",
+  "CreditHours": "4",
+  "uuid": "_12z2bjjpo"
+}, {
+  "CourseName": "Intelligent Virtual Agent",
+  "CourseTitle": "CSCI-4977",
+  "CreditHours": "4",
+  "uuid": "_gg2ld6bbv"
+}, {
+  "CourseName": "Machine Learning From Data",
+  "CourseTitle": "CSCI-6100",
+  "CreditHours": "4",
+  "uuid": "_j3bd1e4u1"
+}, {
+  "CourseName": "Computational Finance",
+  "CourseTitle": "CSCI-6120",
+  "CreditHours": "4",
+  "uuid": "_ufb7sy596"
+}, {
+  "CourseName": "Randomized Algorithms",
+  "CourseTitle": "CSCI-6220",
+  "CreditHours": "4",
+  "uuid": "_zrztra6sa"
+}, {
+  "CourseName": "Crypt And Network Security I",
+  "CourseTitle": "CSCI-6230",
+  "CreditHours": "4",
+  "uuid": "_2442vblio"
+}, {
+  "CourseName": "Frontiers Of Network Science",
+  "CourseTitle": "CSCI-6250",
+  "CreditHours": "4",
+  "uuid": "_xni1ghiw9"
+}, {
+  "CourseName": "Computational Vision",
+  "CourseTitle": "CSCI-6270",
+  "CreditHours": "3",
+  "uuid": "_dz4cq8go7"
+}, {
+  "CourseName": "Ontologies",
+  "CourseTitle": "CSCI-6340",
+  "CreditHours": "4",
+  "uuid": "_hjkofn66q"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "CSCI-6350",
+  "CreditHours": "3",
+  "uuid": "_jijju8amf"
+}, {
+  "CourseName": "Data Mining",
+  "CourseTitle": "CSCI-6390",
+  "CreditHours": "4",
+  "uuid": "_equyueco1"
+}, {
+  "CourseName": "Programming Languages",
+  "CourseTitle": "CSCI-6430",
+  "CreditHours": "3",
+  "uuid": "_t51kenuap"
+}, {
+  "CourseName": "Dist Systems & Algorithms",
+  "CourseTitle": "CSCI-6510",
+  "CreditHours": "4",
+  "uuid": "_jyzewk8os"
+}, {
+  "CourseName": "Computational Linear Algebra",
+  "CourseTitle": "CSCI-6800",
+  "CreditHours": "4",
+  "uuid": "_ubzttz1k2"
+}, {
+  "CourseName": "Computer Science Colloquium",
+  "CourseTitle": "CSCI-6900",
+  "CreditHours": "0",
+  "uuid": "_ab3ig0aud"
+}, {
+  "CourseName": "Readings In Csci",
+  "CourseTitle": "CSCI-6940",
+  "CreditHours": "1-12",
+  "uuid": "_30f17jjsr"
+}, {
+  "CourseName": "Knowledge Discovery & Info Ext",
+  "CourseTitle": "CSCI-6962",
+  "CreditHours": "3",
+  "uuid": "_h0ay87wa7"
+}, {
+  "CourseName": "Data And Society",
+  "CourseTitle": "CSCI-6963",
+  "CreditHours": "3",
+  "uuid": "_qi3hy4hhj"
+}, {
+  "CourseName": "Cognitive Computing",
+  "CourseTitle": "CSCI-6964",
+  "CreditHours": "4",
+  "uuid": "_zvk2nl0n6"
+}, {
+  "CourseName": "Learning & Adv Game Ai",
+  "CourseTitle": "CSCI-6966",
+  "CreditHours": "3",
+  "uuid": "_k61h0jj2q"
+}, {
+  "CourseName": "Graduate Skills",
+  "CourseTitle": "CSCI-6969",
+  "CreditHours": "0",
+  "uuid": "_g5a23juay"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "CSCI-6980",
+  "CreditHours": "1-9",
+  "uuid": "_kdid4rd30"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "CSCI-6990",
+  "CreditHours": "1-16",
+  "uuid": "_5f1g41am2"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "CSCI-9990",
+  "CreditHours": "1-15",
+  "uuid": "_icwyutb5l"
+}, {
+  "CourseName": "Introductory Economics",
+  "CourseTitle": "ECON-1200",
+  "CreditHours": "4",
+  "uuid": "_do08z3trz"
+}, {
+  "CourseName": "Managerial Economics",
+  "CourseTitle": "ECON-2010",
+  "CreditHours": "4",
+  "uuid": "_5qv6mpqc4"
+}, {
+  "CourseName": "Intermediate Macroeconomics",
+  "CourseTitle": "ECON-2020",
+  "CreditHours": "4",
+  "uuid": "_7hcihrdf4"
+}, {
+  "CourseName": "Readings In Economics",
+  "CourseTitle": "ECON-2940",
+  "CreditHours": "1-4",
+  "uuid": "_0pq50bwqh"
+}, {
+  "CourseName": "Money & Banking",
+  "CourseTitle": "ECON-4130",
+  "CreditHours": "4",
+  "uuid": "_enroqkiaf"
+}, {
+  "CourseName": "Structure Of Industry",
+  "CourseTitle": "ECON-4140",
+  "CreditHours": "4",
+  "uuid": "_4vmhd9uha"
+}, {
+  "CourseName": "Economics Of Gov'T Regulation",
+  "CourseTitle": "ECON-4150",
+  "CreditHours": "4",
+  "uuid": "_pj2w8pzb5"
+}, {
+  "CourseName": "Internat Eco And Globalization",
+  "CourseTitle": "ECON-4190",
+  "CreditHours": "4",
+  "uuid": "_0p3bda3y8"
+}, {
+  "CourseName": "Econ-Financial Markets & Inst.",
+  "CourseTitle": "ECON-4330",
+  "CreditHours": "4",
+  "uuid": "_r73z357ri"
+}, {
+  "CourseName": "Econometrics",
+  "CourseTitle": "ECON-4570",
+  "CreditHours": "4",
+  "uuid": "_l6p96p94b"
+}, {
+  "CourseName": "Seminar In Economics",
+  "CourseTitle": "ECON-4900",
+  "CreditHours": "2",
+  "uuid": "_ql57g1wcr"
+}, {
+  "CourseName": "Readings In Economics",
+  "CourseTitle": "ECON-4940",
+  "CreditHours": "1-6",
+  "uuid": "_r1x2ol4vd"
+}, {
+  "CourseName": "Health Economics",
+  "CourseTitle": "ECON-4962",
+  "CreditHours": "4",
+  "uuid": "_e88gdjb1y"
+}, {
+  "CourseName": "Behavioral Economics",
+  "CourseTitle": "ECON-4964",
+  "CreditHours": "4",
+  "uuid": "_mt0np6m0g"
+}, {
+  "CourseName": "Econometric Methods - Big Data",
+  "CourseTitle": "ECON-4966",
+  "CreditHours": "4",
+  "uuid": "_o3s2rp1mu"
+}, {
+  "CourseName": "Applied Game Theory",
+  "CourseTitle": "ECON-4967",
+  "CreditHours": "4",
+  "uuid": "_3i495qro8"
+}, {
+  "CourseName": "Advanced Structure Of Industry",
+  "CourseTitle": "ECON-6140",
+  "CreditHours": "3",
+  "uuid": "_xj9xlvybg"
+}, {
+  "CourseName": "Adv Economics Gov. Regulations",
+  "CourseTitle": "ECON-6150",
+  "CreditHours": "3",
+  "uuid": "_fvc5kngin"
+}, {
+  "CourseName": "Adv Intern Eco & Globalization",
+  "CourseTitle": "ECON-6190",
+  "CreditHours": "3",
+  "uuid": "_1sfhanm32"
+}, {
+  "CourseName": "Introduction To Econometrics",
+  "CourseTitle": "ECON-6560",
+  "CreditHours": "3",
+  "uuid": "_e9qs0ando"
+}, {
+  "CourseName": "Readings In Economics",
+  "CourseTitle": "ECON-6940",
+  "CreditHours": "1-6",
+  "uuid": "_prj5h118b"
+}, {
+  "CourseName": "Applied Microeconomics",
+  "CourseTitle": "ECON-6960",
+  "CreditHours": "3",
+  "uuid": "_6tvmj5xyj"
+}, {
+  "CourseName": "Applied Econometrics",
+  "CourseTitle": "ECON-6961",
+  "CreditHours": "3",
+  "uuid": "_69u1ng9gi"
+}, {
+  "CourseName": "Health Economics",
+  "CourseTitle": "ECON-6962",
+  "CreditHours": "4",
+  "uuid": "_z1l93was0"
+}, {
+  "CourseName": "Behavioral Economics",
+  "CourseTitle": "ECON-6964",
+  "CreditHours": "3",
+  "uuid": "_ljrdzo32v"
+}, {
+  "CourseName": "Econometric Methods - Big Data",
+  "CourseTitle": "ECON-6966",
+  "CreditHours": "3",
+  "uuid": "_eywdwktee"
+}, {
+  "CourseName": "Applied Game Theory",
+  "CourseTitle": "ECON-6967",
+  "CreditHours": "3",
+  "uuid": "_rh310ahn5"
+}, {
+  "CourseName": "Professional Project",
+  "CourseTitle": "ECON-6970",
+  "CreditHours": "1-6",
+  "uuid": "_ucdfnd6ug"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ECON-9990",
+  "CreditHours": "1-15",
+  "uuid": "_4qn5tqji6"
+}, {
+  "CourseName": "Introduction To Ecse",
+  "CourseTitle": "ECSE-1010",
+  "CreditHours": "4",
+  "uuid": "_in3fady23"
+}, {
+  "CourseName": "Mechatronics-Hardware/Software",
+  "CourseTitle": "ECSE-1090",
+  "CreditHours": "1",
+  "uuid": "_r3808fxjp"
+}, {
+  "CourseName": "Electric Circuits",
+  "CourseTitle": "ECSE-2010",
+  "CreditHours": "4",
+  "uuid": "_efsq2n5bt"
+}, {
+  "CourseName": "Introduction To Electronics",
+  "CourseTitle": "ECSE-2050",
+  "CreditHours": "4",
+  "uuid": "_ib8bvxaig"
+}, {
+  "CourseName": "Fields And Waves I",
+  "CourseTitle": "ECSE-2100",
+  "CreditHours": "4",
+  "uuid": "_38c59ctax"
+}, {
+  "CourseName": "Electrical Energy Systems",
+  "CourseTitle": "ECSE-2110",
+  "CreditHours": "4",
+  "uuid": "_pq9nh8gnj"
+}, {
+  "CourseName": "Microelectronics Technology",
+  "CourseTitle": "ECSE-2210",
+  "CreditHours": "3",
+  "uuid": "_77h0c5x03"
+}, {
+  "CourseName": "Signals And Systems",
+  "CourseTitle": "ECSE-2410",
+  "CreditHours": "3",
+  "uuid": "_2g2n74smr"
+}, {
+  "CourseName": "Engineering Probability",
+  "CourseTitle": "ECSE-2500",
+  "CreditHours": "3",
+  "uuid": "_ilajjn892"
+}, {
+  "CourseName": "Cptr Components & Oper",
+  "CourseTitle": "ECSE-2610",
+  "CreditHours": "4",
+  "uuid": "_w7rrs5k40"
+}, {
+  "CourseName": "Cptr Arch, Nets & Os",
+  "CourseTitle": "ECSE-2660",
+  "CreditHours": "4",
+  "uuid": "_95vxoke7t"
+}, {
+  "CourseName": "Ecse Enrichment Seminar",
+  "CourseTitle": "ECSE-2900",
+  "CreditHours": "1",
+  "uuid": "_a5ynr9ppq"
+}, {
+  "CourseName": "Undergraduate Research Project",
+  "CourseTitle": "ECSE-2941",
+  "CreditHours": "2",
+  "uuid": "_syt5nupr4"
+}, {
+  "CourseName": "Practicum In College Teaching",
+  "CourseTitle": "ECSE-2960",
+  "CreditHours": "1",
+  "uuid": "_m1m187ira"
+}, {
+  "CourseName": "Analog Ic Design",
+  "CourseTitle": "ECSE-4030",
+  "CreditHours": "3",
+  "uuid": "_ar32wrthn"
+}, {
+  "CourseName": "Semi Power Electronics",
+  "CourseTitle": "ECSE-4080",
+  "CreditHours": "3",
+  "uuid": "_egmi4z7ry"
+}, {
+  "CourseName": "Mechatronics",
+  "CourseTitle": "ECSE-4090",
+  "CreditHours": "3",
+  "uuid": "_5794jiexi"
+}, {
+  "CourseName": "Power Engineering Analysis",
+  "CourseTitle": "ECSE-4110",
+  "CreditHours": "3",
+  "uuid": "_q3ap77hr2"
+}, {
+  "CourseName": "Vlsi Design",
+  "CourseTitle": "ECSE-4220",
+  "CreditHours": "3",
+  "uuid": "_yx8c5swkh"
+}, {
+  "CourseName": "Ic Proc & Design",
+  "CourseTitle": "ECSE-4250",
+  "CreditHours": "3",
+  "uuid": "_k35a6iz89"
+}, {
+  "CourseName": "Fund Of Solid State Lghtng Sys",
+  "CourseTitle": "ECSE-4380",
+  "CreditHours": "3",
+  "uuid": "_p3qpy1mhv"
+}, {
+  "CourseName": "Control Systems Engineering",
+  "CourseTitle": "ECSE-4440",
+  "CreditHours": "3",
+  "uuid": "_reiwax12e"
+}, {
+  "CourseName": "Robotics I",
+  "CourseTitle": "ECSE-4480",
+  "CreditHours": "3",
+  "uuid": "_ohfevtevt"
+}, {
+  "CourseName": "Communication Systems",
+  "CourseTitle": "ECSE-4520",
+  "CreditHours": "3",
+  "uuid": "_jhkz5aud0"
+}, {
+  "CourseName": "Digital Signal Processing",
+  "CourseTitle": "ECSE-4530",
+  "CreditHours": "3",
+  "uuid": "_bb1mbtdfp"
+}, {
+  "CourseName": "Cptr Comm Networks",
+  "CourseTitle": "ECSE-4670",
+  "CreditHours": "3",
+  "uuid": "_65367ohwf"
+}, {
+  "CourseName": "Solid State Physics",
+  "CourseTitle": "ECSE-4720",
+  "CreditHours": "4",
+  "uuid": "_0vdft10vg"
+}, {
+  "CourseName": "Computer Graphics",
+  "CourseTitle": "ECSE-4750",
+  "CreditHours": "3",
+  "uuid": "_59ptvo79q"
+}, {
+  "CourseName": "Computer Hardware Design",
+  "CourseTitle": "ECSE-4770",
+  "CreditHours": "3",
+  "uuid": "_xrxl4mgwd"
+}, {
+  "CourseName": "Microprocessor Systems",
+  "CourseTitle": "ECSE-4790",
+  "CreditHours": "3",
+  "uuid": "_v0pn58iwu"
+}, {
+  "CourseName": "Multidisciplinary Cap Design",
+  "CourseTitle": "ECSE-4900",
+  "CreditHours": "3",
+  "uuid": "_ns2fad7gs"
+}, {
+  "CourseName": "Readings In Ecse",
+  "CourseTitle": "ECSE-4940",
+  "CreditHours": "1-12",
+  "uuid": "_uc0ju5y67"
+}, {
+  "CourseName": "Mod&Sim For Cyber-Physical Sys",
+  "CourseTitle": "ECSE-4961",
+  "CreditHours": "3",
+  "uuid": "_g60p7gdtg"
+}, {
+  "CourseName": "Radar Imaging",
+  "CourseTitle": "ECSE-4962",
+  "CreditHours": "3",
+  "uuid": "_cuwtat4bj"
+}, {
+  "CourseName": "Power Engineering Analysis",
+  "CourseTitle": "ECSE-6110",
+  "CreditHours": "3",
+  "uuid": "_fmlho5asn"
+}, {
+  "CourseName": "Elec&Magn Fields In Epe",
+  "CourseTitle": "ECSE-6150",
+  "CreditHours": "3",
+  "uuid": "_09i2a512t"
+}, {
+  "CourseName": "Phys Found Of Solid State Dev",
+  "CourseTitle": "ECSE-6220",
+  "CreditHours": "3",
+  "uuid": "_ugus1r3pu"
+}, {
+  "CourseName": "Semicond Dev & Models I",
+  "CourseTitle": "ECSE-6230",
+  "CreditHours": "3",
+  "uuid": "_3krcv7kt3"
+}, {
+  "CourseName": "Systems Analysis Techniques",
+  "CourseTitle": "ECSE-6400",
+  "CreditHours": "3",
+  "uuid": "_pdhz7c1fr"
+}, {
+  "CourseName": "Robotics I",
+  "CourseTitle": "ECSE-6470",
+  "CreditHours": "3",
+  "uuid": "_9mjfufwu8"
+}, {
+  "CourseName": "Intro Stoch Sign & Sys",
+  "CourseTitle": "ECSE-6510",
+  "CreditHours": "3",
+  "uuid": "_70yp8ufxd"
+}, {
+  "CourseName": "Inform Theory & Coding",
+  "CourseTitle": "ECSE-6530",
+  "CreditHours": "3",
+  "uuid": "_o60se08qw"
+}, {
+  "CourseName": "Pattern Recognition",
+  "CourseTitle": "ECSE-6610",
+  "CreditHours": "3",
+  "uuid": "_lm5zpaks3"
+}, {
+  "CourseName": "Fault Tolerant Systems",
+  "CourseTitle": "ECSE-6730",
+  "CreditHours": "3",
+  "uuid": "_wnhr22ofj"
+}, {
+  "CourseName": "Probabilistic Graphical Models",
+  "CourseTitle": "ECSE-6810",
+  "CreditHours": "3",
+  "uuid": "_l8u2c59fg"
+}, {
+  "CourseName": "Seminar In Ecse",
+  "CourseTitle": "ECSE-6900",
+  "CreditHours": "0",
+  "uuid": "_5vym48wjw"
+}, {
+  "CourseName": "Biological Image Analysis",
+  "CourseTitle": "ECSE-6961",
+  "CreditHours": "3",
+  "uuid": "_0y3zcp6mn"
+}, {
+  "CourseName": "Adv Topics In Large Power Sys",
+  "CourseTitle": "ECSE-6963",
+  "CreditHours": "3",
+  "uuid": "_zb2w54636"
+}, {
+  "CourseName": "Computer Graphics",
+  "CourseTitle": "ECSE-6964",
+  "CreditHours": "3",
+  "uuid": "_a06em9kts"
+}, {
+  "CourseName": "Masters Professional Project",
+  "CourseTitle": "ECSE-6970",
+  "CreditHours": "3",
+  "uuid": "_f4qlmvryg"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "ECSE-6980",
+  "CreditHours": "1-16",
+  "uuid": "_8h63hsaj5"
+}, {
+  "CourseName": "Masters Thesis",
+  "CourseTitle": "ECSE-6990",
+  "CreditHours": "1-12",
+  "uuid": "_xi5b1intp"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ECSE-9990",
+  "CreditHours": "1-18",
+  "uuid": "_j4lo7eej5"
+}, {
+  "CourseName": "Intro To Engr Analysis",
+  "CourseTitle": "ENGR-1100",
+  "CreditHours": "4",
+  "uuid": "_tzzxeuxmm"
+}, {
+  "CourseName": "Eng Graphics & Cad",
+  "CourseTitle": "ENGR-1200",
+  "CreditHours": "1",
+  "uuid": "_becmtk614"
+}, {
+  "CourseName": "Engr Processes",
+  "CourseTitle": "ENGR-1300",
+  "CreditHours": "1",
+  "uuid": "_8gduog4kq"
+}, {
+  "CourseName": "Engineering Communications",
+  "CourseTitle": "ENGR-1400",
+  "CreditHours": "1",
+  "uuid": "_pc86zkcvw"
+}, {
+  "CourseName": "Materials Science For Engineer",
+  "CourseTitle": "ENGR-1600",
+  "CreditHours": "4",
+  "uuid": "_phwz0261j"
+}, {
+  "CourseName": "Intro To Better World Engr",
+  "CourseTitle": "ENGR-1700",
+  "CreditHours": "1",
+  "uuid": "_u728jtbb2"
+}, {
+  "CourseName": "Intro Engineering Design",
+  "CourseTitle": "ENGR-2050",
+  "CreditHours": "4",
+  "uuid": "_gppasc5tr"
+}, {
+  "CourseName": "Engineering Dynamics",
+  "CourseTitle": "ENGR-2090",
+  "CreditHours": "4",
+  "uuid": "_ucw5kj48x"
+}, {
+  "CourseName": "Thermal & Fluids Eng I",
+  "CourseTitle": "ENGR-2250",
+  "CreditHours": "4",
+  "uuid": "_9hhwaptr0"
+}, {
+  "CourseName": "Electronic Instrumentation",
+  "CourseTitle": "ENGR-2300",
+  "CreditHours": "4",
+  "uuid": "_mcdee4jtg"
+}, {
+  "CourseName": "Embedded Control",
+  "CourseTitle": "ENGR-2350",
+  "CreditHours": "4",
+  "uuid": "_njhyhydgh"
+}, {
+  "CourseName": "Strength Of Materials",
+  "CourseTitle": "ENGR-2530",
+  "CreditHours": "4",
+  "uuid": "_3fljauhci"
+}, {
+  "CourseName": "Mod & Analysis Uncertaint",
+  "CourseTitle": "ENGR-2600",
+  "CreditHours": "3",
+  "uuid": "_f1p8evfem"
+}, {
+  "CourseName": "Gen Manufacturing Proc",
+  "CourseTitle": "ENGR-2710",
+  "CreditHours": "3",
+  "uuid": "_cd8b0f4zn"
+}, {
+  "CourseName": "Computer Aided Machining",
+  "CourseTitle": "ENGR-2720",
+  "CreditHours": "3",
+  "uuid": "_m0bzibgdw"
+}, {
+  "CourseName": "Readings In Engr",
+  "CourseTitle": "ENGR-2940",
+  "CreditHours": "1-12",
+  "uuid": "_su5e6rl13"
+}, {
+  "CourseName": "Undergraduate Research Project",
+  "CourseTitle": "ENGR-2950",
+  "CreditHours": "1-4",
+  "uuid": "_raimw1lj2"
+}, {
+  "CourseName": "Professional Devel Iii",
+  "CourseTitle": "ENGR-4010",
+  "CreditHours": "1",
+  "uuid": "_42de0ung4"
+}, {
+  "CourseName": "Business Issues For Engr & Sci",
+  "CourseTitle": "ENGR-4100",
+  "CreditHours": "4",
+  "uuid": "_cbzuloejh"
+}, {
+  "CourseName": "Manufacturing Proc & Sys Lab I",
+  "CourseTitle": "ENGR-4710",
+  "CreditHours": "4",
+  "uuid": "_o5jowntiq"
+}, {
+  "CourseName": "Engineering Economics",
+  "CourseTitle": "ENGR-4760",
+  "CreditHours": "3",
+  "uuid": "_84ceaxrre"
+}, {
+  "CourseName": "Business Issues For Engr & Sci",
+  "CourseTitle": "ENGR-6100",
+  "CreditHours": "3",
+  "uuid": "_2cbwz3ugm"
+}, {
+  "CourseName": "Adv. Manufacturing Proc & Sys",
+  "CourseTitle": "ENGR-6120",
+  "CreditHours": "4",
+  "uuid": "_zuks8q5f4"
+}, {
+  "CourseName": "Introduction To Env. Engr.",
+  "CourseTitle": "ENVE-2110",
+  "CreditHours": "4",
+  "uuid": "_apziqjqvt"
+}, {
+  "CourseName": "Readings In Enee",
+  "CourseTitle": "ENVE-2940",
+  "CreditHours": "1-6",
+  "uuid": "_p1qavytx5"
+}, {
+  "CourseName": "Bench Scale Design",
+  "CourseTitle": "ENVE-4240",
+  "CreditHours": "3",
+  "uuid": "_v7lk9uo45"
+}, {
+  "CourseName": "Intro To Air Quality Control",
+  "CourseTitle": "ENVE-4330",
+  "CreditHours": "4",
+  "uuid": "_2fq7emg5d"
+}, {
+  "CourseName": "Biol Process In Enve",
+  "CourseTitle": "ENVE-4350",
+  "CreditHours": "4",
+  "uuid": "_l5fde7s0s"
+}, {
+  "CourseName": "Groundwater Hydrology",
+  "CourseTitle": "ENVE-4710",
+  "CreditHours": "4",
+  "uuid": "_arp3d35c5"
+}, {
+  "CourseName": "Readings In Enve",
+  "CourseTitle": "ENVE-4940",
+  "CreditHours": "1-4",
+  "uuid": "_pla9gsz10"
+}, {
+  "CourseName": "Adv Groundwater Hydrology",
+  "CourseTitle": "ENVE-6110",
+  "CreditHours": "3",
+  "uuid": "_gfmq7t2r3"
+}, {
+  "CourseName": "Readings In Enve",
+  "CourseTitle": "ENVE-6940",
+  "CreditHours": "1-6",
+  "uuid": "_it73qee6v"
+}, {
+  "CourseName": "Masters Project",
+  "CourseTitle": "ENVE-6980",
+  "CreditHours": "1-9",
+  "uuid": "_5wgmr7jhp"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "ENVE-6990",
+  "CreditHours": "1-12",
+  "uuid": "_jtjis9efw"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ENVE-9990",
+  "CreditHours": "1-15",
+  "uuid": "_8n2wc4u1m"
+}, {
+  "CourseName": "Geology I: Earth'S Interior",
+  "CourseTitle": "ERTH-1100",
+  "CreditHours": "3",
+  "uuid": "_qox06x5tw"
+}, {
+  "CourseName": "Geology I: Lab",
+  "CourseTitle": "ERTH-1150",
+  "CreditHours": "1",
+  "uuid": "_zqt7gw6zv"
+}, {
+  "CourseName": "Structural Geology",
+  "CourseTitle": "ERTH-2120",
+  "CreditHours": "4",
+  "uuid": "_8kufugyam"
+}, {
+  "CourseName": "Field Methods",
+  "CourseTitle": "ERTH-2210",
+  "CreditHours": "3",
+  "uuid": "_uxiynhdrz"
+}, {
+  "CourseName": "Intro To Geobiology",
+  "CourseTitle": "ERTH-2960",
+  "CreditHours": "4",
+  "uuid": "_rg3kyoikl"
+}, {
+  "CourseName": "Applied Micropaleontology",
+  "CourseTitle": "ERTH-4200",
+  "CreditHours": "4",
+  "uuid": "_lluvs44fi"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "ERTH-4350",
+  "CreditHours": "3",
+  "uuid": "_dwyakbrdl"
+}, {
+  "CourseName": "Groundwater Hydrology",
+  "CourseTitle": "ERTH-4710",
+  "CreditHours": "4",
+  "uuid": "_rienica57"
+}, {
+  "CourseName": "Readings In Erth",
+  "CourseTitle": "ERTH-4940",
+  "CreditHours": "1-6",
+  "uuid": "_1zqlfihe4"
+}, {
+  "CourseName": "Out Of Classroom Experience",
+  "CourseTitle": "ERTH-4970",
+  "CreditHours": "2-4",
+  "uuid": "_bnu4hvdqz"
+}, {
+  "CourseName": "Adv Applied Micropaleontology",
+  "CourseTitle": "ERTH-6200",
+  "CreditHours": "4",
+  "uuid": "_fwej8ut5y"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "ERTH-6350",
+  "CreditHours": "3",
+  "uuid": "_4uenqhqdp"
+}, {
+  "CourseName": "Advanced Grndwtr Hydro",
+  "CourseTitle": "ERTH-6710",
+  "CreditHours": "3",
+  "uuid": "_2g3lumu2z"
+}, {
+  "CourseName": "Readings In Erth",
+  "CourseTitle": "ERTH-6940",
+  "CreditHours": "1-12",
+  "uuid": "_h877mtp83"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "ERTH-6980",
+  "CreditHours": "1-9",
+  "uuid": "_pkjjca8ik"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "ERTH-6990",
+  "CreditHours": "1-9",
+  "uuid": "_7o70j4fnx"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ERTH-9990",
+  "CreditHours": "1-15",
+  "uuid": "_v1j9yvcui"
+}, {
+  "CourseName": "Doctor'S Thesis In Engrng Sci",
+  "CourseTitle": "ESCI-9990",
+  "CreditHours": "1-15",
+  "uuid": "_ddfxb5wz1"
+}, {
+  "CourseName": "Art For Interactive Media",
+  "CourseTitle": "GSAS-1040",
+  "CreditHours": "4",
+  "uuid": "_9k7kw3kvx"
+}, {
+  "CourseName": "History And Culture Of Games",
+  "CourseTitle": "GSAS-1600",
+  "CreditHours": "4",
+  "uuid": "_n1zccv4ag"
+}, {
+  "CourseName": "Intro To Game Design",
+  "CourseTitle": "GSAS-2510",
+  "CreditHours": "4",
+  "uuid": "_rpxpsnb7l"
+}, {
+  "CourseName": "Intro To Game Storytelling",
+  "CourseTitle": "GSAS-2520",
+  "CreditHours": "4",
+  "uuid": "_iygdwc49w"
+}, {
+  "CourseName": "Experimental Game Design",
+  "CourseTitle": "GSAS-4510",
+  "CreditHours": "4",
+  "uuid": "_1ruuvsmub"
+}, {
+  "CourseName": "Game Development I",
+  "CourseTitle": "GSAS-4520",
+  "CreditHours": "4",
+  "uuid": "_zjjpmqyn2"
+}, {
+  "CourseName": "One Mile Of The Hudson River",
+  "CourseTitle": "IENV-4700",
+  "CreditHours": "4",
+  "uuid": "_j9kswdxq5"
+}, {
+  "CourseName": "Exploring Music @ Rensselaer",
+  "CourseTitle": "IHSS-1010",
+  "CreditHours": "4",
+  "uuid": "_zd6xroh9u"
+}, {
+  "CourseName": "History Of Jazz & Improv Music",
+  "CourseTitle": "IHSS-1080",
+  "CreditHours": "4",
+  "uuid": "_jzriveknl"
+}, {
+  "CourseName": "Nature/Society",
+  "CourseTitle": "IHSS-1110",
+  "CreditHours": "4",
+  "uuid": "_q615ijwgn"
+}, {
+  "CourseName": "Minds And Machines",
+  "CourseTitle": "IHSS-1140",
+  "CreditHours": "4",
+  "uuid": "_eup68lp0w"
+}, {
+  "CourseName": "Environment & Politics",
+  "CourseTitle": "IHSS-1240",
+  "CreditHours": "4",
+  "uuid": "_ky5myxsmn"
+}, {
+  "CourseName": "American Politics In Crisis",
+  "CourseTitle": "IHSS-1290",
+  "CreditHours": "4",
+  "uuid": "_38vy0ubnc"
+}, {
+  "CourseName": "Race & Film In Us Cult & Hist",
+  "CourseTitle": "IHSS-1300",
+  "CreditHours": "4",
+  "uuid": "_4g37c11sn"
+}, {
+  "CourseName": "Law, Values, And Public Policy",
+  "CourseTitle": "IHSS-1350",
+  "CreditHours": "4",
+  "uuid": "_ybrndj0c6"
+}, {
+  "CourseName": "Century Of The Gene",
+  "CourseTitle": "IHSS-1410",
+  "CreditHours": "4",
+  "uuid": "_2kgnavb4h"
+}, {
+  "CourseName": "Pdi Studio I",
+  "CourseTitle": "IHSS-1610",
+  "CreditHours": "4",
+  "uuid": "_7i42c5345"
+}, {
+  "CourseName": "Making Games To Chg The World",
+  "CourseTitle": "IHSS-1960",
+  "CreditHours": "4",
+  "uuid": "_m88vsnql9"
+}, {
+  "CourseName": "Cultiv Curiosity Arts & Neuro",
+  "CourseTitle": "IHSS-1961",
+  "CreditHours": "4",
+  "uuid": "_i368ymnz1"
+}, {
+  "CourseName": "Music And Nature",
+  "CourseTitle": "IHSS-1962",
+  "CreditHours": "4",
+  "uuid": "_r344zcdcc"
+}, {
+  "CourseName": "Tech & Social Inter In Us",
+  "CourseTitle": "IHSS-1963",
+  "CreditHours": "4",
+  "uuid": "_tsf1rov1l"
+}, {
+  "CourseName": "Are Humans Rational?",
+  "CourseTitle": "IHSS-1964",
+  "CreditHours": "4",
+  "uuid": "_7g2fgo31n"
+}, {
+  "CourseName": "Open Source Art,Music,Culture",
+  "CourseTitle": "IHSS-1965",
+  "CreditHours": "4",
+  "uuid": "_o9lt37apt"
+}, {
+  "CourseName": "Music And Protest",
+  "CourseTitle": "IHSS-1966",
+  "CreditHours": "4",
+  "uuid": "_8pu4w9d1o"
+}, {
+  "CourseName": "Religion In A Global World",
+  "CourseTitle": "IHSS-1967",
+  "CreditHours": "4",
+  "uuid": "_kuhq7reca"
+}, {
+  "CourseName": "Blended Reality &  Internet",
+  "CourseTitle": "IHSS-1968",
+  "CreditHours": "4",
+  "uuid": "_54lig200o"
+}, {
+  "CourseName": "History Of Design",
+  "CourseTitle": "IHSS-1969",
+  "CreditHours": "4",
+  "uuid": "_o27zlxt71"
+}, {
+  "CourseName": "Deep Listening",
+  "CourseTitle": "IHSS-1970",
+  "CreditHours": "4",
+  "uuid": "_7707durrx"
+}, {
+  "CourseName": "Phil, Tech & The Human Future",
+  "CourseTitle": "IHSS-1971",
+  "CreditHours": "4",
+  "uuid": "_nulbaw8bs"
+}, {
+  "CourseName": "Great Ideas In Philosophy",
+  "CourseTitle": "IHSS-1972",
+  "CreditHours": "4",
+  "uuid": "_lwjdnse96"
+}, {
+  "CourseName": "Human Rights In History",
+  "CourseTitle": "IHSS-1973",
+  "CreditHours": "4",
+  "uuid": "_nw8ez28zr"
+}, {
+  "CourseName": "Design As A Global Challenge",
+  "CourseTitle": "IHSS-1974",
+  "CreditHours": "4",
+  "uuid": "_0e5pql66c"
+}, {
+  "CourseName": "Principles Of Economics",
+  "CourseTitle": "IHSS-1975",
+  "CreditHours": "4",
+  "uuid": "_uwhgusy76"
+}, {
+  "CourseName": "The Genome And You",
+  "CourseTitle": "IHSS-1976",
+  "CreditHours": "4",
+  "uuid": "_ydda2j42b"
+}, {
+  "CourseName": "War & Tech Past,Pres,Future",
+  "CourseTitle": "IHSS-1977",
+  "CreditHours": "4",
+  "uuid": "_i11peipc5"
+}, {
+  "CourseName": "Race, Class, Gender And Tech",
+  "CourseTitle": "IHSS-1979",
+  "CreditHours": "4",
+  "uuid": "_2zjypjddn"
+}, {
+  "CourseName": "Sociolgy Of Inequal In U.S.Soc",
+  "CourseTitle": "IHSS-1980",
+  "CreditHours": "4",
+  "uuid": "_z2idbjwr2"
+}, {
+  "CourseName": "Songwrit To Reflect Times",
+  "CourseTitle": "IHSS-1982",
+  "CreditHours": "4",
+  "uuid": "_o6tqyxpk1"
+}, {
+  "CourseName": "Acting With Computers",
+  "CourseTitle": "IHSS-1983",
+  "CreditHours": "4",
+  "uuid": "_mxrony5jm"
+}, {
+  "CourseName": "Pdi Studio Iii",
+  "CourseTitle": "IHSS-2610",
+  "CreditHours": "4",
+  "uuid": "_7dsj2kiko"
+}, {
+  "CourseName": "Research Methods",
+  "CourseTitle": "IHSS-6960",
+  "CreditHours": "3",
+  "uuid": "_vdc8nhnk6"
+}, {
+  "CourseName": "Advanced Social Theory",
+  "CourseTitle": "IHSS-6961",
+  "CreditHours": "3",
+  "uuid": "_xbn93v8c1"
+}, {
+  "CourseName": "Materials Science",
+  "CourseTitle": "ISCI-1600",
+  "CreditHours": "4",
+  "uuid": "_xxizwut34"
+}, {
+  "CourseName": "Research Rotation",
+  "CourseTitle": "ISCI-4950",
+  "CreditHours": "2-4",
+  "uuid": "_p3ggfzfgo"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "ISCI-6980",
+  "CreditHours": "1-9",
+  "uuid": "_7znjcoykz"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ISCI-9990",
+  "CreditHours": "1-15",
+  "uuid": "_kfihbp0nt"
+}, {
+  "CourseName": "Intro To Isye",
+  "CourseTitle": "ISYE-1100",
+  "CreditHours": "1",
+  "uuid": "_mhjhvhdm7"
+}, {
+  "CourseName": "Statistical Analysis",
+  "CourseTitle": "ISYE-4140",
+  "CreditHours": "4",
+  "uuid": "_upfmhjqot"
+}, {
+  "CourseName": "Desgn & Analys Work Sys",
+  "CourseTitle": "ISYE-4200",
+  "CreditHours": "3",
+  "uuid": "_pbrd99f90"
+}, {
+  "CourseName": "Desgn & Analys Of Supply Chain",
+  "CourseTitle": "ISYE-4210",
+  "CreditHours": "3",
+  "uuid": "_7o6hbrbhs"
+}, {
+  "CourseName": "Human Perf Modeling & Support",
+  "CourseTitle": "ISYE-4260",
+  "CreditHours": "3",
+  "uuid": "_snqlrf0cl"
+}, {
+  "CourseName": "Multidisciplinary Cap Design",
+  "CourseTitle": "ISYE-4270",
+  "CreditHours": "3",
+  "uuid": "_xl22ufuxb"
+}, {
+  "CourseName": "Decision Focused Systems Engr",
+  "CourseTitle": "ISYE-4280",
+  "CreditHours": "3",
+  "uuid": "_k5qu85c5t"
+}, {
+  "CourseName": "Discrete Event Sim  Modeling",
+  "CourseTitle": "ISYE-4290",
+  "CreditHours": "4",
+  "uuid": "_06opp69z1"
+}, {
+  "CourseName": "Design Of Experiments",
+  "CourseTitle": "ISYE-4330",
+  "CreditHours": "3",
+  "uuid": "_xmlih10t1"
+}, {
+  "CourseName": "Information Systems",
+  "CourseTitle": "ISYE-4530",
+  "CreditHours": "4",
+  "uuid": "_7nmlg9j4j"
+}, {
+  "CourseName": "Operations Research Method",
+  "CourseTitle": "ISYE-4600",
+  "CreditHours": "4",
+  "uuid": "_4zhdlad3o"
+}, {
+  "CourseName": "Intro Cyber-Physical Systems",
+  "CourseTitle": "ISYE-4960",
+  "CreditHours": "4",
+  "uuid": "_hcgnqrpia"
+}, {
+  "CourseName": "Design Of Experiments",
+  "CourseTitle": "ISYE-6020",
+  "CreditHours": "3",
+  "uuid": "_9szfsvoej"
+}, {
+  "CourseName": "Dsn Of Mfg Sys & Supply Chains",
+  "CourseTitle": "ISYE-6600",
+  "CreditHours": "3",
+  "uuid": "_9dpojsugj"
+}, {
+  "CourseName": "Systems Modeling In Dses",
+  "CourseTitle": "ISYE-6610",
+  "CreditHours": "3",
+  "uuid": "_7565yzwwd"
+}, {
+  "CourseName": "Discrete Event Simulation",
+  "CourseTitle": "ISYE-6620",
+  "CreditHours": "3",
+  "uuid": "_zwfq03tpv"
+}, {
+  "CourseName": "Introduction To Optimization",
+  "CourseTitle": "ISYE-6780",
+  "CreditHours": "4",
+  "uuid": "_qblt5pqr8"
+}, {
+  "CourseName": "Seminar In Isye Research",
+  "CourseTitle": "ISYE-6900",
+  "CreditHours": "3",
+  "uuid": "_ubpva36ns"
+}, {
+  "CourseName": "Big Data Analytics",
+  "CourseTitle": "ISYE-6960",
+  "CreditHours": "3",
+  "uuid": "_wcnhvcjfe"
+}, {
+  "CourseName": "Stochastic Models-Optimization",
+  "CourseTitle": "ISYE-6961",
+  "CreditHours": "3",
+  "uuid": "_tk3agxy6u"
+}, {
+  "CourseName": " Professional Project",
+  "CourseTitle": "ISYE-6970",
+  "CreditHours": "1-4",
+  "uuid": "_416u2aq19"
+}, {
+  "CourseName": "Masters Project",
+  "CourseTitle": "ISYE-6980",
+  "CreditHours": "1-9",
+  "uuid": "_yvx3fbbs8"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "ISYE-6990",
+  "CreditHours": "1-9",
+  "uuid": "_dd7cp8h0d"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "ISYE-9990",
+  "CreditHours": "1-15",
+  "uuid": "_nez0ju3yq"
+}, {
+  "CourseName": "Intro To It & Web Science",
+  "CourseTitle": "ITWS-1100",
+  "CreditHours": "4",
+  "uuid": "_rrvl1rqjx"
+}, {
+  "CourseName": "Web Systems Development",
+  "CourseTitle": "ITWS-2110",
+  "CreditHours": "4",
+  "uuid": "_mjcsa5gg0"
+}, {
+  "CourseName": "It & Web Science Capstone",
+  "CourseTitle": "ITWS-4100",
+  "CreditHours": "4",
+  "uuid": "_njzgkd54a"
+}, {
+  "CourseName": "Business Issues For Engr & Sci",
+  "CourseTitle": "ITWS-4300",
+  "CreditHours": "4",
+  "uuid": "_xq0ruqefl"
+}, {
+  "CourseName": "Managing It Resources",
+  "CourseTitle": "ITWS-4310",
+  "CreditHours": "4",
+  "uuid": "_4bjsjbd5p"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "ITWS-4350",
+  "CreditHours": "3",
+  "uuid": "_4xw8ms447"
+}, {
+  "CourseName": "Data Analytics",
+  "CourseTitle": "ITWS-4600",
+  "CreditHours": "3",
+  "uuid": "_5lxh727z3"
+}, {
+  "CourseName": "Software Development",
+  "CourseTitle": "ITWS-4700",
+  "CreditHours": "3",
+  "uuid": "_vgyxnyduk"
+}, {
+  "CourseName": "Data And Society",
+  "CourseTitle": "ITWS-4960",
+  "CreditHours": "4",
+  "uuid": "_qmwe3ghab"
+}, {
+  "CourseName": "Data Analytics Research Lab",
+  "CourseTitle": "ITWS-4961",
+  "CreditHours": "4",
+  "uuid": "_8ghaw6f1w"
+}, {
+  "CourseName": "Special Projects",
+  "CourseTitle": "ITWS-4980",
+  "CreditHours": "1-4",
+  "uuid": "_r1cvuatkb"
+}, {
+  "CourseName": "Senior Thesis",
+  "CourseTitle": "ITWS-4990",
+  "CreditHours": "3",
+  "uuid": "_owce2rx6j"
+}, {
+  "CourseName": "Business Issues For Engr & Sci",
+  "CourseTitle": "ITWS-6300",
+  "CreditHours": "3",
+  "uuid": "_a3gjx53v2"
+}, {
+  "CourseName": "Data Science",
+  "CourseTitle": "ITWS-6350",
+  "CreditHours": "3",
+  "uuid": "_not2levdz"
+}, {
+  "CourseName": "Data Analytics",
+  "CourseTitle": "ITWS-6600",
+  "CreditHours": "3",
+  "uuid": "_7iaa03lxw"
+}, {
+  "CourseName": "Software Development",
+  "CourseTitle": "ITWS-6700",
+  "CreditHours": "3",
+  "uuid": "_zsgv3j9a8"
+}, {
+  "CourseName": "It  Master'S Capstone",
+  "CourseTitle": "ITWS-6800",
+  "CreditHours": "3",
+  "uuid": "_05n272p53"
+}, {
+  "CourseName": "Data And Society",
+  "CourseTitle": "ITWS-6960",
+  "CreditHours": "3",
+  "uuid": "_hpdk6anqb"
+}, {
+  "CourseName": "Web Science Systems Dev",
+  "CourseTitle": "ITWS-6961",
+  "CreditHours": "3",
+  "uuid": "_q4bx214l6"
+}, {
+  "CourseName": "Big Data Policies",
+  "CourseTitle": "ITWS-6962",
+  "CreditHours": "3",
+  "uuid": "_gluw58xh8"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "ITWS-6980",
+  "CreditHours": "1-4",
+  "uuid": "_ktwo6h487"
+}, {
+  "CourseName": "Masters Thesis",
+  "CourseTitle": "ITWS-6990",
+  "CreditHours": "3-6",
+  "uuid": "_msqndu2c5"
+}, {
+  "CourseName": "Chinese I",
+  "CourseTitle": "LANG-1410",
+  "CreditHours": "4",
+  "uuid": "_x9xfmfwx5"
+}, {
+  "CourseName": "Chinese Ii",
+  "CourseTitle": "LANG-2410",
+  "CreditHours": "4",
+  "uuid": "_46yugiujq"
+}, {
+  "CourseName": "Chinese Iii",
+  "CourseTitle": "LANG-2420",
+  "CreditHours": "4",
+  "uuid": "_vrrd6k3cn"
+}, {
+  "CourseName": "Chinese Iv",
+  "CourseTitle": "LANG-4430",
+  "CreditHours": "4",
+  "uuid": "_7h2gkiud2"
+}, {
+  "CourseName": "Lighting Design",
+  "CourseTitle": "LGHT-4230",
+  "CreditHours": "4",
+  "uuid": "_v4rm6bbj7"
+}, {
+  "CourseName": "Lighting Tech & Applications",
+  "CourseTitle": "LGHT-4770",
+  "CreditHours": "4",
+  "uuid": "_hmrivxbmt"
+}, {
+  "CourseName": "The Physics Of Light",
+  "CourseTitle": "LGHT-4830",
+  "CreditHours": "4",
+  "uuid": "_tpewcnxd8"
+}, {
+  "CourseName": "Human Factors In Lighting",
+  "CourseTitle": "LGHT-4840",
+  "CreditHours": "3",
+  "uuid": "_0fi1ljl0n"
+}, {
+  "CourseName": "Physics Of Light",
+  "CourseTitle": "LGHT-6830",
+  "CreditHours": "4",
+  "uuid": "_17ajb6j5g"
+}, {
+  "CourseName": "Adv Ind Projects In Lght",
+  "CourseTitle": "LGHT-6940",
+  "CreditHours": "1-6",
+  "uuid": "_uzrvmk1lq"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "LGHT-6980",
+  "CreditHours": "1-8",
+  "uuid": "_g3auax1s3"
+}, {
+  "CourseName": "Intro To Literature",
+  "CourseTitle": "LITR-2110",
+  "CreditHours": "4",
+  "uuid": "_iuge3t9m9"
+}, {
+  "CourseName": "Readings In Litr",
+  "CourseTitle": "LITR-6940",
+  "CreditHours": "1-3",
+  "uuid": "_ppbq246fa"
+}, {
+  "CourseName": "Mechatronics-Hardware/Software",
+  "CourseTitle": "MANE-1090",
+  "CreditHours": "1",
+  "uuid": "_0gnfi5z9c"
+}, {
+  "CourseName": "Intro To Nuclear Engineering",
+  "CourseTitle": "MANE-1100",
+  "CreditHours": "1",
+  "uuid": "_td7wv6jjs"
+}, {
+  "CourseName": "Inventor'S Studio 1",
+  "CourseTitle": "MANE-2220",
+  "CreditHours": "4",
+  "uuid": "_wbzredhh3"
+}, {
+  "CourseName": "Fundamentals Of Nuclear Engr",
+  "CourseTitle": "MANE-2400",
+  "CreditHours": "4",
+  "uuid": "_h9h8pcx6e"
+}, {
+  "CourseName": "Nuclear Phenomena For Engr",
+  "CourseTitle": "MANE-2830",
+  "CreditHours": "4",
+  "uuid": "_uyy740rfe"
+}, {
+  "CourseName": "Readings In Mane",
+  "CourseTitle": "MANE-2940",
+  "CreditHours": "1-4",
+  "uuid": "_tc5miub3l"
+}, {
+  "CourseName": "Mechatronics Hardware/Software",
+  "CourseTitle": "MANE-2960",
+  "CreditHours": "1",
+  "uuid": "_oddxyzagu"
+}, {
+  "CourseName": "Thermal And Fluids Engr Ii",
+  "CourseTitle": "MANE-4010",
+  "CreditHours": "4",
+  "uuid": "_orpu2yjkn"
+}, {
+  "CourseName": "Thermal & Fluids Eng Lab",
+  "CourseTitle": "MANE-4020",
+  "CreditHours": "2",
+  "uuid": "_1hqo7y661"
+}, {
+  "CourseName": "Elements Of Mech Design",
+  "CourseTitle": "MANE-4030",
+  "CreditHours": "4",
+  "uuid": "_sc6oitv6t"
+}, {
+  "CourseName": "Mechanical Systems Lab",
+  "CourseTitle": "MANE-4040",
+  "CreditHours": "2",
+  "uuid": "_ofg83y2j8"
+}, {
+  "CourseName": "Modeling And Contrl Of Dyn Sys",
+  "CourseTitle": "MANE-4050",
+  "CreditHours": "4",
+  "uuid": "_2iz481s14"
+}, {
+  "CourseName": "Aerospace Struc & Materials",
+  "CourseTitle": "MANE-4060",
+  "CreditHours": "4",
+  "uuid": "_1aswnmnf1"
+}, {
+  "CourseName": "Aerodynamics I",
+  "CourseTitle": "MANE-4070",
+  "CreditHours": "4",
+  "uuid": "_ds4brxc1z"
+}, {
+  "CourseName": "Propulsion Systems",
+  "CourseTitle": "MANE-4080",
+  "CreditHours": "3",
+  "uuid": "_12lkzejx2"
+}, {
+  "CourseName": "Flight Mechanics",
+  "CourseTitle": "MANE-4090",
+  "CreditHours": "4",
+  "uuid": "_7dxf018xg"
+}, {
+  "CourseName": "Robotics I",
+  "CourseTitle": "MANE-4120",
+  "CreditHours": "3",
+  "uuid": "_9hj88lq6a"
+}, {
+  "CourseName": "Rotocraft Perf Stab Ctl",
+  "CourseTitle": "MANE-4200",
+  "CreditHours": "4",
+  "uuid": "_0eamhxmur"
+}, {
+  "CourseName": "Inventor'S Studio",
+  "CourseTitle": "MANE-4220",
+  "CreditHours": "3",
+  "uuid": "_xc7scrq2p"
+}, {
+  "CourseName": "Intro To Finite Elements",
+  "CourseTitle": "MANE-4240",
+  "CreditHours": "3",
+  "uuid": "_gzdjzny7t"
+}, {
+  "CourseName": "Multidisciplinary Cap Design",
+  "CourseTitle": "MANE-4260",
+  "CreditHours": "3",
+  "uuid": "_yv3i4g5wn"
+}, {
+  "CourseName": "Design Optimization",
+  "CourseTitle": "MANE-4280",
+  "CreditHours": "3",
+  "uuid": "_r90yx6wdo"
+}, {
+  "CourseName": "Instrumentation & Measur",
+  "CourseTitle": "MANE-4350",
+  "CreditHours": "3",
+  "uuid": "_pwbsaf8f3"
+}, {
+  "CourseName": "Nuclear Engineering Lab",
+  "CourseTitle": "MANE-4370",
+  "CreditHours": "4",
+  "uuid": "_lmkvttao9"
+}, {
+  "CourseName": "Nuclear Eng Senior Dsgn Proj I",
+  "CourseTitle": "MANE-4380",
+  "CreditHours": "1",
+  "uuid": "_90tsvtpwe"
+}, {
+  "CourseName": "Radiation Technology",
+  "CourseTitle": "MANE-4420",
+  "CreditHours": "3",
+  "uuid": "_bq76enjzd"
+}, {
+  "CourseName": "Mechatronics",
+  "CourseTitle": "MANE-4490",
+  "CreditHours": "3",
+  "uuid": "_oj89x0l0j"
+}, {
+  "CourseName": "Vibrations",
+  "CourseTitle": "MANE-4610",
+  "CreditHours": "3",
+  "uuid": "_sw4won33o"
+}, {
+  "CourseName": "Mech Behavior Of Materials",
+  "CourseTitle": "MANE-4670",
+  "CreditHours": "3",
+  "uuid": "_plj9ikdqd"
+}, {
+  "CourseName": "Heat Transfer",
+  "CourseTitle": "MANE-4710",
+  "CreditHours": "3",
+  "uuid": "_aly553utm"
+}, {
+  "CourseName": "Heating, Ventilation & Ac",
+  "CourseTitle": "MANE-4760",
+  "CreditHours": "3",
+  "uuid": "_n2oq92b9j"
+}, {
+  "CourseName": "Bound Lay & Heat Trans",
+  "CourseTitle": "MANE-4800",
+  "CreditHours": "3",
+  "uuid": "_n6rsle3dg"
+}, {
+  "CourseName": "Space Vehicle Design",
+  "CourseTitle": "MANE-4850",
+  "CreditHours": "3",
+  "uuid": "_n2ls1uk75"
+}, {
+  "CourseName": "Mane Laboratory Safety Program",
+  "CourseTitle": "MANE-4880",
+  "CreditHours": "0",
+  "uuid": "_pswsjb29c"
+}, {
+  "CourseName": "Aero. & Struct. Vibrations",
+  "CourseTitle": "MANE-4900",
+  "CreditHours": "3",
+  "uuid": "_e9kvh7cht"
+}, {
+  "CourseName": "Fluid Dynamics Lab",
+  "CourseTitle": "MANE-4910",
+  "CreditHours": "2",
+  "uuid": "_qqm82psk2"
+}, {
+  "CourseName": "Aero Struct & Control Lab",
+  "CourseTitle": "MANE-4920",
+  "CreditHours": "2",
+  "uuid": "_fvok0x1ug"
+}, {
+  "CourseName": "Independent Study In Mane",
+  "CourseTitle": "MANE-4940",
+  "CreditHours": "1-6",
+  "uuid": "_y1743scgx"
+}, {
+  "CourseName": "Therm-Fluid Sys Analysis/Des",
+  "CourseTitle": "MANE-4960",
+  "CreditHours": "3",
+  "uuid": "_3qwtas1d3"
+}, {
+  "CourseName": "Intro Radiation Trans Methods",
+  "CourseTitle": "MANE-4961",
+  "CreditHours": "3",
+  "uuid": "_yvfqy243o"
+}, {
+  "CourseName": "Mane Safety Program",
+  "CourseTitle": "MANE-4964",
+  "CreditHours": "0",
+  "uuid": "_4uwgilorl"
+}, {
+  "CourseName": "Advanced Engr Mathematics I",
+  "CourseTitle": "MANE-5000",
+  "CreditHours": "3",
+  "uuid": "_njq61q6bt"
+}, {
+  "CourseName": "Rotocraft Perf Stab Ctl",
+  "CourseTitle": "MANE-6060",
+  "CreditHours": "3",
+  "uuid": "_zgpbu5fx4"
+}, {
+  "CourseName": "Robotics I",
+  "CourseTitle": "MANE-6120",
+  "CreditHours": "3",
+  "uuid": "_nswqb5zc7"
+}, {
+  "CourseName": "Mechanics Of Solids",
+  "CourseTitle": "MANE-6170",
+  "CreditHours": "3",
+  "uuid": "_moxp4rvtn"
+}, {
+  "CourseName": "Adv. Manufacturing Proc & Sys",
+  "CourseTitle": "MANE-6230",
+  "CreditHours": "4",
+  "uuid": "_2sqrokv09"
+}, {
+  "CourseName": "Radiation Technology",
+  "CourseTitle": "MANE-6260",
+  "CreditHours": "3",
+  "uuid": "_t8b7l9ga7"
+}, {
+  "CourseName": "Nucl Reactor Analysis Ii",
+  "CourseTitle": "MANE-6280",
+  "CreditHours": "3",
+  "uuid": "_tcaz2cbie"
+}, {
+  "CourseName": "Radioactive Waste Mgmt",
+  "CourseTitle": "MANE-6320",
+  "CreditHours": "3",
+  "uuid": "_089y3jddu"
+}, {
+  "CourseName": "Reliability & Safety",
+  "CourseTitle": "MANE-6360",
+  "CreditHours": "3",
+  "uuid": "_25kztxlr3"
+}, {
+  "CourseName": "Fluid Mechanics",
+  "CourseTitle": "MANE-6520",
+  "CreditHours": "3",
+  "uuid": "_2ozpjjy1v"
+}, {
+  "CourseName": "Systems Analysis Techniques",
+  "CourseTitle": "MANE-6600",
+  "CreditHours": "3",
+  "uuid": "_jec52u2vy"
+}, {
+  "CourseName": "Fundamentals Of Finite Element",
+  "CourseTitle": "MANE-6660",
+  "CreditHours": "3",
+  "uuid": "_fhhlhrte6"
+}, {
+  "CourseName": "Tribology",
+  "CourseTitle": "MANE-6730",
+  "CreditHours": "3",
+  "uuid": "_u1r3f3y6x"
+}, {
+  "CourseName": "Multiphase Flow & Ht I",
+  "CourseTitle": "MANE-6840",
+  "CreditHours": "3",
+  "uuid": "_16r7tr0a3"
+}, {
+  "CourseName": "Graduate Seminar",
+  "CourseTitle": "MANE-6900",
+  "CreditHours": "0",
+  "uuid": "_elv3mqgdc"
+}, {
+  "CourseName": "Independent Study In Mane",
+  "CourseTitle": "MANE-6940",
+  "CreditHours": "1-12",
+  "uuid": "_wxgbpsi3o"
+}, {
+  "CourseName": "Nano To Macro Scale Heat Cond",
+  "CourseTitle": "MANE-6960",
+  "CreditHours": "3",
+  "uuid": "_lyvbv3kmy"
+}, {
+  "CourseName": "Bio- Fluids Mechanics",
+  "CourseTitle": "MANE-6961",
+  "CreditHours": "3",
+  "uuid": "_omnau8qxi"
+}, {
+  "CourseName": "Vtol Uav Design",
+  "CourseTitle": "MANE-6962",
+  "CreditHours": "3",
+  "uuid": "_gzqvf5ob3"
+}, {
+  "CourseName": "Multi Discipline Design Optim",
+  "CourseTitle": "MANE-6963",
+  "CreditHours": "3",
+  "uuid": "_n6jsiammo"
+}, {
+  "CourseName": "Adv. -Finite Element Analysis",
+  "CourseTitle": "MANE-6968",
+  "CreditHours": "3",
+  "uuid": "_tx3rgrdxi"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "MANE-6980",
+  "CreditHours": "1-9",
+  "uuid": "_wr40hdnkf"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "MANE-6990",
+  "CreditHours": "1-12",
+  "uuid": "_5d8quurpv"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "MANE-9990",
+  "CreditHours": "1-15",
+  "uuid": "_a5x59oiz1"
+}, {
+  "CourseName": "Calculus I",
+  "CourseTitle": "MATH-1010",
+  "CreditHours": "4",
+  "uuid": "_537rt91ul"
+}, {
+  "CourseName": "Calculus Ii",
+  "CourseTitle": "MATH-1020",
+  "CreditHours": "4",
+  "uuid": "_rt3zbx12l"
+}, {
+  "CourseName": "Calc I For Arch, Mgmt & Hass",
+  "CourseTitle": "MATH-1500",
+  "CreditHours": "4",
+  "uuid": "_3r4577557"
+}, {
+  "CourseName": "Art & Science Of Math I",
+  "CourseTitle": "MATH-1900",
+  "CreditHours": "1",
+  "uuid": "_dlkxthh49"
+}, {
+  "CourseName": "Multivar Calc & Matrix Algebra",
+  "CourseTitle": "MATH-2010",
+  "CreditHours": "4",
+  "uuid": "_7h6sucve7"
+}, {
+  "CourseName": "Intro Diff Equations",
+  "CourseTitle": "MATH-2400",
+  "CreditHours": "4",
+  "uuid": "_uult7redx"
+}, {
+  "CourseName": "Readings In Math",
+  "CourseTitle": "MATH-2940",
+  "CreditHours": "1-6",
+  "uuid": "_szqtr7zhq"
+}, {
+  "CourseName": "Intro To Topology",
+  "CourseTitle": "MATH-4040",
+  "CreditHours": "4",
+  "uuid": "_t2gcruiwo"
+}, {
+  "CourseName": "Foundations Of Analysis",
+  "CourseTitle": "MATH-4090",
+  "CreditHours": "4",
+  "uuid": "_6ktqya1i3"
+}, {
+  "CourseName": "Linear Algebra",
+  "CourseTitle": "MATH-4100",
+  "CreditHours": "4",
+  "uuid": "_447oiemlk"
+}, {
+  "CourseName": "Mathematical Analysis I",
+  "CourseTitle": "MATH-4200",
+  "CreditHours": "4",
+  "uuid": "_10w0ql1lx"
+}, {
+  "CourseName": "Ordinary Diffeq And Dynamical",
+  "CourseTitle": "MATH-4400",
+  "CreditHours": "4",
+  "uuid": "_3602tn5zy"
+}, {
+  "CourseName": "Advanced Calculus",
+  "CourseTitle": "MATH-4600",
+  "CreditHours": "4",
+  "uuid": "_9ya925yvy"
+}, {
+  "CourseName": "Foundations Of Applied Math",
+  "CourseTitle": "MATH-4700",
+  "CreditHours": "4",
+  "uuid": "_u0gi44ic4"
+}, {
+  "CourseName": "Math In Medicine & Biol",
+  "CourseTitle": "MATH-4720",
+  "CreditHours": "4",
+  "uuid": "_tux1le7yd"
+}, {
+  "CourseName": "Intro To Finl Math And Engr",
+  "CourseTitle": "MATH-4740",
+  "CreditHours": "4",
+  "uuid": "_787g3gv65"
+}, {
+  "CourseName": "Numerical Computing",
+  "CourseTitle": "MATH-4800",
+  "CreditHours": "4",
+  "uuid": "_irm5n7eo7"
+}, {
+  "CourseName": "Math Neuroscience Modeling",
+  "CourseTitle": "MATH-4941",
+  "CreditHours": "3",
+  "uuid": "_lzz7zojc7"
+}, {
+  "CourseName": "Senior Research",
+  "CourseTitle": "MATH-4950",
+  "CreditHours": "4",
+  "uuid": "_gg077za0o"
+}, {
+  "CourseName": "Data Analytics Research Lab",
+  "CourseTitle": "MATH-4961",
+  "CreditHours": "4",
+  "uuid": "_t8nd3s5ee"
+}, {
+  "CourseName": "Real Analysis",
+  "CourseTitle": "MATH-6200",
+  "CreditHours": "4",
+  "uuid": "_ahwdko3nh"
+}, {
+  "CourseName": "Partial Differential Equations",
+  "CourseTitle": "MATH-6500",
+  "CreditHours": "4",
+  "uuid": "_fiwj5spgo"
+}, {
+  "CourseName": "Methods Of Applied Mathematics",
+  "CourseTitle": "MATH-6600",
+  "CreditHours": "4",
+  "uuid": "_4medu2yoa"
+}, {
+  "CourseName": "Geometric Method For Data Proc",
+  "CourseTitle": "MATH-6790",
+  "CreditHours": "4",
+  "uuid": "_5up5vn9bi"
+}, {
+  "CourseName": "Computational Lin Algebra",
+  "CourseTitle": "MATH-6800",
+  "CreditHours": "4",
+  "uuid": "_x5rbjm7qk"
+}, {
+  "CourseName": "Numerical Sol Of Odes",
+  "CourseTitle": "MATH-6820",
+  "CreditHours": "4",
+  "uuid": "_fhuno2zqc"
+}, {
+  "CourseName": "Readings In Math",
+  "CourseTitle": "MATH-6940",
+  "CreditHours": "1-6",
+  "uuid": "_4qn6ihy81"
+}, {
+  "CourseName": "Teaching Seminar For Ta'S",
+  "CourseTitle": "MATH-6950",
+  "CreditHours": "1",
+  "uuid": "_ouho3mkm8"
+}, {
+  "CourseName": "Data Analytics Research Lab",
+  "CourseTitle": "MATH-6961",
+  "CreditHours": "4",
+  "uuid": "_c61dfjqja"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "MATH-6980",
+  "CreditHours": "1-6",
+  "uuid": "_cmwo4tvjo"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "MATH-6990",
+  "CreditHours": "1-9",
+  "uuid": "_28bkth6oo"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "MATH-9990",
+  "CreditHours": "1-15",
+  "uuid": "_w17gnwnxq"
+}, {
+  "CourseName": "Data Analytics",
+  "CourseTitle": "MATP-4450",
+  "CreditHours": "3",
+  "uuid": "_qrnwzw0mc"
+}, {
+  "CourseName": "Prob Theory & Applications",
+  "CourseTitle": "MATP-4600",
+  "CreditHours": "4",
+  "uuid": "_yr4brl6l1"
+}, {
+  "CourseName": "Math Models Of Operations",
+  "CourseTitle": "MATP-4700",
+  "CreditHours": "4",
+  "uuid": "_vi74gvjt6"
+}, {
+  "CourseName": "Readings In Mpst",
+  "CourseTitle": "MATP-4940",
+  "CreditHours": "1-4",
+  "uuid": "_pyggk6mrm"
+}, {
+  "CourseName": "Introduction To Optimization",
+  "CourseTitle": "MATP-6600",
+  "CreditHours": "4",
+  "uuid": "_mezwkeafv"
+}, {
+  "CourseName": "Readings In Matp",
+  "CourseTitle": "MATP-6940",
+  "CreditHours": "1-6",
+  "uuid": "_e8ynwotbz"
+}, {
+  "CourseName": "Geometric Methods-Data Process",
+  "CourseTitle": "MATP-6960",
+  "CreditHours": "4",
+  "uuid": "_hcohem4bo"
+}, {
+  "CourseName": "Professional Project",
+  "CourseTitle": "MATP-6970",
+  "CreditHours": "1-4",
+  "uuid": "_mfe0ofhl6"
+}, {
+  "CourseName": "Intro To Management",
+  "CourseTitle": "MGMT-1100",
+  "CreditHours": "4",
+  "uuid": "_g7mxsvn4i"
+}, {
+  "CourseName": "Mgmt Professional Dev I",
+  "CourseTitle": "MGMT-1240",
+  "CreditHours": "2",
+  "uuid": "_1ua9mw6ih"
+}, {
+  "CourseName": "Business Law And Ethics",
+  "CourseTitle": "MGMT-1260",
+  "CreditHours": "4",
+  "uuid": "_whcmc737q"
+}, {
+  "CourseName": "Statistical Methods",
+  "CourseTitle": "MGMT-2100",
+  "CreditHours": "4",
+  "uuid": "_31of9fwzi"
+}, {
+  "CourseName": "Acct For Decision Making",
+  "CourseTitle": "MGMT-2300",
+  "CreditHours": "4",
+  "uuid": "_qb1rfsn8r"
+}, {
+  "CourseName": "Managerial Finance",
+  "CourseTitle": "MGMT-2320",
+  "CreditHours": "4",
+  "uuid": "_rgq9x6ptt"
+}, {
+  "CourseName": "Marketing Principles",
+  "CourseTitle": "MGMT-2430",
+  "CreditHours": "4",
+  "uuid": "_alcvw6fzx"
+}, {
+  "CourseName": "Microcomputers & Applications",
+  "CourseTitle": "MGMT-2510",
+  "CreditHours": "4",
+  "uuid": "_e8iy3rvb2"
+}, {
+  "CourseName": "Readings In Mgmt",
+  "CourseTitle": "MGMT-2940",
+  "CreditHours": "1-6",
+  "uuid": "_sbccjnx5s"
+}, {
+  "CourseName": "Quantitative Methods For Bus",
+  "CourseTitle": "MGMT-4100",
+  "CreditHours": "4",
+  "uuid": "_739got88i"
+}, {
+  "CourseName": "Operations Management",
+  "CourseTitle": "MGMT-4110",
+  "CreditHours": "4",
+  "uuid": "_yma28avd8"
+}, {
+  "CourseName": "Enterprise It Integration",
+  "CourseTitle": "MGMT-4130",
+  "CreditHours": "4",
+  "uuid": "_qhhcq8jx9"
+}, {
+  "CourseName": "Computer Info Systems",
+  "CourseTitle": "MGMT-4140",
+  "CreditHours": "4",
+  "uuid": "_eg4ngqiqs"
+}, {
+  "CourseName": "Data Resource Management",
+  "CourseTitle": "MGMT-4170",
+  "CreditHours": "4",
+  "uuid": "_5r032zrrd"
+}, {
+  "CourseName": "Acct Info Systems",
+  "CourseTitle": "MGMT-4220",
+  "CreditHours": "4",
+  "uuid": "_9e841ovyb"
+}, {
+  "CourseName": "Systems Analysis & Design",
+  "CourseTitle": "MGMT-4240",
+  "CreditHours": "4",
+  "uuid": "_48a5levkd"
+}, {
+  "CourseName": "Intermediate Accounting Ii",
+  "CourseTitle": "MGMT-4280",
+  "CreditHours": "4",
+  "uuid": "_y5nsgqoly"
+}, {
+  "CourseName": "Investments I",
+  "CourseTitle": "MGMT-4320",
+  "CreditHours": "4",
+  "uuid": "_7diolf15s"
+}, {
+  "CourseName": "Adv Corporate Finance",
+  "CourseTitle": "MGMT-4340",
+  "CreditHours": "4",
+  "uuid": "_knz6uvudl"
+}, {
+  "CourseName": "Consumer Behavior And Prod Dsn",
+  "CourseTitle": "MGMT-4460",
+  "CreditHours": "4",
+  "uuid": "_q3lhrm7ay"
+}, {
+  "CourseName": "Marketing Research",
+  "CourseTitle": "MGMT-4470",
+  "CreditHours": "4",
+  "uuid": "_esovarkxz"
+}, {
+  "CourseName": "Invention, Innov & Entrepren",
+  "CourseTitle": "MGMT-4510",
+  "CreditHours": "4",
+  "uuid": "_lkn7odefx"
+}, {
+  "CourseName": "Starting Up A New Venture",
+  "CourseTitle": "MGMT-4530",
+  "CreditHours": "4",
+  "uuid": "_o1s9mzk7s"
+}, {
+  "CourseName": "Org Behav In High Perform Orgs",
+  "CourseTitle": "MGMT-4850",
+  "CreditHours": "4",
+  "uuid": "_gouzs23in"
+}, {
+  "CourseName": "Hr In High Performance Orgs",
+  "CourseTitle": "MGMT-4860",
+  "CreditHours": "4",
+  "uuid": "_4ysbnrz4v"
+}, {
+  "CourseName": "Strategy And Policy",
+  "CourseTitle": "MGMT-4870",
+  "CreditHours": "4",
+  "uuid": "_q0ru45kv1"
+}, {
+  "CourseName": "Practicum In Management",
+  "CourseTitle": "MGMT-4900",
+  "CreditHours": "1-4",
+  "uuid": "_dbkfxezio"
+}, {
+  "CourseName": "Studies In Management",
+  "CourseTitle": "MGMT-4940",
+  "CreditHours": "1-12",
+  "uuid": "_n6v2caoe7"
+}, {
+  "CourseName": "Research Analyst Project",
+  "CourseTitle": "MGMT-4941",
+  "CreditHours": "4",
+  "uuid": "_zchdxsy2r"
+}, {
+  "CourseName": "Netw, Innov & Value Creation I",
+  "CourseTitle": "MGMT-4960",
+  "CreditHours": "4",
+  "uuid": "_s2p8glgls"
+}, {
+  "CourseName": "Engineering, Science & Mgmt",
+  "CourseTitle": "MGMT-4961",
+  "CreditHours": "0",
+  "uuid": "_ai1jwdzyp"
+}, {
+  "CourseName": "Business Capstone",
+  "CourseTitle": "MGMT-4962",
+  "CreditHours": "4",
+  "uuid": "_638adn851"
+}, {
+  "CourseName": "Financial Management I",
+  "CourseTitle": "MGMT-6020",
+  "CreditHours": "3",
+  "uuid": "_e33yr6s9b"
+}, {
+  "CourseName": "Talent Management",
+  "CourseTitle": "MGMT-6040",
+  "CreditHours": "3",
+  "uuid": "_fkwrcgy02"
+}, {
+  "CourseName": "Business Impl. Of Emerg. Tech",
+  "CourseTitle": "MGMT-6060",
+  "CreditHours": "3",
+  "uuid": "_bvugn5661"
+}, {
+  "CourseName": "Netw, Innov & Value Creation I",
+  "CourseTitle": "MGMT-6080",
+  "CreditHours": "3",
+  "uuid": "_oaepw6mra"
+}, {
+  "CourseName": "Enterprise It Integration",
+  "CourseTitle": "MGMT-6090",
+  "CreditHours": "3",
+  "uuid": "_74owkyk4r"
+}, {
+  "CourseName": "Stats For Mangrl Decision Mkng",
+  "CourseTitle": "MGMT-6100",
+  "CreditHours": "3",
+  "uuid": "_0jwj8252u"
+}, {
+  "CourseName": "Intro To Acct & Fin Mgmt",
+  "CourseTitle": "MGMT-6190",
+  "CreditHours": "3",
+  "uuid": "_fer9l6r9p"
+}, {
+  "CourseName": "Financl Trading And Investing",
+  "CourseTitle": "MGMT-6240",
+  "CreditHours": "3",
+  "uuid": "_ykn0no66k"
+}, {
+  "CourseName": "Derivatives Markets",
+  "CourseTitle": "MGMT-6370",
+  "CreditHours": "3",
+  "uuid": "_fjnup2yiu"
+}, {
+  "CourseName": "Investments",
+  "CourseTitle": "MGMT-6410",
+  "CreditHours": "3",
+  "uuid": "_a2nkwyzpv"
+}, {
+  "CourseName": "Adv Quant Methods For Business",
+  "CourseTitle": "MGMT-6460",
+  "CreditHours": "3",
+  "uuid": "_gg65bdqlt"
+}, {
+  "CourseName": "Comp Advant & Operations Strat",
+  "CourseTitle": "MGMT-6490",
+  "CreditHours": "3",
+  "uuid": "_3dqpczrnm"
+}, {
+  "CourseName": "Financial Computation",
+  "CourseTitle": "MGMT-6510",
+  "CreditHours": "3",
+  "uuid": "_y9ze7swa7"
+}, {
+  "CourseName": "Financial Modeling",
+  "CourseTitle": "MGMT-6520",
+  "CreditHours": "3",
+  "uuid": "_rp2tv6krf"
+}, {
+  "CourseName": "Making Business Happen",
+  "CourseTitle": "MGMT-6530",
+  "CreditHours": "3",
+  "uuid": "_6thcuo5un"
+}, {
+  "CourseName": "Marketing Research",
+  "CourseTitle": "MGMT-6550",
+  "CreditHours": "3",
+  "uuid": "_wquz9p8m4"
+}, {
+  "CourseName": "Tech Fund For Bus Analytics",
+  "CourseTitle": "MGMT-6560",
+  "CreditHours": "3",
+  "uuid": "_ocxy8r8tc"
+}, {
+  "CourseName": "Adv Data Resource Management",
+  "CourseTitle": "MGMT-6570",
+  "CreditHours": "3",
+  "uuid": "_p1b5enkac"
+}, {
+  "CourseName": "Starting Up A New Ventur",
+  "CourseTitle": "MGMT-6630",
+  "CreditHours": "3",
+  "uuid": "_nt0b6vkn7"
+}, {
+  "CourseName": "Invention, Innov & Entrepren",
+  "CourseTitle": "MGMT-6640",
+  "CreditHours": "3",
+  "uuid": "_gevn7cbxc"
+}, {
+  "CourseName": "Consumer Behavio/ Prod Design",
+  "CourseTitle": "MGMT-6800",
+  "CreditHours": "3",
+  "uuid": "_taqjye93g"
+}, {
+  "CourseName": "Practicum In Management",
+  "CourseTitle": "MGMT-6840",
+  "CreditHours": "3",
+  "uuid": "_y0kxbbrz7"
+}, {
+  "CourseName": "Readings In Mgmt",
+  "CourseTitle": "MGMT-6940",
+  "CreditHours": "0-6",
+  "uuid": "_hop88la2n"
+}, {
+  "CourseName": "Strategy, Tech & Competition I",
+  "CourseTitle": "MGMT-7030",
+  "CreditHours": "3",
+  "uuid": "_8qzete8ng"
+}, {
+  "CourseName": "Design, Manuf And Marketing I",
+  "CourseTitle": "MGMT-7050",
+  "CreditHours": "3",
+  "uuid": "_qtpqsuahi"
+}, {
+  "CourseName": "Prof Development Workshop I",
+  "CourseTitle": "MGMT-7230",
+  "CreditHours": "0",
+  "uuid": "_olad481es"
+}, {
+  "CourseName": "Economics And Institutions",
+  "CourseTitle": "MGMT-7730",
+  "CreditHours": "3",
+  "uuid": "_0kqobtdp0"
+}, {
+  "CourseName": "Acct For Reporting And Control",
+  "CourseTitle": "MGMT-7740",
+  "CreditHours": "3",
+  "uuid": "_e07h064ah"
+}, {
+  "CourseName": "Risk Management",
+  "CourseTitle": "MGMT-7760",
+  "CreditHours": "3",
+  "uuid": "_vh69hthd3"
+}, {
+  "CourseName": "Prof Dev Workshop I -Ms",
+  "CourseTitle": "MGMT-7770",
+  "CreditHours": "0",
+  "uuid": "_dvu574nz4"
+}, {
+  "CourseName": "Doctoral Research Methods I",
+  "CourseTitle": "MGMT-7800",
+  "CreditHours": "3",
+  "uuid": "_hmn9hbyco"
+}, {
+  "CourseName": "Foundations Of Mgmt Thought",
+  "CourseTitle": "MGMT-7820",
+  "CreditHours": "3",
+  "uuid": "_sqlbr5f5w"
+}, {
+  "CourseName": "Empirical Issues",
+  "CourseTitle": "MGMT-7840",
+  "CreditHours": "3",
+  "uuid": "_epl5pw01f"
+}, {
+  "CourseName": "Rsrch Sem In Mgmt Info Systems",
+  "CourseTitle": "MGMT-7890",
+  "CreditHours": "3",
+  "uuid": "_mtwyy4zoe"
+}, {
+  "CourseName": "Semiar In Org Behavior",
+  "CourseTitle": "MGMT-7960",
+  "CreditHours": "3",
+  "uuid": "_kou68bn0g"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "MGMT-9990",
+  "CreditHours": "1-15",
+  "uuid": "_75ocpe4up"
+}, {
+  "CourseName": "Intro To Materials Engineering",
+  "CourseTitle": "MTLE-1200",
+  "CreditHours": "1",
+  "uuid": "_8hpku9773"
+}, {
+  "CourseName": "Struct Of Engineer Matls",
+  "CourseTitle": "MTLE-2100",
+  "CreditHours": "4",
+  "uuid": "_r4pv8y5p8"
+}, {
+  "CourseName": "Readings In Mtse",
+  "CourseTitle": "MTLE-2940",
+  "CreditHours": "1-12",
+  "uuid": "_1zf9vnvdo"
+}, {
+  "CourseName": "Introduction To Polymers",
+  "CourseTitle": "MTLE-4050",
+  "CreditHours": "3",
+  "uuid": "_hst3ezm7m"
+}, {
+  "CourseName": "Mech Properties Of Materials",
+  "CourseTitle": "MTLE-4250",
+  "CreditHours": "4",
+  "uuid": "_6d5gt01eb"
+}, {
+  "CourseName": "Synthesis And Processing",
+  "CourseTitle": "MTLE-4400",
+  "CreditHours": "4",
+  "uuid": "_jcbuf5t64"
+}, {
+  "CourseName": "App. Math. Meth. In Materials",
+  "CourseTitle": "MTLE-4720",
+  "CreditHours": "3",
+  "uuid": "_gth0eodlr"
+}, {
+  "CourseName": "Multidisciplinary Cap Design",
+  "CourseTitle": "MTLE-4920",
+  "CreditHours": "3",
+  "uuid": "_rt5yg7rsm"
+}, {
+  "CourseName": "Readings In Mtse",
+  "CourseTitle": "MTLE-4940",
+  "CreditHours": "1-12",
+  "uuid": "_bfjjk9g2m"
+}, {
+  "CourseName": "Learn, Design & Teach Nanotech",
+  "CourseTitle": "MTLE-4960",
+  "CreditHours": "3",
+  "uuid": "_nhvdr5okg"
+}, {
+  "CourseName": "Advanced Thermodynamics",
+  "CourseTitle": "MTLE-6030",
+  "CreditHours": "4",
+  "uuid": "_utj8kf4u7"
+}, {
+  "CourseName": "Advanced Mechanical Properties",
+  "CourseTitle": "MTLE-6250",
+  "CreditHours": "4",
+  "uuid": "_r4pls5zfx"
+}, {
+  "CourseName": "Advanced Structure & Bonding",
+  "CourseTitle": "MTLE-6460",
+  "CreditHours": "4",
+  "uuid": "_xk4s5kt2s"
+}, {
+  "CourseName": "Graduate Seminar",
+  "CourseTitle": "MTLE-6900",
+  "CreditHours": "0",
+  "uuid": "_sf8hm2m42"
+}, {
+  "CourseName": "Readings In Materials Engr",
+  "CourseTitle": "MTLE-6940",
+  "CreditHours": "1-12",
+  "uuid": "_439fpaqc5"
+}, {
+  "CourseName": "Nanostructured Materials",
+  "CourseTitle": "MTLE-6960",
+  "CreditHours": "3",
+  "uuid": "_0skhiszt9"
+}, {
+  "CourseName": "Introduction To Polymers",
+  "CourseTitle": "MTLE-6963",
+  "CreditHours": "3",
+  "uuid": "_9acfsgjou"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "MTLE-6980",
+  "CreditHours": "1-12",
+  "uuid": "_omryc36fu"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "MTLE-6990",
+  "CreditHours": "1-15",
+  "uuid": "_kliq9b71s"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "MTLE-9990",
+  "CreditHours": "1-15",
+  "uuid": "_eqm0bap0b"
+}, {
+  "CourseName": "Intro To Philosophy",
+  "CourseTitle": "PHIL-1110",
+  "CreditHours": "4",
+  "uuid": "_dkp6nkdl5"
+}, {
+  "CourseName": "Introduction To Logic",
+  "CourseTitle": "PHIL-2140",
+  "CreditHours": "4",
+  "uuid": "_f8gn08spq"
+}, {
+  "CourseName": "Philosophy Studies",
+  "CourseTitle": "PHIL-2940",
+  "CreditHours": "1-4",
+  "uuid": "_g4hclknoe"
+}, {
+  "CourseName": "Democratizing America",
+  "CourseTitle": "PHIL-2960",
+  "CreditHours": "4",
+  "uuid": "_plnj2i2qg"
+}, {
+  "CourseName": "Ethics",
+  "CourseTitle": "PHIL-4240",
+  "CreditHours": "4",
+  "uuid": "_9utju0yfm"
+}, {
+  "CourseName": "Metaphysics And Consciousness",
+  "CourseTitle": "PHIL-4480",
+  "CreditHours": "4",
+  "uuid": "_08lv2u5nm"
+}, {
+  "CourseName": "Readings In Phil",
+  "CourseTitle": "PHIL-4940",
+  "CreditHours": "1-12",
+  "uuid": "_py8jsqtxe"
+}, {
+  "CourseName": "Capstone Exper In Philosophy",
+  "CourseTitle": "PHIL-4990",
+  "CreditHours": "1-6",
+  "uuid": "_b5systzis"
+}, {
+  "CourseName": "A Passion For Physics",
+  "CourseTitle": "PHYS-1010",
+  "CreditHours": "1",
+  "uuid": "_6wgrwwv8p"
+}, {
+  "CourseName": "Physics I",
+  "CourseTitle": "PHYS-1100",
+  "CreditHours": "4",
+  "uuid": "_mkvs614ir"
+}, {
+  "CourseName": "Physics I Honors",
+  "CourseTitle": "PHYS-1150",
+  "CreditHours": "4",
+  "uuid": "_njfldcrbu"
+}, {
+  "CourseName": "Physics Ii",
+  "CourseTitle": "PHYS-1200",
+  "CreditHours": "4",
+  "uuid": "_4u8n44uk3"
+}, {
+  "CourseName": "Materials Science",
+  "CourseTitle": "PHYS-1600",
+  "CreditHours": "4",
+  "uuid": "_tuvi8pb82"
+}, {
+  "CourseName": "Physics Mentoring For Freshmen",
+  "CourseTitle": "PHYS-1960",
+  "CreditHours": "0",
+  "uuid": "_grgzxugoj"
+}, {
+  "CourseName": "Prof. Development - Physicists",
+  "CourseTitle": "PHYS-1961",
+  "CreditHours": "1",
+  "uuid": "_qsiftpds7"
+}, {
+  "CourseName": "Quantum Physics I",
+  "CourseTitle": "PHYS-2210",
+  "CreditHours": "4",
+  "uuid": "_2nk4iimd5"
+}, {
+  "CourseName": "Experimental Physics",
+  "CourseTitle": "PHYS-2350",
+  "CreditHours": "4",
+  "uuid": "_phoxoyg69"
+}, {
+  "CourseName": "Intro To Physics Teaching",
+  "CourseTitle": "PHYS-2960",
+  "CreditHours": "2",
+  "uuid": "_epxysj5lw"
+}, {
+  "CourseName": "Electromagnetic Theory",
+  "CourseTitle": "PHYS-4210",
+  "CreditHours": "4",
+  "uuid": "_aqxpqnqgo"
+}, {
+  "CourseName": "Solid State Physics",
+  "CourseTitle": "PHYS-4720",
+  "CreditHours": "4",
+  "uuid": "_1uvwjtr8z"
+}, {
+  "CourseName": "Physics Education Seminar",
+  "CourseTitle": "PHYS-4960",
+  "CreditHours": "2",
+  "uuid": "_ycuip2bvz"
+}, {
+  "CourseName": "Adv Experimental Physics",
+  "CourseTitle": "PHYS-4961",
+  "CreditHours": "4",
+  "uuid": "_ldvg2v8yp"
+}, {
+  "CourseName": "Photonics",
+  "CourseTitle": "PHYS-4962",
+  "CreditHours": "4",
+  "uuid": "_nsuav96w6"
+}, {
+  "CourseName": "Optical Display Development",
+  "CourseTitle": "PHYS-4963",
+  "CreditHours": "4",
+  "uuid": "_wdnj89lye"
+}, {
+  "CourseName": "Photonics",
+  "CourseTitle": "PHYS-4964",
+  "CreditHours": "4",
+  "uuid": "_y4dzfc9a2"
+}, {
+  "CourseName": "Quantum Mechanics I",
+  "CourseTitle": "PHYS-6510",
+  "CreditHours": "4",
+  "uuid": "_fm8uj14z0"
+}, {
+  "CourseName": "Quantum Mechanics Iii",
+  "CourseTitle": "PHYS-6530",
+  "CreditHours": "3",
+  "uuid": "_ht7uhg21h"
+}, {
+  "CourseName": "Statistical Mechanics",
+  "CourseTitle": "PHYS-6590",
+  "CreditHours": "4",
+  "uuid": "_y17mr0jvo"
+}, {
+  "CourseName": "Graduate Seminar",
+  "CourseTitle": "PHYS-6900",
+  "CreditHours": "0",
+  "uuid": "_978au0o2i"
+}, {
+  "CourseName": "Master'S Project",
+  "CourseTitle": "PHYS-6980",
+  "CreditHours": "1-9",
+  "uuid": "_lk1vrgwr4"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "PHYS-6990",
+  "CreditHours": "1-12",
+  "uuid": "_uxi91it46"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "PHYS-9990",
+  "CreditHours": "1-15",
+  "uuid": "_8wddalidh"
+}, {
+  "CourseName": "General Psychology",
+  "CourseTitle": "PSYC-1200",
+  "CreditHours": "4",
+  "uuid": "_06f4v1k2f"
+}, {
+  "CourseName": "Social Psychology",
+  "CourseTitle": "PSYC-2730",
+  "CreditHours": "4",
+  "uuid": "_n13bqc1qp"
+}, {
+  "CourseName": "Intro To Sports Psychology",
+  "CourseTitle": "PSYC-2800",
+  "CreditHours": "4",
+  "uuid": "_4qes6yesv"
+}, {
+  "CourseName": "Motivation & Performance",
+  "CourseTitle": "PSYC-4110",
+  "CreditHours": "4",
+  "uuid": "_tpre8hcpk"
+}, {
+  "CourseName": "Organizational Psychology",
+  "CourseTitle": "PSYC-4200",
+  "CreditHours": "4",
+  "uuid": "_exbwzjiis"
+}, {
+  "CourseName": "Adv Exper Methods & Statistics",
+  "CourseTitle": "PSYC-4310",
+  "CreditHours": "4",
+  "uuid": "_devu3p33y"
+}, {
+  "CourseName": "Cognitive Psychology",
+  "CourseTitle": "PSYC-4370",
+  "CreditHours": "4",
+  "uuid": "_myvj374q2"
+}, {
+  "CourseName": "Personality",
+  "CourseTitle": "PSYC-4400",
+  "CreditHours": "4",
+  "uuid": "_j9s5yr54o"
+}, {
+  "CourseName": "Positive Psychology",
+  "CourseTitle": "PSYC-4730",
+  "CreditHours": "4",
+  "uuid": "_bygnpfkh8"
+}, {
+  "CourseName": "Psychology And The Law",
+  "CourseTitle": "PSYC-4740",
+  "CreditHours": "4",
+  "uuid": "_b46r9ja0j"
+}, {
+  "CourseName": "Empathy And Emotions",
+  "CourseTitle": "PSYC-4960",
+  "CreditHours": "4",
+  "uuid": "_szzoevrng"
+}, {
+  "CourseName": "The Psych Of Reward",
+  "CourseTitle": "PSYC-4961",
+  "CreditHours": "4",
+  "uuid": "_kx6ekqqgd"
+}, {
+  "CourseName": "Educ & Theraputic Comp Game",
+  "CourseTitle": "PSYC-4962",
+  "CreditHours": "4",
+  "uuid": "_so5bix5nv"
+}, {
+  "CourseName": "Models Of Mental Processes",
+  "CourseTitle": "PSYC-4963",
+  "CreditHours": "4",
+  "uuid": "_dgtz4rmf8"
+}, {
+  "CourseName": "Sensibilities:Writingxdiscipln",
+  "CourseTitle": "PSYC-4964",
+  "CreditHours": "4",
+  "uuid": "_3bs26efk6"
+}, {
+  "CourseName": "Undergraduate Thesis",
+  "CourseTitle": "PSYC-4990",
+  "CreditHours": "1-6",
+  "uuid": "_8zoznto4r"
+}, {
+  "CourseName": "Science,Tech And Society",
+  "CourseTitle": "STSH-1110",
+  "CreditHours": "4",
+  "uuid": "_r7ccwxb5x"
+}, {
+  "CourseName": "Readings In Stsh",
+  "CourseTitle": "STSH-2940",
+  "CreditHours": "1-6",
+  "uuid": "_o6nyxuhpy"
+}, {
+  "CourseName": "Sci Fi & Social Critiscism",
+  "CourseTitle": "STSH-2960",
+  "CreditHours": "4",
+  "uuid": "_fe5oq9x55"
+}, {
+  "CourseName": "Environment And Society",
+  "CourseTitle": "STSH-2961",
+  "CreditHours": "4",
+  "uuid": "_4q3yj1t21"
+}, {
+  "CourseName": "Pdi Studio V",
+  "CourseTitle": "STSH-4610",
+  "CreditHours": "4",
+  "uuid": "_s48qt1klc"
+}, {
+  "CourseName": "Readings In Stsh",
+  "CourseTitle": "STSH-4940",
+  "CreditHours": "1-6",
+  "uuid": "_iaaoo1viy"
+}, {
+  "CourseName": "History Of Medicine",
+  "CourseTitle": "STSH-4960",
+  "CreditHours": "4",
+  "uuid": "_xwd0siov4"
+}, {
+  "CourseName": "Sustainability By Design",
+  "CourseTitle": "STSH-4961",
+  "CreditHours": "4",
+  "uuid": "_j0fhno0i0"
+}, {
+  "CourseName": "Senior Project",
+  "CourseTitle": "STSH-4980",
+  "CreditHours": "4",
+  "uuid": "_1ls6dgwja"
+}, {
+  "CourseName": "Readings In Stsh",
+  "CourseTitle": "STSH-6940",
+  "CreditHours": "1-6",
+  "uuid": "_nvpkn7vxa"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "STSH-9990",
+  "CreditHours": "1-15",
+  "uuid": "_d95cicnzn"
+}, {
+  "CourseName": "Science, Tech And Society",
+  "CourseTitle": "STSS-1110",
+  "CreditHours": "4",
+  "uuid": "_ml9uyc8rp"
+}, {
+  "CourseName": "Medicine And Society",
+  "CourseTitle": "STSS-2400",
+  "CreditHours": "4",
+  "uuid": "_kcwau298v"
+}, {
+  "CourseName": "Cultural Anthropology",
+  "CourseTitle": "STSS-2510",
+  "CreditHours": "4",
+  "uuid": "_s4wstttqi"
+}, {
+  "CourseName": "Sociology",
+  "CourseTitle": "STSS-2520",
+  "CreditHours": "4",
+  "uuid": "_2b6b59df4"
+}, {
+  "CourseName": "Readings In Stss",
+  "CourseTitle": "STSS-2940",
+  "CreditHours": "1-6",
+  "uuid": "_cfjs7fike"
+}, {
+  "CourseName": "Society By Numbers: Demography",
+  "CourseTitle": "STSS-2961",
+  "CreditHours": "4",
+  "uuid": "_c4f5je549"
+}, {
+  "CourseName": "Science Fiction Cinema",
+  "CourseTitle": "STSS-2962",
+  "CreditHours": "4",
+  "uuid": "_xpcxu94fo"
+}, {
+  "CourseName": "21St Century Risks",
+  "CourseTitle": "STSS-4330",
+  "CreditHours": "4",
+  "uuid": "_zd3wbdjkk"
+}, {
+  "CourseName": "Public Service Internship",
+  "CourseTitle": "STSS-4800",
+  "CreditHours": "4",
+  "uuid": "_kopph5gma"
+}, {
+  "CourseName": "Readings In Stss",
+  "CourseTitle": "STSS-4940",
+  "CreditHours": "1-6",
+  "uuid": "_9aml6cgof"
+}, {
+  "CourseName": "Evolution, Cognition, Culture",
+  "CourseTitle": "STSS-4961",
+  "CreditHours": "4",
+  "uuid": "_ckmi6ikpo"
+}, {
+  "CourseName": "Sciences Of Sustainability",
+  "CourseTitle": "STSS-4963",
+  "CreditHours": "4",
+  "uuid": "_1pa3l5if2"
+}, {
+  "CourseName": "Futurism: Utopias & Dystopias",
+  "CourseTitle": "STSS-4965",
+  "CreditHours": "4",
+  "uuid": "_3uiir4viz"
+}, {
+  "CourseName": "Pd2 Tech Issues & Solutions",
+  "CourseTitle": "STSS-4967",
+  "CreditHours": "2",
+  "uuid": "_rwaaja6zy"
+}, {
+  "CourseName": "Sts Research Design",
+  "CourseTitle": "STSS-4969",
+  "CreditHours": "4",
+  "uuid": "_5yk0inf6o"
+}, {
+  "CourseName": "Senior Project",
+  "CourseTitle": "STSS-4980",
+  "CreditHours": "4",
+  "uuid": "_03u98spws"
+}, {
+  "CourseName": "Concepts In Sts",
+  "CourseTitle": "STSS-6010",
+  "CreditHours": "3",
+  "uuid": "_j0nx94gam"
+}, {
+  "CourseName": "Policy Studies",
+  "CourseTitle": "STSS-6100",
+  "CreditHours": "3",
+  "uuid": "_hjz0yy9fw"
+}, {
+  "CourseName": "Readings In Stss",
+  "CourseTitle": "STSS-6940",
+  "CreditHours": "1-6",
+  "uuid": "_5he4i18yr"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "STSS-9990",
+  "CreditHours": "1-15",
+  "uuid": "_mhwp9c3w3"
+}, {
+  "CourseName": "Leadership Lab",
+  "CourseTitle": "USAF-0010",
+  "CreditHours": "0",
+  "uuid": "_vubc62p36"
+}, {
+  "CourseName": "Air And Space Studies 100A",
+  "CourseTitle": "USAF-1010",
+  "CreditHours": "1",
+  "uuid": "_s2bbpbrw0"
+}, {
+  "CourseName": "Air And Space Studies 200A",
+  "CourseTitle": "USAF-2030",
+  "CreditHours": "1",
+  "uuid": "_ykt5ytikc"
+}, {
+  "CourseName": "Air And Space Studies 300A",
+  "CourseTitle": "USAF-2050",
+  "CreditHours": "3",
+  "uuid": "_4z3zt05qr"
+}, {
+  "CourseName": "Air And Space Studies 400A",
+  "CourseTitle": "USAF-2070",
+  "CreditHours": "3",
+  "uuid": "_p6qp44kde"
+}, {
+  "CourseName": "Fundamentals Of Mil Sci Lab I",
+  "CourseTitle": "USAR-0010",
+  "CreditHours": "0",
+  "uuid": "_iosw3gv30"
+}, {
+  "CourseName": "Applied Leadership Lab I",
+  "CourseTitle": "USAR-0030",
+  "CreditHours": "0",
+  "uuid": "_e89saj5pk"
+}, {
+  "CourseName": "Appl Military Leadership Lab I",
+  "CourseTitle": "USAR-0050",
+  "CreditHours": "0",
+  "uuid": "_c9ti50k70"
+}, {
+  "CourseName": "Adv Milt Mgmt Leadership Lab I",
+  "CourseTitle": "USAR-0070",
+  "CreditHours": "0",
+  "uuid": "_bw3ngbhb1"
+}, {
+  "CourseName": "Fund Of Military Sci I",
+  "CourseTitle": "USAR-1010",
+  "CreditHours": "1",
+  "uuid": "_uslkg8d6i"
+}, {
+  "CourseName": "Applied Leadership I",
+  "CourseTitle": "USAR-2010",
+  "CreditHours": "1",
+  "uuid": "_b2brakcc8"
+}, {
+  "CourseName": "Applied Mil Leadership I",
+  "CourseTitle": "USAR-2060",
+  "CreditHours": "2",
+  "uuid": "_khvb8mnhe"
+}, {
+  "CourseName": "Adv Military Mgmt & Leader I",
+  "CourseTitle": "USAR-4010",
+  "CreditHours": "2",
+  "uuid": "_pd2rzctgb"
+}, {
+  "CourseName": "Drill/Laboratory",
+  "CourseTitle": "USNA-0010",
+  "CreditHours": "0",
+  "uuid": "_v2bd2i74r"
+}, {
+  "CourseName": "Introduction To Naval Science",
+  "CourseTitle": "USNA-1010",
+  "CreditHours": "3",
+  "uuid": "_ohp3avq7p"
+}, {
+  "CourseName": "Naval Leadership & Mgmt I",
+  "CourseTitle": "USNA-2030",
+  "CreditHours": "3",
+  "uuid": "_82uy059cs"
+}, {
+  "CourseName": "Navigation",
+  "CourseTitle": "USNA-2050",
+  "CreditHours": "3",
+  "uuid": "_n9qzqmrpf"
+}, {
+  "CourseName": "Naval Ships Systems Ii",
+  "CourseTitle": "USNA-2070",
+  "CreditHours": "3",
+  "uuid": "_ee2xosxz5"
+}, {
+  "CourseName": "Writing For Classrm And Career",
+  "CourseTitle": "WRIT-1110",
+  "CreditHours": "4",
+  "uuid": "_edd66e8ap"
+}, {
+  "CourseName": "Strategic Writing",
+  "CourseTitle": "WRIT-2110",
+  "CreditHours": "4",
+  "uuid": "_hgflatuo3"
+}, {
+  "CourseName": "Creative Writing: Poetry",
+  "CourseTitle": "WRIT-2310",
+  "CreditHours": "4",
+  "uuid": "_vp8hmgfws"
+}, {
+  "CourseName": "Creative Writing: Non-Fiction",
+  "CourseTitle": "WRIT-2320",
+  "CreditHours": "4",
+  "uuid": "_w70kv4iqw"
+}, {
+  "CourseName": "Creative Writing: Short Story",
+  "CourseTitle": "WRIT-2330",
+  "CreditHours": "4",
+  "uuid": "_lgtf9z233"
+}, {
+  "CourseName": "Speech Communication",
+  "CourseTitle": "WRIT-2340",
+  "CreditHours": "4",
+  "uuid": "_2wpcbivzf"
+}, {
+  "CourseName": "Writing For Promotion & Market",
+  "CourseTitle": "WRIT-4170",
+  "CreditHours": "4",
+  "uuid": "_pgyrebkth"
+}, {
+  "CourseName": "Bldg & Thinking Arch 3",
+  "CourseTitle": "ARCH-2140",
+  "CreditHours": "2",
+  "uuid": "_3kqzhq31s"
+}, {
+  "CourseName": "Architectural Design 3",
+  "CourseTitle": "ARCH-2230",
+  "CreditHours": "6",
+  "uuid": "_nhx9nx4vr"
+}, {
+  "CourseName": "Environmental And Ecol System",
+  "CourseTitle": "ARCH-2360",
+  "CreditHours": "4",
+  "uuid": "_cdfj5htdr"
+}, {
+  "CourseName": "Energy, Comfort & Ecology",
+  "CourseTitle": "ARCH-2370",
+  "CreditHours": "2",
+  "uuid": "_s3qa8u2m0"
+}, {
+  "CourseName": "Digital Constructs 2",
+  "CourseTitle": "ARCH-2530",
+  "CreditHours": "2",
+  "uuid": "_zpfhfvarc"
+}, {
+  "CourseName": "Grad Arch Design 3",
+  "CourseTitle": "ARCH-2630",
+  "CreditHours": "6",
+  "uuid": "_znptw1213"
+}, {
+  "CourseName": "Architectural Design Studio 2",
+  "CourseTitle": "ARCH-2810",
+  "CreditHours": "5",
+  "uuid": "_5eazzlmbh"
+}, {
+  "CourseName": "Projects In Arch & Env Design",
+  "CourseTitle": "ARCH-2940",
+  "CreditHours": "1-6",
+  "uuid": "_yclc6vytj"
+}, {
+  "CourseName": "Twisted Siblings",
+  "CourseTitle": "ARCH-4070",
+  "CreditHours": "2",
+  "uuid": "_itg66cctu"
+}, {
+  "CourseName": "Architectural Case Studies",
+  "CourseTitle": "ARCH-4090",
+  "CreditHours": "2",
+  "uuid": "_e9pxk3vro"
+}, {
+  "CourseName": "Architecture Design 5",
+  "CourseTitle": "ARCH-4250",
+  "CreditHours": "6",
+  "uuid": "_wels1xoqv"
+}, {
+  "CourseName": "Architecture Design 6",
+  "CourseTitle": "ARCH-4260",
+  "CreditHours": "6",
+  "uuid": "_tzfv3z4rj"
+}, {
+  "CourseName": "Design Development",
+  "CourseTitle": "ARCH-4300",
+  "CreditHours": "6",
+  "uuid": "_prcbjumd3"
+}, {
+  "CourseName": "Structural Morphology",
+  "CourseTitle": "ARCH-4340",
+  "CreditHours": "2",
+  "uuid": "_co8gzgw4x"
+}, {
+  "CourseName": "Sust Bldng Des Strategies",
+  "CourseTitle": "ARCH-4730",
+  "CreditHours": "2",
+  "uuid": "_azyw5phhs"
+}, {
+  "CourseName": "Bldg Systems And Environment",
+  "CourseTitle": "ARCH-4740",
+  "CreditHours": "4",
+  "uuid": "_287poftwg"
+}, {
+  "CourseName": "Architectural Acoustics 2",
+  "CourseTitle": "ARCH-4850",
+  "CreditHours": "4",
+  "uuid": "_ianaeugd5"
+}, {
+  "CourseName": "The Man Next Door: Hitchcock",
+  "CourseTitle": "ARCH-4931",
+  "CreditHours": "2",
+  "uuid": "_lcwf3etgi"
+}, {
+  "CourseName": "Res Investigations: Projbuilt",
+  "CourseTitle": "ARCH-4936",
+  "CreditHours": "4",
+  "uuid": "_2giizch5m"
+}, {
+  "CourseName": "Independent Study In Arch",
+  "CourseTitle": "ARCH-4940",
+  "CreditHours": "0-6",
+  "uuid": "_3jssa7qoq"
+}, {
+  "CourseName": "Self-Organizing Spaces",
+  "CourseTitle": "ARCH-4960",
+  "CreditHours": "2",
+  "uuid": "_vt49lei7j"
+}, {
+  "CourseName": "Arch & The Urban Cond Of India",
+  "CourseTitle": "ARCH-4970",
+  "CreditHours": "2",
+  "uuid": "_8ne12kzdn"
+}, {
+  "CourseName": "The Culture & Civil. Of India",
+  "CourseTitle": "ARCH-4974",
+  "CreditHours": "2",
+  "uuid": "_r3kqr4im0"
+}, {
+  "CourseName": "Topics In Architecture",
+  "CourseTitle": "ARCH-4976",
+  "CreditHours": "2",
+  "uuid": "_vkvjqatq1"
+}, {
+  "CourseName": "B Arch Final Project 2",
+  "CourseTitle": "ARCH-4990",
+  "CreditHours": "6",
+  "uuid": "_wb2nzrn8h"
+}, {
+  "CourseName": "Design Explorations 1",
+  "CourseTitle": "ARCH-6110",
+  "CreditHours": "4",
+  "uuid": "_boakicj8n"
+}, {
+  "CourseName": "Built Ecologies 2",
+  "CourseTitle": "ARCH-6330",
+  "CreditHours": "3",
+  "uuid": "_h8x8fhqa4"
+}, {
+  "CourseName": "Graduate Thesis Smr:Acoustics",
+  "CourseTitle": "ARCH-6830",
+  "CreditHours": "1",
+  "uuid": "_9y715q8v0"
+}, {
+  "CourseName": "Sonics Research Lab 2",
+  "CourseTitle": "ARCH-6880",
+  "CreditHours": "2",
+  "uuid": "_kzaisb3hf"
+}, {
+  "CourseName": "Aural Architecture",
+  "CourseTitle": "ARCH-6890",
+  "CreditHours": "3",
+  "uuid": "_pabid6etc"
+}, {
+  "CourseName": "Graduate Thesis Seminar",
+  "CourseTitle": "ARCH-6900",
+  "CreditHours": "2",
+  "uuid": "_c4z4kyk2n"
+}, {
+  "CourseName": "Adv Integrated Systems Dev",
+  "CourseTitle": "ARCH-6963",
+  "CreditHours": "4",
+  "uuid": "_8jqpm47cl"
+}, {
+  "CourseName": "Energy & Systems Simulation",
+  "CourseTitle": "ARCH-6965",
+  "CreditHours": "2",
+  "uuid": "_wocupplrq"
+}, {
+  "CourseName": "Art For Interactive Media",
+  "CourseTitle": "ARTS-1040",
+  "CreditHours": "4",
+  "uuid": "_cwf1j9p7b"
+}, {
+  "CourseName": "History Of Western Music",
+  "CourseTitle": "ARTS-2500",
+  "CreditHours": "4",
+  "uuid": "_wkchqwhmf"
+}, {
+  "CourseName": "Art History I",
+  "CourseTitle": "ARTS-2530",
+  "CreditHours": "4",
+  "uuid": "_b45i2gyu2"
+}, {
+  "CourseName": "Arts History Ii",
+  "CourseTitle": "ARTS-2560",
+  "CreditHours": "4",
+  "uuid": "_e99e8x7iy"
+}, {
+  "CourseName": "Adv Digital 3D Projects",
+  "CourseTitle": "ARTS-4020",
+  "CreditHours": "4",
+  "uuid": "_y5xuwtgo9"
+}, {
+  "CourseName": "Animation I",
+  "CourseTitle": "ARTS-4060",
+  "CreditHours": "4",
+  "uuid": "_1411nnzrh"
+}, {
+  "CourseName": "Art, Community And Technology",
+  "CourseTitle": "ARTS-4080",
+  "CreditHours": "4",
+  "uuid": "_wcg2cffl2"
+}, {
+  "CourseName": "New Media Theory",
+  "CourseTitle": "ARTS-4130",
+  "CreditHours": "4",
+  "uuid": "_xhjutuurl"
+}, {
+  "CourseName": "Advanced Drawing",
+  "CourseTitle": "ARTS-4200",
+  "CreditHours": "4",
+  "uuid": "_3su10y4f8"
+}, {
+  "CourseName": "Music Theory Ii",
+  "CourseTitle": "ARTS-4400",
+  "CreditHours": "4",
+  "uuid": "_sr1ye12jj"
+}, {
+  "CourseName": "Experimental Game Design",
+  "CourseTitle": "ARTS-4510",
+  "CreditHours": "4",
+  "uuid": "_6ly64cl5j"
+}, {
+  "CourseName": "Game Development Ii",
+  "CourseTitle": "ARTS-4540",
+  "CreditHours": "4",
+  "uuid": "_a86pza82o"
+}, {
+  "CourseName": "Science Fictions",
+  "CourseTitle": "ARTS-4640",
+  "CreditHours": "4",
+  "uuid": "_jfcy0dm9g"
+}, {
+  "CourseName": "Creative Seminar Ii",
+  "CourseTitle": "ARTS-4850",
+  "CreditHours": "4",
+  "uuid": "_jyy2uys0y"
+}, {
+  "CourseName": "Advanced Digital Imaging",
+  "CourseTitle": "ARTS-4860",
+  "CreditHours": "4",
+  "uuid": "_7otysr467"
+}, {
+  "CourseName": "Inflatables",
+  "CourseTitle": "ARTS-4960",
+  "CreditHours": "4",
+  "uuid": "_q568bur6h"
+}, {
+  "CourseName": "New Media Theory",
+  "CourseTitle": "ARTS-6130",
+  "CreditHours": "3",
+  "uuid": "_ypw8ltsn3"
+}, {
+  "CourseName": "Advanced Drawing",
+  "CourseTitle": "ARTS-6200",
+  "CreditHours": "3",
+  "uuid": "_gaf65onza"
+}, {
+  "CourseName": "Science Fictions",
+  "CourseTitle": "ARTS-6640",
+  "CreditHours": "3",
+  "uuid": "_lmn24zbr3"
+}, {
+  "CourseName": "Advanced Digital Imaging",
+  "CourseTitle": "ARTS-6860",
+  "CreditHours": "3",
+  "uuid": "_1yfjbgp6h"
+}, {
+  "CourseName": "Performance Technologies",
+  "CourseTitle": "ARTS-6966",
+  "CreditHours": "3",
+  "uuid": "_baqfyhec2"
+}, {
+  "CourseName": "Stars, Galaxies & The Universe",
+  "CourseTitle": "ASTR-1960",
+  "CreditHours": "4",
+  "uuid": "_n4a435mra"
+}, {
+  "CourseName": "Readings In Astr",
+  "CourseTitle": "ASTR-2940",
+  "CreditHours": "1-6",
+  "uuid": "_gr23j9jqm"
+}, {
+  "CourseName": "Observational Astronomy",
+  "CourseTitle": "ASTR-4120",
+  "CreditHours": "4",
+  "uuid": "_pc0gcedes"
+}, {
+  "CourseName": "Gravitation & Cosmology",
+  "CourseTitle": "ASTR-4240",
+  "CreditHours": "4",
+  "uuid": "_ou0fvtnje"
+}, {
+  "CourseName": "Origins Of Life: Cosmic Persp",
+  "CourseTitle": "ASTR-4510",
+  "CreditHours": "3",
+  "uuid": "_njthcjqe5"
+}, {
+  "CourseName": "Astrophysics Undergrad Seminar",
+  "CourseTitle": "ASTR-4900",
+  "CreditHours": "1",
+  "uuid": "_koqptzfdw"
+}, {
+  "CourseName": "Special Projects In Astronomy",
+  "CourseTitle": "ASTR-4940",
+  "CreditHours": "1-12",
+  "uuid": "_eug9xbknd"
+}, {
+  "CourseName": "Readings In Astr",
+  "CourseTitle": "ASTR-6940",
+  "CreditHours": "1-6",
+  "uuid": "_xmwkfiuci"
+}, {
+  "CourseName": "Research In Astronomy",
+  "CourseTitle": "ASTR-9990",
+  "CreditHours": "1-16",
+  "uuid": "_2v6tqwunh"
+}, {
+  "CourseName": "Genetic Engineering",
+  "CourseTitle": "BCBP-4310",
+  "CreditHours": "4",
+  "uuid": "_zdgj2ljzi"
+}, {
+  "CourseName": "Molecular Modeling",
+  "CourseTitle": "BCBP-4550",
+  "CreditHours": "4",
+  "uuid": "_4y126gk8f"
+}, {
+  "CourseName": "Proteomics",
+  "CourseTitle": "BCBP-4640",
+  "CreditHours": "4",
+  "uuid": "_66zpyigni"
+}, {
+  "CourseName": "Biochemistry Lab",
+  "CourseTitle": "BCBP-4710",
+  "CreditHours": "4",
+  "uuid": "_5ftfwq1uc"
+}, {
+  "CourseName": "Molecular Biochem Ii",
+  "CourseTitle": "BCBP-4770",
+  "CreditHours": "4",
+  "uuid": "_u390zpjrk"
+}, {
+  "CourseName": "Genetic Engineering",
+  "CourseTitle": "BCBP-6310",
+  "CreditHours": "4",
+  "uuid": "_k3hx6k7vu"
+}, {
+  "CourseName": "Molecular Modeling",
+  "CourseTitle": "BCBP-6420",
+  "CreditHours": "4",
+  "uuid": "_2bji9tgz2"
+}, {
+  "CourseName": "Proteomics",
+  "CourseTitle": "BCBP-6640",
+  "CreditHours": "3",
+  "uuid": "_bepdeccgw"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "BCBP-6990",
+  "CreditHours": "1-9",
+  "uuid": "_xivwq2zd8"
+}, {
+  "CourseName": "Anat & Phys Ii W/Lab @ Maria",
+  "CourseTitle": "BIOL-2005",
+  "CreditHours": "4",
+  "uuid": "_c42jcjmmp"
+}, {
+  "CourseName": "Cancer Cell Research",
+  "CourseTitle": "BIOL-4060",
+  "CreditHours": "4",
+  "uuid": "_sjqs0f0x1"
+}, {
+  "CourseName": "Seminal Developments",
+  "CourseTitle": "BIOL-4090",
+  "CreditHours": "2",
+  "uuid": "_88p79322d"
+}, {
+  "CourseName": "From Neuron To Behavior",
+  "CourseTitle": "BIOL-4100",
+  "CreditHours": "4",
+  "uuid": "_uu7vo23ts"
+}, {
+  "CourseName": "Developmental Biology",
+  "CourseTitle": "BIOL-4250",
+  "CreditHours": "4",
+  "uuid": "_b494lc8rn"
+}, {
+  "CourseName": "Microbiology",
+  "CourseTitle": "BIOL-4310",
+  "CreditHours": "4",
+  "uuid": "_7jgmctgiu"
+}, {
+  "CourseName": "Molecular Modeling",
+  "CourseTitle": "BIOL-4550",
+  "CreditHours": "4",
+  "uuid": "_n6u4u4gqc"
+}, {
+  "CourseName": "Molecular Biology",
+  "CourseTitle": "BIOL-4620",
+  "CreditHours": "4",
+  "uuid": "_zttn28zpr"
+}, {
+  "CourseName": "Proteomics",
+  "CourseTitle": "BIOL-4640",
+  "CreditHours": "4",
+  "uuid": "_7lrwlqm7j"
+}, {
+  "CourseName": "Biochemistry Lab",
+  "CourseTitle": "BIOL-4710",
+  "CreditHours": "4",
+  "uuid": "_x9omtvl4o"
+}, {
+  "CourseName": "Molecular Biochem Ii",
+  "CourseTitle": "BIOL-4770",
+  "CreditHours": "4",
+  "uuid": "_qqw7ah10y"
+}, {
+  "CourseName": "Principles Of Ecology",
+  "CourseTitle": "BIOL-4850",
+  "CreditHours": "4",
+  "uuid": "_pgwup9qhi"
+}, {
+  "CourseName": "Evolution",
+  "CourseTitle": "BIOL-4860",
+  "CreditHours": "4",
+  "uuid": "_o8idwxuqp"
+}, {
+  "CourseName": "Geomicrobiology",
+  "CourseTitle": "BIOL-4962",
+  "CreditHours": "3",
+  "uuid": "_oimdo29td"
+}, {
+  "CourseName": "Biomedical Research",
+  "CourseTitle": "BIOL-4980",
+  "CreditHours": "4",
+  "uuid": "_ns9ccmq8n"
+}, {
+  "CourseName": "From Neuron To Behavior",
+  "CourseTitle": "BIOL-6100",
+  "CreditHours": "4",
+  "uuid": "_a9j2t4vq0"
+}, {
+  "CourseName": "Microbiology",
+  "CourseTitle": "BIOL-6310",
+  "CreditHours": "4",
+  "uuid": "_47fpoea25"
+}, {
+  "CourseName": "Molecular Modeling",
+  "CourseTitle": "BIOL-6420",
+  "CreditHours": "4",
+  "uuid": "_jbog4x8ls"
+}, {
+  "CourseName": "Biology Core Course Ii",
+  "CourseTitle": "BIOL-6520",
+  "CreditHours": "4",
+  "uuid": "_6ievhux6r"
+}, {
+  "CourseName": "Proteomics",
+  "CourseTitle": "BIOL-6640",
+  "CreditHours": "3",
+  "uuid": "_z5v1enfkn"
+}, {
+  "CourseName": "Research Rotation Ii",
+  "CourseTitle": "BIOL-6920",
+  "CreditHours": "2",
+  "uuid": "_d023nxe5j"
+}, {
+  "CourseName": "Research Rotation Iii",
+  "CourseTitle": "BIOL-6930",
+  "CreditHours": "2",
+  "uuid": "_uwqj7o7nb"
+}, {
+  "CourseName": "Research",
+  "CourseTitle": "BIOL-6980",
+  "CreditHours": "1-16",
+  "uuid": "_gn37hy3yx"
+}, {
+  "CourseName": "Tissue-Biomatl Interact",
+  "CourseTitle": "BMED-4240",
+  "CreditHours": "3",
+  "uuid": "_1rksnc25f"
+}, {
+  "CourseName": "Biomems",
+  "CourseTitle": "BMED-4410",
+  "CreditHours": "3",
+  "uuid": "_0gbtrex0t"
+}, {
+  "CourseName": "Biological Image Analysis",
+  "CourseTitle": "BMED-4460",
+  "CreditHours": "3",
+  "uuid": "_8zoshcbb8"
+}, {
+  "CourseName": "Intro To Cell And Tissue Eng",
+  "CourseTitle": "BMED-4650",
+  "CreditHours": "3",
+  "uuid": "_m9mnw3xgn"
+}, {
+  "CourseName": "Bme Seminar",
+  "CourseTitle": "BMED-4962",
+  "CreditHours": "1",
+  "uuid": "_36mdi1rsm"
+}, {
+  "CourseName": "Biomems",
+  "CourseTitle": "BMED-6410",
+  "CreditHours": "3",
+  "uuid": "_k0juoxrri"
+}, {
+  "CourseName": "Biological Image Analysis",
+  "CourseTitle": "BMED-6460",
+  "CreditHours": "3",
+  "uuid": "_v874yvc4u"
+}, {
+  "CourseName": "Intro To Cell And Tissue Engr",
+  "CourseTitle": "BMED-6650",
+  "CreditHours": "3",
+  "uuid": "_fdnyfqusu"
+}, {
+  "CourseName": "Bme Seminar",
+  "CourseTitle": "BMED-6962",
+  "CreditHours": "1",
+  "uuid": "_c90ghnbv0"
+}, {
+  "CourseName": "Chemistry Ii",
+  "CourseTitle": "CHEM-1200",
+  "CreditHours": "4",
+  "uuid": "_1jjpojn1l"
+}, {
+  "CourseName": "Inorganic Chemistry I",
+  "CourseTitle": "CHEM-2030",
+  "CreditHours": "4",
+  "uuid": "_2ulnwi9yc"
+}, {
+  "CourseName": "Organic Chemistry Lab Ii",
+  "CourseTitle": "CHEM-2240",
+  "CreditHours": "1",
+  "uuid": "_3ycr9vnij"
+}, {
+  "CourseName": "Organic Chemistry Ii",
+  "CourseTitle": "CHEM-2260",
+  "CreditHours": "3",
+  "uuid": "_p33tlszik"
+}, {
+  "CourseName": "Experimental Chemistry Ii",
+  "CourseTitle": "CHEM-2290",
+  "CreditHours": "2",
+  "uuid": "_7x53iw0vt"
+}, {
+  "CourseName": "Chem Lab: Selected Experiments",
+  "CourseTitle": "CHEM-2360",
+  "CreditHours": "1-3",
+  "uuid": "_pk3yzowth"
+}, {
+  "CourseName": "Intro To Geochemistry",
+  "CourseTitle": "CHEM-2540",
+  "CreditHours": "4",
+  "uuid": "_u8mk4whbm"
+}, {
+  "CourseName": "Special Projects In Chemistry",
+  "CourseTitle": "CHEM-2940",
+  "CreditHours": "1-4",
+  "uuid": "_jaiki376f"
+}, {
+  "CourseName": "Intro To Forensic Chemistry",
+  "CourseTitle": "CHEM-2960",
+  "CreditHours": "3",
+  "uuid": "_5pk3gjkmr"
+}, {
+  "CourseName": "Instrumental Methods Of Anlys",
+  "CourseTitle": "CHEM-4110",
+  "CreditHours": "2",
+  "uuid": "_gr97rj8oo"
+}, {
+  "CourseName": "Experimental Chemistry Iv",
+  "CourseTitle": "CHEM-4120",
+  "CreditHours": "2",
+  "uuid": "_p69hflve4"
+}, {
+  "CourseName": "Microscopic Physical Chemistry",
+  "CourseTitle": "CHEM-4420",
+  "CreditHours": "3",
+  "uuid": "_vmymchdyx"
+}, {
+  "CourseName": "Intro Polymer Chemistry",
+  "CourseTitle": "CHEM-4620",
+  "CreditHours": "3",
+  "uuid": "_pyfh858xl"
+}, {
+  "CourseName": "Aqueous Geochemistry",
+  "CourseTitle": "CHEM-4690",
+  "CreditHours": "4",
+  "uuid": "_29q6xjqcv"
+}, {
+  "CourseName": "Molecular Biochem Ii",
+  "CourseTitle": "CHEM-4770",
+  "CreditHours": "4",
+  "uuid": "_ag1vhp9l1"
+}, {
+  "CourseName": "Readings In Chem",
+  "CourseTitle": "CHEM-4940",
+  "CreditHours": "1-8",
+  "uuid": "_b7efz4dtk"
+}, {
+  "CourseName": "Natural Polymers & Biomaterial",
+  "CourseTitle": "CHEM-4963",
+  "CreditHours": "3",
+  "uuid": "_cuydrp9uh"
+}, {
+  "CourseName": "Drug Discovery & Syhthesis",
+  "CourseTitle": "CHEM-4965",
+  "CreditHours": "2",
+  "uuid": "_lze10c7nz"
+}, {
+  "CourseName": "Glycochemistry",
+  "CourseTitle": "CHEM-6250",
+  "CreditHours": "3",
+  "uuid": "_ok2djnut5"
+}, {
+  "CourseName": "Drug Discovery & Synthesis",
+  "CourseTitle": "CHEM-6965",
+  "CreditHours": "2",
+  "uuid": "_so2dd6l1d"
+}, {
+  "CourseName": "Energy,Entropy, & Equilibrium",
+  "CourseTitle": "CHME-2020",
+  "CreditHours": "4",
+  "uuid": "_z3zr992to"
+}, {
+  "CourseName": "Chemical Process Design",
+  "CourseTitle": "CHME-4050",
+  "CreditHours": "4",
+  "uuid": "_mbasc81vd"
+}, {
+  "CourseName": "Chem Engr Lab Ii",
+  "CourseTitle": "CHME-4160",
+  "CreditHours": "3",
+  "uuid": "_9yd8yluzr"
+}, {
+  "CourseName": "Biotechnol & Bioprocessing Lab",
+  "CourseTitle": "CHME-4170",
+  "CreditHours": "3",
+  "uuid": "_35t5undc0"
+}, {
+  "CourseName": "Chromatography Separation Proc",
+  "CourseTitle": "CHME-4400",
+  "CreditHours": "3",
+  "uuid": "_n2ya72xxb"
+}, {
+  "CourseName": "Chromatographic Sep Processes",
+  "CourseTitle": "CHME-6440",
+  "CreditHours": "3",
+  "uuid": "_ofkwogyt2"
+}, {
+  "CourseName": "Adv Transport Phenomena I",
+  "CourseTitle": "CHME-6510",
+  "CreditHours": "3",
+  "uuid": "_iifp1l9sa"
+}, {
+  "CourseName": "Adv Chem Reactor Design",
+  "CourseTitle": "CHME-6640",
+  "CreditHours": "3",
+  "uuid": "_rh49fpr8n"
+}, {
+  "CourseName": "Intro To Civil & Enve Engr",
+  "CourseTitle": "CIVL-1100",
+  "CreditHours": "1",
+  "uuid": "_2ffr5j25f"
+}, {
+  "CourseName": "Concrete Design",
+  "CourseTitle": "CIVL-4080",
+  "CreditHours": "3",
+  "uuid": "_lw7sbp7dd"
+}, {
+  "CourseName": "Experimental Soil Mech.",
+  "CourseTitle": "CIVL-4150",
+  "CreditHours": "3",
+  "uuid": "_t4o1f8lcj"
+}, {
+  "CourseName": "Construction Management",
+  "CourseTitle": "CIVL-4270",
+  "CreditHours": "3",
+  "uuid": "_8rfxv0sp9"
+}, {
+  "CourseName": "Advanced Structural Analysis",
+  "CourseTitle": "CIVL-4440",
+  "CreditHours": "3",
+  "uuid": "_70h0svlfg"
+}, {
+  "CourseName": "Conceptual Structural Systems",
+  "CourseTitle": "CIVL-4450",
+  "CreditHours": "3",
+  "uuid": "_b5t22abs1"
+}, {
+  "CourseName": "Analytical Mthds In Ce Systems",
+  "CourseTitle": "CIVL-4570",
+  "CreditHours": "3",
+  "uuid": "_tmmk6dj2d"
+}, {
+  "CourseName": "Traffic Engineering",
+  "CourseTitle": "CIVL-4660",
+  "CreditHours": "3",
+  "uuid": "_d2k1mdztz"
+}, {
+  "CourseName": "Civil Engr Capstone Design",
+  "CourseTitle": "CIVL-4920",
+  "CreditHours": "3",
+  "uuid": "_4o36j9thm"
+}, {
+  "CourseName": "Readings In Civl",
+  "CourseTitle": "CIVL-4940",
+  "CreditHours": "1-6",
+  "uuid": "_r61u8u3nz"
+}, {
+  "CourseName": "Design For Constructability",
+  "CourseTitle": "CIVL-4962",
+  "CreditHours": "3",
+  "uuid": "_q59a57ht7"
+}, {
+  "CourseName": "Freight Transportation Systems",
+  "CourseTitle": "CIVL-6290",
+  "CreditHours": "3",
+  "uuid": "_4660s01t9"
+}, {
+  "CourseName": "Adv Steel Design",
+  "CourseTitle": "CIVL-6320",
+  "CreditHours": "3",
+  "uuid": "_t1g8ucyce"
+}, {
+  "CourseName": "Wind Engineering",
+  "CourseTitle": "CIVL-6390",
+  "CreditHours": "3",
+  "uuid": "_ncqbbwp2r"
+}, {
+  "CourseName": "Advanced Structural Analysis",
+  "CourseTitle": "CIVL-6440",
+  "CreditHours": "3",
+  "uuid": "_b7pc7kbvf"
+}, {
+  "CourseName": "Adv Found And Earth Struc",
+  "CourseTitle": "CIVL-6520",
+  "CreditHours": "3",
+  "uuid": "_7t02n1m4p"
+}, {
+  "CourseName": "Dynam Of Soil & Soil-Fdtn Engr",
+  "CourseTitle": "CIVL-6540",
+  "CreditHours": "3",
+  "uuid": "_wkda2yw70"
+}, {
+  "CourseName": "Graduate Seminar",
+  "CourseTitle": "CIVL-6900",
+  "CreditHours": "0",
+  "uuid": "_sdkjvs2zw"
+}, {
+  "CourseName": "Structural Reliability",
+  "CourseTitle": "CIVL-6961",
+  "CreditHours": "3",
+  "uuid": "_4li5ycw8u"
+}, {
+  "CourseName": "Design For Constructability",
+  "CourseTitle": "CIVL-6962",
+  "CreditHours": "3",
+  "uuid": "_63npil4v1"
+}, {
+  "CourseName": "Intro To Cognitive Science",
+  "CourseTitle": "COGS-2120",
+  "CreditHours": "4",
+  "uuid": "_ih8gw1a4h"
+}, {
+  "CourseName": "Cognitive Modeling I",
+  "CourseTitle": "COGS-4210",
+  "CreditHours": "4",
+  "uuid": "_fzxy1yxce"
+}, {
+  "CourseName": "Game Mechanics",
+  "CourseTitle": "COGS-4320",
+  "CreditHours": "4",
+  "uuid": "_9m6brpryp"
+}, {
+  "CourseName": "Intro To Cog Neuroscience",
+  "CourseTitle": "COGS-4330",
+  "CreditHours": "4",
+  "uuid": "_swypzuedq"
+}, {
+  "CourseName": "Behavioral Neuroscience",
+  "CourseTitle": "COGS-4360",
+  "CreditHours": "4",
+  "uuid": "_p7cqh0wod"
+}, {
+  "CourseName": "Game Development Ii",
+  "CourseTitle": "COGS-4540",
+  "CreditHours": "4",
+  "uuid": "_mxo55qm9i"
+}, {
+  "CourseName": "Game Architecture",
+  "CourseTitle": "COGS-4550",
+  "CreditHours": "4",
+  "uuid": "_2rhn1php0"
+}, {
+  "CourseName": "Stress And The Brain",
+  "CourseTitle": "COGS-4610",
+  "CreditHours": "4",
+  "uuid": "_xhuvejg4p"
+}, {
+  "CourseName": "Intelligent Virtual Agent",
+  "CourseTitle": "COGS-4640",
+  "CreditHours": "4",
+  "uuid": "_p5a0uov99"
+}, {
+  "CourseName": "Human Perf Modeling & Support",
+  "CourseTitle": "COGS-4963",
+  "CreditHours": "3",
+  "uuid": "_ccgoeywgb"
+}, {
+  "CourseName": "Language Endowed Intel Agents",
+  "CourseTitle": "COGS-4968",
+  "CreditHours": "4",
+  "uuid": "_foc6nyeaf"
+}, {
+  "CourseName": "Adv Exp Methods & Statistics",
+  "CourseTitle": "COGS-6310",
+  "CreditHours": "4",
+  "uuid": "_5xejr1zn9"
+}, {
+  "CourseName": "Intelligent Virtual Agent",
+  "CourseTitle": "COGS-6640",
+  "CreditHours": "4",
+  "uuid": "_c12r5qloa"
+}, {
+  "CourseName": "Recent Papers From 'Topics'",
+  "CourseTitle": "COGS-6960",
+  "CreditHours": "4",
+  "uuid": "_co7ahhk12"
+}, {
+  "CourseName": "Learning & Adv Game Ai",
+  "CourseTitle": "COGS-6963",
+  "CreditHours": "4",
+  "uuid": "_tq3axchc2"
+}, {
+  "CourseName": "Modern Economic Mechanics",
+  "CourseTitle": "COGS-6964",
+  "CreditHours": "4",
+  "uuid": "_z04f91dpi"
+}, {
+  "CourseName": "Language Endowed Intel Agents",
+  "CourseTitle": "COGS-6966",
+  "CreditHours": "3",
+  "uuid": "_03le2pjo9"
+}, {
+  "CourseName": "History And Culture Of Games",
+  "CourseTitle": "COMM-1600",
+  "CreditHours": "4",
+  "uuid": "_idpjxvtrr"
+}, {
+  "CourseName": "Intro To Visual Communication",
+  "CourseTitle": "COMM-2610",
+  "CreditHours": "4",
+  "uuid": "_cd3puxv0q"
+}, {
+  "CourseName": "Studio Design In Hci",
+  "CourseTitle": "COMM-4180",
+  "CreditHours": "4",
+  "uuid": "_mlcb5azmc"
+}, {
+  "CourseName": "Writing For Games I",
+  "CourseTitle": "COMM-4240",
+  "CreditHours": "4",
+  "uuid": "_l7hg3ejn1"
+}, {
+  "CourseName": "Creative Seminar Ii",
+  "CourseTitle": "COMM-4350",
+  "CreditHours": "4",
+  "uuid": "_j66attydd"
+}, {
+  "CourseName": "Typography",
+  "CourseTitle": "COMM-4570",
+  "CreditHours": "4",
+  "uuid": "_urzy4ge15"
+}, {
+  "CourseName": "Visual Literacy",
+  "CourseTitle": "COMM-4660",
+  "CreditHours": "4",
+  "uuid": "_tmeywr9pb"
+}, {
+  "CourseName": "Graphic Design Corporate Id",
+  "CourseTitle": "COMM-4730",
+  "CreditHours": "4",
+  "uuid": "_6igd0xt56"
+}, {
+  "CourseName": "Agile Prototype Development",
+  "CourseTitle": "COMM-4960",
+  "CreditHours": "4",
+  "uuid": "_3ww7we0x6"
+}, {
+  "CourseName": "Reality Tv",
+  "CourseTitle": "COMM-4961",
+  "CreditHours": "4",
+  "uuid": "_63aghp9jf"
+}, {
+  "CourseName": "Communication Research Design",
+  "CourseTitle": "COMM-4962",
+  "CreditHours": "4",
+  "uuid": "_lb77jozxi"
+}, {
+  "CourseName": "Intro To Game Production",
+  "CourseTitle": "COMM-4963",
+  "CreditHours": "4",
+  "uuid": "_acpyw3icj"
+}, {
+  "CourseName": "Internet Programming",
+  "CourseTitle": "COMM-4964",
+  "CreditHours": "4",
+  "uuid": "_fl64moz5v"
+}, {
+  "CourseName": "Video Games Level Design",
+  "CourseTitle": "COMM-4966",
+  "CreditHours": "4",
+  "uuid": "_sjuuyqyxt"
+}, {
+  "CourseName": "Rhetoric, Culture & Comm Tech",
+  "CourseTitle": "COMM-6260",
+  "CreditHours": "3",
+  "uuid": "_ky8gkg5s8"
+}, {
+  "CourseName": "Communication Research I",
+  "CourseTitle": "COMM-6530",
+  "CreditHours": "3",
+  "uuid": "_s23fot5sq"
+}, {
+  "CourseName": "Typography",
+  "CourseTitle": "COMM-6570",
+  "CreditHours": "3",
+  "uuid": "_o9xn9x0p8"
+}, {
+  "CourseName": "Visual Literacy",
+  "CourseTitle": "COMM-6660",
+  "CreditHours": "3",
+  "uuid": "_0quqz4ml4"
+}, {
+  "CourseName": "Studio Design In Hci",
+  "CourseTitle": "COMM-6810",
+  "CreditHours": "3",
+  "uuid": "_43pz6c1ke"
+}, {
+  "CourseName": "Agile Protoype Development",
+  "CourseTitle": "COMM-6961",
+  "CreditHours": "3",
+  "uuid": "_8sztsc56d"
+}, {
+  "CourseName": "Co-Op Education Assignment",
+  "CourseTitle": "COOP-4010",
+  "CreditHours": "0",
+  "uuid": "_i0jz4wk4f"
+}, {
+  "CourseName": "Programming In Java",
+  "CourseTitle": "CSCI-2220",
+  "CreditHours": "2",
+  "uuid": "_s4imxattd"
+}, {
+  "CourseName": "Mentor For Csci 2500",
+  "CourseTitle": "CSCI-2940",
+  "CreditHours": "1-12",
+  "uuid": "_bvyn59rcq"
+}, {
+  "CourseName": "Computer Algorithms",
+  "CourseTitle": "CSCI-4020",
+  "CreditHours": "4",
+  "uuid": "_o2xi8p0u1"
+}, {
+  "CourseName": "Intro To Artificial Intellig",
+  "CourseTitle": "CSCI-4150",
+  "CreditHours": "4",
+  "uuid": "_qyxcgqvqa"
+}, {
+  "CourseName": "Operating Systems",
+  "CourseTitle": "CSCI-4210",
+  "CreditHours": "4",
+  "uuid": "_hrgju8l44"
+}, {
+  "CourseName": "Crypt & Network Security Ii",
+  "CourseTitle": "CSCI-4240",
+  "CreditHours": "3",
+  "uuid": "_2zli7mwwc"
+}, {
+  "CourseName": "Graph Theory",
+  "CourseTitle": "CSCI-4260",
+  "CreditHours": "4",
+  "uuid": "_fopztae7v"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "CSCI-4400",
+  "CreditHours": "3",
+  "uuid": "_h44lqhl1g"
+}, {
+  "CourseName": "Advanced Computer Graphics",
+  "CourseTitle": "CSCI-4530",
+  "CreditHours": "4",
+  "uuid": "_izrbkj0ee"
+}, {
+  "CourseName": "Game Development Ii",
+  "CourseTitle": "CSCI-4540",
+  "CreditHours": "4",
+  "uuid": "_jczn4m9oa"
+}, {
+  "CourseName": "Networking Laboratory I",
+  "CourseTitle": "CSCI-4650",
+  "CreditHours": "4",
+  "uuid": "_0wqp9gyvb"
+}, {
+  "CourseName": "Networking Laboratory Ii",
+  "CourseTitle": "CSCI-4660",
+  "CreditHours": "4",
+  "uuid": "_2893lazaz"
+}, {
+  "CourseName": "Networking Security Laboratory",
+  "CourseTitle": "CSCI-4670",
+  "CreditHours": "4",
+  "uuid": "_xvtt0z6l2"
+}, {
+  "CourseName": "Advanced Network Practicum",
+  "CourseTitle": "CSCI-4680",
+  "CreditHours": "4",
+  "uuid": "_l5jae8he6"
+}, {
+  "CourseName": "Intro Num Meth Diff Eqs",
+  "CourseTitle": "CSCI-4820",
+  "CreditHours": "4",
+  "uuid": "_f51svav1l"
+}, {
+  "CourseName": "Cognitive Modeling I",
+  "CourseTitle": "CSCI-4961",
+  "CreditHours": "4",
+  "uuid": "_fy3dspgjj"
+}, {
+  "CourseName": "Computational Vision",
+  "CourseTitle": "CSCI-4962",
+  "CreditHours": "4",
+  "uuid": "_c4qouxptw"
+}, {
+  "CourseName": "Modern Binary Exploitation",
+  "CourseTitle": "CSCI-4968",
+  "CreditHours": "4",
+  "uuid": "_q63gisvwv"
+}, {
+  "CourseName": "Computer Networking Lab",
+  "CourseTitle": "CSCI-4970",
+  "CreditHours": "0",
+  "uuid": "_x3y0kro9w"
+}, {
+  "CourseName": "Advances In Supercomputing",
+  "CourseTitle": "CSCI-4971",
+  "CreditHours": "3",
+  "uuid": "_ur15wnqpg"
+}, {
+  "CourseName": "Engr Human-Level Art Cogs Sys",
+  "CourseTitle": "CSCI-4975",
+  "CreditHours": "4",
+  "uuid": "_aeb57c23l"
+}, {
+  "CourseName": "Web Science Systems Dev",
+  "CourseTitle": "CSCI-4976",
+  "CreditHours": "4",
+  "uuid": "_9tj7xok53"
+}, {
+  "CourseName": "Computer Operating Systems",
+  "CourseTitle": "CSCI-6140",
+  "CreditHours": "3",
+  "uuid": "_zwjxredbi"
+}, {
+  "CourseName": "Analysis Of Algorithms",
+  "CourseTitle": "CSCI-6210",
+  "CreditHours": "3",
+  "uuid": "_oqix42f7i"
+}, {
+  "CourseName": "Crypt & Network Security Ii",
+  "CourseTitle": "CSCI-6240",
+  "CreditHours": "3",
+  "uuid": "_enidmtw1l"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "CSCI-6400",
+  "CreditHours": "3",
+  "uuid": "_szn8ciq9h"
+}, {
+  "CourseName": "Advanced Computer Graphics",
+  "CourseTitle": "CSCI-6530",
+  "CreditHours": "3",
+  "uuid": "_jtvj6s7fl"
+}, {
+  "CourseName": "Num Solution Of Ordin Diff Eq",
+  "CourseTitle": "CSCI-6820",
+  "CreditHours": "4",
+  "uuid": "_1hz6guixi"
+}, {
+  "CourseName": "Computer Science  Seminar",
+  "CourseTitle": "CSCI-6960",
+  "CreditHours": "0",
+  "uuid": "_qhwmaxthy"
+}, {
+  "CourseName": "Engr Human-Level Art Cog Sys",
+  "CourseTitle": "CSCI-6961",
+  "CreditHours": "4",
+  "uuid": "_j4i3fbg2p"
+}, {
+  "CourseName": "Approximation Algorithms",
+  "CourseTitle": "CSCI-6965",
+  "CreditHours": "3",
+  "uuid": "_zsx2hiyhk"
+}, {
+  "CourseName": "Foundations Of Data Science",
+  "CourseTitle": "CSCI-6967",
+  "CreditHours": "3",
+  "uuid": "_hxx1y6ocf"
+}, {
+  "CourseName": "Advances In Supercomputing",
+  "CourseTitle": "CSCI-6968",
+  "CreditHours": "3",
+  "uuid": "_18mibiip1"
+}, {
+  "CourseName": "Intelligent Virtual Agent",
+  "CourseTitle": "CSCI-6971",
+  "CreditHours": "4",
+  "uuid": "_rrhg0ob40"
+}, {
+  "CourseName": "Math Methods In Economics",
+  "CourseTitle": "ECON-4120",
+  "CreditHours": "4",
+  "uuid": "_i1tkibwfa"
+}, {
+  "CourseName": "Econ,Tech & Sustainability",
+  "CourseTitle": "ECON-4250",
+  "CreditHours": "4",
+  "uuid": "_uulskt45s"
+}, {
+  "CourseName": "Econ Of Financial Inst & Mkts",
+  "CourseTitle": "ECON-4961",
+  "CreditHours": "4",
+  "uuid": "_r50mi7ne4"
+}, {
+  "CourseName": "Adv Math Methods In Economics",
+  "CourseTitle": "ECON-6120",
+  "CreditHours": "3",
+  "uuid": "_gjx82azp8"
+}, {
+  "CourseName": "Readings In Ecse",
+  "CourseTitle": "ECSE-2940",
+  "CreditHours": "1-6",
+  "uuid": "_tufw46jax"
+}, {
+  "CourseName": "Digital Electronics",
+  "CourseTitle": "ECSE-4040",
+  "CreditHours": "3",
+  "uuid": "_etrzgh28g"
+}, {
+  "CourseName": "Advanced Electronic Circuits",
+  "CourseTitle": "ECSE-4050",
+  "CreditHours": "3",
+  "uuid": "_f4t56fqee"
+}, {
+  "CourseName": "Electromechanics",
+  "CourseTitle": "ECSE-4120",
+  "CreditHours": "3",
+  "uuid": "_keh02bj2b"
+}, {
+  "CourseName": "Epe Lab",
+  "CourseTitle": "ECSE-4130",
+  "CreditHours": "4",
+  "uuid": "_1jtu7cz5i"
+}, {
+  "CourseName": "Plasma Engineering",
+  "CourseTitle": "ECSE-4320",
+  "CreditHours": "3",
+  "uuid": "_hw56d3uvo"
+}, {
+  "CourseName": "Digital Control Systems",
+  "CourseTitle": "ECSE-4510",
+  "CreditHours": "3",
+  "uuid": "_kgnmda94u"
+}, {
+  "CourseName": "Intro To Image Processing",
+  "CourseTitle": "ECSE-4540",
+  "CreditHours": "3",
+  "uuid": "_zgh21w6z6"
+}, {
+  "CourseName": "Digital Communications",
+  "CourseTitle": "ECSE-4560",
+  "CreditHours": "3",
+  "uuid": "_ewlm5yxdy"
+}, {
+  "CourseName": "Real-Time Applic In Ctrl Comm",
+  "CourseTitle": "ECSE-4760",
+  "CreditHours": "3",
+  "uuid": "_nvanatxz8"
+}, {
+  "CourseName": "Adv Comp Hardware Design",
+  "CourseTitle": "ECSE-4780",
+  "CreditHours": "4",
+  "uuid": "_xje50rekr"
+}, {
+  "CourseName": "Biological Image Analysis",
+  "CourseTitle": "ECSE-4960",
+  "CreditHours": "3",
+  "uuid": "_qe2k972xp"
+}, {
+  "CourseName": "Parallel Comp For Engrs",
+  "CourseTitle": "ECSE-4965",
+  "CreditHours": "3",
+  "uuid": "_d7yvfaaih"
+}, {
+  "CourseName": "Advanced Electronic Circuits",
+  "CourseTitle": "ECSE-6050",
+  "CreditHours": "3",
+  "uuid": "_ub9hj9p0m"
+}, {
+  "CourseName": "Power Quality",
+  "CourseTitle": "ECSE-6120",
+  "CreditHours": "3",
+  "uuid": "_a7x57larf"
+}, {
+  "CourseName": "Computer Methods In Epe",
+  "CourseTitle": "ECSE-6190",
+  "CreditHours": "3",
+  "uuid": "_49ebshcgb"
+}, {
+  "CourseName": "Semiconductor Device Char",
+  "CourseTitle": "ECSE-6200",
+  "CreditHours": "3",
+  "uuid": "_4q94b4osv"
+}, {
+  "CourseName": "Advanced Device Concepts",
+  "CourseTitle": "ECSE-6210",
+  "CreditHours": "3",
+  "uuid": "_sdu7e3plj"
+}, {
+  "CourseName": "Vlsi Fabrication Tech",
+  "CourseTitle": "ECSE-6240",
+  "CreditHours": "3",
+  "uuid": "_2sw7lamwh"
+}, {
+  "CourseName": "Semicond Power Devices",
+  "CourseTitle": "ECSE-6260",
+  "CreditHours": "3",
+  "uuid": "_a32fwhymz"
+}, {
+  "CourseName": "Semicond Dev & Models Ii",
+  "CourseTitle": "ECSE-6290",
+  "CreditHours": "3",
+  "uuid": "_cccy49t8r"
+}, {
+  "CourseName": "Ic Fabrication Lab",
+  "CourseTitle": "ECSE-6300",
+  "CreditHours": "3",
+  "uuid": "_bdh772snj"
+}, {
+  "CourseName": "Multivariable Control Systems",
+  "CourseTitle": "ECSE-6460",
+  "CreditHours": "3",
+  "uuid": "_rhqhgyomf"
+}, {
+  "CourseName": "Detection & Est Theory",
+  "CourseTitle": "ECSE-6520",
+  "CreditHours": "3",
+  "uuid": "_h6mnnybmz"
+}, {
+  "CourseName": "Digital Comm",
+  "CourseTitle": "ECSE-6560",
+  "CreditHours": "3",
+  "uuid": "_vettp1vcx"
+}, {
+  "CourseName": "Internet Protocols",
+  "CourseTitle": "ECSE-6600",
+  "CreditHours": "3",
+  "uuid": "_v3psz9d6k"
+}, {
+  "CourseName": "Computer Vision",
+  "CourseTitle": "ECSE-6650",
+  "CreditHours": "3",
+  "uuid": "_emgdsygpl"
+}, {
+  "CourseName": "Comp. Arch Proto.",
+  "CourseTitle": "ECSE-6700",
+  "CreditHours": "3",
+  "uuid": "_b6mkwz044"
+}, {
+  "CourseName": "Queueing Systems",
+  "CourseTitle": "ECSE-6820",
+  "CreditHours": "3",
+  "uuid": "_bln05dhv7"
+}, {
+  "CourseName": "Readings In Ecse",
+  "CourseTitle": "ECSE-6940",
+  "CreditHours": "1-9",
+  "uuid": "_185g4unij"
+}, {
+  "CourseName": "Light Emitting Diodes",
+  "CourseTitle": "ECSE-6960",
+  "CreditHours": "3",
+  "uuid": "_mihpboyc1"
+}, {
+  "CourseName": "Radar Imaging",
+  "CourseTitle": "ECSE-6962",
+  "CreditHours": "3",
+  "uuid": "_ejy89bt9x"
+}, {
+  "CourseName": "Professional Development I",
+  "CourseTitle": "ENGR-1010",
+  "CreditHours": "1",
+  "uuid": "_7l171an7g"
+}, {
+  "CourseName": "Pdi Studio Ii",
+  "CourseTitle": "ENGR-2020",
+  "CreditHours": "4",
+  "uuid": "_o0zip136o"
+}, {
+  "CourseName": "Fortran Programming",
+  "CourseTitle": "ENGR-4200",
+  "CreditHours": "1",
+  "uuid": "_cv6wn9shd"
+}, {
+  "CourseName": "Pdi Design Studio Vi",
+  "CourseTitle": "ENGR-4610",
+  "CreditHours": "4",
+  "uuid": "_itz1s6bew"
+}, {
+  "CourseName": "Manufacturing Planning",
+  "CourseTitle": "ENGR-4700",
+  "CreditHours": "3",
+  "uuid": "_jv9ioz3k7"
+}, {
+  "CourseName": "Manufact Process & Sys Lab Ii",
+  "CourseTitle": "ENGR-4720",
+  "CreditHours": "3",
+  "uuid": "_rb3221qp8"
+}, {
+  "CourseName": "Readings In Engr",
+  "CourseTitle": "ENGR-4940",
+  "CreditHours": "1-6",
+  "uuid": "_jorigcuy9"
+}, {
+  "CourseName": "Environmental Process Design",
+  "CourseTitle": "ENVE-4180",
+  "CreditHours": "3",
+  "uuid": "_t032ki3sy"
+}, {
+  "CourseName": "Hazardous Waste",
+  "CourseTitle": "ENVE-4200",
+  "CreditHours": "3",
+  "uuid": "_l8699xk71"
+}, {
+  "CourseName": "Appl Hydrology & Hydraulics",
+  "CourseTitle": "ENVE-4310",
+  "CreditHours": "4",
+  "uuid": "_y54081rnc"
+}, {
+  "CourseName": "Env Chemodynamics",
+  "CourseTitle": "ENVE-4320",
+  "CreditHours": "4",
+  "uuid": "_j5v98sewr"
+}, {
+  "CourseName": "Physicochemical Proc In Enve",
+  "CourseTitle": "ENVE-4340",
+  "CreditHours": "4",
+  "uuid": "_i0iadh1zn"
+}, {
+  "CourseName": "Geomicrobiology",
+  "CourseTitle": "ENVE-4360",
+  "CreditHours": "3",
+  "uuid": "_hy9456llg"
+}, {
+  "CourseName": "Geomicrobiology",
+  "CourseTitle": "ENVE-6360",
+  "CreditHours": "3",
+  "uuid": "_qp28v3o7e"
+}, {
+  "CourseName": "Dissertation",
+  "CourseTitle": "EPOW-9990",
+  "CreditHours": "1-12",
+  "uuid": "_xzi7sb0p1"
+}, {
+  "CourseName": "Geology Ii Earth'S Surface",
+  "CourseTitle": "ERTH-1200",
+  "CreditHours": "4",
+  "uuid": "_a6x03heuw"
+}, {
+  "CourseName": "Intro Geophysics",
+  "CourseTitle": "ERTH-2100",
+  "CreditHours": "4",
+  "uuid": "_rn99vpzsr"
+}, {
+  "CourseName": "Intro To Geochemistry",
+  "CourseTitle": "ERTH-2140",
+  "CreditHours": "4",
+  "uuid": "_lru4hctfk"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "ERTH-4400",
+  "CreditHours": "3",
+  "uuid": "_ic1ts1tun"
+}, {
+  "CourseName": "Earth'S Climate",
+  "CourseTitle": "ERTH-4500",
+  "CreditHours": "4",
+  "uuid": "_oqwn3uxgg"
+}, {
+  "CourseName": "Aqueous Geochemistry",
+  "CourseTitle": "ERTH-4690",
+  "CreditHours": "4",
+  "uuid": "_4gx8nuut4"
+}, {
+  "CourseName": "Igneaus &Metamorphic Petrology",
+  "CourseTitle": "ERTH-4961",
+  "CreditHours": "4",
+  "uuid": "_j64zmlk71"
+}, {
+  "CourseName": "Adv Metamorphic Petrol",
+  "CourseTitle": "ERTH-6300",
+  "CreditHours": "4",
+  "uuid": "_p222p20h1"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "ERTH-6400",
+  "CreditHours": "3",
+  "uuid": "_j8071sclx"
+}, {
+  "CourseName": "Aqueous Geochemistry",
+  "CourseTitle": "ERTH-6690",
+  "CreditHours": "4",
+  "uuid": "_rpxmhu120"
+}, {
+  "CourseName": "Sem In Planetary Habitability",
+  "CourseTitle": "ERTH-6961",
+  "CreditHours": "2",
+  "uuid": "_m8vyr10n9"
+}, {
+  "CourseName": "Environmental Seminar",
+  "CourseTitle": "IENV-1910",
+  "CreditHours": "2",
+  "uuid": "_e5mauxa1f"
+}, {
+  "CourseName": "It And Society",
+  "CourseTitle": "IHSS-1220",
+  "CreditHours": "4",
+  "uuid": "_7i1kubnqz"
+}, {
+  "CourseName": "Origins Of Life Seminar",
+  "CourseTitle": "ISCI-4510",
+  "CreditHours": "1",
+  "uuid": "_pc01bo1vq"
+}, {
+  "CourseName": "Pom And Cost Acctg",
+  "CourseTitle": "ISYE-2210",
+  "CreditHours": "4",
+  "uuid": "_ljpfqvtco"
+}, {
+  "CourseName": "Readings In Isye",
+  "CourseTitle": "ISYE-2940",
+  "CreditHours": "1-12",
+  "uuid": "_s0y7dthaq"
+}, {
+  "CourseName": "Optimization Algorithms",
+  "CourseTitle": "ISYE-4220",
+  "CreditHours": "3",
+  "uuid": "_5esjxf8rl"
+}, {
+  "CourseName": "Quality Control",
+  "CourseTitle": "ISYE-4230",
+  "CreditHours": "3",
+  "uuid": "_ha0vjyjxa"
+}, {
+  "CourseName": "Engr Proj Management",
+  "CourseTitle": "ISYE-4240",
+  "CreditHours": "3",
+  "uuid": "_iksfjsjjb"
+}, {
+  "CourseName": "Facility Design",
+  "CourseTitle": "ISYE-4250",
+  "CreditHours": "3",
+  "uuid": "_ugrh7foig"
+}, {
+  "CourseName": "Mathematical Statistics",
+  "CourseTitle": "ISYE-4760",
+  "CreditHours": "4",
+  "uuid": "_mgeye8sbh"
+}, {
+  "CourseName": "Readings In Isye",
+  "CourseTitle": "ISYE-4940",
+  "CreditHours": "1-6",
+  "uuid": "_xpj0gv3pc"
+}, {
+  "CourseName": "Applied Regression Analysis",
+  "CourseTitle": "ISYE-6010",
+  "CreditHours": "3",
+  "uuid": "_l6vv9n7hq"
+}, {
+  "CourseName": "Knowldge Discovry W/Datamining",
+  "CourseTitle": "ISYE-6180",
+  "CreditHours": "3",
+  "uuid": "_iaqrnfe4g"
+}, {
+  "CourseName": "Combin Optim & Integer Progr",
+  "CourseTitle": "ISYE-6760",
+  "CreditHours": "4",
+  "uuid": "_wqw30n0zt"
+}, {
+  "CourseName": "Queuing Syst & Applications",
+  "CourseTitle": "ISYE-6820",
+  "CreditHours": "3",
+  "uuid": "_ke78zcxum"
+}, {
+  "CourseName": "Readings In Isye",
+  "CourseTitle": "ISYE-6940",
+  "CreditHours": "1-12",
+  "uuid": "_bt3p0sjoz"
+}, {
+  "CourseName": "It And Society",
+  "CourseTitle": "ITWS-1220",
+  "CreditHours": "4",
+  "uuid": "_kr9rgz2gy"
+}, {
+  "CourseName": "Introduction To Hci",
+  "CourseTitle": "ITWS-2210",
+  "CreditHours": "4",
+  "uuid": "_0suwfrcuv"
+}, {
+  "CourseName": "Rdgs In Information Technology",
+  "CourseTitle": "ITWS-2940",
+  "CreditHours": "1-6",
+  "uuid": "_mri6nlq1v"
+}, {
+  "CourseName": "Information System Security",
+  "CourseTitle": "ITWS-4370",
+  "CreditHours": "4",
+  "uuid": "_vub88nuea"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "ITWS-4400",
+  "CreditHours": "3",
+  "uuid": "_ns7k0eqe8"
+}, {
+  "CourseName": "Web Science Systems Dev",
+  "CourseTitle": "ITWS-4500",
+  "CreditHours": "4",
+  "uuid": "_qnswdmug9"
+}, {
+  "CourseName": "Data Analytics",
+  "CourseTitle": "ITWS-4963",
+  "CreditHours": "4",
+  "uuid": "_2cv1n5nvz"
+}, {
+  "CourseName": "Xinformatics",
+  "CourseTitle": "ITWS-6400",
+  "CreditHours": "3",
+  "uuid": "_x5xlewjcc"
+}, {
+  "CourseName": "Software Development",
+  "CourseTitle": "ITWS-6963",
+  "CreditHours": "3",
+  "uuid": "_92x7e8xj4"
+}, {
+  "CourseName": "Data Analytics",
+  "CourseTitle": "ITWS-6965",
+  "CreditHours": "3",
+  "uuid": "_na150f8fp"
+}, {
+  "CourseName": "Chinese Ii",
+  "CourseTitle": "LANG-1420",
+  "CreditHours": "4",
+  "uuid": "_ovb6l9by4"
+}, {
+  "CourseName": "Adv Ind Projects In Lght",
+  "CourseTitle": "LGHT-4940",
+  "CreditHours": "1-6",
+  "uuid": "_9zsndodj4"
+}, {
+  "CourseName": "Lighting Research Design",
+  "CourseTitle": "LGHT-6750",
+  "CreditHours": "4",
+  "uuid": "_yslij3ow6"
+}, {
+  "CourseName": "Lighting Workshop",
+  "CourseTitle": "LGHT-6760",
+  "CreditHours": "4",
+  "uuid": "_tpd1vd46g"
+}, {
+  "CourseName": "Light And Health",
+  "CourseTitle": "LGHT-6770",
+  "CreditHours": "4",
+  "uuid": "_z09tslbcl"
+}, {
+  "CourseName": "Lighting Leadership Seminar",
+  "CourseTitle": "LGHT-6780",
+  "CreditHours": "4",
+  "uuid": "_80jwygu87"
+}, {
+  "CourseName": "Contemporary Literature",
+  "CourseTitle": "LITR-2150",
+  "CreditHours": "4",
+  "uuid": "_im7o3rycb"
+}, {
+  "CourseName": "Science And Fiction",
+  "CourseTitle": "LITR-4150",
+  "CreditHours": "4",
+  "uuid": "_uuuagpvoc"
+}, {
+  "CourseName": "Intro To Nuclear Engr.",
+  "CourseTitle": "MANE-1961",
+  "CreditHours": "1",
+  "uuid": "_wlwtojkdf"
+}, {
+  "CourseName": "Fundamentals Of Flight",
+  "CourseTitle": "MANE-2060",
+  "CreditHours": "3",
+  "uuid": "_r7hxphbnr"
+}, {
+  "CourseName": "Innovation Tools & Technology",
+  "CourseTitle": "MANE-2961",
+  "CreditHours": "2",
+  "uuid": "_ppfov45ou"
+}, {
+  "CourseName": "Spaceflight Mechanics",
+  "CourseTitle": "MANE-4100",
+  "CreditHours": "4",
+  "uuid": "_rguhl4lz3"
+}, {
+  "CourseName": "Machine Dynamics",
+  "CourseTitle": "MANE-4170",
+  "CreditHours": "3",
+  "uuid": "_s5zapr4xo"
+}, {
+  "CourseName": "Mechanisms",
+  "CourseTitle": "MANE-4180",
+  "CreditHours": "3",
+  "uuid": "_rds7wdz8c"
+}, {
+  "CourseName": "Air Vehicle Design",
+  "CourseTitle": "MANE-4230",
+  "CreditHours": "3",
+  "uuid": "_ru8zdlft9"
+}, {
+  "CourseName": "Senior Design Project Ii",
+  "CourseTitle": "MANE-4390",
+  "CreditHours": "2",
+  "uuid": "_5ycjwfwx7"
+}, {
+  "CourseName": "Nuclear Power Syst Engr",
+  "CourseTitle": "MANE-4400",
+  "CreditHours": "4",
+  "uuid": "_94q2vmyc4"
+}, {
+  "CourseName": "Critical Reactor Laboratory",
+  "CourseTitle": "MANE-4440",
+  "CreditHours": "3",
+  "uuid": "_z4t0q36v8"
+}, {
+  "CourseName": "Nuclear Fuel Management",
+  "CourseTitle": "MANE-4450",
+  "CreditHours": "3",
+  "uuid": "_g03ik9ij4"
+}, {
+  "CourseName": "Engr Materials For Nuclear App",
+  "CourseTitle": "MANE-4460",
+  "CreditHours": "3",
+  "uuid": "_cf7ron183"
+}, {
+  "CourseName": "Radiological Engineering",
+  "CourseTitle": "MANE-4470",
+  "CreditHours": "3",
+  "uuid": "_hw1iosz6q"
+}, {
+  "CourseName": "Physics Of Nuclear Reactors",
+  "CourseTitle": "MANE-4480",
+  "CreditHours": "4",
+  "uuid": "_ql8g3kbwq"
+}, {
+  "CourseName": "Analy. Of Manuf. Process.",
+  "CourseTitle": "MANE-4550",
+  "CreditHours": "3",
+  "uuid": "_ir1kdepg2"
+}, {
+  "CourseName": "Combustion Systems",
+  "CourseTitle": "MANE-4750",
+  "CreditHours": "3",
+  "uuid": "_5lqeeo2t4"
+}, {
+  "CourseName": "Intro. To Helicopter Design",
+  "CourseTitle": "MANE-4860",
+  "CreditHours": "3",
+  "uuid": "_jmrmvwpyz"
+}, {
+  "CourseName": "Bio-Fluids Mechanics",
+  "CourseTitle": "MANE-4962",
+  "CreditHours": "3",
+  "uuid": "_ip5ac03yl"
+}, {
+  "CourseName": "Intro Computat Fluid Dynamics",
+  "CourseTitle": "MANE-4963",
+  "CreditHours": "3",
+  "uuid": "_z26ek77t4"
+}, {
+  "CourseName": "Nuclear Reactor Material",
+  "CourseTitle": "MANE-6380",
+  "CreditHours": "3",
+  "uuid": "_01n9pluof"
+}, {
+  "CourseName": "Health Phys & Med Asp Of Rad",
+  "CourseTitle": "MANE-6480",
+  "CreditHours": "3",
+  "uuid": "_bartxo6sf"
+}, {
+  "CourseName": "Finite Element Programming",
+  "CourseTitle": "MANE-6680",
+  "CreditHours": "3",
+  "uuid": "_odn678ysy"
+}, {
+  "CourseName": "Computational Fluid Dynamics",
+  "CourseTitle": "MANE-6720",
+  "CreditHours": "3",
+  "uuid": "_9gakkyk4o"
+}, {
+  "CourseName": "Combustion",
+  "CourseTitle": "MANE-6830",
+  "CreditHours": "3",
+  "uuid": "_q0km9ovcd"
+}, {
+  "CourseName": "Additive Manufacturing",
+  "CourseTitle": "MANE-6964",
+  "CreditHours": "3",
+  "uuid": "_9flmca0f8"
+}, {
+  "CourseName": "Spectroscopy & Optic Diag",
+  "CourseTitle": "MANE-6965",
+  "CreditHours": "3",
+  "uuid": "_yxng151hj"
+}, {
+  "CourseName": "Masters Professional Project",
+  "CourseTitle": "MANE-6970",
+  "CreditHours": "1-6",
+  "uuid": "_zin8yn59d"
+}, {
+  "CourseName": "Math Meth In Mgmt Econ",
+  "CourseTitle": "MATH-1520",
+  "CreditHours": "4",
+  "uuid": "_mmpc5aatp"
+}, {
+  "CourseName": "Contemporary Math Ideas",
+  "CourseTitle": "MATH-1620",
+  "CreditHours": "4",
+  "uuid": "_ifretafqo"
+}, {
+  "CourseName": "Art & Science Of Math Ii",
+  "CourseTitle": "MATH-1910",
+  "CreditHours": "1",
+  "uuid": "_qf105ymaw"
+}, {
+  "CourseName": "Intro To Data Mathematics",
+  "CourseTitle": "MATH-2960",
+  "CreditHours": "4",
+  "uuid": "_ofsrbyamb"
+}, {
+  "CourseName": "Abstract Algebra",
+  "CourseTitle": "MATH-4010",
+  "CreditHours": "4",
+  "uuid": "_1fe74mdyv"
+}, {
+  "CourseName": "Intro To Number Theory",
+  "CourseTitle": "MATH-4020",
+  "CreditHours": "4",
+  "uuid": "_t0pj72a4q"
+}, {
+  "CourseName": "Computability And Logic",
+  "CourseTitle": "MATH-4030",
+  "CreditHours": "4",
+  "uuid": "_aamzom3d2"
+}, {
+  "CourseName": "Graph Theory",
+  "CourseTitle": "MATH-4150",
+  "CreditHours": "4",
+  "uuid": "_xnysdmlvl"
+}, {
+  "CourseName": "Mathematical Analysis Ii",
+  "CourseTitle": "MATH-4210",
+  "CreditHours": "4",
+  "uuid": "_kv7k8alik"
+}, {
+  "CourseName": "Intro Complex Var",
+  "CourseTitle": "MATH-4300",
+  "CreditHours": "4",
+  "uuid": "_357t8540y"
+}, {
+  "CourseName": "Meth Pde Of Math Physics",
+  "CourseTitle": "MATH-4500",
+  "CreditHours": "4",
+  "uuid": "_ikdtsn7bw"
+}, {
+  "CourseName": "Intro Num Meth Diff Eqs",
+  "CourseTitle": "MATH-4820",
+  "CreditHours": "4",
+  "uuid": "_km6dfonmq"
+}, {
+  "CourseName": "Readings In Math",
+  "CourseTitle": "MATH-4940",
+  "CreditHours": "1-6",
+  "uuid": "_10p7k0av2"
+}, {
+  "CourseName": "Functional Analysis",
+  "CourseTitle": "MATH-6240",
+  "CreditHours": "4",
+  "uuid": "_kb7duh9y1"
+}, {
+  "CourseName": "Stochastic Differental Equ",
+  "CourseTitle": "MATH-6490",
+  "CreditHours": "4",
+  "uuid": "_fi7dxmj4v"
+}, {
+  "CourseName": "Intro To Mathematical Physics",
+  "CourseTitle": "MATH-6590",
+  "CreditHours": "4",
+  "uuid": "_jfvwok4q9"
+}, {
+  "CourseName": "Complx Vari Integral Transform",
+  "CourseTitle": "MATH-6640",
+  "CreditHours": "4",
+  "uuid": "_dkrdhl4bl"
+}, {
+  "CourseName": "Financial Mathematics And Sim.",
+  "CourseTitle": "MATH-6740",
+  "CreditHours": "4",
+  "uuid": "_0mtmit1c5"
+}, {
+  "CourseName": "Intro. To Research In Math",
+  "CourseTitle": "MATH-6951",
+  "CreditHours": "1",
+  "uuid": "_8q0525w1d"
+}, {
+  "CourseName": "Mathematical Statistics",
+  "CourseTitle": "MATP-4620",
+  "CreditHours": "4",
+  "uuid": "_lswm8rzlb"
+}, {
+  "CourseName": "Computational Optimization",
+  "CourseTitle": "MATP-4820",
+  "CreditHours": "4",
+  "uuid": "_qbg9zo5de"
+}, {
+  "CourseName": "Computational Optimization",
+  "CourseTitle": "MATP-6610",
+  "CreditHours": "4",
+  "uuid": "_dhk201mby"
+}, {
+  "CourseName": "Combinat Optimizat & Int Progr",
+  "CourseTitle": "MATP-6620",
+  "CreditHours": "4",
+  "uuid": "_oh803nppo"
+}, {
+  "CourseName": "Management Leadership Ii",
+  "CourseTitle": "MGMT-1250",
+  "CreditHours": "2",
+  "uuid": "_6sd48vn37"
+}, {
+  "CourseName": "Managerial Accounting",
+  "CourseTitle": "MGMT-4250",
+  "CreditHours": "4",
+  "uuid": "_7g9mrnma2"
+}, {
+  "CourseName": "Financial Statement Analysis",
+  "CourseTitle": "MGMT-4260",
+  "CreditHours": "4",
+  "uuid": "_x9mkxo0l3"
+}, {
+  "CourseName": "Intermediate Accounting I",
+  "CourseTitle": "MGMT-4270",
+  "CreditHours": "4",
+  "uuid": "_6tw0xbz3u"
+}, {
+  "CourseName": "Emerging Markets",
+  "CourseTitle": "MGMT-4300",
+  "CreditHours": "4",
+  "uuid": "_3zsdeomch"
+}, {
+  "CourseName": "Investments Ii",
+  "CourseTitle": "MGMT-4330",
+  "CreditHours": "4",
+  "uuid": "_90367zb4i"
+}, {
+  "CourseName": "International Finance",
+  "CourseTitle": "MGMT-4360",
+  "CreditHours": "4",
+  "uuid": "_9zlnbc4hl"
+}, {
+  "CourseName": "Risk Management",
+  "CourseTitle": "MGMT-4370",
+  "CreditHours": "4",
+  "uuid": "_iutzki6w1"
+}, {
+  "CourseName": "Derivatives Markets",
+  "CourseTitle": "MGMT-4380",
+  "CreditHours": "4",
+  "uuid": "_n21fmhdkm"
+}, {
+  "CourseName": "Internet Marketing",
+  "CourseTitle": "MGMT-4450",
+  "CreditHours": "4",
+  "uuid": "_5zn1ljwy2"
+}, {
+  "CourseName": "Adv Strat & Promotions",
+  "CourseTitle": "MGMT-4490",
+  "CreditHours": "4",
+  "uuid": "_9qlm4xxec"
+}, {
+  "CourseName": "Intro To Tech Entrepreneurship",
+  "CourseTitle": "MGMT-4520",
+  "CreditHours": "4",
+  "uuid": "_4eexrpg59"
+}, {
+  "CourseName": "Venture Capital Finance",
+  "CourseTitle": "MGMT-4540",
+  "CreditHours": "4",
+  "uuid": "_s3rgabpae"
+}, {
+  "CourseName": "Sports Management",
+  "CourseTitle": "MGMT-4965",
+  "CreditHours": "4",
+  "uuid": "_ojgnd46ta"
+}, {
+  "CourseName": "Energy, Environment & Economy",
+  "CourseTitle": "MGMT-4966",
+  "CreditHours": "3",
+  "uuid": "_zmpx3fteo"
+}, {
+  "CourseName": "Financial Management Ii",
+  "CourseTitle": "MGMT-6030",
+  "CreditHours": "3",
+  "uuid": "_4gsgva3g3"
+}, {
+  "CourseName": "Research Smr In Mgmt Info Syst",
+  "CourseTitle": "MGMT-6130",
+  "CreditHours": "3",
+  "uuid": "_qlyy0j0p4"
+}, {
+  "CourseName": "Information Sys For Mgmt",
+  "CourseTitle": "MGMT-6140",
+  "CreditHours": "3",
+  "uuid": "_l3atakf3a"
+}, {
+  "CourseName": "Managerial Accounting",
+  "CourseTitle": "MGMT-6210",
+  "CreditHours": "3",
+  "uuid": "_4ygk0jopx"
+}, {
+  "CourseName": "Entrepreneurial Finance",
+  "CourseTitle": "MGMT-6260",
+  "CreditHours": "3",
+  "uuid": "_ud5tp4iwy"
+}, {
+  "CourseName": "Emerging Markets",
+  "CourseTitle": "MGMT-6300",
+  "CreditHours": "3",
+  "uuid": "_6tua9tuv4"
+}, {
+  "CourseName": "International Finance",
+  "CourseTitle": "MGMT-6360",
+  "CreditHours": "3",
+  "uuid": "_mtjljgp0a"
+}, {
+  "CourseName": "Financial Econometrics Model",
+  "CourseTitle": "MGMT-6400",
+  "CreditHours": "3",
+  "uuid": "_e778fy0vt"
+}, {
+  "CourseName": "Advanced Financial Statement",
+  "CourseTitle": "MGMT-6430",
+  "CreditHours": "3",
+  "uuid": "_wvfez43ni"
+}, {
+  "CourseName": "Marketing Comm & Promo Strat",
+  "CourseTitle": "MGMT-6540",
+  "CreditHours": "3",
+  "uuid": "_g81ip5rx7"
+}, {
+  "CourseName": "Marketing High - Tech Prod",
+  "CourseTitle": "MGMT-6580",
+  "CreditHours": "3",
+  "uuid": "_vy3t0uuvr"
+}, {
+  "CourseName": "Commercializing Adv Technology",
+  "CourseTitle": "MGMT-6590",
+  "CreditHours": "3",
+  "uuid": "_5pqz06gri"
+}, {
+  "CourseName": "Technol Entrepreneurship",
+  "CourseTitle": "MGMT-6620",
+  "CreditHours": "3",
+  "uuid": "_nnnzfi9wx"
+}, {
+  "CourseName": "Negotiation",
+  "CourseTitle": "MGMT-6690",
+  "CreditHours": "3",
+  "uuid": "_8lfp226e8"
+}, {
+  "CourseName": "Internet Marketing",
+  "CourseTitle": "MGMT-6720",
+  "CreditHours": "3",
+  "uuid": "_e37sjxne3"
+}, {
+  "CourseName": "Org Behavior Theory & Res",
+  "CourseTitle": "MGMT-6850",
+  "CreditHours": "3",
+  "uuid": "_vjj903qr3"
+}, {
+  "CourseName": "Management Research Workshop",
+  "CourseTitle": "MGMT-6880",
+  "CreditHours": "3",
+  "uuid": "_h1rbramqm"
+}, {
+  "CourseName": "Doctoral Research Mthds Ii",
+  "CourseTitle": "MGMT-6910",
+  "CreditHours": "3",
+  "uuid": "_4a2qwzykd"
+}, {
+  "CourseName": "Supply Chain Capstone",
+  "CourseTitle": "MGMT-6961",
+  "CreditHours": "3",
+  "uuid": "_ty5p6qtep"
+}, {
+  "CourseName": "Fixed Income",
+  "CourseTitle": "MGMT-6964",
+  "CreditHours": "3",
+  "uuid": "_gmzmwvgyi"
+}, {
+  "CourseName": "Data Resource Management",
+  "CourseTitle": "MGMT-6965",
+  "CreditHours": "3",
+  "uuid": "_9ox0y36t9"
+}, {
+  "CourseName": "Global Sourcing & Procurement",
+  "CourseTitle": "MGMT-6966",
+  "CreditHours": "3",
+  "uuid": "_w1ijwup9o"
+}, {
+  "CourseName": "Predictive Analy Use Soc Media",
+  "CourseTitle": "MGMT-6969",
+  "CreditHours": "3",
+  "uuid": "_9gugqt3sd"
+}, {
+  "CourseName": "Prof Development Wkshop - Ms",
+  "CourseTitle": "MGMT-6971",
+  "CreditHours": "0",
+  "uuid": "_zoqjii2jr"
+}, {
+  "CourseName": "Businesess Analytics Capstone",
+  "CourseTitle": "MGMT-6972",
+  "CreditHours": "3",
+  "uuid": "_z2dy0qlcy"
+}, {
+  "CourseName": "Supply Chain Analytics",
+  "CourseTitle": "MGMT-6973",
+  "CreditHours": "3",
+  "uuid": "_udhzm9nkx"
+}, {
+  "CourseName": "Energy,Environment And Economy",
+  "CourseTitle": "MGMT-6975",
+  "CreditHours": "3",
+  "uuid": "_9aydnxsw4"
+}, {
+  "CourseName": "Design, Manuf And Marketing Ii",
+  "CourseTitle": "MGMT-7060",
+  "CreditHours": "3",
+  "uuid": "_wmt4cd02l"
+}, {
+  "CourseName": "Manage On The Edge- Corp Innov",
+  "CourseTitle": "MGMT-7070",
+  "CreditHours": "3",
+  "uuid": "_f4oou4iv3"
+}, {
+  "CourseName": "Prof Developmt Workshop Ii",
+  "CourseTitle": "MGMT-7240",
+  "CreditHours": "0",
+  "uuid": "_8jc0vt0x6"
+}, {
+  "CourseName": "Prof Developmt Workshop Iii",
+  "CourseTitle": "MGMT-7250",
+  "CreditHours": "0",
+  "uuid": "_mqt77z4ex"
+}, {
+  "CourseName": "Investments Ii",
+  "CourseTitle": "MGMT-7430",
+  "CreditHours": "3",
+  "uuid": "_xppdsv805"
+}, {
+  "CourseName": "Kinetics In Matls Systems",
+  "CourseTitle": "MTLE-4150",
+  "CreditHours": "4",
+  "uuid": "_gh94zx0bn"
+}, {
+  "CourseName": "Computational Materials Design",
+  "CourseTitle": "MTLE-4500",
+  "CreditHours": "3",
+  "uuid": "_y705vlix4"
+}, {
+  "CourseName": "Materials Selection",
+  "CourseTitle": "MTLE-4910",
+  "CreditHours": "3",
+  "uuid": "_nwvzmlc03"
+}, {
+  "CourseName": "Intro To Metalurgical Alloys",
+  "CourseTitle": "MTLE-4961",
+  "CreditHours": "3",
+  "uuid": "_b0mn2vwnm"
+}, {
+  "CourseName": "Adv Kinetics Of Matl Reactions",
+  "CourseTitle": "MTLE-6060",
+  "CreditHours": "3",
+  "uuid": "_wwto6s9g0"
+}, {
+  "CourseName": "Advanced Electronic Properties",
+  "CourseTitle": "MTLE-6120",
+  "CreditHours": "3",
+  "uuid": "_we9lo13kk"
+}, {
+  "CourseName": "Ic Fabrication Lab",
+  "CourseTitle": "MTLE-6300",
+  "CreditHours": "3",
+  "uuid": "_waxm25utq"
+}, {
+  "CourseName": "Matls Characterization",
+  "CourseTitle": "MTLE-6430",
+  "CreditHours": "3",
+  "uuid": "_imaywdhhe"
+}, {
+  "CourseName": "Energy, Environment & Economy",
+  "CourseTitle": "MTLE-6961",
+  "CreditHours": "3",
+  "uuid": "_keapr4rc8"
+}, {
+  "CourseName": "Critical Thinking",
+  "CourseTitle": "PHIL-2100",
+  "CreditHours": "4",
+  "uuid": "_8p60p5ipt"
+}, {
+  "CourseName": "Intro To Cognitive Science",
+  "CourseTitle": "PHIL-2120",
+  "CreditHours": "4",
+  "uuid": "_qtujzn7oi"
+}, {
+  "CourseName": "Asian Philosophies",
+  "CourseTitle": "PHIL-2300",
+  "CreditHours": "4",
+  "uuid": "_q11wd8jwp"
+}, {
+  "CourseName": "Anarchism: Ethical Society",
+  "CourseTitle": "PHIL-2962",
+  "CreditHours": "4",
+  "uuid": "_z9b5dqc7c"
+}, {
+  "CourseName": "Environmental Philosophy",
+  "CourseTitle": "PHIL-4300",
+  "CreditHours": "4",
+  "uuid": "_ab6cyqv8d"
+}, {
+  "CourseName": "Computability And Logic",
+  "CourseTitle": "PHIL-4420",
+  "CreditHours": "4",
+  "uuid": "_40gv41noj"
+}, {
+  "CourseName": "Knowledge And Rationality",
+  "CourseTitle": "PHIL-4440",
+  "CreditHours": "4",
+  "uuid": "_11uzutu20"
+}, {
+  "CourseName": "Scriptural Wisdom:Gospel",
+  "CourseTitle": "PHIL-4961",
+  "CreditHours": "4",
+  "uuid": "_fnva4o0x0"
+}, {
+  "CourseName": "Evolution,Cognition,Culture",
+  "CourseTitle": "PHIL-4962",
+  "CreditHours": "4",
+  "uuid": "_847o0i37h"
+}, {
+  "CourseName": "General Physics",
+  "CourseTitle": "PHYS-1050",
+  "CreditHours": "4",
+  "uuid": "_uh29srk2a"
+}, {
+  "CourseName": "Physics Ii Honors",
+  "CourseTitle": "PHYS-1250",
+  "CreditHours": "4",
+  "uuid": "_8n20el83s"
+}, {
+  "CourseName": "Quantum Physics Ii",
+  "CourseTitle": "PHYS-2220",
+  "CreditHours": "4",
+  "uuid": "_li2fpxst3"
+}, {
+  "CourseName": "Fundamentals Of Optics",
+  "CourseTitle": "PHYS-2620",
+  "CreditHours": "4",
+  "uuid": "_i0500wvms"
+}, {
+  "CourseName": "Readings In Physics",
+  "CourseTitle": "PHYS-2940",
+  "CreditHours": "1-6",
+  "uuid": "_3qnpzy9o4"
+}, {
+  "CourseName": "Intro Quantum Mech",
+  "CourseTitle": "PHYS-4100",
+  "CreditHours": "4",
+  "uuid": "_maxraae5a"
+}, {
+  "CourseName": "General Relativity",
+  "CourseTitle": "PHYS-4240",
+  "CreditHours": "4",
+  "uuid": "_4zpa02bhl"
+}, {
+  "CourseName": "Thermodyn & Stat Mech",
+  "CourseTitle": "PHYS-4420",
+  "CreditHours": "4",
+  "uuid": "_1q7snh657"
+}, {
+  "CourseName": "Computational Physics",
+  "CourseTitle": "PHYS-4810",
+  "CreditHours": "4",
+  "uuid": "_kzy09xtjl"
+}, {
+  "CourseName": "Culminating Experience Project",
+  "CourseTitle": "PHYS-4910",
+  "CreditHours": "1",
+  "uuid": "_93q9aqv0p"
+}, {
+  "CourseName": "Readings In Phys",
+  "CourseTitle": "PHYS-4940",
+  "CreditHours": "0-8",
+  "uuid": "_gu3aojy84"
+}, {
+  "CourseName": "Electrodynamics",
+  "CourseTitle": "PHYS-6410",
+  "CreditHours": "4",
+  "uuid": "_9sptka8zo"
+}, {
+  "CourseName": "Quantum Mechanics Ii",
+  "CourseTitle": "PHYS-6520",
+  "CreditHours": "4",
+  "uuid": "_79ckwixm7"
+}, {
+  "CourseName": "Readings In Phys",
+  "CourseTitle": "PHYS-6940",
+  "CreditHours": "1-12",
+  "uuid": "_qsu2goxui"
+}, {
+  "CourseName": "Particle Astrophysics",
+  "CourseTitle": "PHYS-6960",
+  "CreditHours": "2",
+  "uuid": "_q2p86sem1"
+}, {
+  "CourseName": "Human Sexuality @Hvcc",
+  "CourseTitle": "PSYC-2001",
+  "CreditHours": "3",
+  "uuid": "_cxc9vywfc"
+}, {
+  "CourseName": "Critical Thinking",
+  "CourseTitle": "PSYC-2100",
+  "CreditHours": "4",
+  "uuid": "_gfbne6tuj"
+}, {
+  "CourseName": "Intro. To Cognitive Science",
+  "CourseTitle": "PSYC-2120",
+  "CreditHours": "4",
+  "uuid": "_pd1qp97lq"
+}, {
+  "CourseName": "Human Factors In Design",
+  "CourseTitle": "PSYC-2220",
+  "CreditHours": "4",
+  "uuid": "_9pggac1ps"
+}, {
+  "CourseName": "Models Of Mental Processes",
+  "CourseTitle": "PSYC-2960",
+  "CreditHours": "4",
+  "uuid": "_6r7af4xyv"
+}, {
+  "CourseName": "Positive Psychology",
+  "CourseTitle": "PSYC-2962",
+  "CreditHours": "4",
+  "uuid": "_idqu2ojn1"
+}, {
+  "CourseName": "Professional Development Ii",
+  "CourseTitle": "PSYC-4170",
+  "CreditHours": "2",
+  "uuid": "_g6lp6igtu"
+}, {
+  "CourseName": "Behavioral Neuroscience",
+  "CourseTitle": "PSYC-4320",
+  "CreditHours": "4",
+  "uuid": "_7z1digdeh"
+}, {
+  "CourseName": "Intro To Cog Neuroscience",
+  "CourseTitle": "PSYC-4330",
+  "CreditHours": "4",
+  "uuid": "_5wqx91418"
+}, {
+  "CourseName": "Learning",
+  "CourseTitle": "PSYC-4450",
+  "CreditHours": "4",
+  "uuid": "_4qb8rekrb"
+}, {
+  "CourseName": "Drugs Society & Behavior",
+  "CourseTitle": "PSYC-4500",
+  "CreditHours": "4",
+  "uuid": "_jkfk6eelz"
+}, {
+  "CourseName": "Cognitive Modeling",
+  "CourseTitle": "PSYC-4510",
+  "CreditHours": "4",
+  "uuid": "_6ha08o6ym"
+}, {
+  "CourseName": "Stress And The Brain",
+  "CourseTitle": "PSYC-4610",
+  "CreditHours": "4",
+  "uuid": "_bmg1vyufh"
+}, {
+  "CourseName": "Forensic Psychology",
+  "CourseTitle": "PSYC-4750",
+  "CreditHours": "4",
+  "uuid": "_xlkxueb6e"
+}, {
+  "CourseName": "Sports Psychology Seminar",
+  "CourseTitle": "PSYC-4800",
+  "CreditHours": "4",
+  "uuid": "_yiosnjxkq"
+}, {
+  "CourseName": "Readings In Psyc",
+  "CourseTitle": "PSYC-4940",
+  "CreditHours": "1-12",
+  "uuid": "_wt3n2qa04"
+}, {
+  "CourseName": "Modern Economic Mechanics",
+  "CourseTitle": "PSYC-4966",
+  "CreditHours": "4",
+  "uuid": "_cste4doo8"
+}, {
+  "CourseName": "Models Of Mental Processes",
+  "CourseTitle": "PSYC-4967",
+  "CreditHours": "4",
+  "uuid": "_wipwd6mbx"
+}, {
+  "CourseName": "Sustainability Debates",
+  "CourseTitle": "STSH-1200",
+  "CreditHours": "4",
+  "uuid": "_9c1k8pdg6"
+}, {
+  "CourseName": "Century Of The Gene",
+  "CourseTitle": "STSH-2410",
+  "CreditHours": "4",
+  "uuid": "_y9teop29a"
+}, {
+  "CourseName": "Environmental Philosphy",
+  "CourseTitle": "STSH-4340",
+  "CreditHours": "4",
+  "uuid": "_ja3e7evlj"
+}, {
+  "CourseName": "History Of American Technology",
+  "CourseTitle": "STSH-4510",
+  "CreditHours": "4",
+  "uuid": "_bn6nvo5v7"
+}, {
+  "CourseName": "Public Service Internship",
+  "CourseTitle": "STSH-4800",
+  "CreditHours": "4",
+  "uuid": "_2huytj2q0"
+}, {
+  "CourseName": "History Of American Technology",
+  "CourseTitle": "STSH-6960",
+  "CreditHours": "3",
+  "uuid": "_oclmjaopq"
+}, {
+  "CourseName": "Sustainability Debates",
+  "CourseTitle": "STSS-1200",
+  "CreditHours": "4",
+  "uuid": "_i5jbbeyof"
+}, {
+  "CourseName": "Sociology",
+  "CourseTitle": "STSS-1520",
+  "CreditHours": "4",
+  "uuid": "_93j7h7vyv"
+}, {
+  "CourseName": "Design, Culture, And Society",
+  "CourseTitle": "STSS-2210",
+  "CreditHours": "4",
+  "uuid": "_ut1aa5ps7"
+}, {
+  "CourseName": "Environment & Society",
+  "CourseTitle": "STSS-2300",
+  "CreditHours": "4",
+  "uuid": "_kq0ra8ygc"
+}, {
+  "CourseName": "Sci Fi  & Social Criticism",
+  "CourseTitle": "STSS-2960",
+  "CreditHours": "4",
+  "uuid": "_pd3937xpe"
+}, {
+  "CourseName": "Food, Farms & Famine",
+  "CourseTitle": "STSS-4260",
+  "CreditHours": "4",
+  "uuid": "_axk4n3uel"
+}, {
+  "CourseName": "Sustainability Education",
+  "CourseTitle": "STSS-4280",
+  "CreditHours": "4",
+  "uuid": "_r1s48xz7v"
+}, {
+  "CourseName": "Environmntal Politics & Policy",
+  "CourseTitle": "STSS-4370",
+  "CreditHours": "4",
+  "uuid": "_z630yrtt7"
+}, {
+  "CourseName": "Pdi Studio Vi",
+  "CourseTitle": "STSS-4610",
+  "CreditHours": "4",
+  "uuid": "_lmw3gh8o6"
+}, {
+  "CourseName": "Sts Research Methods (Survey)",
+  "CourseTitle": "STSS-4960",
+  "CreditHours": "4",
+  "uuid": "_ulgj80179"
+}, {
+  "CourseName": "Econ, Tech & Sustainability",
+  "CourseTitle": "STSS-4962",
+  "CreditHours": "4",
+  "uuid": "_tdmtfg4sz"
+}, {
+  "CourseName": "Sustainability Careers",
+  "CourseTitle": "STSS-4964",
+  "CreditHours": "4",
+  "uuid": "_64if5zgvl"
+}, {
+  "CourseName": "Research Methods In Sts",
+  "CourseTitle": "STSS-6110",
+  "CreditHours": "3",
+  "uuid": "_7gn6zzxf2"
+}, {
+  "CourseName": "Environmental Politics & Polic",
+  "CourseTitle": "STSS-6960",
+  "CreditHours": "3",
+  "uuid": "_k444iyo9e"
+}, {
+  "CourseName": "Evolution, Cognition, Culture",
+  "CourseTitle": "STSS-6961",
+  "CreditHours": "3",
+  "uuid": "_ngcwhmt8k"
+}, {
+  "CourseName": "Postcolonial Sts",
+  "CourseTitle": "STSS-6962",
+  "CreditHours": "3",
+  "uuid": "_m8w76ru0m"
+}, {
+  "CourseName": "Contemporary Issues",
+  "CourseTitle": "STSS-6963",
+  "CreditHours": "3",
+  "uuid": "_c089a0e8w"
+}, {
+  "CourseName": "History & Ethnography",
+  "CourseTitle": "STSS-6964",
+  "CreditHours": "3",
+  "uuid": "_5ptpy6jf3"
+}, {
+  "CourseName": "Professional Development Sem",
+  "CourseTitle": "STSS-6966",
+  "CreditHours": "1-3",
+  "uuid": "_wfizzsiu5"
+}, {
+  "CourseName": "Sciences Of Sustainability",
+  "CourseTitle": "STSS-6967",
+  "CreditHours": "3",
+  "uuid": "_7qe3sv11w"
+}, {
+  "CourseName": "Masters Internship",
+  "CourseTitle": "STSS-6970",
+  "CreditHours": "3",
+  "uuid": "_d6ugigy4w"
+}, {
+  "CourseName": "Master'S Thesis",
+  "CourseTitle": "STSS-6990",
+  "CreditHours": "6",
+  "uuid": "_6oa9ff358"
+}, {
+  "CourseName": "Leadership Lab",
+  "CourseTitle": "USAF-0020",
+  "CreditHours": "0",
+  "uuid": "_m5s6i9v7j"
+}, {
+  "CourseName": "Leadership Lab",
+  "CourseTitle": "USAF-0040",
+  "CreditHours": "0",
+  "uuid": "_tu9p7k1sw"
+}, {
+  "CourseName": "Leadership Lab",
+  "CourseTitle": "USAF-0060",
+  "CreditHours": "0",
+  "uuid": "_xwtwscsb1"
+}, {
+  "CourseName": "Conflict Leadership Lab",
+  "CourseTitle": "USAF-0080",
+  "CreditHours": "0",
+  "uuid": "_25gwfxmxa"
+}, {
+  "CourseName": "Air And Space Studies 100B",
+  "CourseTitle": "USAF-1020",
+  "CreditHours": "1",
+  "uuid": "_nyr9xi395"
+}, {
+  "CourseName": "Air And Space Studies 200B",
+  "CourseTitle": "USAF-2040",
+  "CreditHours": "1",
+  "uuid": "_ra2iw35zn"
+}, {
+  "CourseName": "Air And Space Studies 300B",
+  "CourseTitle": "USAF-2060",
+  "CreditHours": "3",
+  "uuid": "_8cor6j2kl"
+}, {
+  "CourseName": "Air And Space Studies 400B",
+  "CourseTitle": "USAF-2080",
+  "CreditHours": "3",
+  "uuid": "_74pxlp2yv"
+}, {
+  "CourseName": "Readings In Usaf",
+  "CourseTitle": "USAF-2940",
+  "CreditHours": "1-6",
+  "uuid": "_crr5gne0e"
+}, {
+  "CourseName": "Fundamentals Of Mil Sci Lab Ii",
+  "CourseTitle": "USAR-0020",
+  "CreditHours": "0",
+  "uuid": "_jdspv3lfq"
+}, {
+  "CourseName": "Applied Leadership Lab Ii",
+  "CourseTitle": "USAR-0040",
+  "CreditHours": "0",
+  "uuid": "_8woijaj1d"
+}, {
+  "CourseName": "Appl Milit Leadership Lab Ii",
+  "CourseTitle": "USAR-0060",
+  "CreditHours": "0",
+  "uuid": "_jeibeaolw"
+}, {
+  "CourseName": "Adv Milt Mgt Leadership Lab Ii",
+  "CourseTitle": "USAR-0080",
+  "CreditHours": "0",
+  "uuid": "_lt74onin8"
+}, {
+  "CourseName": "Fund Of Military Sci Ii",
+  "CourseTitle": "USAR-1020",
+  "CreditHours": "1",
+  "uuid": "_8wota9c2u"
+}, {
+  "CourseName": "Applied Leadership Ii",
+  "CourseTitle": "USAR-2020",
+  "CreditHours": "1",
+  "uuid": "_iz8etqm43"
+}, {
+  "CourseName": "Military Leadership Ii",
+  "CourseTitle": "USAR-2070",
+  "CreditHours": "2",
+  "uuid": "_cqujvuijs"
+}, {
+  "CourseName": "Military Mgmt & Leadership Ii",
+  "CourseTitle": "USAR-4020",
+  "CreditHours": "2",
+  "uuid": "_tmgqvuqbb"
+}, {
+  "CourseName": "Drill/Laboratory",
+  "CourseTitle": "USNA-0020",
+  "CreditHours": "0",
+  "uuid": "_3pybbzl9m"
+}, {
+  "CourseName": "Drill/Laboratory",
+  "CourseTitle": "USNA-0040",
+  "CreditHours": "0",
+  "uuid": "_ab3h8k5vo"
+}, {
+  "CourseName": "Drill/Laboratory",
+  "CourseTitle": "USNA-0060",
+  "CreditHours": "0",
+  "uuid": "_a6qo1mpn3"
+}, {
+  "CourseName": "Drill/Laboratory",
+  "CourseTitle": "USNA-0080",
+  "CreditHours": "0",
+  "uuid": "_g9z1ngsvg"
+}, {
+  "CourseName": "Seapower",
+  "CourseTitle": "USNA-2020",
+  "CreditHours": "3",
+  "uuid": "_n8im3qbp5"
+}, {
+  "CourseName": "Naval Ships Systems I",
+  "CourseTitle": "USNA-2040",
+  "CreditHours": "3",
+  "uuid": "_vcclaxjly"
+}, {
+  "CourseName": "Naval Operations",
+  "CourseTitle": "USNA-2060",
+  "CreditHours": "3",
+  "uuid": "_dnb1a22bo"
+}, {
+  "CourseName": "Evolution Of Warfare",
+  "CourseTitle": "USNA-2150",
+  "CreditHours": "3",
+  "uuid": "_dwedtp2c6"
+}, {
+  "CourseName": "Naval Leadership & Ethics",
+  "CourseTitle": "USNA-4190",
+  "CreditHours": "3",
+  "uuid": "_4mvz9n4jz"
+}, {
+  "CourseName": "Tech & Prof Writing @ Sccc",
+  "CourseTitle": "WRIT-2008",
+  "CreditHours": "3",
+  "uuid": "_9tyjvug5v"
+}, {
+  "CourseName": "Writing About Science",
+  "CourseTitle": "WRIT-4160",
+  "CreditHours": "4",
+  "uuid": "_lq668kar3"
+}, {
+  "CourseName": "Proposing & Persuading",
+  "CourseTitle": "WRIT-4550",
+  "CreditHours": "4",
+  "uuid": "_wzkbtdq37"
+}, {
+  "CourseName": "Proposing & Persuading",
+  "CourseTitle": "WRIT-6550",
+  "CreditHours": "3",
+  "uuid": "_cin9bulf3"
+}]

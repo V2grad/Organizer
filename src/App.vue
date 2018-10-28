@@ -15,6 +15,7 @@
 </template>
 
 <style>
+/* Extend parent elements */
 html,
 body,
 #app {

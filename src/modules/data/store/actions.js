@@ -5,15 +5,22 @@ import axios from 'axios'
 
 export default {
   checkData({
-    commit,
+    dispatch,
     state
   }) {
     if (state.data.length === 0 ||
       state.pullAt === null ||
       (Math.floor(Date.now() / 1000) - state.pullAt) >= Unify.CACHE_EXPIRED) {
-      commit('updateLoading', true)
-      // Fetch data
-      let format = []
+      dispatch('pullingData')
+    }
+  },
+  pullingData({
+    commit
+  }) {
+    commit('updateLoading', true)
+    // Fetch data
+    let format = []
+    if (Unify.API_ENDPOINT !== null) {
       axios.get(Unify.API_ENDPOINT).then(response => {
         let data = response.data.courses
         data.forEach((c) => {
@@ -27,6 +34,19 @@ export default {
         })
       }).then(() => {
         commit('updateData', format)
+        commit('updateTimestamp')
+        commit('updateLoading', false)
+      }).catch((error) => {
+        console.log('Error while requesting API')
+        console.log(error)
+        commit('updateError', true)
+      })
+    } else {
+      console.log('Note: you are using the default data set. Please check your API endpoint setting if this is not desired behavior.')
+      // Import dummy data instead.
+      // Why dummy? Google: dummy system.
+      import( /* webpackChunkName: "dummy" */ '../dummy').then((dummy) => {
+        commit('updateData', dummy)
         commit('updateTimestamp')
         commit('updateLoading', false)
       })
