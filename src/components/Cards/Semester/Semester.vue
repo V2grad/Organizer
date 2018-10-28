@@ -64,12 +64,10 @@ export default {
       required: true
     }
   },
-  data () {
-    return {
-      title: this.$unify.READABLE_SEMESTER(this.semester)
-    }
-  },
   computed: {
+    title () {
+      return this.$unify.READABLE_SEMESTER(this.semester)
+    },
     totalCredits () {
       let credits = 0
       this.semester.courses.forEach((c) => {

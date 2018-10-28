@@ -2,32 +2,22 @@ import _ from 'lodash'
 import Unify from '@/utils/unify'
 
 export default {
-  getSemesterTree: (state) => {
-    let tree = {}
-    state.semesters.forEach((s, i) => {
-      if (tree[s.year] === undefined) {
-        tree[s.year] = {}
-      }
-      tree[s.year][s.period] = i
+  uniqueSemesters: (state) => {
+    let list = []
+    state.semesters.forEach((s) => {
+      list.push(parseInt(s.year) * 10 + _.indexOf(Unify.PERIOD, s.period))
     })
-    return tree
+    return list
   },
   getYearSpan: () => {
     let startYear = Unify.DEFAULT_YEAR
     return _.range(startYear, startYear + Unify.YEAR_SPAN)
   },
-  getExistedPeriod: (state, getters) => (year) => {
-    if (getters.getSemesterTree[year] !== undefined) {
-      return _.keys(getters.getSemesterTree[year])
-    }
-    return []
-  },
   getSelectablePeriod: (state, getters) => (year) => {
     let arr = _.cloneDeep(Unify.PERIOD) // Export will cause a shadow clone, which makes it an empty array.
-    if (getters.getSemesterTree[year] !== undefined) {
-      _.pullAll(arr, _.keys(getters.getSemesterTree[year]))
-    }
-    return arr
+    return _.remove(arr, (p) => {
+      return _.indexOf(getters.uniqueSemesters, Unify.SEMESTER_UID(year, p)) === -1
+    })
   },
   semesterList: (state) => {
     return _.map(state.semesters, (s, i) => {

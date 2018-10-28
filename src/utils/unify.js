@@ -1,5 +1,8 @@
+import _ from 'lodash'
+
 export default {
   READABLE_SEMESTER(semester) {
+    console.log(semester)
     if (semester.year && semester.period) {
       return semester.year + ' ' + semester.period
     }
@@ -13,6 +16,9 @@ export default {
   COURSE_MAXLENGTH: 50,
 
   PERIOD: ['Spring', 'Summer', 'Fall'],
+  SEMESTER_UID(year, period) {
+    return parseInt(year) * 10 + _.indexOf(this.PERIOD, period)
+  },
   COURSE_ATTRIBUTES: {
     CourseTitle: 'Course Title',
     CourseName: 'Course Name',
