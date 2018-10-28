@@ -1,8 +1,9 @@
 <template>
   <b-modal
-    v-model="modalShow"
+    id="courseSelectionModal"
+    :ok-disabled="disabledOK"
     title="Add course to a Semester"
-    @hide="resetModal">
+    @ok="addCoursetoSemester" >
     <div v-if="courseAdded">
       <p>This course has added into the following semester: {{ this.$unify.READABLE_SEMESTER(courseLocation[0] === -1 ? '' :this.$store.state.plan.semesters[courseLocation[0]]) }}</p>
     </div>
@@ -21,37 +22,18 @@
             slot="first"
             :value="null">Choose...</option>
         </b-form-select>
-        <b-button
-          :disabled="semester === null"
-          variant="primary"
-          @click="addCoursetoSemester">Save</b-button>
       </b-form>
-    </div>
-    <div
-      slot="modal-footer"
-      class="w-100">
-      <b-btn
-        size="sm"
-        class="float-right"
-        variant="primary"
-        @click="resetModal">
-        Close
-      </b-btn>
     </div>
   </b-modal>
 </template>
 
 <script>
 export default {
-  name: 'CourseModal',
+  name: 'CourseSelectionModal',
   props: {
     course: {
       type: Object,
-      required: true
-    },
-    modalShow: {
-      type: Boolean,
-      required: true
+      default: null
     }
   },
   data () {
@@ -60,11 +42,17 @@ export default {
     }
   },
   computed: {
+    currentCourse () {
+      return this.course === null ? this.$unify.COURSE_ATTRIBUTES : this.course
+    },
     courseLocation () {
-      return this.$store.getters.findCourse(this.course.CourseTitle)
+      return this.$store.getters.findCourse(this.currentCourse.CourseTitle)
     },
     courseAdded () {
       return this.courseLocation.length !== 0
+    },
+    disabledOK () {
+      return this.semester === null || this.courseAdded
     },
     semesterList () {
       return [...this.$store.getters.semesterList, this.$unify.TRANSFERRED_SEMESTER_OPTION]
@@ -74,16 +62,12 @@ export default {
     addCoursetoSemester () {
       this.$store.dispatch('addCourse', {
           semester: this.semester,
-          course: this.course
+          course: this.currentCourse
           })
       this.showSuccess()
     },
-    resetModal () {
-      this.$emit('resetModal')
-    },
     showSuccess () {
       this.$toasted.success('Add Successfully.')
-      this.resetModal()
     }
   }
 }

@@ -69,13 +69,13 @@ export function semesterTable(semester) {
         alignment: 'center'
       }, {}, {}],
       [{
-        text: Unify.COURSEATTRIBUTES.CourseName,
+        text: Unify.COURSE_ATTRIBUTES.CourseName,
         style: 'semesterTableHeader'
       }, {
-        text: Unify.COURSEATTRIBUTES.CourseTitle,
+        text: Unify.COURSE_ATTRIBUTES.CourseTitle,
         style: 'semesterTableHeader'
       }, {
-        text: Unify.COURSEATTRIBUTES.CreditHours,
+        text: Unify.COURSE_ATTRIBUTES.CreditHours,
         style: 'semesterTableHeader'
       }]
     ]

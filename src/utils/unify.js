@@ -13,7 +13,7 @@ export default {
   COURSE_MAXLENGTH: 50,
 
   PERIOD: ['Spring', 'Summer', 'Fall'],
-  COURSEATTRIBUTES: {
+  COURSE_ATTRIBUTES: {
     CourseTitle: 'Course Title',
     CourseName: 'Course Name',
     CreditHours: 'Credit Hours'
