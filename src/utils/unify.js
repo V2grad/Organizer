@@ -28,5 +28,5 @@ export default {
 
   YEAR_SPAN: 15,
   CACHE_EXPIRED: 604800, // A week
-  VERSION: 1
+  VERSION: 1.1 // Change when changing vuex modules
 }
