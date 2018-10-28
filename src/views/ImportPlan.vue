@@ -69,7 +69,7 @@ export default {
       return this.decodedObject.obj.name
     },
     fitCurrentAppVersion () {
-      return this.$store.state.local.version === parseInt(this.decodedObject.obj.version)
+      return this.$store.state.local.version === parseFloat(this.decodedObject.obj.version).toFixed(2)
     }
   },
   methods: {
