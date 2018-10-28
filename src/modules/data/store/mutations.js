@@ -7,6 +7,9 @@ export default {
   updateTimestamp(state) {
     state.updatedAt = Math.floor(Date.now() / 1000)
   },
+  updateDataSource(state, cp) {
+    state.dataSource = cp
+  },
   cleanData(state) {
     state.data = []
     state.hash = null

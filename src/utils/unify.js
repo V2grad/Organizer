@@ -37,6 +37,7 @@ export default {
     value: -1
   },
 
+  API_SOURCE: '<a href="https://yacs.io">YACS</a>',
   API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
   CACHE_EXPIRED: 604800, // A week
   VERSION: "1.01", // Change when changing vuex modules

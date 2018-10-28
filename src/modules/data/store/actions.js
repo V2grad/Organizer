@@ -35,6 +35,7 @@ export default {
       }).then(() => {
         commit('updateData', format)
         commit('updateTimestamp')
+        commit('updateDataSource', Unify.API_SOURCE)
         commit('updateLoading', false)
       }).catch((error) => {
         console.log('Error while requesting API')
@@ -46,6 +47,7 @@ export default {
       // Import dummy data instead.
       // Why dummy? Google: dummy system.
       import( /* webpackChunkName: "dummy" */ '../dummy').then((dummy) => {
+        commit('updateDataSource', 'dummy')
         commit('updateData', dummy)
         commit('updateTimestamp')
         commit('updateLoading', false)

@@ -7,7 +7,8 @@
       Things are changing but sometimes we are not that up to date. (A week maybe too long?)
     </p>
     <p class="card-text">
-      Last Updated at: {{ lastUpdated }}
+      Last Updated at: {{ lastUpdated }} <br>
+      Data Source: <span v-html="dataSource"/>
     </p>
     <div slot="footer">
       <b-button
@@ -30,6 +31,9 @@ export default {
   computed: {
     lastUpdated () {
       return this.$store.getters.updatedAt
+    },
+    dataSource () {
+      return this.$store.state.data.dataSource
     }
   }
 }
