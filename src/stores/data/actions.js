@@ -14,7 +14,7 @@ export default {
       commit('updateLoading', true)
       // Fetch data
       let format = []
-      axios.get('https://nightly.yacs.io/api/v6/courses.json?include=latest_listing').then(response => {
+      axios.get(Unify.API_ENDPOINT).then(response => {
         let data = response.data.courses
         data.forEach((c) => {
           let list = c.latest_listing

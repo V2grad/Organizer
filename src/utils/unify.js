@@ -19,6 +19,8 @@ export default {
   },
 
   DEFAULT_YEAR: (new Date()).getFullYear() - 5,
+  YEAR_SPAN: 15,
+
 
   TRANSFERRED_SEMESTER_INDEX: -1,
   TRANSFERRED_SEMESTER_OPTION: {
@@ -26,7 +28,7 @@ export default {
     value: -1
   },
 
-  YEAR_SPAN: 15,
+  API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
   CACHE_EXPIRED: 604800, // A week
-  VERSION: 1.1 // Change when changing vuex modules
+  VERSION: "1.01" // Change when changing vuex modules
 }
