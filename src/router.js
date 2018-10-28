@@ -1,69 +1,34 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
-import Home from '@/views/Home'
-import WIP from '@/views/WIP'
-import Actions from '@/views/Actions'
+import HomeRouter from '@/modules/home/router'
+import ActionRouter from '@/modules/action/router'
+import ExportRouter from '@/modules/export/router'
+import ImportRouter from '@/modules/import/router'
+import PlanRouter from '@/modules/plan/router'
+import ProfileRouter from '@/modules/profile/router'
 
 Vue.use(Router)
 
 export default new Router({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes: [{
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/plan',
-      name: 'Plan',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import( /* webpackChunkName: "main" */ '@/views/Plan/Main')
-    },
-    {
-      path: '/plan/transferred',
-      name: 'TransferredCourse',
-      component: () => import( /* webpackChunkName: "main" */ '@/views/Transferred')
-    },
-    {
-      path: '/courses/custom',
-      name: 'CustomCourse',
-      component: () => import( /* webpackChunkName: "course" */ './views/Course/CustomCourse')
-    },
-    {
-      path: '/courses',
-      name: 'CourseSelect',
-      component: () => import( /* webpackChunkName: "course" */ './views/Course/CourseSelect')
-    },
-    {
-      path: '/actions',
-      name: 'Actions',
-      component: Actions
-    },
-    {
-      path: '/export',
-      name: 'ExportPlan',
-      component: () => import( /* webpackChunkName: "export" */ './views/ExportPlan')
-    }, {
-      path: '/import/:json',
-      name: 'ImportPlan',
-      component: () => import( /* webpackChunkName: "import" */ './views/ImportPlan')
-    }, {
-      path: '/profile',
-      name: 'Profile',
-      component: () => import( /* webpackChunkName: "profile" */ './views/Profile')
-    },
+  routes: [
+    HomeRouter,
+    ActionRouter,
+    ExportRouter,
+    ImportRouter,
+    PlanRouter,
+    ProfileRouter,
+    // Trival
     {
       path: '/404',
       name: 'WIP',
-      component: WIP
+      component: () => import( /* webpackChunkName: "import" */ '@/views/WIP')
     },
     {
       path: '*',
-      component: WIP
+      component: () => import( /* webpackChunkName: "import" */ '@/views/WIP')
     }
   ]
 })

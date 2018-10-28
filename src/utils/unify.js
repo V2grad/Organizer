@@ -2,7 +2,6 @@ import _ from 'lodash'
 
 export default {
   READABLE_SEMESTER(semester) {
-    console.log(semester)
     if (semester.year && semester.period) {
       return semester.year + ' ' + semester.period
     }
