@@ -22,5 +22,5 @@ export default {
     value: -1
   },
   YEAR_SPAN: 15,
-  VERSION: 1
+  VERSION: "1.00"
 }
