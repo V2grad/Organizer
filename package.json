@@ -16,6 +16,7 @@
     "eslint-loader": "^2.1.1",
     "js-base64": "^2.4.9",
     "lodash": "^4.17.11",
+    "offline-plugin": "^5.0.5",
     "pako": "^1.0.6",
     "pdfmake": "^0.1.38",
     "vue": "^2.5.17",

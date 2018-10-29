@@ -1,5 +1,6 @@
 // Main
 import './vue'
+import './offline'
 
 // UI
 import './bootstrap'
