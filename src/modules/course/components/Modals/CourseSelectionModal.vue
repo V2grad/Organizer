@@ -46,7 +46,7 @@ export default {
       return this.course === null ? this.$unify.COURSE_ATTRIBUTES : this.course
     },
     courseLocation () {
-      return this.$store.getters.findCourse(this.course.uuid)
+      return this.$store.getters.findCourse(this.currentCourse.uuid)
     },
     courseAdded () {
       return this.courseLocation.length !== 0

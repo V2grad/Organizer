@@ -21,7 +21,9 @@ export default {
   COURSE_ATTRIBUTES: {
     CourseTitle: 'Course Title',
     CourseName: 'Course Name',
-    CreditHours: 'Credit Hours'
+    CreditHours: 'Credit Hours',
+    // custom: false,
+    // uuid: 'UU-II-DD'
   },
 
   DEFAULT_YEAR: (new Date()).getFullYear() - 5,
