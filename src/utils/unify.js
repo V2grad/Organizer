@@ -41,9 +41,6 @@ export default {
 
   PURGE_ORGANIZER() {
     localStorage.clear()
-    window.location.href = this.$router.resolve({
-      name: 'Home'
-    }).href
   },
 
   API_SOURCE: '<a href="https://yacs.io">YACS</a>',

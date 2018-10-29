@@ -15,6 +15,7 @@ export default {
   methods: {
     purgeOrganizer: function () {
       this.$unify.PURGE_ORGANIZER()
+      window.location.href = this.$router.resolve({name: 'Home'}).href
     }
   }
 }

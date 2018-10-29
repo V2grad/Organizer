@@ -31,8 +31,8 @@ export default {
     NavBar
   },
   mounted (){
-    if (this.$store.upgrade.forceUpgrade === true){
-      this.$router.push({name: 'forceUpgrade'})
+    if (this.$store.state.upgrade.forceUpgrade === true){
+      this.$router.push({name: 'ForceUpgrade'})
     }
   }
 }
