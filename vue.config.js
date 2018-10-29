@@ -11,6 +11,7 @@ module.exports = {
         externals: [
           '/'
         ],
+        responseStrategy: 'network-first',
         // AppCache: {
         //   FALLBACK: {
         //     '/': '/offline-page.html'
