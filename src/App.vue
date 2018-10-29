@@ -68,6 +68,7 @@ export default {
     }
   },
   created () {
+    this.$store.dispatch('checkCurrentVersion')
     this.$store.dispatch('checkData')
   },
 }
