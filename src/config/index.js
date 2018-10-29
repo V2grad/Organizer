@@ -11,6 +11,7 @@ import './fa'
 import './clipboard'
 import './lodash'
 import './axios'
+import './fileSaver'
 
 // Custom
 import './custom'

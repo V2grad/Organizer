@@ -12,11 +12,11 @@ module.exports = {
           '/'
         ],
         responseStrategy: 'network-first',
-        // AppCache: {
-        //   FALLBACK: {
-        //     '/': '/offline-page.html'
-        //   }
-        // },
+        AppCache: {
+          FALLBACK: {
+            '/': '/error/cache-missed'
+          }
+        },
         excludes: ['**/.*', '**/_*', '**/*.map', '**/*.gz']
       })
     ]

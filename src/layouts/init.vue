@@ -1,0 +1,9 @@
+<template>
+  <b-container
+    fluid
+    class="main-container">
+    <transition>
+      <router-view/>
+    </transition>
+  </b-container>
+</template>
