@@ -2,9 +2,11 @@
 
 # Organizer
 
-Multi-semester course organizer, built with Vue.js 3.x and Bootstarp-vue.
+Multi-semester course organizer, built with Vue.js 2.x and Bootstarp-vue.
 
 Online Demo for Master Branch: https://plan.v2grad.org
+
+Plan Sample for CSCI is here: http://tinyurl.com/y7e3qynh
 
 ## Project setup
 ```
