@@ -1,5 +1,6 @@
 // Main
 import './vue'
+import './offline'
 
 // UI
 import './bootstrap'
@@ -10,6 +11,7 @@ import './fa'
 import './clipboard'
 import './lodash'
 import './axios'
+import './fileSaver'
 
 // Custom
 import './custom'

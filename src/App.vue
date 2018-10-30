@@ -1,16 +1,7 @@
 <template>
   <div id="app">
     <loading-modal/>
-    <NavBar v-if="this.$route.path !== '/'"/>
-    <b-container
-      fluid
-      class="main-container">
-      <transition>
-        <keep-alive include="ExportPlan">
-          <router-view/>
-        </keep-alive>
-      </transition>
-    </b-container>
+    <router-view/>
   </div>
 </template>
 
@@ -60,12 +51,10 @@ body {
 </style>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
 import LoadingModal from '@/components/Modals/LoadingModal'
 
 export default {
   components: {
-    NavBar,
     LoadingModal
   },
   computed: {
@@ -79,6 +68,7 @@ export default {
     }
   },
   created () {
+    this.$store.dispatch('checkCurrentVersion')
     this.$store.dispatch('checkData')
   },
 }

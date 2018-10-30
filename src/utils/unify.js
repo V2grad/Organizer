@@ -39,6 +39,10 @@ export default {
     value: -1
   },
 
+  PURGE_ORGANIZER() {
+    localStorage.clear()
+  },
+
   API_SOURCE: '<a href="https://yacs.io">YACS</a>',
   API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
   CACHE_EXPIRED: 604800, // A week

@@ -14,7 +14,7 @@ export default {
   name: 'PurgeOrganizerModal',
   methods: {
     purgeOrganizer: function () {
-      localStorage.clear()
+      this.$unify.PURGE_ORGANIZER()
       window.location.href = this.$router.resolve({name: 'Home'}).href
     }
   }

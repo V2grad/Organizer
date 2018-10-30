@@ -5,6 +5,7 @@ import local from '@/modules/local/store'
 import plan from '@/modules/plan/store'
 import profile from '@/modules/profile/store'
 import data from '@/modules/data/store'
+import upgrade from '@/modules/upgrade/store'
 
 // A Vuex instance is created by combining the state, mutations, actions,
 // and getters.
@@ -13,7 +14,8 @@ export default new Vuex.Store({
     plan,
     profile,
     local,
-    data
+    data,
+    upgrade
   },
   plugins: [createPersistedState({
     reducer(state) {
