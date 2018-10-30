@@ -34,6 +34,12 @@ body {
   min-height: 10px;
 }
 
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  height: 25px;
+}
+
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;

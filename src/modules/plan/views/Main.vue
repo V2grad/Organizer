@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <b-row class="flex-nowrap">
+  <div id="">
+    <b-row
+      class="flex-nowrap">
       <semester
         v-for="(semester, index) in semesters"
         :key="index"
@@ -27,11 +28,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-/* scrollbar */
-/* width */
-::-webkit-scrollbar {
-  height: 25px;
-}
-</style>
