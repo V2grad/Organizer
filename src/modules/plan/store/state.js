@@ -1,5 +1,6 @@
 export default {
   name: 'Unnamed Plan',
+  note: '',
   semesters: [],
   // {semester}
   // semester => {year: xxxx, period: 'Fall/Spring/Summer', courses: []}

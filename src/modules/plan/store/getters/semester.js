@@ -20,4 +20,25 @@ export default {
   findSemester: (state) => (semester) => {
     return _.findIndex(state.semesters, semester)
   },
+  totalCreditsBySemester: (state, getters) => (semesterIndex) => {
+    let credits = 0
+    if (semesterIndex === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      state.transferred.forEach((c) => {
+        if (c.custom) {
+          credits = credits + parseInt(c.CreditHours)
+        } else {
+          credits = credits + parseInt(getters.detailsByUuid(c.uuid).CreditHours)
+        }
+      })
+    } else {
+      state.semesters[semesterIndex].courses.forEach((c) => {
+        if (c.custom) {
+          credits = credits + parseInt(c.CreditHours)
+        } else {
+          credits = credits + parseInt(getters.detailsByUuid(c.uuid).CreditHours)
+        }
+      })
+    }
+    return credits
+  }
 }

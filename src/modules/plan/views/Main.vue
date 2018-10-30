@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <b-row class="flex-nowrap">
+  <div id="">
+    <b-row
+      class="flex-nowrap">
       <semester
         v-for="(semester, index) in semesters"
         :key="index"
@@ -22,16 +23,8 @@ export default {
   },
   computed: {
     semesters () {
-      return this.$store.getters.renderedSemesters
+      return this.$store.state.plan.semesters
     }
   }
 }
 </script>
-
-<style scoped>
-/* scrollbar */
-/* width */
-::-webkit-scrollbar {
-  height: 25px;
-}
-</style>

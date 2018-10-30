@@ -22,6 +22,7 @@
     "pdfmake": "^0.1.38",
     "vue": "^2.5.17",
     "vue-clipboard2": "^0.2.1",
+    "vue-context": "^3.3.1",
     "vue-router": "^3.0.1",
     "vue-toasted": "^1.1.25",
     "vuedraggable": "^2.16.0",

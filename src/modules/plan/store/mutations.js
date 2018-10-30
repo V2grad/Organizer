@@ -1,3 +1,4 @@
+import Unify from '@/utils/unify'
 import Vue from 'vue'
 
 export default {
@@ -10,24 +11,35 @@ export default {
   },
   // {semester: Index of Semester (Number), course: {}}
   addCourse(state, payload) {
-    state.semesters[payload.semester].courses.push(payload.course)
+    if (payload.semester === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      state.transferred.push(payload.course)
+    } else {
+      state.semesters[payload.semester].courses.push(payload.course)
+    }
   },
   // {semester: Index of Semester (Number), course: Index of Course (Number)}
   removeCourse(state, payload) {
-    state.semesters[payload.semester].courses.splice(payload.course, 1)
+    if (payload.semester === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      state.transferred.splice(payload.course, 1)
+    } else {
+      state.semesters[payload.semester].courses.splice(payload.course, 1)
+    }
+  },
+  // {semesterIndex: Index of Semester, courseIndex: Index of Course, course: {}}
+  replaceCourse(state, payload) {
+    if (payload.semesterIndex === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      Vue.set(state.transferred, payload.courseIndex, payload.course)
+    } else {
+      Vue.set(state.semesters[payload.semesterIndex].courses, payload.courseIndex, payload.course)
+    }
   },
   // {semester: Index of Semester (Number), courses: []}
   updateCourses(state, payload) {
-    state.semesters[payload.semester].courses = payload.courses
-  },
-  addTransferredCourse(state, course) {
-    state.transferred.push(course)
-  },
-  removeTransferredCourse(state, index) {
-    state.transferred.splice(index, 1)
-  },
-  updateTransferredCourses(state, courses) {
-    state.transferred = courses
+    if (payload.semester === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      state.transferred = payload.courses
+    } else {
+      state.semesters[payload.semester].courses = payload.courses
+    }
   },
   cleanTransferredCourse(state) {
     state.transferred = []

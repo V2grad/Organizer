@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import Unify from '@/utils/unify'
 
 export default {
   findCourse: (state) => (uuid) => {
@@ -23,11 +24,11 @@ export default {
     return semesters
 
   },
-  allCourses: (state) => {
-    let courses = []
-    state.semesters.forEach((s) => {
-      courses = s.courses.concat(s.courses)
-    })
-    return courses
+  // {semesterIndex:, courseIndex:}
+  getSpecificCourse: (state) => (payload) => {
+    if (payload.semesterIndex === Unify.TRANSFERRED_SEMESTER_INDEX) {
+      return state.transferred[payload.courseIndex]
+    }
+    return state.semesters[payload.semesterIndex].courses[payload.courseIndex]
   }
 }

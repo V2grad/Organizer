@@ -69,11 +69,7 @@ export default {
       return this.$unify.READABLE_SEMESTER(this.semester)
     },
     totalCredits () {
-      let credits = 0
-      this.semester.courses.forEach((c) => {
-        credits = credits + parseInt(c.CreditHours)
-      })
-      return credits
+      return this.$store.getters.totalCreditsBySemester(this.semesterIndex)
     },
     semesterCourses: {
       get () {

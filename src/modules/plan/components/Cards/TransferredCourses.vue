@@ -11,10 +11,11 @@
       :options="{group:'transferred'}"
       class="list-group">
       <transition-group class="dragArea">
-        <transferred-course
+        <Course
           v-for="(course, index) in transferredCourses"
           :key="index"
           v-bind="course"
+          :semester-index="$unify.TRANSFERRED_SEMESTER_INDEX"
           :course-index="index"/>
       </transition-group>
     </draggable>
@@ -39,30 +40,29 @@
 
 <script>
 import draggable from 'vuedraggable'
-import TransferredCourse from '../Items/TransferredCourse'
+import Course from '../Items/Course'
 import CleanTransferredCoursesModal from '../Modals/CleanTransferredCoursesModal'
 
 export default {
   name: 'TransferredCourses',
   components: {
-    TransferredCourse,
+    Course,
     CleanTransferredCoursesModal,
     draggable
   },
    computed: {
     totalCredits () {
-      let credits = 0
-      this.$store.state.plan.transferred.forEach((c) => {
-        credits = credits + parseInt(c.CreditHours)
-      })
-      return credits
+      return this.$store.getters.totalCreditsBySemester(this.$unify.TRANSFERRED_SEMESTER_INDEX)
     },
     transferredCourses: {
       get () {
         return this.$store.getters.renderedTransferred
       },
       set (value) {
-        this.$store.commit('updateTransferredCourses', value)
+        this.$store.commit('updateCourses', {
+          semester: this.$unify.TRANSFERRED_SEMESTER_INDEX,
+          courses: value
+          })
       }
     }
   }

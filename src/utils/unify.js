@@ -46,7 +46,7 @@ export default {
   API_SOURCE: '<a href="https://yacs.io">YACS</a>',
   API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
   CACHE_EXPIRED: 604800, // A week
-  VERSION: "1.01", // Change when changing vuex modules
+  VERSION: 10002, // Change when changing vuex modules, check out wiki for more info
 
   // Background image is located in App.vue
 }
