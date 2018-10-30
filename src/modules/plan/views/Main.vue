@@ -1,7 +1,6 @@
 <template>
-  <div id="">
-    <b-row
-      class="flex-nowrap">
+  <VuePerfectScrollbar class="h-100" v-once :settings="settings">
+    <b-row class="flex-nowrap">
       <semester
         v-for="(semester, index) in semesters"
         :key="index"
@@ -9,17 +8,26 @@
         :semester-index="index"/>
       <semester-placeholder/>
     </b-row>
-  </div>
+  </VuePerfectScrollbar>
 </template>
 
 <script>
 import Semester from '../components/Cards/Semester/Semester'
 import SemesterPlaceholder from '../components/Cards/Semester/SemesterPlaceholder'
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
 
 export default {
   components: {
     SemesterPlaceholder,
+    VuePerfectScrollbar,
     Semester
+  },
+  data () {
+    return {
+      settings: {
+        maxScrollbarLength: 60
+      }
+    }
   },
   computed: {
     semesters () {
@@ -28,3 +36,16 @@ export default {
   }
 }
 </script>
+
+<style type="text/css">
+
+  .ps__scrollbar-x {
+    height: 25px !important;
+    background: #999 !important;
+  }
+
+  .ps__scrollbar-x-rail {
+    height: 25px !important;
+    background: #333 !important;
+  }
+</style>
