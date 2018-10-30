@@ -22,7 +22,7 @@ export default {
   },
   computed: {
     semesters () {
-      return this.$store.getters.renderedSemesters
+      return this.$store.state.plan.semesters
     }
   }
 }

@@ -29,10 +29,21 @@ export default {
   addCourse({
     commit
   }, payload) {
-    if (payload.semester === Unify.TRANSFERRED_SEMESTER_INDEX) {
-      commit('addTransferredCourse', payload.course)
-    } else {
-      commit('addCourse', payload)
-    }
+    commit('addCourse', payload)
+  },
+  // {semesterIndex: , courseIndex, color: }
+  updateCourseColor({
+    commit,
+    getters
+  }, payload) {
+    let course = getters.getSpecificCourse(payload)
+    if (course !== null)
+      commit('replaceCourse', {
+        course: { ...course,
+          color: payload.color
+        },
+        semesterIndex: payload.semesterIndex,
+        courseIndex: payload.courseIndex
+      })
   }
 }
