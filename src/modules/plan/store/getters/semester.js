@@ -17,6 +17,9 @@ export default {
       }
     })
   },
+  semesterCollection: (state) => {
+    return state.semesters
+  },
   findSemester: (state) => (semester) => {
     return _.findIndex(state.semesters, semester)
   },
@@ -40,5 +43,9 @@ export default {
       })
     }
     return credits
+  },
+  // SemesterIndex
+  semesterName: (state) => (index) => {
+    return Unify.READABLE_SEMESTER(state.semesters[index])
   }
 }

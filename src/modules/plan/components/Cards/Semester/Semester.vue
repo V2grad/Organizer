@@ -9,9 +9,9 @@
           class="mb-0 d-flex justify-content-between align-items-center">
           {{ title }}
           <b-btn
-            v-b-modal="'semester ' + semesterIndex"
             variant="light"
-            size="sm">
+            size="sm"
+            @click="removeSemester">
             <font-awesome-icon icon="times" />
           </b-btn>
         </p>
@@ -37,14 +37,12 @@
           Credits: {{ totalCredits }}
         </em>
       </b-card>
-      <remove-semester-modal :semester-index="semesterIndex"/>
     </b-card-group>
   </b-col>
 </template>
 
 <script>
 import Course from '../../Items/Course.vue'
-import RemoveSemesterModal from '../../Modals/RemoveSemesterModal'
 import draggable from 'vuedraggable'
 
 export default {
@@ -52,7 +50,6 @@ export default {
   components: {
     draggable,
     Course,
-    RemoveSemesterModal
   },
   props: {
     semesterIndex: {
@@ -78,6 +75,11 @@ export default {
       set (value) {
         this.$store.commit('updateCourses', { semester: this.semesterIndex, courses: value })
       }
+    }
+  },
+  methods: {
+    removeSemester () {
+      this.$store.dispatch('removeSemesterModal', this.semesterIndex)
     }
   }
 }

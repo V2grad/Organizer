@@ -1,5 +1,5 @@
 <template>
-  <VuePerfectScrollbar class="h-100" v-once :settings="settings">
+  <VuePerfectScrollbar class="h-100">
     <b-row class="flex-nowrap">
       <semester
         v-for="(semester, index) in semesters"
@@ -8,44 +8,48 @@
         :semester-index="index"/>
       <semester-placeholder/>
     </b-row>
+    <remove-course-modal/>
+    <remove-semester-modal/>
   </VuePerfectScrollbar>
 </template>
 
 <script>
+import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+
 import Semester from '../components/Cards/Semester/Semester'
 import SemesterPlaceholder from '../components/Cards/Semester/SemesterPlaceholder'
-import VuePerfectScrollbar from 'vue-perfect-scrollbar'
+
+import RemoveSemesterModal from '../components/Modals/RemoveSemesterModal'
+import RemoveCourseModal from '../components/Modals/RemoveCourseModal'
 
 export default {
   components: {
     SemesterPlaceholder,
     VuePerfectScrollbar,
+    RemoveSemesterModal,
+    RemoveCourseModal,
     Semester
   },
   data () {
     return {
-      settings: {
-        maxScrollbarLength: 60
-      }
     }
   },
   computed: {
     semesters () {
-      return this.$store.state.plan.semesters
+      return this.$store.getters.semesterCollection
     }
   }
 }
 </script>
 
 <style type="text/css">
+.ps__scrollbar-x {
+  height: 20px !important;
+  background: #999 !important;
+}
 
-  .ps__scrollbar-x {
-    height: 25px !important;
-    background: #999 !important;
-  }
-
-  .ps__scrollbar-x-rail {
-    height: 25px !important;
-    background: #333 !important;
-  }
+.ps__scrollbar-x-rail {
+  height: 25px !important;
+  background: #333 !important;
+}
 </style>

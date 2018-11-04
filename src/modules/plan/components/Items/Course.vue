@@ -10,15 +10,12 @@
     >
       {{ currentCourse.CourseName }}
       <b-btn
-        v-b-modal="'semester ' + semesterIndex + ' course ' + courseIndex"
         class="btn-outline-danger"
-        variant="danger">
+        variant="danger"
+        @click="removeCourse">
         <font-awesome-icon icon="times" />
       </b-btn>
     </b-list-group-item>
-    <remove-course-modal
-      :semester-index="semesterIndex"
-      :course-index="courseIndex"/>
     <vue-context
       ref="menu">
       <ul>
@@ -35,12 +32,10 @@
 import {
   VueContext
 } from 'vue-context'
-import RemoveCourseModal from '../Modals/RemoveCourseModal'
 
 export default {
   name: 'Course',
   components: {
-    RemoveCourseModal,
     VueContext,
   },
   props: {
@@ -120,6 +115,12 @@ export default {
          courseIndex: this.courseIndex,
          color: text
        })
+    },
+    removeCourse () {
+      this.$store.dispatch('removeCourseModal', {
+        courseIndex: this.courseIndex,
+        semesterIndex: this.semesterIndex
+      })
     }
   }
 }
