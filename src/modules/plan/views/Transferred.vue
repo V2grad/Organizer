@@ -3,6 +3,7 @@
     <b-row>
       <b-col>
         <transferred-courses/>
+        <remove-course-modal/>
       </b-col>
     </b-row>
   </div>
@@ -10,10 +11,12 @@
 
 <script>
 import TransferredCourses from '../components/Cards/TransferredCourses'
+import RemoveCourseModal from '../components/Modals/RemoveCourseModal'
 
 export default {
   components: {
-    TransferredCourses
+    TransferredCourses,
+    RemoveCourseModal
   },
   computed: {
   }

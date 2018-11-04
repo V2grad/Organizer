@@ -10,11 +10,31 @@
     >
       {{ currentCourse.CourseName }}
       <b-btn
-        class="btn-outline-danger"
+        class="btn-outline-danger d-none d-md-block"
         variant="danger"
         @click="removeCourse">
         <font-awesome-icon icon="times" />
       </b-btn>
+      <b-dropdown
+        class="d-md-none"
+        right
+        text="Actions"
+        variant="light"
+      >
+        <b-dropdown-item
+          class="text-danger"
+          @click="removeCourse"
+        >
+          Remove
+        </b-dropdown-item>
+        <b-dropdown-divider/>
+        <b-dropdown-item
+          v-for="color in colors"
+          :key="color"
+          @click="setColor($event.target.innerText)">
+          {{ color }}
+        </b-dropdown-item>
+      </b-dropdown>
     </b-list-group-item>
     <vue-context
       ref="menu">
@@ -22,7 +42,9 @@
         <li
           v-for="color in colors"
           :key="color"
-          @click="onClick($event.target.innerText)">{{ color }}</li>
+          @click="setColor($event.target.innerText)">
+          {{ color }}
+        </li>
       </ul>
     </vue-context>
   </div>
@@ -109,7 +131,7 @@ export default {
     }
   },
   methods: {
-     onClick (text) {
+    setColor (text) {
        this.$store.dispatch('updateCourseColor', {
          semesterIndex: this.semesterIndex,
          courseIndex: this.courseIndex,
