@@ -2,7 +2,7 @@ import _ from 'lodash'
 
 export default {
   READABLE_SEMESTER(semester) {
-    if (semester.year && semester.period) {
+    if (_.get(semester, 'year') && _.get(semester, 'period')) {
       return semester.year + ' ' + semester.period
     }
     return 'Transferred Course'
