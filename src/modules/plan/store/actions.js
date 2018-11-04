@@ -19,10 +19,10 @@ export default {
       index: result
     })
   },
+  // semesterIndex
   removeSemester({
     commit
   }, semester) {
-    // Although remove will only happened to the last one, required semester to delect specific semester
     commit('removeSemester', semester)
   },
   // {semester: SemesterIndex, course: {}}

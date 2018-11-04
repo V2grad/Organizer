@@ -30,5 +30,16 @@ export default {
       return state.transferred[payload.courseIndex]
     }
     return state.semesters[payload.semesterIndex].courses[payload.courseIndex]
+  },
+  // {semesterIndex:, courseIndex:}
+  specificCourseDetails: (state, getters) => (payload) => {
+    let course = getters.getSpecificCourse(payload)
+    if (course.custom) {
+      return course
+    } else {
+      return { ...course,
+        ...getters.detailsByUuid(course.uuid)
+      }
+    }
   }
 }

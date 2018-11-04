@@ -20,6 +20,7 @@
     "offline-plugin": "^5.0.5",
     "pako": "^1.0.6",
     "pdfmake": "^0.1.38",
+    "perfect-scrollbar": "^1.4.0",
     "vue": "^2.5.17",
     "vue-clipboard2": "^0.2.1",
     "vue-context": "^3.3.1",

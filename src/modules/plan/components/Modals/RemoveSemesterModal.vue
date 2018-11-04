@@ -1,30 +1,56 @@
 <template>
   <b-modal
-    :id="'semester ' + semesterIndex"
+    ref="_RemoveSemesterModal"
+    :ok-disabled="!validate"
     header-text-variant="danger"
     title="Remove Semester"
-    lazy
     @ok="removeSemester">
-    Are you sure you want to remove this semester?
+    Are you sure you want to remove <code>{{ semesterName }}</code>?
   </b-modal>
 </template>
 
 <script>
 export default {
   name: 'RemoveSemesterModal',
-  props: {
-    semesterIndex: {
-      type: Number,
-      required: true
+  data () {
+    return {
+      semesterIndex: null,
     }
+  },
+  computed: {
+    validate () {
+      return this.semesterIndex !== null
+    },
+    semesterName() {
+      if (this.validate) {
+        return this.$store.getters.semesterName(this.semesterIndex)
+      } else {
+        return 'Undefined Semester'
+      }
+    },
+  },
+  created() {
+    this.$store.subscribeAction((action) => {
+      if (action.type === 'removeSemesterModal'){
+        this.semesterIndex = action.payload
+        console.log(this)
+        this.$refs._RemoveSemesterModal.show()
+      }
+    })
   },
   methods: {
     removeSemester: function () {
       this.$store.commit('removeSemester', this.semesterIndex)
       this.showSuccess()
+      this.resetModal()
     },
     showSuccess () {
-      this.$toasted.success('Semester has removed.')
+      this.$toasted.success('Semester removed.')
+    },
+    resetModal () {
+      this.courseIndex = null
+      this.semesterIndex = null
+      this.$refs._RemoveSemesterModal.hide()
     }
   }
 }
