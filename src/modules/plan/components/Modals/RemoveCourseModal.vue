@@ -14,6 +14,7 @@ export default {
   name: 'RemoveCourseModal',
   data () {
     return {
+      hook: null,
       courseIndex: null,
       semesterIndex: null,
     }
@@ -41,13 +42,17 @@ export default {
     }
   },
   created() {
-    this.$store.subscribeAction((action) => {
+    this.hook = this.$store.subscribeAction((action) => {
       if (action.type === 'removeCourseModal'){
         this.courseIndex = action.payload.courseIndex
         this.semesterIndex = action.payload.semesterIndex
         this.$refs._RemoveCourseModal.show()
       }
     })
+  },
+  beforeDestroy () {
+    // Unregister Subscribe
+    this.hook()
   },
   methods: {
     removeCourse: function () {

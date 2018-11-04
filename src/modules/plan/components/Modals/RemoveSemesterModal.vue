@@ -15,6 +15,7 @@ export default {
   data () {
     return {
       semesterIndex: null,
+      hook: null
     }
   },
   computed: {
@@ -30,13 +31,17 @@ export default {
     },
   },
   created() {
-    this.$store.subscribeAction((action) => {
+    this.hook = this.$store.subscribeAction((action) => {
       if (action.type === 'removeSemesterModal'){
         this.semesterIndex = action.payload
         console.log(this)
         this.$refs._RemoveSemesterModal.show()
       }
     })
+  },
+  beforeDestroy () {
+    // Unregister Subscribe
+    this.hook()
   },
   methods: {
     removeSemester: function () {
