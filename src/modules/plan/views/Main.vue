@@ -10,6 +10,7 @@
     </b-row>
     <remove-course-modal/>
     <remove-semester-modal/>
+    <note-button/>
   </VuePerfectScrollbar>
 </template>
 
@@ -22,12 +23,15 @@ import SemesterPlaceholder from '../components/Cards/Semester/SemesterPlaceholde
 import RemoveSemesterModal from '../components/Modals/RemoveSemesterModal'
 import RemoveCourseModal from '../components/Modals/RemoveCourseModal'
 
+import NoteButton from '../components/Items/NoteButton'
+
 export default {
   components: {
     SemesterPlaceholder,
     VuePerfectScrollbar,
     RemoveSemesterModal,
     RemoveCourseModal,
+    NoteButton,
     Semester
   },
   data () {

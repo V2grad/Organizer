@@ -47,6 +47,9 @@ export default {
   updateName(state, name) {
     state.name = name
   },
+  updateNote(state, note) {
+    state.note = note
+  },
   // @TODO, find a way to set the state
   updatePlan(state, plan) {
     state.semesters = plan.semesters
