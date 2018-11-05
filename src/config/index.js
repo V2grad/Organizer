@@ -6,6 +6,7 @@ import './offline'
 import './bootstrap'
 import './toasted'
 import './fa'
+import './vue-modal'
 
 // Utils
 import './clipboard'

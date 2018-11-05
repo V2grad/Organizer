@@ -34,7 +34,6 @@ export default {
     this.hook = this.$store.subscribeAction((action) => {
       if (action.type === 'removeSemesterModal'){
         this.semesterIndex = action.payload
-        console.log(this)
         this.$refs._RemoveSemesterModal.show()
       }
     })
