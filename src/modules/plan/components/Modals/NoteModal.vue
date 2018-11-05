@@ -3,6 +3,8 @@
     :min-width="150"
     :min-height="200"
     name="noteModal"
+    height="200"
+    width="150"
     draggable
     resizable
     scrollable>
