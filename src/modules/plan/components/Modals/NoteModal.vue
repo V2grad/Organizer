@@ -1,23 +1,31 @@
 <template>
   <vue-modal
-    :min-width="250"
+    :min-width="150"
     :min-height="200"
     name="noteModal"
-    height="auto"
     draggable
     resizable
     scrollable>
-    <h5 class="text-center mt-1">Notepad</h5>
-    <b-form-textarea
-      v-model="note"
-      :rows="10"
-      placeholder="Here you can type some notes for this plan, and it will save automatically. You can also drag or resize this card"/>
+    <div class="mb-1 mt-1 wrapper">
+      <h5 class="text-center">Notepad</h5>
+      <b-form-textarea
+        v-model="note"
+        no-resize
+        class="area"
+        placeholder="Here you can type some notes for this plan, and it will save automatically. You can also drag or resize this card"/>
+    </div>
   </vue-modal>
 </template>
 
 <style scoped>
 .v--modal-overlay {
   background: rgba(0, 0, 0, 0);
+}
+.wrapper {
+  height: 100%;
+}
+.area {
+  height: 85%;
 }
 </style>
 
