@@ -29,7 +29,7 @@
           </transition-group>
         </draggable>
         <ul
-          v-if="!semesterCourses[0]"
+          v-if="isEmptySemester"
           class="list-group mb-2">
           <li class="list-group-item list-group-item-info">EMPTY SEMESTER</li>
         </ul>
@@ -38,6 +38,7 @@
           class="d-flex justify-content-between">
           Credits: {{ totalCredits }}
           <b-btn
+            v-if="!isEmptySemester"
             size="sm"
             @click="jumpToYACS">View in YACS</b-btn>
         </em>
@@ -80,6 +81,9 @@ export default {
       set (value) {
         this.$store.commit('updateCourses', { semester: this.semesterIndex, courses: value })
       }
+    },
+    isEmptySemester () {
+      return !this.semesterCourses[0]
     }
   },
   methods: {
