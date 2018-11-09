@@ -61,8 +61,9 @@ export default {
       this.$toasted.info('PDF Generating...')
       let URL = this.exportChecked ? this.shortenedURL : null
       let doc = generatePDF({
-        semesters: this.$store.getters.renderedSemesters,
-        transferred: this.$store.getters.renderedTransferred,
+        semesters: this.$store.getters.renderedSemesters(),
+        transferred: this.$store.getters.renderedTransferred(),
+        note: this.$store.state.plan.note,
         name: this.$store.state.plan.name
       }, URL)
       doc.download(this.$store.state.plan.name + '.pdf')

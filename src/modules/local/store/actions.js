@@ -6,5 +6,9 @@ export default {
   // semesterIndex
   removeSemesterModal() {
     // Do Nothing
+  },
+  // Courses
+  viewInScheduler() {
+    // Do Nothing
   }
 }

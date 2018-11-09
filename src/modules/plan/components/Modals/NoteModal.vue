@@ -7,7 +7,7 @@
     width="150"
     draggable
     resizable
-    scrollable>
+  >
     <div class="mb-1 mt-1 wrapper">
       <h5 class="text-center">Notepad</h5>
       <b-form-textarea

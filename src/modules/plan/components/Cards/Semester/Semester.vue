@@ -33,8 +33,13 @@
           class="list-group mb-2">
           <li class="list-group-item list-group-item-info">EMPTY SEMESTER</li>
         </ul>
-        <em slot="footer">
+        <em
+          slot="footer"
+          class="d-flex justify-content-between">
           Credits: {{ totalCredits }}
+          <b-btn
+            size="sm"
+            @click="jumpToYACS">View in YACS</b-btn>
         </em>
       </b-card>
     </b-card-group>
@@ -80,6 +85,9 @@ export default {
   methods: {
     removeSemester () {
       this.$store.dispatch('removeSemesterModal', this.semesterIndex)
+    },
+    jumpToYACS() {
+      this.$store.dispatch('viewInScheduler', this.semesterCourses)
     }
   }
 }

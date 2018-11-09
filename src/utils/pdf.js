@@ -126,6 +126,49 @@ export function addShortURL(URL) {
   }
 }
 
+export function conclusion(plan) {
+  let credits = 0
+  let summer = 0
+  let fall = 0
+  let spring = 0
+  plan.transferred.forEach((c) => {
+    credits = credits + parseInt(c.CreditHours)
+  })
+  plan.semesters.forEach((s) => {
+    switch (s.period) {
+      case Unify.PERIOD[0]:
+        spring += 1
+        break
+      case Unify.PERIOD[1]:
+        summer += 1
+        break
+      default:
+        fall += 1
+        break
+    }
+    s.courses.forEach((c) => {
+      credits = credits + parseInt(c.CreditHours)
+    })
+  })
+  return [{
+    text: `Plan 's Total Semesters: ${plan.semesters.length}, including Spring:  ${spring}, Summer: ${summer}, Fall: ${fall}`,
+    style: 'planConclusion'
+  }, {
+    text: `Plan 's Total Credits: ${credits}`,
+    style: 'planConclusion'
+  }]
+}
+
+export function note(plan) {
+  return [{
+    text: 'Note: ',
+    style: 'planNoteTitle'
+  }, {
+    text: plan.note,
+    style: 'planNote'
+  }]
+}
+
 export function styles() {
   return {
     styles: {
@@ -162,42 +205,18 @@ export function styles() {
         alignment: 'center',
         decoration: 'underline',
         decorationStyle: 'dotted'
+      },
+      planNoteTitle: {
+        alignment: 'left',
+        fontSize: 12,
+        bold: true
+      },
+      planNote: {
+        alignment: 'justify',
+        fontSize: 12
       }
     }
   }
-}
-
-export function conclusion(plan) {
-  let credits = 0
-  let summer = 0
-  let fall = 0
-  let spring = 0
-  plan.transferred.forEach((c) => {
-    credits = credits + parseInt(c.CreditHours)
-  })
-  plan.semesters.forEach((s) => {
-    switch (s.period) {
-      case Unify.PERIOD[0]:
-        spring += 1
-        break
-      case Unify.PERIOD[1]:
-        summer += 1
-        break
-      default:
-        fall += 1
-        break
-    }
-    s.courses.forEach((c) => {
-      credits = credits + parseInt(c.CreditHours)
-    })
-  })
-  return [{
-    text: `Plan 's Total Semesters: ${plan.semesters.length}, including Spring:  ${spring}, Summer: ${summer}, Fall: ${fall}`,
-    style: 'planConclusion'
-  }, {
-    text: `Plan 's Total Credits: ${credits}`,
-    style: 'planConclusion'
-  }]
 }
 
 export function generatePDF(plan, shortenedURL) {
@@ -224,6 +243,9 @@ export function generatePDF(plan, shortenedURL) {
 
   // Total Credits
   docDefinition.content = docDefinition.content.concat(conclusion(plan))
+
+  // Note
+  docDefinition.content = docDefinition.content.concat(['\n\n', ...note(plan)])
 
   // Short URL
   if (shortenedURL) {
