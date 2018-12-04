@@ -62,3 +62,12 @@ yarn run build
 ```bash
 yarn run lint
 ```
+
+## Thanks
+
+- RCOS (http://rcos.io)
+- Alexander Schwartzberg
+
+- Ada Young
+
+- People who give feedback
