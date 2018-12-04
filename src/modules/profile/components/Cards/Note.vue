@@ -1,10 +1,10 @@
 <template>
   <b-card header="Note">
     <ul>
-      <li>Plan(editing one) and Profile(stored) are the same (Sorry for confusion)</li>
-      <li><strong>Your plan won't save into profile unless you press Save button or switch to a different profile. (Auto Save when switching)</strong></li>
-      <li>So you can always <strong>reload your plan</strong> before saving.</li>
-      <li>Snapshot will take your current state (before saving) and create a new Profile</li>
+      <li>Profiles are storage for plans</li>
+      <li><strong>Your plan won't save into the profile unless you press Save button or switch to a different profile. (Auto save when switching)</strong></li>
+      <li>You can always <strong>Reload your plan</strong> before saving.</li>
+      <li>Snapshot will take your current state and create a new Profile at the bottom list</li>
     </ul>
     <h6>Import Plan</h6>
     <p class="card-text">
@@ -12,7 +12,7 @@
     </p>
     <h6>Edit Plan Name</h6>
     <p class="card-text">
-      You can edit current plan name at Export Tab, or at the time you import your plan.
+      You can edit current plan name at <router-link :to="{name: 'ExportPlan'}">Export Tab</router-link>, or at the time you import your plan.
     </p>
   </b-card>
 </template>
