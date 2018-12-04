@@ -1,4 +1,4 @@
-![](docs/LogoWithName.jpg)
+![](docs/LogoWithName.png)
 
 # Organizer
 
@@ -16,28 +16,49 @@ We are now working with [![YACS](https://img.shields.io/badge/YACS-APIv6-green.s
 
 ## Screenshots
 
+### Main Page
+
 ![](docs/screenshots.png)
+
+### Course List
+
+![](docs/screenshoots3.png)
+
+### Export Page
+
+![](docs/screenshoots2.png)
+
+## Features
+
+- Drag and Drop to adjust courses between semesters freely.
+- Mark different course in different colors.
+- Allow custom courses.
+- Add Transfered / AP courses
+- Export to PDF.
+- Share plan with short link. (Powered by TinyURL)
+- Add Multiple Semesters with Oneclick.
+- Allow multipule plan editing.
 
 ## Project setup
 
-```
+```bash
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 
-```
+```bash
 yarn run serve
 ```
 
 ### Compiles and minifies for production
 
-```
+```bash
 yarn run build
 ```
 
 ### Lints and fixes files
 
-```
+```bash
 yarn run lint
 ```
