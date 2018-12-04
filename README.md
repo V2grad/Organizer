@@ -14,6 +14,10 @@ We are now working with [![YACS](https://img.shields.io/badge/YACS-APIv6-green.s
 
 **We LOVE feedback: open an [issue](../../issues) when you encounter a problem or confusion when using Organizer.**
 
+## Screenshots
+
+![](docs/screenshots.png)
+
 ## Project setup
 
 ```
