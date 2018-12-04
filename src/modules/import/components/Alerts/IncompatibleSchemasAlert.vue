@@ -13,7 +13,7 @@ export default {
   name: 'IncompatibleSchemasAlert',
   props: {
     version: {
-      type: String,
+      type: Number,
       default: null
     }
   },
