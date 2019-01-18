@@ -1,4 +1,6 @@
 import Unify from '@/utils/unify'
+// https://github.com/vuejs/vuex/issues/1118#issuecomment-418176287
+import initialState from './state'
 import Vue from 'vue'
 
 export default {
@@ -50,19 +52,15 @@ export default {
   updateNote(state, note) {
     state.note = note
   },
-  // @TODO, find a way to set the state
+  // See comments on the top
   updatePlan(state, plan) {
-    state.semesters = plan.semesters
-    state.transferred = plan.transferred
-    state.name = plan.name
-  },
-  cleanPlan(state) {
-    state.semesters = []
-    state.transferred = []
+    Object.keys(state).forEach(key => {
+      state[key] = plan[key]
+    })
   },
   resetPlan(state) {
-    state.name = 'Unnamed Plan'
-    state.semesters = []
-    state.transferred = []
+    Object.keys(state).forEach(key => {
+      state[key] = initialState[key]
+    })
   }
 }

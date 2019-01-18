@@ -14,7 +14,7 @@ export default {
   name: 'ResetPlanModal',
   methods: {
     resetPlan: function () {
-      this.$store.commit('cleanPlan')
+      this.$store.commit('resetPlan')
       this.$router.push({ 'name': 'Plan' })
       this.showSuccess()
     },
