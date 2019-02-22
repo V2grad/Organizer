@@ -4,6 +4,8 @@
 
 [![Organizer](https://img.shields.io/badge/Organizer-v0.0.2-orange.svg)](https://github.com/V2grad/Organizer) [![RCOS](https://img.shields.io/badge/Project%20Under-RCOS-lightgreen.svg)](https://rcos.io)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f64ccee-053b-413c-8f5e-17fadcba8141/deploy-status)](https://app.netlify.com/sites/organizer-v2grad/deploys)
+
 Multi-semester course organizer, built with [![Vuejs](https://img.shields.io/badge/vue.js-2.x-green.svg)](https://vuejs.org) and [![Bootstrap-vue](https://img.shields.io/badge/Bootstrap--Vue-2.0.0-blue.svg)](https://bootstrap-vue.js.org/).
 
 Online Demo for Master Branch: https://plan.v2grad.org
