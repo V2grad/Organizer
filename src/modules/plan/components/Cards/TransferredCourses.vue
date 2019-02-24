@@ -56,7 +56,7 @@ export default {
     },
     transferredCourses: {
       get () {
-        return this.$store.getters.renderedTransferred
+        return this.$store.getters.renderedTransferred()
       },
       set (value) {
         this.$store.commit('updateCourses', {
