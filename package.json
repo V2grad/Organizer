@@ -12,7 +12,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.4.1",
     "@fortawesome/vue-fontawesome": "^0.1.1",
     "axios": "^0.18.0",
-    "bootstrap-vue": "^2.0.0-rc.11",
+    "bootstrap-vue": "^2.0.0-rc.15",
     "eslint-loader": "^2.1.1",
     "file-saver": "^2.0.0-rc.4",
     "js-base64": "^2.4.9",
