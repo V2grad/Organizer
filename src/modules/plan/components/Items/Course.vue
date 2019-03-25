@@ -10,7 +10,8 @@
     >
       {{ currentCourse.CourseName }}
       <b-btn
-        class="btn-outline-danger d-none d-md-block"
+        class="d-none d-md-block"
+        variant="outline-danger"
         @click="removeCourse">
         <font-awesome-icon icon="times" />
       </b-btn>
