@@ -19,8 +19,7 @@
         </b-btn>
         <b-btn
           v-b-modal="'profile remove' + profileID"
-          class="btn-outline-danger"
-          variant="danger">
+          variant="outline-danger">
           Remove
         </b-btn>
       </b-button-group>
