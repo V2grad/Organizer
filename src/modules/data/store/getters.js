@@ -1,3 +1,4 @@
+import Unify from '@/utils/unify';
 import _ from 'lodash'
 
 export default {
@@ -13,7 +14,13 @@ export default {
     return detail
   },
   updatedAt: (state) => {
-    var date = new Date(state.updatedAt * 1000);
+    let date = new Date(state.updatedAt * 1000);
     return date.toLocaleString('en-US')
+  },
+  isBroken: (state) => {
+    return state.updatedAt === null || state.data.length === 0
+  },
+  isExpired: (state) => {
+    return (Math.floor(Date.now() / 1000) - state.updatedAt) >= Unify.CACHE_EXPIRED
   }
 }

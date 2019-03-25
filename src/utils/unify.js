@@ -52,7 +52,7 @@ export default {
   },
 
   CACHE_EXPIRED: 604800, // A week
-  VERSION: 10002, // Change when changing vuex modules, check out wiki for more info
+  VERSION: 10003, // Change when changing vuex modules, check out wiki for more info
 
   // Background image is located in App.vue
 }

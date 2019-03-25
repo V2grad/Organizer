@@ -48,14 +48,16 @@ export default {
   methods: {
     generatePDF: function () {
       this.$toasted.info('PDF Generating...')
-      console.log(this.decodedObject.obj)
+
       let doc = generatePDF({
         semesters: this.$store.getters.renderedSemesters(this.decodedObject.obj),
         transferred: this.$store.getters.renderedTransferred(this.decodedObject.obj),
         note: this.decodedObject.note,
         name: this.$store.state.plan.name
       }, null) // Don't generate link
+
       doc.download(this.$store.state.plan.name + '.pdf')
+      
       this.$toasted.success('PDF Generated!')
     }
   }

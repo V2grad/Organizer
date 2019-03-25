@@ -5,12 +5,10 @@ import axios from 'axios'
 
 export default {
   checkData({
-    dispatch,
-    state
+    getters,
+    dispatch
   }) {
-    if (state.data.length === 0 ||
-      state.pullAt === null ||
-      (Math.floor(Date.now() / 1000) - state.pullAt) >= Unify.CACHE_EXPIRED) {
+    if (getters.isBroken || getters.isExpired) {
       dispatch('pullingData')
     }
   },
@@ -18,7 +16,7 @@ export default {
     commit
   }) {
     commit('updateLoading', true)
-    // Fetch data
+    // Fetch data (Custom Methods)
     let format = []
     if (Unify.API_ENDPOINT !== null) {
       axios.get(Unify.API_ENDPOINT).then(response => {
