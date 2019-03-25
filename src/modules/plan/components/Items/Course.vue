@@ -11,7 +11,6 @@
       {{ currentCourse.CourseName }}
       <b-btn
         class="btn-outline-danger d-none d-md-block"
-        variant="danger"
         @click="removeCourse">
         <font-awesome-icon icon="times" />
       </b-btn>
