@@ -4,7 +4,7 @@
       <b-row>
         <b-col md="6">
           <b-form-group
-            horizontal
+            label-cols-sm="3"
             label="Filter">
             <b-input-group>
               <b-form-input
@@ -20,7 +20,7 @@
         </b-col>
         <b-col md="6">
           <b-form-group
-            horizontal
+            label-cols-sm="3"
             label="Sort">
             <b-input-group>
               <b-form-select
@@ -42,7 +42,7 @@
         </b-col>
         <b-col md="6">
           <b-form-group
-            horizontal
+            label-cols-sm="3"
             label="Sort direction">
             <b-input-group>
               <b-form-select
@@ -57,7 +57,7 @@
         </b-col>
         <b-col md="6">
           <b-form-group
-            horizontal
+            label-cols-sm="3"
             label="Per page">
             <b-form-select
               :options="pageOptions"

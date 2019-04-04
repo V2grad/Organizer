@@ -20,7 +20,7 @@ export default {
     let format = []
     if (Unify.API_ENDPOINT !== null) {
       axios.get(Unify.API_ENDPOINT).then(response => {
-        let data = response.data
+        let data = response.data.data
         data.forEach((c) => {
           let list = c.latest_listing
           format.push({
