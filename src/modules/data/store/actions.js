@@ -44,12 +44,14 @@ export default {
       console.log('Note: you are using the default data set. Please check your API endpoint setting if this is not desired behavior.')
       // Import dummy data instead.
       // Why dummy? Google: dummy system.
-      import( /* webpackChunkName: "dummy" */ '../dummy').then((dummy) => {
-        commit('updateDataSource', 'dummy')
-        commit('updateData', dummy)
-        commit('updateTimestamp')
-        commit('updateLoading', false)
-      })
+      import( /* webpackChunkName: "dummy" */ '../dummy')
+        // https://stackoverflow.com/questions/43735486/load-static-json-file-in-webpack
+        .then(({default: dummy}) => {
+          commit('updateDataSource', 'dummy')
+          commit('updateData', dummy)
+          commit('updateTimestamp')
+          commit('updateLoading', false)
+        })
     }
   }
 }
