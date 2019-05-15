@@ -43,10 +43,10 @@ export default {
     localStorage.clear()
   },
 
-  API_SOURCE: '<a href="https://yacs.io">YACS</a>',
-  API_ENDPOINT: "https://nightly.yacs.io/api/v6/courses.json?include=latest_listing",
+  API_SOURCE: 'Dummy',
+  API_ENDPOINT: null,
   JUMP_TO_SCHEDULER(courses) {
-    return 'https://nightly.yacs.io/schedules?course_uuid=' + _(courses).map(function (c) {
+    return 'https://example.com' + _(courses).map(function (c) {
       return c.custom ? null : c.uuid
     }).compact().join(",")
   },
