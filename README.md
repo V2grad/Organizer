@@ -8,7 +8,7 @@
 
 Multi-semester course organizer, built with [![Vuejs](https://img.shields.io/badge/vue.js-2.x-green.svg)](https://vuejs.org) and [![Bootstrap-vue](https://img.shields.io/badge/Bootstrap--Vue-2.0.0-blue.svg)](https://bootstrap-vue.js.org/).
 
-Online Demo for Dummy Branch: https://dummy.plan.v2grad.ga
+Online Demo for Dummy Branch: https://organizer-rpi.vercel.app
 
 ## Why Dummy?
 
